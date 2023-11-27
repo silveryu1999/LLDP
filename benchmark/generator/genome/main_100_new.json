@@ -1,0 +1,3322 @@
+{
+    "name": "1000Genome-synthetic-trace",
+    "description": "Trace generated with WorkflowHub - https://workflowhub.org",
+    "createdAt": "2023-11-13T03:25:49.369582",
+    "schemaVersion": "1.0",
+    "author": {
+        "name": "yujiazhao",
+        "email": "support@workflowhub.org"
+    },
+    "wms": {
+        "name": "WorkflowHub",
+        "version": "0.4",
+        "url": "https://workflowhub.readthedocs.io/en/v0.4/"
+    },
+    "workflow": {
+        "executedAt": "20231113T112549+0800",
+        "makespan": null,
+        "jobs": [
+            {
+                "name": "individuals_00000001",
+                "type": "compute",
+                "runtime": 3.238,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "ac879cc9-607b-40d3-9e4a-18eedd359528.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "ab25e3a7-9fd5-405f-a418-2ae03369a67e.vcf",
+                        "size": 63630899
+                    },
+                    {
+                        "link": "output",
+                        "name": "6823687f-0c33-48be-8bb9-2152a2258fde.gz",
+                        "size": 471369
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000002",
+                "type": "compute",
+                "runtime": 9.222,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0bc54669-32ec-4a8a-987c-48dcd84d95a5.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "83eec7f6-0a3a-46a4-b591-d2e757f8769a.vcf",
+                        "size": 96201093
+                    },
+                    {
+                        "link": "output",
+                        "name": "2c25c035-e267-4d2a-9e20-2f13a2a9f34a.gz",
+                        "size": 568577
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000003",
+                "type": "compute",
+                "runtime": 2.425,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "ca93285d-228b-4ea9-a918-c217881a0e64.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "c213e95b-a631-4182-a11d-bbf6ff348957.vcf",
+                        "size": 129085989
+                    },
+                    {
+                        "link": "output",
+                        "name": "8d16372e-6977-4fac-b89b-700916bc0004.gz",
+                        "size": 288248
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000004",
+                "type": "compute",
+                "runtime": 2.421,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0fb8c728-0f8f-4a2d-9541-cdd8616c9e2b.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "542d5cea-c838-4093-b33e-041660684155.vcf",
+                        "size": 118386160
+                    },
+                    {
+                        "link": "output",
+                        "name": "79c29b71-8554-4247-a79b-9935a1595565.gz",
+                        "size": 835485
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000005",
+                "type": "compute",
+                "runtime": 4.27,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f4c7c8f2-0e36-4f39-a8e4-62aed456c39f.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "83d63f30-5d9e-403e-860a-b88235ebc70b.vcf",
+                        "size": 46432341
+                    },
+                    {
+                        "link": "output",
+                        "name": "86dc5ddc-3c40-4fe2-a07c-0e5bed09384b.gz",
+                        "size": 1155860
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000006",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "afe4181c-4665-423d-a251-66ef2551862f.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "b0d7af0d-1049-4cca-a095-ca02c9bbe8fe.vcf",
+                        "size": 133801432
+                    },
+                    {
+                        "link": "output",
+                        "name": "85301574-9c2e-4528-ae36-1316fb600661.gz",
+                        "size": 1036118
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000007",
+                "type": "compute",
+                "runtime": 5.829,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bd2e6ffc-6ec3-4234-a1d3-98851b5ff0db.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "e60f1be8-456f-409f-a4e0-c3b482be95bd.vcf",
+                        "size": 108470572
+                    },
+                    {
+                        "link": "output",
+                        "name": "f92d66f8-57fb-4d3c-a550-6cc82a0c5eb2.gz",
+                        "size": 912751
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000008",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "511c727c-ea61-4599-a394-6d447ad07c68.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "978aa244-21cc-4e6c-aaaa-4eded4990c42.vcf",
+                        "size": 124235323
+                    },
+                    {
+                        "link": "output",
+                        "name": "f621a362-a462-4b9f-9e63-01d84be9be84.gz",
+                        "size": 845789
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000009",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6e23996c-ea94-4bab-8503-fbd59d7ffa3e.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "3449a073-2416-408c-bdd1-bbde87bdc51a.vcf",
+                        "size": 12700331
+                    },
+                    {
+                        "link": "output",
+                        "name": "4c6626df-bdb2-45cd-a60a-74979481d0a7.gz",
+                        "size": 1016966
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_merge_00000010",
+                "type": "compute",
+                "runtime": 5.283,
+                "parents": [
+                    "individuals_00000001",
+                    "individuals_00000002",
+                    "individuals_00000003",
+                    "individuals_00000004",
+                    "individuals_00000005",
+                    "individuals_00000006",
+                    "individuals_00000007",
+                    "individuals_00000008",
+                    "individuals_00000009"
+                ],
+                "children": [
+                    "mutation_overlap_00000012",
+                    "mutation_overlap_00000013",
+                    "mutation_overlap_00000014",
+                    "mutation_overlap_00000015",
+                    "mutation_overlap_00000016",
+                    "mutation_overlap_00000017",
+                    "mutation_overlap_00000018",
+                    "frequency_00000019",
+                    "frequency_00000020",
+                    "frequency_00000021",
+                    "frequency_00000022",
+                    "frequency_00000023",
+                    "frequency_00000024",
+                    "frequency_00000025"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6823687f-0c33-48be-8bb9-2152a2258fde.gz",
+                        "size": 471369
+                    },
+                    {
+                        "link": "input",
+                        "name": "2c25c035-e267-4d2a-9e20-2f13a2a9f34a.gz",
+                        "size": 568577
+                    },
+                    {
+                        "link": "input",
+                        "name": "8d16372e-6977-4fac-b89b-700916bc0004.gz",
+                        "size": 288248
+                    },
+                    {
+                        "link": "input",
+                        "name": "79c29b71-8554-4247-a79b-9935a1595565.gz",
+                        "size": 835485
+                    },
+                    {
+                        "link": "input",
+                        "name": "86dc5ddc-3c40-4fe2-a07c-0e5bed09384b.gz",
+                        "size": 1155860
+                    },
+                    {
+                        "link": "input",
+                        "name": "85301574-9c2e-4528-ae36-1316fb600661.gz",
+                        "size": 1036118
+                    },
+                    {
+                        "link": "input",
+                        "name": "f92d66f8-57fb-4d3c-a550-6cc82a0c5eb2.gz",
+                        "size": 912751
+                    },
+                    {
+                        "link": "input",
+                        "name": "f621a362-a462-4b9f-9e63-01d84be9be84.gz",
+                        "size": 845789
+                    },
+                    {
+                        "link": "input",
+                        "name": "4c6626df-bdb2-45cd-a60a-74979481d0a7.gz",
+                        "size": 1016966
+                    },
+                    {
+                        "link": "output",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "sifting_00000011",
+                "type": "compute",
+                "runtime": 0.113,
+                "parents": [],
+                "children": [
+                    "mutation_overlap_00000012",
+                    "mutation_overlap_00000013",
+                    "mutation_overlap_00000014",
+                    "mutation_overlap_00000015",
+                    "mutation_overlap_00000016",
+                    "mutation_overlap_00000017",
+                    "mutation_overlap_00000018",
+                    "frequency_00000019",
+                    "frequency_00000020",
+                    "frequency_00000021",
+                    "frequency_00000022",
+                    "frequency_00000023",
+                    "frequency_00000024",
+                    "frequency_00000025"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "879a666e-77f6-435f-8898-cbe449d42acd.vcf",
+                        "size": 8540781
+                    },
+                    {
+                        "link": "output",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000012",
+                "type": "compute",
+                "runtime": 2.068,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "ba1af75f-6825-40fb-a1c2-28a330d9d03cALL",
+                        "size": 1400
+                    },
+                    {
+                        "link": "output",
+                        "name": "8fc518a9-c79f-4d93-9857-4ffc98128ad6.gz",
+                        "size": 1902783
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000013",
+                "type": "compute",
+                "runtime": 4.524,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "7f1c0cab-7675-4d97-b2fc-504f5e7dad78AFR",
+                        "size": 404
+                    },
+                    {
+                        "link": "output",
+                        "name": "63cc447e-318a-41bc-9616-e647ab6eb842.gz",
+                        "size": 7404720
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000014",
+                "type": "compute",
+                "runtime": 2.763,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "9c56825d-8d98-4bc2-9029-8c11a7ef35a0AMR",
+                        "size": 212
+                    },
+                    {
+                        "link": "output",
+                        "name": "0baa2ec4-30ff-465f-aa1c-21f857a17a08.gz",
+                        "size": 6016102
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000015",
+                "type": "compute",
+                "runtime": 4.225,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "b62d3a32-36f4-4280-9c26-9d244eeac409EAS",
+                        "size": 244
+                    },
+                    {
+                        "link": "output",
+                        "name": "85a87f74-0eb9-4686-b9d4-f4e3c5b7af92.gz",
+                        "size": 7804474
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000016",
+                "type": "compute",
+                "runtime": 0.461,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "e270e61e-a6fd-416b-9488-4cc19e1ba40bEUR",
+                        "size": 265
+                    },
+                    {
+                        "link": "output",
+                        "name": "b2477677-29a5-4104-b731-a13ebdfcb5e7.gz",
+                        "size": 8622840
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000017",
+                "type": "compute",
+                "runtime": 1.367,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "7e89e3dc-8fd8-4b5d-ab6f-21884fcae5a8GBR",
+                        "size": 42
+                    },
+                    {
+                        "link": "output",
+                        "name": "0f76ee4a-6ced-4813-ad5b-4ea7c7028757.gz",
+                        "size": 8136633
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000018",
+                "type": "compute",
+                "runtime": 0.945,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "dff25638-12a0-4a5a-9179-8ae54383a9ebSAS",
+                        "size": 262
+                    },
+                    {
+                        "link": "output",
+                        "name": "46da3539-dd49-4f50-91d9-4bf659b689d1.gz",
+                        "size": 6581650
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000019",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "e08f1224-decc-457d-ad20-b7d42f53d678ALL",
+                        "size": 1400
+                    },
+                    {
+                        "link": "output",
+                        "name": "1f95da12-cc9c-4b13-99cb-8648ec69408b.gz",
+                        "size": 7117692
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000020",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "15e21b6e-e10b-4ff5-a831-5934a6867a01AFR",
+                        "size": 404
+                    },
+                    {
+                        "link": "output",
+                        "name": "4cc4688a-7ad3-43e1-b3e9-d2ccc0c59046.gz",
+                        "size": 11384361
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000021",
+                "type": "compute",
+                "runtime": 2.36,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "0c6afced-63f8-4ad9-be94-56cf5ba06e29AMR",
+                        "size": 212
+                    },
+                    {
+                        "link": "output",
+                        "name": "26e727e3-3df8-40a2-9a76-bee01061d9ac.gz",
+                        "size": 5839046
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000022",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "4a90eb79-bb6c-4371-a0ba-8b23301ebeb3EAS",
+                        "size": 244
+                    },
+                    {
+                        "link": "output",
+                        "name": "a5d7d84e-bf63-4b90-b949-133af7fe58d9.gz",
+                        "size": 1492435
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000023",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "1a63e071-a330-444f-a9f9-0931d87deeb9EUR",
+                        "size": 265
+                    },
+                    {
+                        "link": "output",
+                        "name": "5f26875a-105c-47f7-a42c-492e4967eb83.gz",
+                        "size": 5719318
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000024",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "963d7f0f-75ee-4295-b0e1-65622ac0c4efGBR",
+                        "size": 42
+                    },
+                    {
+                        "link": "output",
+                        "name": "f81000eb-d0d4-477b-bfc7-f7f53b445d88.gz",
+                        "size": 1492435
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000025",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000010",
+                    "sifting_00000011"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz",
+                        "size": 658452
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt",
+                        "size": 63204598
+                    },
+                    {
+                        "link": "input",
+                        "name": "ce30d985-dedf-4b74-89db-301feaa17203SAS",
+                        "size": 262
+                    },
+                    {
+                        "link": "output",
+                        "name": "5b815897-4ef3-4e0a-961a-e45d3d41b7d5.gz",
+                        "size": 1492435
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000026",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "cbb3bbea-e1b4-4b43-bcb9-26ad0913fe86.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "45103f00-27e2-42ff-9dd3-defd31a7dc87.vcf",
+                        "size": 126228502
+                    },
+                    {
+                        "link": "output",
+                        "name": "ed0d2afc-1bed-4580-a689-da4963de4c47.gz",
+                        "size": 210578
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000027",
+                "type": "compute",
+                "runtime": 7.265,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "77e8d383-67db-4233-a562-2bf2d554e067.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "87d3e904-3540-4de3-aa87-9429d51a422c.vcf",
+                        "size": 114034388
+                    },
+                    {
+                        "link": "output",
+                        "name": "e7138ec6-3f0b-4844-af31-e21bb9f58c54.gz",
+                        "size": 146555
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000028",
+                "type": "compute",
+                "runtime": 9.385,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "94b1b543-39b6-48bd-a5d9-a831ef1cff70.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "053d5f82-a854-4d86-89f4-0b5cbd493e41.vcf",
+                        "size": 22626533
+                    },
+                    {
+                        "link": "output",
+                        "name": "0ab4733f-6b1a-4ae0-8493-e478cd066be0.gz",
+                        "size": 146555
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000029",
+                "type": "compute",
+                "runtime": 5.334,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "aa7f8b37-8710-4e6e-9ba0-aef0d8234352.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "193188e6-2098-4d6c-9d3b-5a6d502b9cb0.vcf",
+                        "size": 53840813
+                    },
+                    {
+                        "link": "output",
+                        "name": "de878b41-c866-4b9c-a7ee-b580128f774c.gz",
+                        "size": 146555
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000030",
+                "type": "compute",
+                "runtime": 5.151,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "a7f0603f-4727-462c-9177-ba0997660845.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "d39ea8fe-b2ec-4ba3-b4af-f3fc8e627eaf.vcf",
+                        "size": 30588722
+                    },
+                    {
+                        "link": "output",
+                        "name": "c504286e-3b61-4a42-bb6d-cb65e95f179f.gz",
+                        "size": 828134
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000031",
+                "type": "compute",
+                "runtime": 7.21,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "165f4453-0742-44db-b61e-06f8176ddf81.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "76ee2911-031d-4ec2-9f85-b36b1639619c.vcf",
+                        "size": 138810398
+                    },
+                    {
+                        "link": "output",
+                        "name": "e391bdaf-b792-42be-8b7b-bdef58585951.gz",
+                        "size": 146555
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000032",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b148e32f-1b68-40d1-be3a-61df851aa211.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "1b667045-cb1d-4537-8d9a-8c30a41b8c6d.vcf",
+                        "size": 45347831
+                    },
+                    {
+                        "link": "output",
+                        "name": "7361262a-ad1c-4052-a6ed-dd09c33107d7.gz",
+                        "size": 528157
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000033",
+                "type": "compute",
+                "runtime": 6.944,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c3d15e5d-e1bf-4f30-8228-7c1267c90d26.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "2f252e2e-b4b6-48e0-a76b-7a4bf929db9b.vcf",
+                        "size": 88957777
+                    },
+                    {
+                        "link": "output",
+                        "name": "61a8a115-5d67-4881-bea4-5a4cda91819c.gz",
+                        "size": 332524
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000034",
+                "type": "compute",
+                "runtime": 7.89,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "40176dce-a5d6-4a02-8a8f-a0ab42689b64.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "1787d47c-9274-463e-884d-57c25a23d531.vcf",
+                        "size": 37638394
+                    },
+                    {
+                        "link": "output",
+                        "name": "89efd4f0-b888-4097-85db-83ecebb602e4.gz",
+                        "size": 1324291
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_merge_00000035",
+                "type": "compute",
+                "runtime": 4.836,
+                "parents": [
+                    "individuals_00000026",
+                    "individuals_00000027",
+                    "individuals_00000028",
+                    "individuals_00000029",
+                    "individuals_00000030",
+                    "individuals_00000031",
+                    "individuals_00000032",
+                    "individuals_00000033",
+                    "individuals_00000034"
+                ],
+                "children": [
+                    "mutation_overlap_00000037",
+                    "mutation_overlap_00000038",
+                    "mutation_overlap_00000039",
+                    "mutation_overlap_00000040",
+                    "mutation_overlap_00000041",
+                    "mutation_overlap_00000042",
+                    "mutation_overlap_00000043",
+                    "frequency_00000044",
+                    "frequency_00000045",
+                    "frequency_00000046",
+                    "frequency_00000047",
+                    "frequency_00000048",
+                    "frequency_00000049",
+                    "frequency_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "ed0d2afc-1bed-4580-a689-da4963de4c47.gz",
+                        "size": 210578
+                    },
+                    {
+                        "link": "input",
+                        "name": "e7138ec6-3f0b-4844-af31-e21bb9f58c54.gz",
+                        "size": 146555
+                    },
+                    {
+                        "link": "input",
+                        "name": "0ab4733f-6b1a-4ae0-8493-e478cd066be0.gz",
+                        "size": 146555
+                    },
+                    {
+                        "link": "input",
+                        "name": "de878b41-c866-4b9c-a7ee-b580128f774c.gz",
+                        "size": 146555
+                    },
+                    {
+                        "link": "input",
+                        "name": "c504286e-3b61-4a42-bb6d-cb65e95f179f.gz",
+                        "size": 828134
+                    },
+                    {
+                        "link": "input",
+                        "name": "e391bdaf-b792-42be-8b7b-bdef58585951.gz",
+                        "size": 146555
+                    },
+                    {
+                        "link": "input",
+                        "name": "7361262a-ad1c-4052-a6ed-dd09c33107d7.gz",
+                        "size": 528157
+                    },
+                    {
+                        "link": "input",
+                        "name": "61a8a115-5d67-4881-bea4-5a4cda91819c.gz",
+                        "size": 332524
+                    },
+                    {
+                        "link": "input",
+                        "name": "89efd4f0-b888-4097-85db-83ecebb602e4.gz",
+                        "size": 1324291
+                    },
+                    {
+                        "link": "output",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "sifting_00000036",
+                "type": "compute",
+                "runtime": 0.441,
+                "parents": [],
+                "children": [
+                    "mutation_overlap_00000037",
+                    "mutation_overlap_00000038",
+                    "mutation_overlap_00000039",
+                    "mutation_overlap_00000040",
+                    "mutation_overlap_00000041",
+                    "mutation_overlap_00000042",
+                    "mutation_overlap_00000043",
+                    "frequency_00000044",
+                    "frequency_00000045",
+                    "frequency_00000046",
+                    "frequency_00000047",
+                    "frequency_00000048",
+                    "frequency_00000049",
+                    "frequency_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "842c8075-9c59-4436-b23a-1d2f8afacee5.vcf",
+                        "size": 74961063
+                    },
+                    {
+                        "link": "output",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000037",
+                "type": "compute",
+                "runtime": 0.461,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "13a8faaa-2d80-4ab7-8ab6-ede1742983c5ALL",
+                        "size": 1400
+                    },
+                    {
+                        "link": "output",
+                        "name": "d74135c5-9cd5-4182-b9de-9fbc95286cf3.gz",
+                        "size": 9175112
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000038",
+                "type": "compute",
+                "runtime": 0.993,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "52c3499b-fb0d-4a36-9926-ecd1c031301eAFR",
+                        "size": 404
+                    },
+                    {
+                        "link": "output",
+                        "name": "003e1623-56bb-4b10-addc-6abe9bbea767.gz",
+                        "size": 8907042
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000039",
+                "type": "compute",
+                "runtime": 0.461,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "32620219-de9c-4255-b5ab-4167283894a7AMR",
+                        "size": 212
+                    },
+                    {
+                        "link": "output",
+                        "name": "37d19303-41cc-4907-a9d8-db0c1aa9a600.gz",
+                        "size": 2667203
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000040",
+                "type": "compute",
+                "runtime": 2.228,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "794fc717-9107-4fc7-a058-826b1f9505c8EAS",
+                        "size": 244
+                    },
+                    {
+                        "link": "output",
+                        "name": "44cccf31-cd55-465e-b0d5-38faa407ebea.gz",
+                        "size": 7613492
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000041",
+                "type": "compute",
+                "runtime": 3.985,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "5642560f-0070-4d63-b9f0-76414dd8896cEUR",
+                        "size": 265
+                    },
+                    {
+                        "link": "output",
+                        "name": "a17ba2b5-13a2-444f-bd7a-85528b030edb.gz",
+                        "size": 7271088
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000042",
+                "type": "compute",
+                "runtime": 0.625,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "2cbc55ad-1c77-4a73-9518-bcd188560b29GBR",
+                        "size": 42
+                    },
+                    {
+                        "link": "output",
+                        "name": "d6361319-fc4b-4922-850e-53440694c1cf.gz",
+                        "size": 6429838
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000043",
+                "type": "compute",
+                "runtime": 0.461,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "c108a6ac-2a67-4258-a9ab-24f17ebcaf03SAS",
+                        "size": 262
+                    },
+                    {
+                        "link": "output",
+                        "name": "1d3f9552-c01c-485e-a832-9c3d9a7e703f.gz",
+                        "size": 1963987
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000044",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "312db295-5a90-4a46-b8f4-6f6093a1e66bALL",
+                        "size": 1400
+                    },
+                    {
+                        "link": "output",
+                        "name": "7ff740d4-3519-4253-be4a-31c983dbe8ab.gz",
+                        "size": 2905693
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000045",
+                "type": "compute",
+                "runtime": 3.124,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "32368d6b-2695-4542-8df2-e11237745bfbAFR",
+                        "size": 404
+                    },
+                    {
+                        "link": "output",
+                        "name": "9081bc47-b0ee-4e0b-b201-43371fa15791.gz",
+                        "size": 7460919
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000046",
+                "type": "compute",
+                "runtime": 7.487,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "ea572e78-56a7-4398-a8fd-77813727d552AMR",
+                        "size": 212
+                    },
+                    {
+                        "link": "output",
+                        "name": "ebf3f968-e15f-4a48-83af-aa68d5dae941.gz",
+                        "size": 5181698
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000047",
+                "type": "compute",
+                "runtime": 2.756,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "33612642-b8b3-4a96-aad1-852310fb417bEAS",
+                        "size": 244
+                    },
+                    {
+                        "link": "output",
+                        "name": "f826af29-8179-4cbb-bc0f-6f3260ecfc4c.gz",
+                        "size": 12455723
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000048",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "7be5855a-3f7c-4bcf-8cbe-41835e45880bEUR",
+                        "size": 265
+                    },
+                    {
+                        "link": "output",
+                        "name": "c4a9b535-2990-4ceb-8992-2ea3c277116e.gz",
+                        "size": 13439764
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000049",
+                "type": "compute",
+                "runtime": 3.559,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "168b314f-9dc7-4262-8b52-7a6e61781621GBR",
+                        "size": 42
+                    },
+                    {
+                        "link": "output",
+                        "name": "b393037b-3ff9-4b48-a5b0-43ceaa46afb5.gz",
+                        "size": 13639758
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000050",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000035",
+                    "sifting_00000036"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "74e7fae8-359f-49cd-b82b-befa6e1cc267.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "b083d818-761c-487d-9545-5cf4a21313ef.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "4534c952-4ce3-4fbe-8f9e-6e0fd324d8d6SAS",
+                        "size": 262
+                    },
+                    {
+                        "link": "output",
+                        "name": "bbd20e82-0003-4b49-8814-b433c7bc7f25.gz",
+                        "size": 1492435
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000051",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "7eb681ba-a163-4ba0-a5ce-5cc70bfa491f.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "5e0f8a51-7036-4657-94fd-04f8a1409fed.vcf",
+                        "size": 22750047
+                    },
+                    {
+                        "link": "output",
+                        "name": "e2e775d8-55c9-4996-8e20-78d9af029d91.gz",
+                        "size": 1078529
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000052",
+                "type": "compute",
+                "runtime": 7.263,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c084fd42-88aa-4698-a721-7d7c9de74491.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "52ababd4-17e4-4d01-9ab7-f350991e7bba.vcf",
+                        "size": 84853871
+                    },
+                    {
+                        "link": "output",
+                        "name": "a05611dd-83d9-4262-b228-c2ca492278b5.gz",
+                        "size": 494280
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000053",
+                "type": "compute",
+                "runtime": 1.062,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "e7fc0fb1-ac80-4c42-946c-c6d1125b14ff.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "e6191ebb-7b75-4a9a-be1b-0e4d6602680d.vcf",
+                        "size": 135615749
+                    },
+                    {
+                        "link": "output",
+                        "name": "98dcc369-9333-404a-97a1-a3ab794259fe.gz",
+                        "size": 619748
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000054",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "9bf50cde-c2b7-45f7-ab76-20fb1cefd8f1.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "964c9698-a851-44a0-9e2b-68e0c6bfcd45.vcf",
+                        "size": 12700331
+                    },
+                    {
+                        "link": "output",
+                        "name": "83a8ceba-3713-4168-a679-83d45f1c942d.gz",
+                        "size": 1074556
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000055",
+                "type": "compute",
+                "runtime": 4.159,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0ee10e9e-33ae-4523-a263-6c1ed95f5015.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "85ae8b0e-99fe-4503-bc69-81b889eea94e.vcf",
+                        "size": 55740418
+                    },
+                    {
+                        "link": "output",
+                        "name": "4b72a473-d8a6-4f87-ad8e-071e994736b7.gz",
+                        "size": 411491
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000056",
+                "type": "compute",
+                "runtime": 8.521,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "7f41e442-7dca-4fa6-8e7f-3a503378aa53.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "60362c33-bbf8-4c2c-899f-b9a257a7d722.vcf",
+                        "size": 22535533
+                    },
+                    {
+                        "link": "output",
+                        "name": "446359c3-460c-4042-a105-27f768651b53.gz",
+                        "size": 904470
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000057",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "e63e6bd2-9c97-41ad-bd3f-b0330ff0ccb0.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "ed5e4388-7652-4de8-90be-9fde9f6181d5.vcf",
+                        "size": 97317886
+                    },
+                    {
+                        "link": "output",
+                        "name": "495fcd1a-0069-4cfb-bf34-7be0d7c3120f.gz",
+                        "size": 1227820
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000058",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "53cc4432-4f08-4524-aeb6-666c4f8902ad.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "bb8ec92d-4865-46b6-815f-065eb227e2a9.vcf",
+                        "size": 61529839
+                    },
+                    {
+                        "link": "output",
+                        "name": "bf0ac2a1-83bd-4774-bc2b-d440ac00a12d.gz",
+                        "size": 1180082
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000059",
+                "type": "compute",
+                "runtime": 6.774,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000060"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "ffc6b728-2d7e-496f-8cdc-c3712aba7434.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "529211bb-55cc-40de-966d-0f6ed418c331.vcf",
+                        "size": 115472477
+                    },
+                    {
+                        "link": "output",
+                        "name": "084806a3-aaf3-4bbb-82e8-b8f058836ca9.gz",
+                        "size": 146555
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_merge_00000060",
+                "type": "compute",
+                "runtime": 6.692,
+                "parents": [
+                    "individuals_00000051",
+                    "individuals_00000052",
+                    "individuals_00000053",
+                    "individuals_00000054",
+                    "individuals_00000055",
+                    "individuals_00000056",
+                    "individuals_00000057",
+                    "individuals_00000058",
+                    "individuals_00000059"
+                ],
+                "children": [
+                    "mutation_overlap_00000062",
+                    "mutation_overlap_00000063",
+                    "mutation_overlap_00000064",
+                    "mutation_overlap_00000065",
+                    "mutation_overlap_00000066",
+                    "mutation_overlap_00000067",
+                    "mutation_overlap_00000068",
+                    "frequency_00000069",
+                    "frequency_00000070",
+                    "frequency_00000071",
+                    "frequency_00000072",
+                    "frequency_00000073",
+                    "frequency_00000074",
+                    "frequency_00000075"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "e2e775d8-55c9-4996-8e20-78d9af029d91.gz",
+                        "size": 1078529
+                    },
+                    {
+                        "link": "input",
+                        "name": "a05611dd-83d9-4262-b228-c2ca492278b5.gz",
+                        "size": 494280
+                    },
+                    {
+                        "link": "input",
+                        "name": "98dcc369-9333-404a-97a1-a3ab794259fe.gz",
+                        "size": 619748
+                    },
+                    {
+                        "link": "input",
+                        "name": "83a8ceba-3713-4168-a679-83d45f1c942d.gz",
+                        "size": 1074556
+                    },
+                    {
+                        "link": "input",
+                        "name": "4b72a473-d8a6-4f87-ad8e-071e994736b7.gz",
+                        "size": 411491
+                    },
+                    {
+                        "link": "input",
+                        "name": "446359c3-460c-4042-a105-27f768651b53.gz",
+                        "size": 904470
+                    },
+                    {
+                        "link": "input",
+                        "name": "495fcd1a-0069-4cfb-bf34-7be0d7c3120f.gz",
+                        "size": 1227820
+                    },
+                    {
+                        "link": "input",
+                        "name": "bf0ac2a1-83bd-4774-bc2b-d440ac00a12d.gz",
+                        "size": 1180082
+                    },
+                    {
+                        "link": "input",
+                        "name": "084806a3-aaf3-4bbb-82e8-b8f058836ca9.gz",
+                        "size": 146555
+                    },
+                    {
+                        "link": "output",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "sifting_00000061",
+                "type": "compute",
+                "runtime": 0.66,
+                "parents": [],
+                "children": [
+                    "mutation_overlap_00000062",
+                    "mutation_overlap_00000063",
+                    "mutation_overlap_00000064",
+                    "mutation_overlap_00000065",
+                    "mutation_overlap_00000066",
+                    "mutation_overlap_00000067",
+                    "mutation_overlap_00000068",
+                    "frequency_00000069",
+                    "frequency_00000070",
+                    "frequency_00000071",
+                    "frequency_00000072",
+                    "frequency_00000073",
+                    "frequency_00000074",
+                    "frequency_00000075"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "7848b0d4-ad6b-4d85-a4be-008d026368f6.vcf",
+                        "size": 91172138
+                    },
+                    {
+                        "link": "output",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000062",
+                "type": "compute",
+                "runtime": 3.635,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "1b1af6d2-20e9-4169-ab94-6209a805721aALL",
+                        "size": 1400
+                    },
+                    {
+                        "link": "output",
+                        "name": "383a158c-9e0e-4ee1-96e6-f3a8fbb2eab5.gz",
+                        "size": 5773512
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000063",
+                "type": "compute",
+                "runtime": 0.461,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "0daafa8c-84f4-4751-820b-bf151db4f2aeAFR",
+                        "size": 404
+                    },
+                    {
+                        "link": "output",
+                        "name": "2437c2dc-f531-4d00-9563-9ec6c29f6bbd.gz",
+                        "size": 4990654
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000064",
+                "type": "compute",
+                "runtime": 3.886,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "92fec3df-275e-4ea2-8525-66603ef88247AMR",
+                        "size": 212
+                    },
+                    {
+                        "link": "output",
+                        "name": "d35f6ff4-7d1a-4aa9-8f8f-dd5d6a9e9a7a.gz",
+                        "size": 9272942
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000065",
+                "type": "compute",
+                "runtime": 0.461,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "f5766e2c-1dc7-4560-aab7-185f40e3dddeEAS",
+                        "size": 244
+                    },
+                    {
+                        "link": "output",
+                        "name": "e0be0d9b-da49-454c-b54f-7cc3befcf8fa.gz",
+                        "size": 8640865
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000066",
+                "type": "compute",
+                "runtime": 2.494,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "b31ffec8-b2a3-4b24-bc2d-4d55d8f2b5c9EUR",
+                        "size": 265
+                    },
+                    {
+                        "link": "output",
+                        "name": "3c4da817-ad85-4bf7-8e47-8f55d8970d11.gz",
+                        "size": 5839315
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000067",
+                "type": "compute",
+                "runtime": 4.321,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "8c2e550d-f2ea-48fd-959a-d30680539534GBR",
+                        "size": 42
+                    },
+                    {
+                        "link": "output",
+                        "name": "26d6231c-2a2f-4fe4-b367-c1d747092569.gz",
+                        "size": 8214183
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000068",
+                "type": "compute",
+                "runtime": 3.578,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "4d30ca47-bc57-44b2-ba21-9f215758ebacSAS",
+                        "size": 262
+                    },
+                    {
+                        "link": "output",
+                        "name": "9a20d70b-5678-444b-9124-3d686311b220.gz",
+                        "size": 1300137
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000069",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "00b55a39-cf2a-4b81-b1c1-ecbc09d92382ALL",
+                        "size": 1400
+                    },
+                    {
+                        "link": "output",
+                        "name": "3a0661e9-9a9c-4178-8734-48118e9eb45f.gz",
+                        "size": 10544221
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000070",
+                "type": "compute",
+                "runtime": 4.717,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "c8a32028-8fd0-428f-9600-715bb30434e1AFR",
+                        "size": 404
+                    },
+                    {
+                        "link": "output",
+                        "name": "e56de410-3653-4043-895a-8edd50bed274.gz",
+                        "size": 5925435
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000071",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "66f34265-ab7a-41b3-b718-cffe2bf50415AMR",
+                        "size": 212
+                    },
+                    {
+                        "link": "output",
+                        "name": "b62a711c-e5de-472f-b917-90a206e4b762.gz",
+                        "size": 1492435
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000072",
+                "type": "compute",
+                "runtime": 6.378,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "b270f72e-95d7-461d-8e94-d70967c6d9b7EAS",
+                        "size": 244
+                    },
+                    {
+                        "link": "output",
+                        "name": "4dac1c47-c7be-4263-96e7-8308bedae1aa.gz",
+                        "size": 10309714
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000073",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "fff4f719-4573-4ab6-9756-f3b406299d42EUR",
+                        "size": 265
+                    },
+                    {
+                        "link": "output",
+                        "name": "bb509da4-15f5-4c7f-95cf-1e558ee2905b.gz",
+                        "size": 4203971
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000074",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "2c22debd-aebc-47c1-91ac-d8a0e6578709GBR",
+                        "size": 42
+                    },
+                    {
+                        "link": "output",
+                        "name": "e5143ef2-a4ce-4ff0-a311-91b0bb16228c.gz",
+                        "size": 3743915
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000075",
+                "type": "compute",
+                "runtime": 2.194,
+                "parents": [
+                    "individuals_merge_00000060",
+                    "sifting_00000061"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz",
+                        "size": 148020
+                    },
+                    {
+                        "link": "input",
+                        "name": "abb5d082-0999-4542-b994-2995d25306a4.txt",
+                        "size": 42027516
+                    },
+                    {
+                        "link": "input",
+                        "name": "93de9c77-8582-4569-89c2-97cfaa821b36SAS",
+                        "size": 262
+                    },
+                    {
+                        "link": "output",
+                        "name": "7aff0bc1-784c-4cd3-8af6-bdf0f453394c.gz",
+                        "size": 1549019
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000076",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "cb0889e5-1d7d-4101-9a09-c69e7c218e8f.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "ea0e499e-3ac0-42db-851b-203103193e33.vcf",
+                        "size": 121884597
+                    },
+                    {
+                        "link": "output",
+                        "name": "abb6de9f-3210-4fb3-8f3b-4a0b5c30f99d.gz",
+                        "size": 434370
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000077",
+                "type": "compute",
+                "runtime": 1.582,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "815d699f-5409-494a-8b66-0248e5a4a442.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "8d6ea612-13de-49ea-99e3-0f375501f2c4.vcf",
+                        "size": 12700331
+                    },
+                    {
+                        "link": "output",
+                        "name": "dcf54772-9770-4e4a-8003-eee3dd29a12e.gz",
+                        "size": 1097428
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000078",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "ed7e4f02-1ad0-4f96-bf6a-7826b9e7b286.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "c8a88c5d-2b32-45ad-8000-de699b3fd855.vcf",
+                        "size": 113419110
+                    },
+                    {
+                        "link": "output",
+                        "name": "84b458f9-c5b5-46c7-835b-8b10e55807f2.gz",
+                        "size": 923171
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000079",
+                "type": "compute",
+                "runtime": 6.403,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "55289bc5-4f54-4b09-a4b6-4d63b01d8e76.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "75f02b80-6432-47f6-a134-499964e7ea8c.vcf",
+                        "size": 116491389
+                    },
+                    {
+                        "link": "output",
+                        "name": "53dcaff2-39ec-48e6-a5fb-cf1c60107651.gz",
+                        "size": 1301163
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000080",
+                "type": "compute",
+                "runtime": 6.931,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "7a09ea69-5727-4e22-867f-918fe8aecadf.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "1bfc9117-608c-43e0-aaac-5c5150b80d6d.vcf",
+                        "size": 30108819
+                    },
+                    {
+                        "link": "output",
+                        "name": "4e587ae0-c140-43a7-9372-8bfff494ca58.gz",
+                        "size": 452184
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000081",
+                "type": "compute",
+                "runtime": 0.961,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "80e5bfec-926f-418f-bf91-8737f7d1289e.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "61fba87d-9ae5-4e15-bb15-42df25078e01.vcf",
+                        "size": 96172353
+                    },
+                    {
+                        "link": "output",
+                        "name": "e36fc2b4-3026-423b-a4d0-5ece8d8b70c9.gz",
+                        "size": 1106998
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000082",
+                "type": "compute",
+                "runtime": 5.794,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "46c6b9b7-9828-432f-b1bb-2cd724ee78bd.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "2c960f2d-5a42-467a-8518-e1d78c6bf430.vcf",
+                        "size": 135852861
+                    },
+                    {
+                        "link": "output",
+                        "name": "2ca39209-a877-4571-a9ac-e472d32c1753.gz",
+                        "size": 146555
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000083",
+                "type": "compute",
+                "runtime": 6.898,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "ce7574bb-1c04-4071-b31c-6d00e3a583ae.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "ee864a75-0ed2-4c4b-a295-eae239c7633b.vcf",
+                        "size": 35241437
+                    },
+                    {
+                        "link": "output",
+                        "name": "2e2c2b92-9ecc-4319-9e17-6342889248c6.gz",
+                        "size": 680152
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_00000084",
+                "type": "compute",
+                "runtime": 8.873,
+                "parents": [],
+                "children": [
+                    "individuals_merge_00000085"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "511f9188-0b94-4a1a-bd9c-d9f42cc7babc.txt",
+                        "size": 1003
+                    },
+                    {
+                        "link": "input",
+                        "name": "1b237790-54b5-4e04-ae88-1adacfc6e845.vcf",
+                        "size": 97473000
+                    },
+                    {
+                        "link": "output",
+                        "name": "17725181-d6cb-46c5-bc41-077d8d92af9d.gz",
+                        "size": 146555
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "individuals_merge_00000085",
+                "type": "compute",
+                "runtime": 10.548,
+                "parents": [
+                    "individuals_00000076",
+                    "individuals_00000077",
+                    "individuals_00000078",
+                    "individuals_00000079",
+                    "individuals_00000080",
+                    "individuals_00000081",
+                    "individuals_00000082",
+                    "individuals_00000083",
+                    "individuals_00000084"
+                ],
+                "children": [
+                    "mutation_overlap_00000087",
+                    "mutation_overlap_00000088",
+                    "mutation_overlap_00000089",
+                    "mutation_overlap_00000090",
+                    "mutation_overlap_00000091",
+                    "mutation_overlap_00000092",
+                    "mutation_overlap_00000093",
+                    "frequency_00000094",
+                    "frequency_00000095",
+                    "frequency_00000096",
+                    "frequency_00000097",
+                    "frequency_00000098",
+                    "frequency_00000099",
+                    "frequency_00000100"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "abb6de9f-3210-4fb3-8f3b-4a0b5c30f99d.gz",
+                        "size": 434370
+                    },
+                    {
+                        "link": "input",
+                        "name": "dcf54772-9770-4e4a-8003-eee3dd29a12e.gz",
+                        "size": 1097428
+                    },
+                    {
+                        "link": "input",
+                        "name": "84b458f9-c5b5-46c7-835b-8b10e55807f2.gz",
+                        "size": 923171
+                    },
+                    {
+                        "link": "input",
+                        "name": "53dcaff2-39ec-48e6-a5fb-cf1c60107651.gz",
+                        "size": 1301163
+                    },
+                    {
+                        "link": "input",
+                        "name": "4e587ae0-c140-43a7-9372-8bfff494ca58.gz",
+                        "size": 452184
+                    },
+                    {
+                        "link": "input",
+                        "name": "e36fc2b4-3026-423b-a4d0-5ece8d8b70c9.gz",
+                        "size": 1106998
+                    },
+                    {
+                        "link": "input",
+                        "name": "2ca39209-a877-4571-a9ac-e472d32c1753.gz",
+                        "size": 146555
+                    },
+                    {
+                        "link": "input",
+                        "name": "2e2c2b92-9ecc-4319-9e17-6342889248c6.gz",
+                        "size": 680152
+                    },
+                    {
+                        "link": "input",
+                        "name": "17725181-d6cb-46c5-bc41-077d8d92af9d.gz",
+                        "size": 146555
+                    },
+                    {
+                        "link": "output",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "sifting_00000086",
+                "type": "compute",
+                "runtime": 0.211,
+                "parents": [],
+                "children": [
+                    "mutation_overlap_00000087",
+                    "mutation_overlap_00000088",
+                    "mutation_overlap_00000089",
+                    "mutation_overlap_00000090",
+                    "mutation_overlap_00000091",
+                    "mutation_overlap_00000092",
+                    "mutation_overlap_00000093",
+                    "frequency_00000094",
+                    "frequency_00000095",
+                    "frequency_00000096",
+                    "frequency_00000097",
+                    "frequency_00000098",
+                    "frequency_00000099",
+                    "frequency_00000100"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6f22a4e8-be89-450a-a5b6-400107921cae.vcf",
+                        "size": 53632778
+                    },
+                    {
+                        "link": "output",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000087",
+                "type": "compute",
+                "runtime": 3.944,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "7cec4cfa-c431-461e-acd1-66783e6ee357ALL",
+                        "size": 1400
+                    },
+                    {
+                        "link": "output",
+                        "name": "04b7f44a-5ae8-47b5-99eb-813569bcba41.gz",
+                        "size": 8230040
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000088",
+                "type": "compute",
+                "runtime": 3.788,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "85534db7-5a63-4226-a219-61f932e6246eAFR",
+                        "size": 404
+                    },
+                    {
+                        "link": "output",
+                        "name": "25258fa8-00aa-416a-9af7-86a072cdb47e.gz",
+                        "size": 8729445
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000089",
+                "type": "compute",
+                "runtime": 4.309,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "d695ab9c-4912-4363-9d21-cb2e6cb51da4AMR",
+                        "size": 212
+                    },
+                    {
+                        "link": "output",
+                        "name": "8ad6f2a5-2bd3-4bfa-bdb1-2894d39b18f4.gz",
+                        "size": 863025
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000090",
+                "type": "compute",
+                "runtime": 0.784,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "770db754-1362-44f4-bac3-b2d561200a9dEAS",
+                        "size": 244
+                    },
+                    {
+                        "link": "output",
+                        "name": "ecb1366c-4dd0-424c-9334-7d32b44a1bcd.gz",
+                        "size": 9168073
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000091",
+                "type": "compute",
+                "runtime": 3.483,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "e2b4d062-aceb-4ea3-9a2b-bd5ac6483e4aEUR",
+                        "size": 265
+                    },
+                    {
+                        "link": "output",
+                        "name": "904b4ec3-7bc6-4eb6-a3a2-0f827ac1afe2.gz",
+                        "size": 4031206
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000092",
+                "type": "compute",
+                "runtime": 2.016,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "43227072-14de-4730-9489-5be9983f04efGBR",
+                        "size": 42
+                    },
+                    {
+                        "link": "output",
+                        "name": "4a52891f-797b-434f-b305-4631abe409eb.gz",
+                        "size": 5781148
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "mutation_overlap_00000093",
+                "type": "compute",
+                "runtime": 0.461,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "6873eac4-608f-4178-9356-c7aeb9b679e9SAS",
+                        "size": 262
+                    },
+                    {
+                        "link": "output",
+                        "name": "914a300b-d65c-4e1f-8228-e9ca99babb06.gz",
+                        "size": 5538108
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000094",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "e13a2c35-916f-4a6f-b7ea-41e65d181a6aALL",
+                        "size": 1400
+                    },
+                    {
+                        "link": "output",
+                        "name": "00e47bed-23d7-47c3-8433-5da3107d294a.gz",
+                        "size": 6435213
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000095",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "a959d8b2-6e98-492d-9b89-a516edd09a43AFR",
+                        "size": 404
+                    },
+                    {
+                        "link": "output",
+                        "name": "3f079cc9-9b20-4612-8b52-1c4472bf14e7.gz",
+                        "size": 1492435
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000096",
+                "type": "compute",
+                "runtime": 3.843,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "d1a530da-6537-4ca5-93fa-58a555c7324cAMR",
+                        "size": 212
+                    },
+                    {
+                        "link": "output",
+                        "name": "d1424c47-c71c-44bc-a450-d2113af6b171.gz",
+                        "size": 14400430
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000097",
+                "type": "compute",
+                "runtime": 3.546,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "504dc884-8464-49e9-81d1-44f4dc85f00dEAS",
+                        "size": 244
+                    },
+                    {
+                        "link": "output",
+                        "name": "dc1e326c-931d-4258-b13b-f98f822b212b.gz",
+                        "size": 1492435
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000098",
+                "type": "compute",
+                "runtime": 1.191,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "034856ce-bd5b-4c0e-ab4b-a9e86944a5a4EUR",
+                        "size": 265
+                    },
+                    {
+                        "link": "output",
+                        "name": "2ac66ab5-ed3d-4cb9-89e6-7046c63dc7f4.gz",
+                        "size": 10338160
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000099",
+                "type": "compute",
+                "runtime": 4.818,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc3655ef-4a33-44f8-97e0-6102974dc5eaGBR",
+                        "size": 42
+                    },
+                    {
+                        "link": "output",
+                        "name": "fe50d22a-268f-4edb-ba2c-1c3cdb358397.gz",
+                        "size": 8793008
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "frequency_00000100",
+                "type": "compute",
+                "runtime": 2.864,
+                "parents": [
+                    "individuals_merge_00000085",
+                    "sifting_00000086"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz",
+                        "size": 136680
+                    },
+                    {
+                        "link": "input",
+                        "name": "fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt",
+                        "size": 10633060
+                    },
+                    {
+                        "link": "input",
+                        "name": "7a39f496-b2be-449c-82b0-39807c01d94cSAS",
+                        "size": 262
+                    },
+                    {
+                        "link": "output",
+                        "name": "14296499-b09e-4904-99e6-37173d30c921.gz",
+                        "size": 12501235
+                    }
+                ],
+                "cores": 1
+            }
+        ],
+        "machines": []
+    }
+}

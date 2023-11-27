@@ -1,0 +1,2337 @@
+global_input:
+  76eddc4a-58f8-4258-a918-f996bc1cc6a1.fna: &id001
+    type: pass
+    value:
+      function: INPUT
+      parameter: 76eddc4a-58f8-4258-a918-f996bc1cc6a1.fna
+    size: 98721
+  3a5d1791-8ac2-466e-8355-b8a68f9c3348.gz: &id002
+    type: pass
+    value:
+      function: INPUT
+      parameter: 3a5d1791-8ac2-466e-8355-b8a68f9c3348.gz
+    size: 617
+functions:
+- name: bowtie2-build_00000001
+  source: bowtie2-build_00000001
+  runtime: 0.003
+  scale: 1
+  mem_usage: 0.25
+  input:
+    76eddc4a-58f8-4258-a918-f996bc1cc6a1.fna: *id001
+  output:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: normal
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: normal
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: normal
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: normal
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: normal
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: normal
+      size: 1792
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000003
+    - bowtie2_00000005
+    - bowtie2_00000007
+    - bowtie2_00000009
+    - bowtie2_00000011
+    - bowtie2_00000013
+    - bowtie2_00000015
+    - bowtie2_00000017
+    - bowtie2_00000019
+    - bowtie2_00000021
+    - bowtie2_00000023
+    - bowtie2_00000025
+    - bowtie2_00000027
+    - bowtie2_00000029
+    - bowtie2_00000031
+    - bowtie2_00000033
+    - bowtie2_00000035
+    - bowtie2_00000037
+    - bowtie2_00000039
+    - bowtie2_00000041
+    - bowtie2_00000043
+    - bowtie2_00000045
+    - bowtie2_00000047
+    - bowtie2_00000049
+- name: fasterq-dump_00000002
+  source: fasterq-dump_00000002
+  runtime: 0.68
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    92b8c6d3-0677-4737-aa8d-72804a0e0e58.fastq:
+      type: normal
+      size: 1137618
+    061768bc-6e42-4326-8fa3-652c80055b71.fastq:
+      type: normal
+      size: 1505569
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000003
+- name: bowtie2_00000003
+  source: bowtie2_00000003
+  runtime: 0.118
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    92b8c6d3-0677-4737-aa8d-72804a0e0e58.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 92b8c6d3-0677-4737-aa8d-72804a0e0e58.fastq
+      size: 1137618
+    061768bc-6e42-4326-8fa3-652c80055b71.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 061768bc-6e42-4326-8fa3-652c80055b71.fastq
+      size: 1505569
+  output:
+    a030fd4a-b05a-41f7-b043-36020f6d8693.bam:
+      type: normal
+      size: 0
+    5a14f539-9e96-4e53-9199-cf23d99722bc.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000004
+  source: fasterq-dump_00000004
+  runtime: 2.683
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    dcb98fc8-127c-43e8-a72b-1b4e9dee1fd2.fastq:
+      type: normal
+      size: 198108
+    4d169fc4-a5f0-46fb-b2f4-d2748d526ec5.fastq:
+      type: normal
+      size: 1495182
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000005
+- name: bowtie2_00000005
+  source: bowtie2_00000005
+  runtime: 0.012
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    dcb98fc8-127c-43e8-a72b-1b4e9dee1fd2.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: dcb98fc8-127c-43e8-a72b-1b4e9dee1fd2.fastq
+      size: 198108
+    4d169fc4-a5f0-46fb-b2f4-d2748d526ec5.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4d169fc4-a5f0-46fb-b2f4-d2748d526ec5.fastq
+      size: 1495182
+  output:
+    3a37115b-4ef0-4022-8f5d-04fefa3b42e9.bam:
+      type: normal
+      size: 0
+    39315740-66f1-4868-a69f-b2c864c34143.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000006
+  source: fasterq-dump_00000006
+  runtime: 2.731
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    64d3937e-265a-43fd-aa9c-93153d63054a.fastq:
+      type: normal
+      size: 198108
+    2dda9c7a-31bc-4302-8fb5-7dc16e9a3f6b.fastq:
+      type: normal
+      size: 1720256
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000007
+- name: bowtie2_00000007
+  source: bowtie2_00000007
+  runtime: 0.012
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    64d3937e-265a-43fd-aa9c-93153d63054a.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 64d3937e-265a-43fd-aa9c-93153d63054a.fastq
+      size: 198108
+    2dda9c7a-31bc-4302-8fb5-7dc16e9a3f6b.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2dda9c7a-31bc-4302-8fb5-7dc16e9a3f6b.fastq
+      size: 1720256
+  output:
+    cc4448a0-74ba-4622-8c14-412eda128b57.bam:
+      type: normal
+      size: 0
+    91322559-8e05-435a-bc95-dcae4330aeac.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000008
+  source: fasterq-dump_00000008
+  runtime: 1.038
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    0870b12b-0f75-4c79-8263-ef0e63967da7.fastq:
+      type: normal
+      size: 501831
+    480a3987-a591-4577-93fd-20dd09535c94.fastq:
+      type: normal
+      size: 493320
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000009
+- name: bowtie2_00000009
+  source: bowtie2_00000009
+  runtime: 0.118
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    0870b12b-0f75-4c79-8263-ef0e63967da7.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0870b12b-0f75-4c79-8263-ef0e63967da7.fastq
+      size: 501831
+    480a3987-a591-4577-93fd-20dd09535c94.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 480a3987-a591-4577-93fd-20dd09535c94.fastq
+      size: 493320
+  output:
+    0bf40abd-a134-4df7-b6cf-639506377e41.bam:
+      type: normal
+      size: 0
+    301801e3-875d-4842-bfb8-41ed47827d88.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000010
+  source: fasterq-dump_00000010
+  runtime: 4.056
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    f50c909c-1599-476a-bad5-42789e39bfb5.fastq:
+      type: normal
+      size: 1404222
+    4f06a590-443b-4557-896d-053c4d26264e.fastq:
+      type: normal
+      size: 198108
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000011
+- name: bowtie2_00000011
+  source: bowtie2_00000011
+  runtime: 0.079
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    f50c909c-1599-476a-bad5-42789e39bfb5.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f50c909c-1599-476a-bad5-42789e39bfb5.fastq
+      size: 1404222
+    4f06a590-443b-4557-896d-053c4d26264e.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f06a590-443b-4557-896d-053c4d26264e.fastq
+      size: 198108
+  output:
+    e2d3e2d5-aa38-4aef-98e1-a4016d7c4260.bam:
+      type: normal
+      size: 0
+    9880323b-2b62-47dd-9fca-cde74f3d39aa.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000012
+  source: fasterq-dump_00000012
+  runtime: 0.954
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    69f7585c-5b86-483d-a022-b7719ad38b0e.fastq:
+      type: normal
+      size: 1334487
+    746fcaf9-3a11-48a5-ae3a-efa6e2f862af.fastq:
+      type: normal
+      size: 198108
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000013
+- name: bowtie2_00000013
+  source: bowtie2_00000013
+  runtime: 0.092
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    69f7585c-5b86-483d-a022-b7719ad38b0e.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 69f7585c-5b86-483d-a022-b7719ad38b0e.fastq
+      size: 1334487
+    746fcaf9-3a11-48a5-ae3a-efa6e2f862af.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 746fcaf9-3a11-48a5-ae3a-efa6e2f862af.fastq
+      size: 198108
+  output:
+    2ef65567-0d79-4acd-a035-ec187d25d437.bam:
+      type: normal
+      size: 0
+    ae9ce4a5-dd8c-4d5c-8512-074da21eee8a.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000014
+  source: fasterq-dump_00000014
+  runtime: 0.773
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    9c3d8d9f-ebcf-48ff-bbfe-744af944b23f.fastq:
+      type: normal
+      size: 865275
+    1da8d69c-ad9f-44f1-9f65-daf2f02fc226.fastq:
+      type: normal
+      size: 979144
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000015
+- name: bowtie2_00000015
+  source: bowtie2_00000015
+  runtime: 0.094
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    9c3d8d9f-ebcf-48ff-bbfe-744af944b23f.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9c3d8d9f-ebcf-48ff-bbfe-744af944b23f.fastq
+      size: 865275
+    1da8d69c-ad9f-44f1-9f65-daf2f02fc226.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1da8d69c-ad9f-44f1-9f65-daf2f02fc226.fastq
+      size: 979144
+  output:
+    b4580455-c3a4-4e57-b2b9-8c0d1266b978.bam:
+      type: normal
+      size: 0
+    220cd0da-d703-40f3-a70f-31287dfabb90.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000016
+  source: fasterq-dump_00000016
+  runtime: 1.936
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    1fdb3d94-5dc1-44ae-8b8f-eb8d05f05989.fastq:
+      type: normal
+      size: 798077
+    282dfeeb-cb27-41b1-9c83-663b18806ed3.fastq:
+      type: normal
+      size: 417045
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000017
+- name: bowtie2_00000017
+  source: bowtie2_00000017
+  runtime: 0.11
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    1fdb3d94-5dc1-44ae-8b8f-eb8d05f05989.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1fdb3d94-5dc1-44ae-8b8f-eb8d05f05989.fastq
+      size: 798077
+    282dfeeb-cb27-41b1-9c83-663b18806ed3.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 282dfeeb-cb27-41b1-9c83-663b18806ed3.fastq
+      size: 417045
+  output:
+    a32aff61-8a68-483e-b7d0-dfdfdb8be0ba.bam:
+      type: normal
+      size: 0
+    5506258f-14bd-4200-a0a0-a9094d2785ff.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000018
+  source: fasterq-dump_00000018
+  runtime: 1.501
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    da987e77-b21e-46bf-b1fe-6ef418595505.fastq:
+      type: normal
+      size: 402494
+    8fd597fa-bd57-4961-a5c2-dd76107808f4.fastq:
+      type: normal
+      size: 632036
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000019
+- name: bowtie2_00000019
+  source: bowtie2_00000019
+  runtime: 0.012
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    da987e77-b21e-46bf-b1fe-6ef418595505.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: da987e77-b21e-46bf-b1fe-6ef418595505.fastq
+      size: 402494
+    8fd597fa-bd57-4961-a5c2-dd76107808f4.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8fd597fa-bd57-4961-a5c2-dd76107808f4.fastq
+      size: 632036
+  output:
+    d30277d3-d90f-4d13-b779-3530372b7f49.bam:
+      type: normal
+      size: 0
+    49ab9cba-d9dd-4b92-bbd2-667c2c66b49e.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000020
+  source: fasterq-dump_00000020
+  runtime: 2.493
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    68a41e83-c72a-46f7-b6c1-cb72321abdc1.fastq:
+      type: normal
+      size: 999881
+    2f003d1d-9efe-4354-bdfe-daae4acb7a6b.fastq:
+      type: normal
+      size: 1181545
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000021
+- name: bowtie2_00000021
+  source: bowtie2_00000021
+  runtime: 0.077
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    68a41e83-c72a-46f7-b6c1-cb72321abdc1.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 68a41e83-c72a-46f7-b6c1-cb72321abdc1.fastq
+      size: 999881
+    2f003d1d-9efe-4354-bdfe-daae4acb7a6b.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f003d1d-9efe-4354-bdfe-daae4acb7a6b.fastq
+      size: 1181545
+  output:
+    ed7360a2-ac43-42b7-9105-90831bc6ffbf.bam:
+      type: normal
+      size: 0
+    732541c7-016b-45e9-887d-5995deecd097.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000022
+  source: fasterq-dump_00000022
+  runtime: 3.358
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    067bc33f-2c67-4b4a-97b2-d3f45bcc2a57.fastq:
+      type: normal
+      size: 1175815
+    e3ffa1fd-ad6f-4b4e-a0cd-2ef164501e55.fastq:
+      type: normal
+      size: 874198
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000023
+- name: bowtie2_00000023
+  source: bowtie2_00000023
+  runtime: 0.012
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    067bc33f-2c67-4b4a-97b2-d3f45bcc2a57.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 067bc33f-2c67-4b4a-97b2-d3f45bcc2a57.fastq
+      size: 1175815
+    e3ffa1fd-ad6f-4b4e-a0cd-2ef164501e55.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e3ffa1fd-ad6f-4b4e-a0cd-2ef164501e55.fastq
+      size: 874198
+  output:
+    df722bd7-68ac-4fe3-bf74-c6741b5917fe.bam:
+      type: normal
+      size: 0
+    6e5d8864-c6ad-4ae2-8fd8-d371420ea699.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000024
+  source: fasterq-dump_00000024
+  runtime: 2.476
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    626125ee-caf7-4872-93b9-40169bddb108.fastq:
+      type: normal
+      size: 1775590
+    6aed7035-0954-4c54-990c-2b25bb5af0d8.fastq:
+      type: normal
+      size: 1042318
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000025
+- name: bowtie2_00000025
+  source: bowtie2_00000025
+  runtime: 0.121
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    626125ee-caf7-4872-93b9-40169bddb108.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 626125ee-caf7-4872-93b9-40169bddb108.fastq
+      size: 1775590
+    6aed7035-0954-4c54-990c-2b25bb5af0d8.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 6aed7035-0954-4c54-990c-2b25bb5af0d8.fastq
+      size: 1042318
+  output:
+    d408aa5a-e4e1-4ba9-844b-2692b00e94f9.bam:
+      type: normal
+      size: 0
+    33246053-1fe0-460b-a26f-8114fcdbe35a.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000026
+  source: fasterq-dump_00000026
+  runtime: 4.008
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    ec1b6c34-812d-4b10-9654-a6682c955e5e.fastq:
+      type: normal
+      size: 1003742
+    2506cfce-b86a-49d0-bacb-efc5ab8e59d4.fastq:
+      type: normal
+      size: 1800938
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000027
+- name: bowtie2_00000027
+  source: bowtie2_00000027
+  runtime: 0.12
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    ec1b6c34-812d-4b10-9654-a6682c955e5e.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ec1b6c34-812d-4b10-9654-a6682c955e5e.fastq
+      size: 1003742
+    2506cfce-b86a-49d0-bacb-efc5ab8e59d4.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2506cfce-b86a-49d0-bacb-efc5ab8e59d4.fastq
+      size: 1800938
+  output:
+    3acf5884-1c84-4858-adc3-86b7c977c3be.bam:
+      type: normal
+      size: 0
+    3bd2f99a-9c51-4f9e-b258-31a747bb8f27.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000028
+  source: fasterq-dump_00000028
+  runtime: 1.236
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    201deb41-02f7-41a3-8bd2-ca137019472a.fastq:
+      type: normal
+      size: 1330175
+    8c2f842f-554e-4782-9f83-aef9d94f809d.fastq:
+      type: normal
+      size: 1092320
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000029
+- name: bowtie2_00000029
+  source: bowtie2_00000029
+  runtime: 0.052
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    201deb41-02f7-41a3-8bd2-ca137019472a.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 201deb41-02f7-41a3-8bd2-ca137019472a.fastq
+      size: 1330175
+    8c2f842f-554e-4782-9f83-aef9d94f809d.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8c2f842f-554e-4782-9f83-aef9d94f809d.fastq
+      size: 1092320
+  output:
+    b5f0796d-951d-4deb-8962-77538454cd84.bam:
+      type: normal
+      size: 0
+    935c4057-b1c1-403e-b666-6a8bd3105610.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000030
+  source: fasterq-dump_00000030
+  runtime: 1.197
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    56704f00-ee80-4e81-9b07-b160a2c5eaee.fastq:
+      type: normal
+      size: 1150669
+    1a851003-babf-43df-b0ce-016d3ae23ef0.fastq:
+      type: normal
+      size: 370586
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000031
+- name: bowtie2_00000031
+  source: bowtie2_00000031
+  runtime: 0.121
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    56704f00-ee80-4e81-9b07-b160a2c5eaee.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 56704f00-ee80-4e81-9b07-b160a2c5eaee.fastq
+      size: 1150669
+    1a851003-babf-43df-b0ce-016d3ae23ef0.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1a851003-babf-43df-b0ce-016d3ae23ef0.fastq
+      size: 370586
+  output:
+    bd3f613b-73c6-4cfc-8a30-d477af227cd7.bam:
+      type: normal
+      size: 0
+    7d60136a-2e53-4df7-a9b4-43772d468dab.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000032
+  source: fasterq-dump_00000032
+  runtime: 0.434
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    01c7b8e7-e8ad-4862-9c1b-87442f33cbcc.fastq:
+      type: normal
+      size: 1093779
+    ca065db8-b909-4424-9564-8bee690e1c02.fastq:
+      type: normal
+      size: 1737576
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000033
+- name: bowtie2_00000033
+  source: bowtie2_00000033
+  runtime: 0.012
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    01c7b8e7-e8ad-4862-9c1b-87442f33cbcc.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 01c7b8e7-e8ad-4862-9c1b-87442f33cbcc.fastq
+      size: 1093779
+    ca065db8-b909-4424-9564-8bee690e1c02.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca065db8-b909-4424-9564-8bee690e1c02.fastq
+      size: 1737576
+  output:
+    d5bee726-33f3-43f1-9979-46550258909e.bam:
+      type: normal
+      size: 0
+    8cd451f4-c713-48c0-b3f4-bd41b9f97e5b.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000034
+  source: fasterq-dump_00000034
+  runtime: 1.807
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    ce7fd812-da50-4559-947d-1bf15ecb6273.fastq:
+      type: normal
+      size: 1419779
+    00ef050a-052c-4751-8b21-471e26a451da.fastq:
+      type: normal
+      size: 837816
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000035
+- name: bowtie2_00000035
+  source: bowtie2_00000035
+  runtime: 0.117
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    ce7fd812-da50-4559-947d-1bf15ecb6273.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ce7fd812-da50-4559-947d-1bf15ecb6273.fastq
+      size: 1419779
+    00ef050a-052c-4751-8b21-471e26a451da.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 00ef050a-052c-4751-8b21-471e26a451da.fastq
+      size: 837816
+  output:
+    abbdffef-96a1-4294-a5e8-0c72108a5fed.bam:
+      type: normal
+      size: 0
+    9ddc868d-6991-4a11-8d5a-071933632344.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000036
+  source: fasterq-dump_00000036
+  runtime: 8.591
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    33ed78db-c595-46bb-ad2e-1d0ed861cb17.fastq:
+      type: normal
+      size: 1580481
+    a99b4c3e-c624-4983-946e-abb2220389a2.fastq:
+      type: normal
+      size: 741188
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000037
+- name: bowtie2_00000037
+  source: bowtie2_00000037
+  runtime: 0.093
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    33ed78db-c595-46bb-ad2e-1d0ed861cb17.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 33ed78db-c595-46bb-ad2e-1d0ed861cb17.fastq
+      size: 1580481
+    a99b4c3e-c624-4983-946e-abb2220389a2.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a99b4c3e-c624-4983-946e-abb2220389a2.fastq
+      size: 741188
+  output:
+    ff7734a0-edc4-4366-9bc4-8264b13aec7f.bam:
+      type: normal
+      size: 0
+    37cb7f37-b639-4aa3-9dbc-d3ea6ade4b7e.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000038
+  source: fasterq-dump_00000038
+  runtime: 3.155
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    0277413e-eb58-445a-8c6b-ddb7ed515231.fastq:
+      type: normal
+      size: 1559453
+    af1a77bf-ce76-4a43-b9b6-fe384a4ee6e6.fastq:
+      type: normal
+      size: 198108
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000039
+- name: bowtie2_00000039
+  source: bowtie2_00000039
+  runtime: 0.013
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    0277413e-eb58-445a-8c6b-ddb7ed515231.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0277413e-eb58-445a-8c6b-ddb7ed515231.fastq
+      size: 1559453
+    af1a77bf-ce76-4a43-b9b6-fe384a4ee6e6.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: af1a77bf-ce76-4a43-b9b6-fe384a4ee6e6.fastq
+      size: 198108
+  output:
+    b6e33dab-a85c-4a7f-97a8-51eecfac7278.bam:
+      type: normal
+      size: 0
+    e27457dc-f8d4-4d06-bda2-d85218e39ac6.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000040
+  source: fasterq-dump_00000040
+  runtime: 0.764
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    03c3544b-4d96-48f1-ae6e-300ee50b9994.fastq:
+      type: normal
+      size: 797063
+    8c2458fd-c460-4ef8-b091-eda59483b7df.fastq:
+      type: normal
+      size: 648613
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000041
+- name: bowtie2_00000041
+  source: bowtie2_00000041
+  runtime: 0.04
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    03c3544b-4d96-48f1-ae6e-300ee50b9994.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 03c3544b-4d96-48f1-ae6e-300ee50b9994.fastq
+      size: 797063
+    8c2458fd-c460-4ef8-b091-eda59483b7df.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8c2458fd-c460-4ef8-b091-eda59483b7df.fastq
+      size: 648613
+  output:
+    e0fba9a8-e0e9-456d-b222-ccdf8cd15a2a.bam:
+      type: normal
+      size: 0
+    ec641eef-e9ba-403e-b1a7-a09bc591553f.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000042
+  source: fasterq-dump_00000042
+  runtime: 1.795
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    9795683b-82b4-47e8-ae93-fd1155acacbc.fastq:
+      type: normal
+      size: 1816661
+    9dddee3a-9089-409e-bfb9-a51b63d8bd8d.fastq:
+      type: normal
+      size: 526496
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000043
+- name: bowtie2_00000043
+  source: bowtie2_00000043
+  runtime: 0.076
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    9795683b-82b4-47e8-ae93-fd1155acacbc.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9795683b-82b4-47e8-ae93-fd1155acacbc.fastq
+      size: 1816661
+    9dddee3a-9089-409e-bfb9-a51b63d8bd8d.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9dddee3a-9089-409e-bfb9-a51b63d8bd8d.fastq
+      size: 526496
+  output:
+    3f0c1796-ff28-482e-99d3-100e7bd85e6c.bam:
+      type: normal
+      size: 0
+    d2f86bcd-a640-46ae-bad3-eccac48e412f.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000044
+  source: fasterq-dump_00000044
+  runtime: 1.054
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    db9346ba-a2a3-4c30-a842-557596869452.fastq:
+      type: normal
+      size: 1474037
+    c7e83d97-1e45-419e-89fa-6fde62304c88.fastq:
+      type: normal
+      size: 1880353
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000045
+- name: bowtie2_00000045
+  source: bowtie2_00000045
+  runtime: 0.073
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    db9346ba-a2a3-4c30-a842-557596869452.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: db9346ba-a2a3-4c30-a842-557596869452.fastq
+      size: 1474037
+    c7e83d97-1e45-419e-89fa-6fde62304c88.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c7e83d97-1e45-419e-89fa-6fde62304c88.fastq
+      size: 1880353
+  output:
+    1280a7bd-ab36-4524-9c00-46091f8b2edb.bam:
+      type: normal
+      size: 0
+    14175d0d-a1b7-4038-9b42-8e8c706bb057.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000046
+  source: fasterq-dump_00000046
+  runtime: 2.235
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    a03e2cdc-4188-4977-a0d7-33c61a3ec433.fastq:
+      type: normal
+      size: 674519
+    265e1a05-f4f4-40e1-878c-a93c2bec7ccc.fastq:
+      type: normal
+      size: 1303719
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000047
+- name: bowtie2_00000047
+  source: bowtie2_00000047
+  runtime: 0.052
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    a03e2cdc-4188-4977-a0d7-33c61a3ec433.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a03e2cdc-4188-4977-a0d7-33c61a3ec433.fastq
+      size: 674519
+    265e1a05-f4f4-40e1-878c-a93c2bec7ccc.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 265e1a05-f4f4-40e1-878c-a93c2bec7ccc.fastq
+      size: 1303719
+  output:
+    da33e9cc-3676-4249-a596-ebb0b00a8466.bam:
+      type: normal
+      size: 0
+    405d1bde-3df0-4b23-9416-66ef48db1184.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: fasterq-dump_00000048
+  source: fasterq-dump_00000048
+  runtime: 1.396
+  scale: 1
+  mem_usage: 0.25
+  input: {}
+  output:
+    c1fa087f-1323-49ad-aac1-e7b5050bd424.fastq:
+      type: normal
+      size: 198108
+    80deaa66-c094-45af-a234-d47b3a442aa5.fastq:
+      type: normal
+      size: 802842
+  next:
+    type: pass
+    nodes:
+    - bowtie2_00000049
+- name: bowtie2_00000049
+  source: bowtie2_00000049
+  runtime: 0.012
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a202f18-1bb1-4036-9626-972398724df9.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a202f18-1bb1-4036-9626-972398724df9.bt2
+      size: 422
+    ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca9f6b8e-6389-4523-97fa-b8a1e5053ab4.bt2
+      size: 422
+    4f0a4393-8a5c-4049-8394-b03f442063d6.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4f0a4393-8a5c-4049-8394-b03f442063d6.bt2
+      size: 2067
+    393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 393fedc5-ebfd-470c-b904-5a1d3e6f9a1b.bt2
+      size: 422
+    2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2f69a7ce-ef0c-46eb-966e-641f9bab0401.bt2
+      size: 422
+    899fb42d-a73f-4a53-b88a-69546914d996.bt2:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 899fb42d-a73f-4a53-b88a-69546914d996.bt2
+      size: 1792
+    c1fa087f-1323-49ad-aac1-e7b5050bd424.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c1fa087f-1323-49ad-aac1-e7b5050bd424.fastq
+      size: 198108
+    80deaa66-c094-45af-a234-d47b3a442aa5.fastq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 80deaa66-c094-45af-a234-d47b3a442aa5.fastq
+      size: 802842
+  output:
+    6a885ce8-ffc4-4b0a-a85c-d77fb08fae5e.bam:
+      type: normal
+      size: 0
+    37dc755c-68da-4b56-b313-f2248cd1d52f.bai:
+      type: normal
+      size: 0
+  next:
+    type: pass
+    nodes:
+    - merge_00000050
+- name: merge_00000050
+  source: merge_00000050
+  runtime: 0.0
+  scale: 1
+  mem_usage: 0.25
+  input:
+    a030fd4a-b05a-41f7-b043-36020f6d8693.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a030fd4a-b05a-41f7-b043-36020f6d8693.bam
+      size: 0
+    5a14f539-9e96-4e53-9199-cf23d99722bc.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5a14f539-9e96-4e53-9199-cf23d99722bc.bai
+      size: 0
+    3a37115b-4ef0-4022-8f5d-04fefa3b42e9.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3a37115b-4ef0-4022-8f5d-04fefa3b42e9.bam
+      size: 0
+    39315740-66f1-4868-a69f-b2c864c34143.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 39315740-66f1-4868-a69f-b2c864c34143.bai
+      size: 0
+    cc4448a0-74ba-4622-8c14-412eda128b57.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: cc4448a0-74ba-4622-8c14-412eda128b57.bam
+      size: 0
+    91322559-8e05-435a-bc95-dcae4330aeac.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 91322559-8e05-435a-bc95-dcae4330aeac.bai
+      size: 0
+    0bf40abd-a134-4df7-b6cf-639506377e41.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0bf40abd-a134-4df7-b6cf-639506377e41.bam
+      size: 0
+    301801e3-875d-4842-bfb8-41ed47827d88.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 301801e3-875d-4842-bfb8-41ed47827d88.bai
+      size: 0
+    e2d3e2d5-aa38-4aef-98e1-a4016d7c4260.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e2d3e2d5-aa38-4aef-98e1-a4016d7c4260.bam
+      size: 0
+    9880323b-2b62-47dd-9fca-cde74f3d39aa.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9880323b-2b62-47dd-9fca-cde74f3d39aa.bai
+      size: 0
+    2ef65567-0d79-4acd-a035-ec187d25d437.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2ef65567-0d79-4acd-a035-ec187d25d437.bam
+      size: 0
+    ae9ce4a5-dd8c-4d5c-8512-074da21eee8a.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ae9ce4a5-dd8c-4d5c-8512-074da21eee8a.bai
+      size: 0
+    b4580455-c3a4-4e57-b2b9-8c0d1266b978.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b4580455-c3a4-4e57-b2b9-8c0d1266b978.bam
+      size: 0
+    220cd0da-d703-40f3-a70f-31287dfabb90.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 220cd0da-d703-40f3-a70f-31287dfabb90.bai
+      size: 0
+    a32aff61-8a68-483e-b7d0-dfdfdb8be0ba.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a32aff61-8a68-483e-b7d0-dfdfdb8be0ba.bam
+      size: 0
+    5506258f-14bd-4200-a0a0-a9094d2785ff.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5506258f-14bd-4200-a0a0-a9094d2785ff.bai
+      size: 0
+    d30277d3-d90f-4d13-b779-3530372b7f49.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d30277d3-d90f-4d13-b779-3530372b7f49.bam
+      size: 0
+    49ab9cba-d9dd-4b92-bbd2-667c2c66b49e.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 49ab9cba-d9dd-4b92-bbd2-667c2c66b49e.bai
+      size: 0
+    ed7360a2-ac43-42b7-9105-90831bc6ffbf.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ed7360a2-ac43-42b7-9105-90831bc6ffbf.bam
+      size: 0
+    732541c7-016b-45e9-887d-5995deecd097.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 732541c7-016b-45e9-887d-5995deecd097.bai
+      size: 0
+    df722bd7-68ac-4fe3-bf74-c6741b5917fe.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: df722bd7-68ac-4fe3-bf74-c6741b5917fe.bam
+      size: 0
+    6e5d8864-c6ad-4ae2-8fd8-d371420ea699.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 6e5d8864-c6ad-4ae2-8fd8-d371420ea699.bai
+      size: 0
+    d408aa5a-e4e1-4ba9-844b-2692b00e94f9.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d408aa5a-e4e1-4ba9-844b-2692b00e94f9.bam
+      size: 0
+    33246053-1fe0-460b-a26f-8114fcdbe35a.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 33246053-1fe0-460b-a26f-8114fcdbe35a.bai
+      size: 0
+    3acf5884-1c84-4858-adc3-86b7c977c3be.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3acf5884-1c84-4858-adc3-86b7c977c3be.bam
+      size: 0
+    3bd2f99a-9c51-4f9e-b258-31a747bb8f27.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3bd2f99a-9c51-4f9e-b258-31a747bb8f27.bai
+      size: 0
+    b5f0796d-951d-4deb-8962-77538454cd84.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b5f0796d-951d-4deb-8962-77538454cd84.bam
+      size: 0
+    935c4057-b1c1-403e-b666-6a8bd3105610.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 935c4057-b1c1-403e-b666-6a8bd3105610.bai
+      size: 0
+    bd3f613b-73c6-4cfc-8a30-d477af227cd7.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: bd3f613b-73c6-4cfc-8a30-d477af227cd7.bam
+      size: 0
+    7d60136a-2e53-4df7-a9b4-43772d468dab.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 7d60136a-2e53-4df7-a9b4-43772d468dab.bai
+      size: 0
+    d5bee726-33f3-43f1-9979-46550258909e.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d5bee726-33f3-43f1-9979-46550258909e.bam
+      size: 0
+    8cd451f4-c713-48c0-b3f4-bd41b9f97e5b.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8cd451f4-c713-48c0-b3f4-bd41b9f97e5b.bai
+      size: 0
+    abbdffef-96a1-4294-a5e8-0c72108a5fed.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abbdffef-96a1-4294-a5e8-0c72108a5fed.bam
+      size: 0
+    9ddc868d-6991-4a11-8d5a-071933632344.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9ddc868d-6991-4a11-8d5a-071933632344.bai
+      size: 0
+    ff7734a0-edc4-4366-9bc4-8264b13aec7f.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ff7734a0-edc4-4366-9bc4-8264b13aec7f.bam
+      size: 0
+    37cb7f37-b639-4aa3-9dbc-d3ea6ade4b7e.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 37cb7f37-b639-4aa3-9dbc-d3ea6ade4b7e.bai
+      size: 0
+    b6e33dab-a85c-4a7f-97a8-51eecfac7278.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b6e33dab-a85c-4a7f-97a8-51eecfac7278.bam
+      size: 0
+    e27457dc-f8d4-4d06-bda2-d85218e39ac6.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e27457dc-f8d4-4d06-bda2-d85218e39ac6.bai
+      size: 0
+    e0fba9a8-e0e9-456d-b222-ccdf8cd15a2a.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e0fba9a8-e0e9-456d-b222-ccdf8cd15a2a.bam
+      size: 0
+    ec641eef-e9ba-403e-b1a7-a09bc591553f.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ec641eef-e9ba-403e-b1a7-a09bc591553f.bai
+      size: 0
+    3f0c1796-ff28-482e-99d3-100e7bd85e6c.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3f0c1796-ff28-482e-99d3-100e7bd85e6c.bam
+      size: 0
+    d2f86bcd-a640-46ae-bad3-eccac48e412f.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d2f86bcd-a640-46ae-bad3-eccac48e412f.bai
+      size: 0
+    1280a7bd-ab36-4524-9c00-46091f8b2edb.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1280a7bd-ab36-4524-9c00-46091f8b2edb.bam
+      size: 0
+    14175d0d-a1b7-4038-9b42-8e8c706bb057.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 14175d0d-a1b7-4038-9b42-8e8c706bb057.bai
+      size: 0
+    da33e9cc-3676-4249-a596-ebb0b00a8466.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: da33e9cc-3676-4249-a596-ebb0b00a8466.bam
+      size: 0
+    405d1bde-3df0-4b23-9416-66ef48db1184.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 405d1bde-3df0-4b23-9416-66ef48db1184.bai
+      size: 0
+    6a885ce8-ffc4-4b0a-a85c-d77fb08fae5e.bam:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 6a885ce8-ffc4-4b0a-a85c-d77fb08fae5e.bam
+      size: 0
+    37dc755c-68da-4b56-b313-f2248cd1d52f.bai:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 37dc755c-68da-4b56-b313-f2248cd1d52f.bai
+      size: 0
+    3a5d1791-8ac2-466e-8355-b8a68f9c3348.gz: *id002
+  output:
+    fad40ca1-21a2-4f96-8759-f3e0f21a1ab9.gz:
+      type: normal
+      size: 2
+  next:
+    type: pass
+    nodes: []

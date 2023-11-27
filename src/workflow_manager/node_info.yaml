@@ -1,0 +1,19 @@
+nodes:
+- worker_address: 192.168.3.101:8000
+  scale_limit: 120
+- worker_address: 192.168.3.102:8000
+  scale_limit: 120
+- worker_address: 192.168.3.103:8000
+  scale_limit: 120
+- worker_address: 192.168.3.104:8000
+  scale_limit: 120
+# - worker_address: 172.20.185.153:8000
+#   scale_limit: 120
+# - worker_address: 172.20.185.154:8000
+#   scale_limit: 120
+# - worker_address: 172.20.185.155:8000
+#   scale_limit: 120
+# - worker_address: 172.20.185.156:8000
+#   scale_limit: 120
+# - worker_address: 172.20.185.157:8000
+#   scale_limit: 120

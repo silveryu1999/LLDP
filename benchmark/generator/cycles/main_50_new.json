@@ -1,0 +1,2754 @@
+{
+    "name": "Cycles-synthetic-trace",
+    "description": "Trace generated with WorkflowHub - https://workflowhub.org",
+    "createdAt": "2023-11-08T02:53:11.150091",
+    "schemaVersion": "1.0",
+    "author": {
+        "name": "yujiazhao",
+        "email": "support@workflowhub.org"
+    },
+    "wms": {
+        "name": "WorkflowHub",
+        "version": "0.4",
+        "url": "https://workflowhub.readthedocs.io/en/v0.4/"
+    },
+    "workflow": {
+        "executedAt": "20231108T105311+0800",
+        "makespan": null,
+        "jobs": [
+            {
+                "name": "baseline_cycles_00000001",
+                "type": "compute",
+                "runtime": 0.372,
+                "parents": [],
+                "children": [
+                    "cycles_00000002",
+                    "fertilizer_increase_cycles_00000003"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "9c9c7aa0-dbc6-4c14-92cd-4e9bba3d47df.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "28e1251c-0d07-45c6-b8fe-72b6dec30403.weather",
+                        "size": 30621
+                    },
+                    {
+                        "link": "input",
+                        "name": "838b3771-af78-40b5-bfd8-fa89d26e0ab4.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "04ccc85f-113e-47b9-9d71-c94b5dd551d7.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "45887449-6125-42f8-af77-20c64a964784cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "21574486-7be6-45a0-905e-00a7b717e2bf.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "d4aa8ef4-35f0-4f85-bd4c-81f6467acfe6.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "output",
+                        "name": "de8ac667-9de3-4643-bf93-cbc2c6e556cf.csv",
+                        "size": 377
+                    },
+                    {
+                        "link": "output",
+                        "name": "d71f3f49-6858-4a90-8525-e8ac76da50e8.zip",
+                        "size": 891683
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000002",
+                "type": "compute",
+                "runtime": 0.801,
+                "parents": [
+                    "baseline_cycles_00000001"
+                ],
+                "children": [
+                    "cycles_output_summary_00000021"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "d4aa8ef4-35f0-4f85-bd4c-81f6467acfe6.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "de8ac667-9de3-4643-bf93-cbc2c6e556cf.csv",
+                        "size": 377
+                    },
+                    {
+                        "link": "input",
+                        "name": "d71f3f49-6858-4a90-8525-e8ac76da50e8.zip",
+                        "size": 891683
+                    },
+                    {
+                        "link": "input",
+                        "name": "4d5bcdd4-a9ab-471e-9600-a253a6f17c08.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "32a7f4ba-db27-448c-919d-f6b714c17489.weather",
+                        "size": 102765
+                    },
+                    {
+                        "link": "input",
+                        "name": "f45ede56-4276-4a45-86e7-b78a4b9abb36.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "896eac88-4c2a-4ff0-8bd6-3f9c87ac3547.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "40ad6528-21e1-4d65-99b1-8a710a1c7c79cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "7fcdc76f-1d79-4c7a-851c-1d9bda3e1ebb.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "41bedc6c-dfc5-45a1-aa4c-64b05b1e83ac.zip",
+                        "size": 1762297
+                    },
+                    {
+                        "link": "output",
+                        "name": "925730f0-3f20-40e0-b080-0a55a42fa1f6.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "bfe926b3-53ab-4018-ae06-5ebb13816cd4.csv",
+                        "size": 136
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000003",
+                "type": "compute",
+                "runtime": 0.202,
+                "parents": [
+                    "baseline_cycles_00000001"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000004"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "d4aa8ef4-35f0-4f85-bd4c-81f6467acfe6.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "de8ac667-9de3-4643-bf93-cbc2c6e556cf.csv",
+                        "size": 377
+                    },
+                    {
+                        "link": "input",
+                        "name": "d71f3f49-6858-4a90-8525-e8ac76da50e8.zip",
+                        "size": 891683
+                    },
+                    {
+                        "link": "input",
+                        "name": "eb8542b8-5d2c-44a8-a182-f36def5d3379.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "76c1c9ea-6502-4076-b676-5de03fbe35dd.weather",
+                        "size": 45004
+                    },
+                    {
+                        "link": "input",
+                        "name": "71358552-5eaa-41ee-bd70-65b73cb4decd.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "8337698c-d495-4686-a3d8-e77e61c35568.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "d743f590-e8d7-433a-8164-8abbcc1dba3ecycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "cb8a75f0-a253-4e8a-8a83-26ebe4984caa.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "2b14ae41-7a14-4bab-b489-e4183001479c.csv",
+                        "size": 316
+                    },
+                    {
+                        "link": "output",
+                        "name": "27e3b585-e9ca-42c8-978c-9b55820653c3.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "97907803-f10d-46d1-a619-6affc95b2b4e.zip",
+                        "size": 6527848
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000004",
+                "type": "compute",
+                "runtime": 0.025,
+                "parents": [
+                    "fertilizer_increase_cycles_00000003"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000022"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "2b14ae41-7a14-4bab-b489-e4183001479c.csv",
+                        "size": 316
+                    },
+                    {
+                        "link": "input",
+                        "name": "27e3b585-e9ca-42c8-978c-9b55820653c3.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "97907803-f10d-46d1-a619-6affc95b2b4e.zip",
+                        "size": 6527848
+                    },
+                    {
+                        "link": "output",
+                        "name": "8501ce99-71b5-42a2-8a1c-c21b62ed7c9a.csv",
+                        "size": 1720
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000005",
+                "type": "compute",
+                "runtime": 0.76,
+                "parents": [],
+                "children": [
+                    "cycles_00000006",
+                    "fertilizer_increase_cycles_00000007"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5c9a6a81-7856-46fc-b1b0-850d0f549ec7.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "2db9dafc-c75b-48f0-9f3a-87ef60f240ea.weather",
+                        "size": 94509
+                    },
+                    {
+                        "link": "input",
+                        "name": "9b197ef9-ce30-4dd1-9292-3ee7a8e3479b.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "740b93f0-8f5e-4084-8ae8-99f4f444bede.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "030f5e05-7cb1-4af2-b35a-ed515533e3b6cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "09fa431f-7a5e-4e8c-91ff-f9e4c5c8c3a5.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "76f3ca64-9b3a-4309-9765-7c2f0d2715fa.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "eef345a3-1b8a-4628-b132-36868d1e56e6.csv",
+                        "size": 498
+                    },
+                    {
+                        "link": "output",
+                        "name": "33f42153-986a-4797-81ae-2b3afa48791f.zip",
+                        "size": 8818928
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000006",
+                "type": "compute",
+                "runtime": 0.203,
+                "parents": [
+                    "baseline_cycles_00000005"
+                ],
+                "children": [
+                    "cycles_output_summary_00000021"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "76f3ca64-9b3a-4309-9765-7c2f0d2715fa.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "eef345a3-1b8a-4628-b132-36868d1e56e6.csv",
+                        "size": 498
+                    },
+                    {
+                        "link": "input",
+                        "name": "33f42153-986a-4797-81ae-2b3afa48791f.zip",
+                        "size": 8818928
+                    },
+                    {
+                        "link": "input",
+                        "name": "cab2abc2-717f-4229-87ed-4bfa9b0ffc55.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "771334e7-5707-4f86-aa39-09c4cf323fa0.weather",
+                        "size": 62905
+                    },
+                    {
+                        "link": "input",
+                        "name": "d6fcdf4d-ed39-44a2-a156-70b006e48c00.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "d8e40348-9c4b-4279-8028-7eaa1e002b45.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "65fc5d51-c9dc-4e88-89a6-5ba3dd614e4bcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "8b167800-94c2-4c66-9f37-91a332192cbd.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "05226a20-1984-49e4-9bda-701ae239362b.zip",
+                        "size": 5911968
+                    },
+                    {
+                        "link": "output",
+                        "name": "8aa12923-810a-4b79-ac68-f063dce6b701.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "61e33993-d468-40d1-b60d-38b07d56f4d0.csv",
+                        "size": 543
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000007",
+                "type": "compute",
+                "runtime": 1.904,
+                "parents": [
+                    "baseline_cycles_00000005"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000008"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "76f3ca64-9b3a-4309-9765-7c2f0d2715fa.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "eef345a3-1b8a-4628-b132-36868d1e56e6.csv",
+                        "size": 498
+                    },
+                    {
+                        "link": "input",
+                        "name": "33f42153-986a-4797-81ae-2b3afa48791f.zip",
+                        "size": 8818928
+                    },
+                    {
+                        "link": "input",
+                        "name": "06143dcf-6194-4ee0-9ec3-5dca3f11b409.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "5c0c0104-1cff-4ed8-b1af-845f4c22a7bb.weather",
+                        "size": 86504
+                    },
+                    {
+                        "link": "input",
+                        "name": "4f64fc88-b701-4b14-bcb5-63b6f409c5a0.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "c26c759d-5152-47b7-a0e4-d4a9b01c7acd.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "c87453d6-cc44-40d6-83fe-2cca4134b85bcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "0cdeb4ef-207b-48d7-baeb-30fe3eccb271.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "46bae4cb-9498-401a-bfa3-7d84ac50275e.csv",
+                        "size": 328
+                    },
+                    {
+                        "link": "output",
+                        "name": "76e83a52-2efa-44d3-bfd9-2572749ea6cc.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "eb878ceb-7905-45f1-98fd-222aa30efee9.zip",
+                        "size": 3987952
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000008",
+                "type": "compute",
+                "runtime": 0.017,
+                "parents": [
+                    "fertilizer_increase_cycles_00000007"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000022"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "46bae4cb-9498-401a-bfa3-7d84ac50275e.csv",
+                        "size": 328
+                    },
+                    {
+                        "link": "input",
+                        "name": "76e83a52-2efa-44d3-bfd9-2572749ea6cc.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "eb878ceb-7905-45f1-98fd-222aa30efee9.zip",
+                        "size": 3987952
+                    },
+                    {
+                        "link": "output",
+                        "name": "2d1a1662-7c80-4045-86fb-fa4d4cf2253f.csv",
+                        "size": 13649
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000009",
+                "type": "compute",
+                "runtime": 0.816,
+                "parents": [],
+                "children": [
+                    "cycles_00000010",
+                    "fertilizer_increase_cycles_00000011"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "1c5b7b7e-e645-443a-950b-563d7d93b049.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "fcd98803-40ae-40a5-9d68-dc19d9f2aa80.weather",
+                        "size": 42220
+                    },
+                    {
+                        "link": "input",
+                        "name": "5e9d3c09-fb01-4c2d-8f39-9a22bc7cf6e1.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "215829b5-9e56-4057-a9b2-94b99ba5caf6.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "cf829bf3-682c-4d54-ad82-2b021beac691cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "defe5891-9b37-424a-be55-c30096dee45b.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "cb96d99a-076f-43ed-9407-813b527068ad.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "2cea02d1-39db-4052-b466-25be0f11994f.csv",
+                        "size": 538
+                    },
+                    {
+                        "link": "output",
+                        "name": "94b936fa-3a24-48e0-ab45-331edf58bcb8.zip",
+                        "size": 8617898
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000010",
+                "type": "compute",
+                "runtime": 1.801,
+                "parents": [
+                    "baseline_cycles_00000009"
+                ],
+                "children": [
+                    "cycles_output_summary_00000021"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "cb96d99a-076f-43ed-9407-813b527068ad.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "2cea02d1-39db-4052-b466-25be0f11994f.csv",
+                        "size": 538
+                    },
+                    {
+                        "link": "input",
+                        "name": "94b936fa-3a24-48e0-ab45-331edf58bcb8.zip",
+                        "size": 8617898
+                    },
+                    {
+                        "link": "input",
+                        "name": "438203be-60fa-4157-801d-a4939398cfed.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "c0338a48-f451-4ad4-859b-4668e0d42a74.weather",
+                        "size": 93184
+                    },
+                    {
+                        "link": "input",
+                        "name": "ccd7da27-6633-4b89-b18c-16a9b3863139.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "c57d4a9a-546e-4ae3-a449-55d828b3b1ed.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "a7e0d04b-e4a5-4d0c-b518-430b66f43912cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "ac8519d7-8f28-4e4b-b35f-452030731585.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "76979259-c432-4442-b3f6-b84f0e3ff27b.zip",
+                        "size": 8206952
+                    },
+                    {
+                        "link": "output",
+                        "name": "1b6caf9a-5cd4-4217-825d-18099e9e5366.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "8fd22c36-28da-4ed5-ae5b-ada31be7300b.csv",
+                        "size": 567
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000011",
+                "type": "compute",
+                "runtime": 0.202,
+                "parents": [
+                    "baseline_cycles_00000009"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000012"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "cb96d99a-076f-43ed-9407-813b527068ad.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "2cea02d1-39db-4052-b466-25be0f11994f.csv",
+                        "size": 538
+                    },
+                    {
+                        "link": "input",
+                        "name": "94b936fa-3a24-48e0-ab45-331edf58bcb8.zip",
+                        "size": 8617898
+                    },
+                    {
+                        "link": "input",
+                        "name": "ecf160d3-76cd-4d20-9c71-9fd196c45ea6.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "4cc6d426-25e7-40b7-a4df-4c0190a2596c.weather",
+                        "size": 54023
+                    },
+                    {
+                        "link": "input",
+                        "name": "1d4a32db-e04d-42c6-986d-2de1996dd3ec.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "20c2b80a-b604-4e86-923b-8400da20d596.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "42b60cd7-f0e1-4d40-aa8c-36c7dc0a355bcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "977c8dd5-254c-453b-ac9a-ae193478fabf.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "79753ced-d58f-4c82-9490-3cfe8cab0d1c.csv",
+                        "size": 603
+                    },
+                    {
+                        "link": "output",
+                        "name": "e90354d2-246a-4e52-b4e1-587a4873407a.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "bcd8ae89-37e5-4895-b13e-e52b23be96c6.zip",
+                        "size": 3522499
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000012",
+                "type": "compute",
+                "runtime": 0.009,
+                "parents": [
+                    "fertilizer_increase_cycles_00000011"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000022"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "79753ced-d58f-4c82-9490-3cfe8cab0d1c.csv",
+                        "size": 603
+                    },
+                    {
+                        "link": "input",
+                        "name": "e90354d2-246a-4e52-b4e1-587a4873407a.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "bcd8ae89-37e5-4895-b13e-e52b23be96c6.zip",
+                        "size": 3522499
+                    },
+                    {
+                        "link": "output",
+                        "name": "70bf1af9-0f88-4c29-8f7a-2c1dd29c22fc.csv",
+                        "size": 1720
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000013",
+                "type": "compute",
+                "runtime": 0.221,
+                "parents": [],
+                "children": [
+                    "cycles_00000014",
+                    "fertilizer_increase_cycles_00000015"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c944d604-bd2e-42ea-a4fe-84b9dd3f4076.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "51a15874-5add-48c7-bb7c-7a3cd1837a1d.weather",
+                        "size": 56374
+                    },
+                    {
+                        "link": "input",
+                        "name": "35b49c10-9d26-46da-8c60-0df35ba2ece2.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "0ce2c216-3ebc-4a9b-aa88-e4283a991c14.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "031072b9-202e-4a74-a494-54feeda3a8c0cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "5e7afec7-c812-4b75-bf30-60a171a326c8.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "720d12e1-b639-4a89-9240-57bfb9654234.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "output",
+                        "name": "115d9c2f-f92b-41e1-bc99-4257e21da769.csv",
+                        "size": 604
+                    },
+                    {
+                        "link": "output",
+                        "name": "2999c8b2-86fd-4e27-8e0c-326c84738320.zip",
+                        "size": 8791575
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000014",
+                "type": "compute",
+                "runtime": 1.262,
+                "parents": [
+                    "baseline_cycles_00000013"
+                ],
+                "children": [
+                    "cycles_output_summary_00000021"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "720d12e1-b639-4a89-9240-57bfb9654234.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "115d9c2f-f92b-41e1-bc99-4257e21da769.csv",
+                        "size": 604
+                    },
+                    {
+                        "link": "input",
+                        "name": "2999c8b2-86fd-4e27-8e0c-326c84738320.zip",
+                        "size": 8791575
+                    },
+                    {
+                        "link": "input",
+                        "name": "b1cbe0f4-38bc-402d-b6df-bb1f52767922.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "d829dcd1-e3e9-43b6-9df0-5a024a659d87.weather",
+                        "size": 99346
+                    },
+                    {
+                        "link": "input",
+                        "name": "1b05f7e3-2776-4409-8f37-ec0e1cef8449.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "24314b15-2265-46a5-a2b7-b8360c86cd9c.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "ae201779-a74e-473b-b056-5e6dbf2978a6cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "5badb350-ebb0-48a2-a34b-22a0561f5ccf.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "8adf1bdf-7003-4826-b648-4d16759d841f.zip",
+                        "size": 895253
+                    },
+                    {
+                        "link": "output",
+                        "name": "bc4dcfcb-1ec6-4c58-9d89-af5d907b349f.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "output",
+                        "name": "2c33e642-92d2-40bf-89ae-95e18390533b.csv",
+                        "size": 441
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000015",
+                "type": "compute",
+                "runtime": 0.785,
+                "parents": [
+                    "baseline_cycles_00000013"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000016"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "720d12e1-b639-4a89-9240-57bfb9654234.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "115d9c2f-f92b-41e1-bc99-4257e21da769.csv",
+                        "size": 604
+                    },
+                    {
+                        "link": "input",
+                        "name": "2999c8b2-86fd-4e27-8e0c-326c84738320.zip",
+                        "size": 8791575
+                    },
+                    {
+                        "link": "input",
+                        "name": "a48252a8-76f4-4c26-938f-a1a96194372c.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "a4c87b31-11f7-42b1-816a-e47d87038ecd.weather",
+                        "size": 62589
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc74aa11-6d94-4d71-9522-e4e24b0b79bb.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "7881f8c5-0451-4c5d-a2e3-a22d74e7c206.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "e2d95b44-3dbf-4d58-9264-54d08b9592cdcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "4b7be694-0a78-4181-ba52-f2543becb3bf.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "6daa63e7-77ba-4f17-aa84-dc6f678114e8.csv",
+                        "size": 500
+                    },
+                    {
+                        "link": "output",
+                        "name": "93185d4e-3263-423e-bebb-e3dd1abf81f1.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "3e6ba41c-82b2-4a8c-b51a-135c3109310b.zip",
+                        "size": 6316625
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000016",
+                "type": "compute",
+                "runtime": 0.005,
+                "parents": [
+                    "fertilizer_increase_cycles_00000015"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000022"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6daa63e7-77ba-4f17-aa84-dc6f678114e8.csv",
+                        "size": 500
+                    },
+                    {
+                        "link": "input",
+                        "name": "93185d4e-3263-423e-bebb-e3dd1abf81f1.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "3e6ba41c-82b2-4a8c-b51a-135c3109310b.zip",
+                        "size": 6316625
+                    },
+                    {
+                        "link": "output",
+                        "name": "773f1bd4-77e6-4d66-88f2-e19235ba1af0.csv",
+                        "size": 4009
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000017",
+                "type": "compute",
+                "runtime": 0.509,
+                "parents": [],
+                "children": [
+                    "cycles_00000018",
+                    "fertilizer_increase_cycles_00000019"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "64942a87-1a29-40ea-8a0c-ad99540f4f76.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "860a99f7-a23c-4963-869c-7cff0f7ee6b6.weather",
+                        "size": 64003
+                    },
+                    {
+                        "link": "input",
+                        "name": "0ecc5108-d364-4c82-aa84-ba2b9c10a887.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "af46a988-354e-493c-979a-56b5987dd23c.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "239e8b7b-66db-48a8-8853-52bb4fefdf0dcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "5251be41-227f-4a8a-9ac0-31ecf40a2486.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "2885b16d-de7e-449f-9b9e-f9ae7507ca24.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "output",
+                        "name": "02bdbf6b-c8dc-42f4-8df4-71651fa32f5f.csv",
+                        "size": 58
+                    },
+                    {
+                        "link": "output",
+                        "name": "4345b9e0-b320-488c-b98c-aa5041924e61.zip",
+                        "size": 7190772
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000018",
+                "type": "compute",
+                "runtime": 1.011,
+                "parents": [
+                    "baseline_cycles_00000017"
+                ],
+                "children": [
+                    "cycles_output_summary_00000021"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "2885b16d-de7e-449f-9b9e-f9ae7507ca24.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "02bdbf6b-c8dc-42f4-8df4-71651fa32f5f.csv",
+                        "size": 58
+                    },
+                    {
+                        "link": "input",
+                        "name": "4345b9e0-b320-488c-b98c-aa5041924e61.zip",
+                        "size": 7190772
+                    },
+                    {
+                        "link": "input",
+                        "name": "16c2c4a0-9096-43a5-8564-e61d69afaa8b.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "aa1cdada-b900-4435-b62a-cdfdbbaf3f31.weather",
+                        "size": 100118
+                    },
+                    {
+                        "link": "input",
+                        "name": "6b027f1a-66ed-4e10-ab4f-ab8ad41b3e2f.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "7a53090b-3781-4134-9e08-be836f76e131.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "aba8cd62-c950-418c-a60d-eda459454b54cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "f46f53b4-1072-4b6d-98ca-d29d30e73311.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "c46d5192-8df8-41dc-b1e7-9982905e6d9a.zip",
+                        "size": 4634184
+                    },
+                    {
+                        "link": "output",
+                        "name": "1d1a0fd9-2be0-4f03-b520-e32940f51a1d.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "2cde7a40-7a92-4f18-9a56-3515722ad1a3.csv",
+                        "size": 561
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000019",
+                "type": "compute",
+                "runtime": 1.408,
+                "parents": [
+                    "baseline_cycles_00000017"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000020"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "2885b16d-de7e-449f-9b9e-f9ae7507ca24.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "02bdbf6b-c8dc-42f4-8df4-71651fa32f5f.csv",
+                        "size": 58
+                    },
+                    {
+                        "link": "input",
+                        "name": "4345b9e0-b320-488c-b98c-aa5041924e61.zip",
+                        "size": 7190772
+                    },
+                    {
+                        "link": "input",
+                        "name": "9f691aba-3afa-4963-b94e-976c566415a4.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "20d0c63a-e0b1-400b-b221-3cea22eea5ee.weather",
+                        "size": 30590
+                    },
+                    {
+                        "link": "input",
+                        "name": "c312f5a8-d93f-441c-9f2a-79350a8a2fef.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "81ab3035-5937-4dc2-b31f-c7dab2fc975d.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "1e866406-7d35-4be7-96f3-1b3e400c905ecycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "8df37d83-5e73-432c-98d6-34b5f4b32da7.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "c69009e4-10e3-4a56-bb73-2a55cfc32ccc.csv",
+                        "size": 491
+                    },
+                    {
+                        "link": "output",
+                        "name": "d3e1df13-5cfd-43ef-a8c0-8ef609aa998d.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "output",
+                        "name": "b1e66ebc-58a4-4d18-b2c4-39050f6f2457.zip",
+                        "size": 8312333
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000020",
+                "type": "compute",
+                "runtime": 0.018,
+                "parents": [
+                    "fertilizer_increase_cycles_00000019"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000022"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c69009e4-10e3-4a56-bb73-2a55cfc32ccc.csv",
+                        "size": 491
+                    },
+                    {
+                        "link": "input",
+                        "name": "d3e1df13-5cfd-43ef-a8c0-8ef609aa998d.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "b1e66ebc-58a4-4d18-b2c4-39050f6f2457.zip",
+                        "size": 8312333
+                    },
+                    {
+                        "link": "output",
+                        "name": "345b3e2a-864c-46ed-95bc-5ea1477d34b2.csv",
+                        "size": 6810
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_output_summary_00000021",
+                "type": "compute",
+                "runtime": 0.002,
+                "parents": [
+                    "cycles_00000002",
+                    "cycles_00000006",
+                    "cycles_00000010",
+                    "cycles_00000014",
+                    "cycles_00000018"
+                ],
+                "children": [
+                    "cycles_plots_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "41bedc6c-dfc5-45a1-aa4c-64b05b1e83ac.zip",
+                        "size": 1762297
+                    },
+                    {
+                        "link": "input",
+                        "name": "925730f0-3f20-40e0-b080-0a55a42fa1f6.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "bfe926b3-53ab-4018-ae06-5ebb13816cd4.csv",
+                        "size": 136
+                    },
+                    {
+                        "link": "input",
+                        "name": "05226a20-1984-49e4-9bda-701ae239362b.zip",
+                        "size": 5911968
+                    },
+                    {
+                        "link": "input",
+                        "name": "8aa12923-810a-4b79-ac68-f063dce6b701.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "61e33993-d468-40d1-b60d-38b07d56f4d0.csv",
+                        "size": 543
+                    },
+                    {
+                        "link": "input",
+                        "name": "76979259-c432-4442-b3f6-b84f0e3ff27b.zip",
+                        "size": 8206952
+                    },
+                    {
+                        "link": "input",
+                        "name": "1b6caf9a-5cd4-4217-825d-18099e9e5366.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "8fd22c36-28da-4ed5-ae5b-ada31be7300b.csv",
+                        "size": 567
+                    },
+                    {
+                        "link": "input",
+                        "name": "8adf1bdf-7003-4826-b648-4d16759d841f.zip",
+                        "size": 895253
+                    },
+                    {
+                        "link": "input",
+                        "name": "bc4dcfcb-1ec6-4c58-9d89-af5d907b349f.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "2c33e642-92d2-40bf-89ae-95e18390533b.csv",
+                        "size": 441
+                    },
+                    {
+                        "link": "input",
+                        "name": "c46d5192-8df8-41dc-b1e7-9982905e6d9a.zip",
+                        "size": 4634184
+                    },
+                    {
+                        "link": "input",
+                        "name": "1d1a0fd9-2be0-4f03-b520-e32940f51a1d.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "2cde7a40-7a92-4f18-9a56-3515722ad1a3.csv",
+                        "size": 561
+                    },
+                    {
+                        "link": "output",
+                        "name": "80258fab-a2dc-4587-a020-5bb54cf28c8f.csv",
+                        "size": 514732
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_summary_00000022",
+                "type": "compute",
+                "runtime": 0.003,
+                "parents": [
+                    "cycles_fertilizer_increase_output_parser_00000004",
+                    "cycles_fertilizer_increase_output_parser_00000008",
+                    "cycles_fertilizer_increase_output_parser_00000012",
+                    "cycles_fertilizer_increase_output_parser_00000016",
+                    "cycles_fertilizer_increase_output_parser_00000020"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8501ce99-71b5-42a2-8a1c-c21b62ed7c9a.csv",
+                        "size": 1720
+                    },
+                    {
+                        "link": "input",
+                        "name": "2d1a1662-7c80-4045-86fb-fa4d4cf2253f.csv",
+                        "size": 13649
+                    },
+                    {
+                        "link": "input",
+                        "name": "70bf1af9-0f88-4c29-8f7a-2c1dd29c22fc.csv",
+                        "size": 1720
+                    },
+                    {
+                        "link": "input",
+                        "name": "773f1bd4-77e6-4d66-88f2-e19235ba1af0.csv",
+                        "size": 4009
+                    },
+                    {
+                        "link": "input",
+                        "name": "345b3e2a-864c-46ed-95bc-5ea1477d34b2.csv",
+                        "size": 6810
+                    },
+                    {
+                        "link": "output",
+                        "name": "32bc68e9-7e76-42b8-9940-8ebedadfe484.csv",
+                        "size": 845908
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000023",
+                "type": "compute",
+                "runtime": 0.221,
+                "parents": [],
+                "children": [
+                    "cycles_00000024",
+                    "fertilizer_increase_cycles_00000025"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f3e2654e-7ad7-4324-a73a-efe8f4540cf7.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "f0758c2f-c887-4b95-95e5-fe524df528c2.weather",
+                        "size": 60317
+                    },
+                    {
+                        "link": "input",
+                        "name": "45cb24f9-e86e-4820-92f1-6ccdf9490a02.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "a6cf2644-375c-40fc-bb1a-c9cadb63faa6.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "66650780-2a09-40ce-a19c-c1a211dd20edcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "06cf4ae5-1fd6-469a-b09a-79d84facfc0b.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "bbd07529-6e7a-4deb-b954-6e4e25ba7674.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "b6457a4d-4b28-4c92-88fe-01b7c37612c4.csv",
+                        "size": 56
+                    },
+                    {
+                        "link": "output",
+                        "name": "18cf8572-f5f4-4f05-a9e3-d6aeb20c0ffc.zip",
+                        "size": 891683
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000024",
+                "type": "compute",
+                "runtime": 0.835,
+                "parents": [
+                    "baseline_cycles_00000023"
+                ],
+                "children": [
+                    "cycles_output_summary_00000043"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bbd07529-6e7a-4deb-b954-6e4e25ba7674.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "b6457a4d-4b28-4c92-88fe-01b7c37612c4.csv",
+                        "size": 56
+                    },
+                    {
+                        "link": "input",
+                        "name": "18cf8572-f5f4-4f05-a9e3-d6aeb20c0ffc.zip",
+                        "size": 891683
+                    },
+                    {
+                        "link": "input",
+                        "name": "e5b91f3c-6f35-4caf-b0ab-d2687390326b.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "700c9cd6-d4be-4c89-887a-e4228552cc20.weather",
+                        "size": 74412
+                    },
+                    {
+                        "link": "input",
+                        "name": "c73b4fd2-9fae-41d3-a5aa-79964463733d.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "e833dacb-707b-46c9-929d-b5ae1ad169af.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "f7434539-aaba-4fe5-aa45-df5702a9231ccycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "ee00700f-f295-468d-be41-67e165135686.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "48520b1c-d76f-447b-a161-841753f41443.zip",
+                        "size": 6753860
+                    },
+                    {
+                        "link": "output",
+                        "name": "30cf6d31-db3e-487e-9b70-b0bbc5d3c0a2.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "344298c1-3c8d-4ce3-b697-5b3bb4308189.csv",
+                        "size": 371
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000025",
+                "type": "compute",
+                "runtime": 1.308,
+                "parents": [
+                    "baseline_cycles_00000023"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000026"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bbd07529-6e7a-4deb-b954-6e4e25ba7674.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "b6457a4d-4b28-4c92-88fe-01b7c37612c4.csv",
+                        "size": 56
+                    },
+                    {
+                        "link": "input",
+                        "name": "18cf8572-f5f4-4f05-a9e3-d6aeb20c0ffc.zip",
+                        "size": 891683
+                    },
+                    {
+                        "link": "input",
+                        "name": "ee408e78-6064-4bd0-8552-cc6caa1cf224.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "595db0fc-8cc0-487b-87ff-1b83f578dd89.weather",
+                        "size": 105001
+                    },
+                    {
+                        "link": "input",
+                        "name": "29d16f31-a25b-4c8d-ae97-b655a63502d1.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "f33a797a-be0b-4757-ad6e-2726a21203f1.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "27ecaef2-b078-412d-afa9-f713e5f5e0ddcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "fe0da02e-d011-488a-a761-cb8278a2bdb7.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "c0a39e2c-c885-4650-88c1-151e8d942cec.csv",
+                        "size": 436
+                    },
+                    {
+                        "link": "output",
+                        "name": "12a1da8c-c3c5-43ff-8bc8-53e5ab01b618.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "3fd48bc1-66e8-4432-8e74-f92a4a6c1960.zip",
+                        "size": 897350
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000026",
+                "type": "compute",
+                "runtime": 0.026,
+                "parents": [
+                    "fertilizer_increase_cycles_00000025"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000044"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c0a39e2c-c885-4650-88c1-151e8d942cec.csv",
+                        "size": 436
+                    },
+                    {
+                        "link": "input",
+                        "name": "12a1da8c-c3c5-43ff-8bc8-53e5ab01b618.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "3fd48bc1-66e8-4432-8e74-f92a4a6c1960.zip",
+                        "size": 897350
+                    },
+                    {
+                        "link": "output",
+                        "name": "dcce5fc3-f40d-48a7-95a2-082bcbbaf831.csv",
+                        "size": 15431
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000027",
+                "type": "compute",
+                "runtime": 0.982,
+                "parents": [],
+                "children": [
+                    "cycles_00000028",
+                    "fertilizer_increase_cycles_00000029"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "2e70a3f3-c6b6-465f-bd73-34f507cf296a.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "336cf29e-2609-43d4-84f5-e13c078a68d5.weather",
+                        "size": 103146
+                    },
+                    {
+                        "link": "input",
+                        "name": "4fc5bc8b-9821-41bc-abc6-30916618faf0.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "243f651e-34f2-4fd7-90b4-7fb3c449ed70.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "33d1294e-5d6c-485e-8ab5-136957d9463dcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "b47c3da8-a813-46c5-8dc7-4f762d6fa703.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "4d35b8a4-21a6-49e8-a9e4-da25e61df8c7.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "output",
+                        "name": "c20eed52-29ec-4c3a-94f2-87ba28c4fb7a.csv",
+                        "size": 135
+                    },
+                    {
+                        "link": "output",
+                        "name": "bdd6207b-00fd-411c-a4a0-da3ae6cd28f2.zip",
+                        "size": 3666687
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000028",
+                "type": "compute",
+                "runtime": 1.615,
+                "parents": [
+                    "baseline_cycles_00000027"
+                ],
+                "children": [
+                    "cycles_output_summary_00000043"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "4d35b8a4-21a6-49e8-a9e4-da25e61df8c7.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "c20eed52-29ec-4c3a-94f2-87ba28c4fb7a.csv",
+                        "size": 135
+                    },
+                    {
+                        "link": "input",
+                        "name": "bdd6207b-00fd-411c-a4a0-da3ae6cd28f2.zip",
+                        "size": 3666687
+                    },
+                    {
+                        "link": "input",
+                        "name": "e7302a37-e56a-4522-b3cd-1dbe1568f5db.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "b3fa8deb-90a5-4142-aa82-e037490e07a1.weather",
+                        "size": 81678
+                    },
+                    {
+                        "link": "input",
+                        "name": "e3f4fdd1-148c-41e6-9ad5-36ab108377f6.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "aba3edd6-e24a-459e-b0a1-0b78523dc1a1.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "ec02a4a1-a002-4a02-9786-73618b294cc8cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "02b25e54-429d-4d34-bd21-2583b50ddfe8.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "72697af9-d936-496e-b6d9-5bc215000492.zip",
+                        "size": 4574752
+                    },
+                    {
+                        "link": "output",
+                        "name": "4dd7f64e-0da5-4234-aa72-e53cbd93c31f.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "bc6e43a7-8c17-48df-8a54-fc16113ec0ba.csv",
+                        "size": 195
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000029",
+                "type": "compute",
+                "runtime": 0.862,
+                "parents": [
+                    "baseline_cycles_00000027"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000030"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "4d35b8a4-21a6-49e8-a9e4-da25e61df8c7.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "c20eed52-29ec-4c3a-94f2-87ba28c4fb7a.csv",
+                        "size": 135
+                    },
+                    {
+                        "link": "input",
+                        "name": "bdd6207b-00fd-411c-a4a0-da3ae6cd28f2.zip",
+                        "size": 3666687
+                    },
+                    {
+                        "link": "input",
+                        "name": "5b02bb61-e57f-4113-8442-6a140185f784.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "dca5bff7-9948-40f7-8ac6-0e2069473d31.weather",
+                        "size": 70748
+                    },
+                    {
+                        "link": "input",
+                        "name": "1bb3531c-763b-41b3-b076-736ed04740f0.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "fc5deca4-89e6-4626-9758-5daa03c75262.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "f1894c5e-055f-4548-b847-d46a1055396dcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "df9d6495-eeeb-4d51-8beb-8590246537a6.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "9f6c31be-0857-44ee-bce2-69bcc9c79855.csv",
+                        "size": 195
+                    },
+                    {
+                        "link": "output",
+                        "name": "5c4e87ae-42ee-4d6d-8825-59edfeafe9a5.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "0e7223e5-98bc-4280-a126-8133aebd8a74.zip",
+                        "size": 2507818
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000030",
+                "type": "compute",
+                "runtime": 0.023,
+                "parents": [
+                    "fertilizer_increase_cycles_00000029"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000044"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "9f6c31be-0857-44ee-bce2-69bcc9c79855.csv",
+                        "size": 195
+                    },
+                    {
+                        "link": "input",
+                        "name": "5c4e87ae-42ee-4d6d-8825-59edfeafe9a5.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "0e7223e5-98bc-4280-a126-8133aebd8a74.zip",
+                        "size": 2507818
+                    },
+                    {
+                        "link": "output",
+                        "name": "d0513768-9adc-41a6-9027-76829c35e0f4.csv",
+                        "size": 8091
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000031",
+                "type": "compute",
+                "runtime": 0.816,
+                "parents": [],
+                "children": [
+                    "cycles_00000032",
+                    "fertilizer_increase_cycles_00000033"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5eab293c-ee48-40de-8274-b4803bc16ce5.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "ed5f34d1-b11d-40cb-9811-9330dbac1f0d.weather",
+                        "size": 71803
+                    },
+                    {
+                        "link": "input",
+                        "name": "95ee9abf-9dae-429b-8987-dc5da3e07dd5.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "42221c7c-6d1e-43cb-8a3a-4137ea9ed325.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "a774d663-d778-48b5-8bc0-a49573695960cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "86e1bd52-a54b-463d-91f1-55a0ede5d16d.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "2cc2846a-3927-4594-bf76-cbf6170900ad.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "8e363348-75b4-40d7-97d9-f1bf4ad3d058.csv",
+                        "size": 93
+                    },
+                    {
+                        "link": "output",
+                        "name": "54312ee9-1f23-4b64-b006-7d27852d67bc.zip",
+                        "size": 891683
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000032",
+                "type": "compute",
+                "runtime": 0.203,
+                "parents": [
+                    "baseline_cycles_00000031"
+                ],
+                "children": [
+                    "cycles_output_summary_00000043"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "2cc2846a-3927-4594-bf76-cbf6170900ad.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "8e363348-75b4-40d7-97d9-f1bf4ad3d058.csv",
+                        "size": 93
+                    },
+                    {
+                        "link": "input",
+                        "name": "54312ee9-1f23-4b64-b006-7d27852d67bc.zip",
+                        "size": 891683
+                    },
+                    {
+                        "link": "input",
+                        "name": "c9a0128c-7f42-450e-9683-6d9408b33a16.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "369679be-ec1b-4967-8f14-797ee2de4c5e.weather",
+                        "size": 40695
+                    },
+                    {
+                        "link": "input",
+                        "name": "5c25cb91-39c8-46dd-b51b-9eaf3c88190a.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "a205e25e-3268-4a3d-ba67-0022d0933566.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "776e1408-a214-4eeb-a9e7-b0ae90b0d167cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "2b07cba3-6819-4653-85fa-ec342408f221.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "a1e9e699-dfe6-40ad-95af-ead096a94b20.zip",
+                        "size": 895253
+                    },
+                    {
+                        "link": "output",
+                        "name": "f8d90c5a-99d7-4af2-bee4-de40569c2901.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "7164f8b5-f0d2-4869-b45c-5512dbae6dc6.csv",
+                        "size": 532
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000033",
+                "type": "compute",
+                "runtime": 0.202,
+                "parents": [
+                    "baseline_cycles_00000031"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000034"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "2cc2846a-3927-4594-bf76-cbf6170900ad.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "8e363348-75b4-40d7-97d9-f1bf4ad3d058.csv",
+                        "size": 93
+                    },
+                    {
+                        "link": "input",
+                        "name": "54312ee9-1f23-4b64-b006-7d27852d67bc.zip",
+                        "size": 891683
+                    },
+                    {
+                        "link": "input",
+                        "name": "b0f0592a-b654-4487-b826-83ac735c61ba.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "6f9c585e-ded1-4096-9683-9256da7f45cc.weather",
+                        "size": 43304
+                    },
+                    {
+                        "link": "input",
+                        "name": "4c44ddc1-4a03-4366-9e67-8ab9d30029ec.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "4d79fb49-ade1-4f17-8d81-f21371c93ba6.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "8ee2e95c-c7ff-480d-a3e6-22f65ae20fddcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "9cd7bd45-e5e8-41e2-8d65-45b8fdb8e544.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "6c4133de-138c-4cbc-bd3a-f7d7ee54c7cc.csv",
+                        "size": 438
+                    },
+                    {
+                        "link": "output",
+                        "name": "18d0b43c-ba3e-4d23-95c1-3ae0cf2307f2.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "debee70b-a1a1-4618-966b-9ca0fc4951c0.zip",
+                        "size": 5800042
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000034",
+                "type": "compute",
+                "runtime": 0.016,
+                "parents": [
+                    "fertilizer_increase_cycles_00000033"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000044"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6c4133de-138c-4cbc-bd3a-f7d7ee54c7cc.csv",
+                        "size": 438
+                    },
+                    {
+                        "link": "input",
+                        "name": "18d0b43c-ba3e-4d23-95c1-3ae0cf2307f2.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "debee70b-a1a1-4618-966b-9ca0fc4951c0.zip",
+                        "size": 5800042
+                    },
+                    {
+                        "link": "output",
+                        "name": "623c614e-0d1e-42a9-96d6-0bcd09150d23.csv",
+                        "size": 6661
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000035",
+                "type": "compute",
+                "runtime": 0.221,
+                "parents": [],
+                "children": [
+                    "cycles_00000036",
+                    "fertilizer_increase_cycles_00000037"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bf26f2e3-326f-4123-bdd1-f3a513b9efd8.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "295440cf-b195-400d-aa87-865347565e1c.weather",
+                        "size": 87575
+                    },
+                    {
+                        "link": "input",
+                        "name": "95abd090-08fb-4cef-8ea7-7f13f79247c0.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "34fa6894-a7eb-4d9b-b8c8-8145c9e13ea2.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "92dfb00f-a5d6-4018-90fc-58579d374a4ecycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "2f2c8ddc-e4f5-4ba9-80a3-a2685f9163af.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "027a5fc9-e24b-4b0c-aeac-283e5e010937.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "40bb0b64-7979-4434-8299-453b3a34d128.csv",
+                        "size": 338
+                    },
+                    {
+                        "link": "output",
+                        "name": "b4283830-f727-4b77-ab71-31489674c5a1.zip",
+                        "size": 8584675
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000036",
+                "type": "compute",
+                "runtime": 1.933,
+                "parents": [
+                    "baseline_cycles_00000035"
+                ],
+                "children": [
+                    "cycles_output_summary_00000043"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "027a5fc9-e24b-4b0c-aeac-283e5e010937.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "40bb0b64-7979-4434-8299-453b3a34d128.csv",
+                        "size": 338
+                    },
+                    {
+                        "link": "input",
+                        "name": "b4283830-f727-4b77-ab71-31489674c5a1.zip",
+                        "size": 8584675
+                    },
+                    {
+                        "link": "input",
+                        "name": "3946d505-65b9-4156-b4b7-69a20507a75a.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "c000e025-78bd-485d-9484-884e35d2b84c.weather",
+                        "size": 79132
+                    },
+                    {
+                        "link": "input",
+                        "name": "68abe820-2ef5-46c1-b9c7-c326a5fb1df6.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "b5a224b7-7d1d-49a1-8645-35b0185370d8.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "38c04521-02c4-4e53-9140-8e9287b6189fcycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "b674bc4e-3ae3-46ac-8c3c-b5e55048be31.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "64b14137-752b-478c-9ad4-aa5bba74d6fb.zip",
+                        "size": 3337377
+                    },
+                    {
+                        "link": "output",
+                        "name": "0990c51f-bc1c-46d0-bc24-d3900704a91b.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "645e14d5-720f-497d-8b95-917ec16c2b58.csv",
+                        "size": 115
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000037",
+                "type": "compute",
+                "runtime": 1.616,
+                "parents": [
+                    "baseline_cycles_00000035"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000038"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "027a5fc9-e24b-4b0c-aeac-283e5e010937.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "40bb0b64-7979-4434-8299-453b3a34d128.csv",
+                        "size": 338
+                    },
+                    {
+                        "link": "input",
+                        "name": "b4283830-f727-4b77-ab71-31489674c5a1.zip",
+                        "size": 8584675
+                    },
+                    {
+                        "link": "input",
+                        "name": "492ede9c-6918-4fb0-b629-e0f92ebaf300.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "6806504f-c878-4481-8efe-5b47f889e210.weather",
+                        "size": 88737
+                    },
+                    {
+                        "link": "input",
+                        "name": "d877d726-1ed7-4749-b0d3-117d3de96808.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "b0b1f6b8-4ae2-405d-b9f8-c5ad1c4a0a7a.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "9ee0d95f-5f9c-4acd-ac94-d6f531091fe8cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "b2c51513-9059-4a94-955a-770d54b03b20.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "34b580f0-4bf9-4c9b-a304-35a028651b9e.csv",
+                        "size": 374
+                    },
+                    {
+                        "link": "output",
+                        "name": "dba95079-d369-4e63-bff5-4b4f4702991f.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "43e054b9-958f-408b-a608-5758c82ac8b9.zip",
+                        "size": 7741867
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000038",
+                "type": "compute",
+                "runtime": 0.021,
+                "parents": [
+                    "fertilizer_increase_cycles_00000037"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000044"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "34b580f0-4bf9-4c9b-a304-35a028651b9e.csv",
+                        "size": 374
+                    },
+                    {
+                        "link": "input",
+                        "name": "dba95079-d369-4e63-bff5-4b4f4702991f.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "43e054b9-958f-408b-a608-5758c82ac8b9.zip",
+                        "size": 7741867
+                    },
+                    {
+                        "link": "output",
+                        "name": "2bb0ec48-758e-4d36-b26d-67d25725657a.csv",
+                        "size": 9960
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "baseline_cycles_00000039",
+                "type": "compute",
+                "runtime": 0.913,
+                "parents": [],
+                "children": [
+                    "cycles_00000040",
+                    "fertilizer_increase_cycles_00000041"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c04e15b1-edda-4b58-ac26-e2c222230a86.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "5f85998f-df9d-43fe-8d16-e83d0e9aff0f.weather",
+                        "size": 72945
+                    },
+                    {
+                        "link": "input",
+                        "name": "f0d60b83-8d3e-419a-b441-0519452b6347.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "423e0cdb-ae6a-48f6-bea3-1e17ecee2286.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "410c9bf7-9f28-4a5a-b505-e9f14797dddccycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "35d91b58-933b-454e-a33f-17f39403b3b3.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "f3a3471a-e14a-4a71-b7e5-968eda1adbfc.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "3e64bc8b-04f6-4d9e-b615-2215cade15e6.csv",
+                        "size": 290
+                    },
+                    {
+                        "link": "output",
+                        "name": "b1173f9a-a6eb-4e7d-916a-51efc61ab7d9.zip",
+                        "size": 4924453
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_00000040",
+                "type": "compute",
+                "runtime": 0.203,
+                "parents": [
+                    "baseline_cycles_00000039"
+                ],
+                "children": [
+                    "cycles_output_summary_00000043"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f3a3471a-e14a-4a71-b7e5-968eda1adbfc.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "3e64bc8b-04f6-4d9e-b615-2215cade15e6.csv",
+                        "size": 290
+                    },
+                    {
+                        "link": "input",
+                        "name": "b1173f9a-a6eb-4e7d-916a-51efc61ab7d9.zip",
+                        "size": 4924453
+                    },
+                    {
+                        "link": "input",
+                        "name": "3b0a6d00-1d6d-41d4-8afe-b42526f7baa2.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "9d0ed5cd-2069-4f8f-825b-e31d5acdc259.weather",
+                        "size": 86662
+                    },
+                    {
+                        "link": "input",
+                        "name": "c24b7208-b420-40d0-8ce6-2896e982de28.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "bfab42a4-423a-4f24-9e69-bbfa5d69d143.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "0e7e33f6-755c-4ed3-9add-a79db63354e9cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "8991e805-dcca-4314-a63b-1cf55aef4e29.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "4f02c42a-1452-4153-9cee-74d6e0e71cc5.zip",
+                        "size": 5267296
+                    },
+                    {
+                        "link": "output",
+                        "name": "4251400f-b811-4163-bfa0-58a73b70f430.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "output",
+                        "name": "f44ef1fc-3502-46f0-ae82-d5edf44e962c.csv",
+                        "size": 489
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "fertilizer_increase_cycles_00000041",
+                "type": "compute",
+                "runtime": 0.202,
+                "parents": [
+                    "baseline_cycles_00000039"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_parser_00000042"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f3a3471a-e14a-4a71-b7e5-968eda1adbfc.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "3e64bc8b-04f6-4d9e-b615-2215cade15e6.csv",
+                        "size": 290
+                    },
+                    {
+                        "link": "input",
+                        "name": "b1173f9a-a6eb-4e7d-916a-51efc61ab7d9.zip",
+                        "size": 4924453
+                    },
+                    {
+                        "link": "input",
+                        "name": "b2cac32e-45cd-4888-95e1-a2cd1eed2f86.soil",
+                        "size": 147
+                    },
+                    {
+                        "link": "input",
+                        "name": "0f77c858-58b3-42ac-8fe9-c1453bcf50bc.weather",
+                        "size": 99392
+                    },
+                    {
+                        "link": "input",
+                        "name": "9c43fd39-6230-43df-9e8d-8efb484fc0da.operation",
+                        "size": 361
+                    },
+                    {
+                        "link": "input",
+                        "name": "fa3545e3-283f-48ee-9f61-2b3d65f4300d.ctrl",
+                        "size": 153
+                    },
+                    {
+                        "link": "input",
+                        "name": "4433bc17-d845-4a92-a312-a9f63c11c404cycles_exe",
+                        "size": 138929
+                    },
+                    {
+                        "link": "input",
+                        "name": "6b285a08-3e87-4c63-9ad1-42e88f410649.crop",
+                        "size": 2886
+                    },
+                    {
+                        "link": "output",
+                        "name": "b470874c-df33-4337-b586-674c09fa5229.csv",
+                        "size": 289
+                    },
+                    {
+                        "link": "output",
+                        "name": "94a619a8-451f-4f12-82dd-c0c7cf08f21b.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "output",
+                        "name": "e5da3bc3-1470-47cf-b608-88ab48daddd6.zip",
+                        "size": 897350
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_parser_00000042",
+                "type": "compute",
+                "runtime": 0.018,
+                "parents": [
+                    "fertilizer_increase_cycles_00000041"
+                ],
+                "children": [
+                    "cycles_fertilizer_increase_output_summary_00000044"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b470874c-df33-4337-b586-674c09fa5229.csv",
+                        "size": 289
+                    },
+                    {
+                        "link": "input",
+                        "name": "94a619a8-451f-4f12-82dd-c0c7cf08f21b.dat",
+                        "size": 3617350
+                    },
+                    {
+                        "link": "input",
+                        "name": "e5da3bc3-1470-47cf-b608-88ab48daddd6.zip",
+                        "size": 897350
+                    },
+                    {
+                        "link": "output",
+                        "name": "0bae319a-76e7-48ef-aeb6-be19ba4dc9bc.csv",
+                        "size": 10875
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_output_summary_00000043",
+                "type": "compute",
+                "runtime": 0.002,
+                "parents": [
+                    "cycles_00000024",
+                    "cycles_00000028",
+                    "cycles_00000032",
+                    "cycles_00000036",
+                    "cycles_00000040"
+                ],
+                "children": [
+                    "cycles_plots_00000046"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "48520b1c-d76f-447b-a161-841753f41443.zip",
+                        "size": 6753860
+                    },
+                    {
+                        "link": "input",
+                        "name": "30cf6d31-db3e-487e-9b70-b0bbc5d3c0a2.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "344298c1-3c8d-4ce3-b697-5b3bb4308189.csv",
+                        "size": 371
+                    },
+                    {
+                        "link": "input",
+                        "name": "72697af9-d936-496e-b6d9-5bc215000492.zip",
+                        "size": 4574752
+                    },
+                    {
+                        "link": "input",
+                        "name": "4dd7f64e-0da5-4234-aa72-e53cbd93c31f.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "bc6e43a7-8c17-48df-8a54-fc16113ec0ba.csv",
+                        "size": 195
+                    },
+                    {
+                        "link": "input",
+                        "name": "a1e9e699-dfe6-40ad-95af-ead096a94b20.zip",
+                        "size": 895253
+                    },
+                    {
+                        "link": "input",
+                        "name": "f8d90c5a-99d7-4af2-bee4-de40569c2901.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "7164f8b5-f0d2-4869-b45c-5512dbae6dc6.csv",
+                        "size": 532
+                    },
+                    {
+                        "link": "input",
+                        "name": "64b14137-752b-478c-9ad4-aa5bba74d6fb.zip",
+                        "size": 3337377
+                    },
+                    {
+                        "link": "input",
+                        "name": "0990c51f-bc1c-46d0-bc24-d3900704a91b.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "645e14d5-720f-497d-8b95-917ec16c2b58.csv",
+                        "size": 115
+                    },
+                    {
+                        "link": "input",
+                        "name": "4f02c42a-1452-4153-9cee-74d6e0e71cc5.zip",
+                        "size": 5267296
+                    },
+                    {
+                        "link": "input",
+                        "name": "4251400f-b811-4163-bfa0-58a73b70f430.dat",
+                        "size": 3617349
+                    },
+                    {
+                        "link": "input",
+                        "name": "f44ef1fc-3502-46f0-ae82-d5edf44e962c.csv",
+                        "size": 489
+                    },
+                    {
+                        "link": "output",
+                        "name": "5d749db4-e8ba-4216-9a95-47a415e15e1d.csv",
+                        "size": 514732
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_fertilizer_increase_output_summary_00000044",
+                "type": "compute",
+                "runtime": 0.003,
+                "parents": [
+                    "cycles_fertilizer_increase_output_parser_00000026",
+                    "cycles_fertilizer_increase_output_parser_00000030",
+                    "cycles_fertilizer_increase_output_parser_00000034",
+                    "cycles_fertilizer_increase_output_parser_00000038",
+                    "cycles_fertilizer_increase_output_parser_00000042"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "dcce5fc3-f40d-48a7-95a2-082bcbbaf831.csv",
+                        "size": 15431
+                    },
+                    {
+                        "link": "input",
+                        "name": "d0513768-9adc-41a6-9027-76829c35e0f4.csv",
+                        "size": 8091
+                    },
+                    {
+                        "link": "input",
+                        "name": "623c614e-0d1e-42a9-96d6-0bcd09150d23.csv",
+                        "size": 6661
+                    },
+                    {
+                        "link": "input",
+                        "name": "2bb0ec48-758e-4d36-b26d-67d25725657a.csv",
+                        "size": 9960
+                    },
+                    {
+                        "link": "input",
+                        "name": "0bae319a-76e7-48ef-aeb6-be19ba4dc9bc.csv",
+                        "size": 10875
+                    },
+                    {
+                        "link": "output",
+                        "name": "35fb1b5d-f79a-4af4-905e-6121bbe53749.csv",
+                        "size": 845908
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_plots_00000045",
+                "type": "compute",
+                "runtime": 1.029,
+                "parents": [
+                    "cycles_output_summary_00000021"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "80258fab-a2dc-4587-a020-5bb54cf28c8f.csv",
+                        "size": 514732
+                    },
+                    {
+                        "link": "output",
+                        "name": "cfcdebd8-158b-4086-b372-e1d963f4c500.gif",
+                        "size": 5208159
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cycles_plots_00000046",
+                "type": "compute",
+                "runtime": 1.029,
+                "parents": [
+                    "cycles_output_summary_00000043"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5d749db4-e8ba-4216-9a95-47a415e15e1d.csv",
+                        "size": 514732
+                    },
+                    {
+                        "link": "output",
+                        "name": "48db24e7-36bc-40a6-817c-ea6aff935077.gif",
+                        "size": 9057216
+                    }
+                ],
+                "cores": 1
+            }
+        ],
+        "machines": []
+    }
+}

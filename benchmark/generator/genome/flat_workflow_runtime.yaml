@@ -1,0 +1,3262 @@
+global_input:
+  ac879cc9-607b-40d3-9e4a-18eedd359528.txt: &id001
+    type: pass
+    value:
+      function: INPUT
+      parameter: ac879cc9-607b-40d3-9e4a-18eedd359528.txt
+    size: 1003
+  ab25e3a7-9fd5-405f-a418-2ae03369a67e.vcf: &id002
+    type: pass
+    value:
+      function: INPUT
+      parameter: ab25e3a7-9fd5-405f-a418-2ae03369a67e.vcf
+    size: 63630899
+  0bc54669-32ec-4a8a-987c-48dcd84d95a5.txt: &id003
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0bc54669-32ec-4a8a-987c-48dcd84d95a5.txt
+    size: 1003
+  83eec7f6-0a3a-46a4-b591-d2e757f8769a.vcf: &id004
+    type: pass
+    value:
+      function: INPUT
+      parameter: 83eec7f6-0a3a-46a4-b591-d2e757f8769a.vcf
+    size: 96201093
+  ca93285d-228b-4ea9-a918-c217881a0e64.txt: &id005
+    type: pass
+    value:
+      function: INPUT
+      parameter: ca93285d-228b-4ea9-a918-c217881a0e64.txt
+    size: 1003
+  c213e95b-a631-4182-a11d-bbf6ff348957.vcf: &id006
+    type: pass
+    value:
+      function: INPUT
+      parameter: c213e95b-a631-4182-a11d-bbf6ff348957.vcf
+    size: 129085989
+  0fb8c728-0f8f-4a2d-9541-cdd8616c9e2b.txt: &id007
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0fb8c728-0f8f-4a2d-9541-cdd8616c9e2b.txt
+    size: 1003
+  542d5cea-c838-4093-b33e-041660684155.vcf: &id008
+    type: pass
+    value:
+      function: INPUT
+      parameter: 542d5cea-c838-4093-b33e-041660684155.vcf
+    size: 118386160
+  f4c7c8f2-0e36-4f39-a8e4-62aed456c39f.txt: &id009
+    type: pass
+    value:
+      function: INPUT
+      parameter: f4c7c8f2-0e36-4f39-a8e4-62aed456c39f.txt
+    size: 1003
+  83d63f30-5d9e-403e-860a-b88235ebc70b.vcf: &id010
+    type: pass
+    value:
+      function: INPUT
+      parameter: 83d63f30-5d9e-403e-860a-b88235ebc70b.vcf
+    size: 46432341
+  afe4181c-4665-423d-a251-66ef2551862f.txt: &id011
+    type: pass
+    value:
+      function: INPUT
+      parameter: afe4181c-4665-423d-a251-66ef2551862f.txt
+    size: 1003
+  b0d7af0d-1049-4cca-a095-ca02c9bbe8fe.vcf: &id012
+    type: pass
+    value:
+      function: INPUT
+      parameter: b0d7af0d-1049-4cca-a095-ca02c9bbe8fe.vcf
+    size: 133801432
+  bd2e6ffc-6ec3-4234-a1d3-98851b5ff0db.txt: &id013
+    type: pass
+    value:
+      function: INPUT
+      parameter: bd2e6ffc-6ec3-4234-a1d3-98851b5ff0db.txt
+    size: 1003
+  e60f1be8-456f-409f-a4e0-c3b482be95bd.vcf: &id014
+    type: pass
+    value:
+      function: INPUT
+      parameter: e60f1be8-456f-409f-a4e0-c3b482be95bd.vcf
+    size: 108470572
+  511c727c-ea61-4599-a394-6d447ad07c68.txt: &id015
+    type: pass
+    value:
+      function: INPUT
+      parameter: 511c727c-ea61-4599-a394-6d447ad07c68.txt
+    size: 1003
+  978aa244-21cc-4e6c-aaaa-4eded4990c42.vcf: &id016
+    type: pass
+    value:
+      function: INPUT
+      parameter: 978aa244-21cc-4e6c-aaaa-4eded4990c42.vcf
+    size: 124235323
+  6e23996c-ea94-4bab-8503-fbd59d7ffa3e.txt: &id017
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6e23996c-ea94-4bab-8503-fbd59d7ffa3e.txt
+    size: 1003
+  3449a073-2416-408c-bdd1-bbde87bdc51a.vcf: &id018
+    type: pass
+    value:
+      function: INPUT
+      parameter: 3449a073-2416-408c-bdd1-bbde87bdc51a.vcf
+    size: 12700331
+  879a666e-77f6-435f-8898-cbe449d42acd.vcf: &id019
+    type: pass
+    value:
+      function: INPUT
+      parameter: 879a666e-77f6-435f-8898-cbe449d42acd.vcf
+    size: 8540781
+  ba1af75f-6825-40fb-a1c2-28a330d9d03cALL: &id020
+    type: pass
+    value:
+      function: INPUT
+      parameter: ba1af75f-6825-40fb-a1c2-28a330d9d03cALL
+    size: 1400
+  7f1c0cab-7675-4d97-b2fc-504f5e7dad78AFR: &id021
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7f1c0cab-7675-4d97-b2fc-504f5e7dad78AFR
+    size: 404
+  9c56825d-8d98-4bc2-9029-8c11a7ef35a0AMR: &id022
+    type: pass
+    value:
+      function: INPUT
+      parameter: 9c56825d-8d98-4bc2-9029-8c11a7ef35a0AMR
+    size: 212
+  b62d3a32-36f4-4280-9c26-9d244eeac409EAS: &id023
+    type: pass
+    value:
+      function: INPUT
+      parameter: b62d3a32-36f4-4280-9c26-9d244eeac409EAS
+    size: 244
+  e270e61e-a6fd-416b-9488-4cc19e1ba40bEUR: &id024
+    type: pass
+    value:
+      function: INPUT
+      parameter: e270e61e-a6fd-416b-9488-4cc19e1ba40bEUR
+    size: 265
+  7e89e3dc-8fd8-4b5d-ab6f-21884fcae5a8GBR: &id025
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7e89e3dc-8fd8-4b5d-ab6f-21884fcae5a8GBR
+    size: 42
+  dff25638-12a0-4a5a-9179-8ae54383a9ebSAS: &id026
+    type: pass
+    value:
+      function: INPUT
+      parameter: dff25638-12a0-4a5a-9179-8ae54383a9ebSAS
+    size: 262
+  e08f1224-decc-457d-ad20-b7d42f53d678ALL: &id027
+    type: pass
+    value:
+      function: INPUT
+      parameter: e08f1224-decc-457d-ad20-b7d42f53d678ALL
+    size: 1400
+  15e21b6e-e10b-4ff5-a831-5934a6867a01AFR: &id028
+    type: pass
+    value:
+      function: INPUT
+      parameter: 15e21b6e-e10b-4ff5-a831-5934a6867a01AFR
+    size: 404
+  0c6afced-63f8-4ad9-be94-56cf5ba06e29AMR: &id029
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0c6afced-63f8-4ad9-be94-56cf5ba06e29AMR
+    size: 212
+  4a90eb79-bb6c-4371-a0ba-8b23301ebeb3EAS: &id030
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4a90eb79-bb6c-4371-a0ba-8b23301ebeb3EAS
+    size: 244
+  1a63e071-a330-444f-a9f9-0931d87deeb9EUR: &id031
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1a63e071-a330-444f-a9f9-0931d87deeb9EUR
+    size: 265
+  963d7f0f-75ee-4295-b0e1-65622ac0c4efGBR: &id032
+    type: pass
+    value:
+      function: INPUT
+      parameter: 963d7f0f-75ee-4295-b0e1-65622ac0c4efGBR
+    size: 42
+  ce30d985-dedf-4b74-89db-301feaa17203SAS: &id033
+    type: pass
+    value:
+      function: INPUT
+      parameter: ce30d985-dedf-4b74-89db-301feaa17203SAS
+    size: 262
+  cbb3bbea-e1b4-4b43-bcb9-26ad0913fe86.txt: &id034
+    type: pass
+    value:
+      function: INPUT
+      parameter: cbb3bbea-e1b4-4b43-bcb9-26ad0913fe86.txt
+    size: 1003
+  45103f00-27e2-42ff-9dd3-defd31a7dc87.vcf: &id035
+    type: pass
+    value:
+      function: INPUT
+      parameter: 45103f00-27e2-42ff-9dd3-defd31a7dc87.vcf
+    size: 126228502
+  77e8d383-67db-4233-a562-2bf2d554e067.txt: &id036
+    type: pass
+    value:
+      function: INPUT
+      parameter: 77e8d383-67db-4233-a562-2bf2d554e067.txt
+    size: 1003
+  87d3e904-3540-4de3-aa87-9429d51a422c.vcf: &id037
+    type: pass
+    value:
+      function: INPUT
+      parameter: 87d3e904-3540-4de3-aa87-9429d51a422c.vcf
+    size: 114034388
+  94b1b543-39b6-48bd-a5d9-a831ef1cff70.txt: &id038
+    type: pass
+    value:
+      function: INPUT
+      parameter: 94b1b543-39b6-48bd-a5d9-a831ef1cff70.txt
+    size: 1003
+  053d5f82-a854-4d86-89f4-0b5cbd493e41.vcf: &id039
+    type: pass
+    value:
+      function: INPUT
+      parameter: 053d5f82-a854-4d86-89f4-0b5cbd493e41.vcf
+    size: 22626533
+  aa7f8b37-8710-4e6e-9ba0-aef0d8234352.txt: &id040
+    type: pass
+    value:
+      function: INPUT
+      parameter: aa7f8b37-8710-4e6e-9ba0-aef0d8234352.txt
+    size: 1003
+  193188e6-2098-4d6c-9d3b-5a6d502b9cb0.vcf: &id041
+    type: pass
+    value:
+      function: INPUT
+      parameter: 193188e6-2098-4d6c-9d3b-5a6d502b9cb0.vcf
+    size: 53840813
+  a7f0603f-4727-462c-9177-ba0997660845.txt: &id042
+    type: pass
+    value:
+      function: INPUT
+      parameter: a7f0603f-4727-462c-9177-ba0997660845.txt
+    size: 1003
+  d39ea8fe-b2ec-4ba3-b4af-f3fc8e627eaf.vcf: &id043
+    type: pass
+    value:
+      function: INPUT
+      parameter: d39ea8fe-b2ec-4ba3-b4af-f3fc8e627eaf.vcf
+    size: 30588722
+  165f4453-0742-44db-b61e-06f8176ddf81.txt: &id044
+    type: pass
+    value:
+      function: INPUT
+      parameter: 165f4453-0742-44db-b61e-06f8176ddf81.txt
+    size: 1003
+  76ee2911-031d-4ec2-9f85-b36b1639619c.vcf: &id045
+    type: pass
+    value:
+      function: INPUT
+      parameter: 76ee2911-031d-4ec2-9f85-b36b1639619c.vcf
+    size: 138810398
+  b148e32f-1b68-40d1-be3a-61df851aa211.txt: &id046
+    type: pass
+    value:
+      function: INPUT
+      parameter: b148e32f-1b68-40d1-be3a-61df851aa211.txt
+    size: 1003
+  1b667045-cb1d-4537-8d9a-8c30a41b8c6d.vcf: &id047
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1b667045-cb1d-4537-8d9a-8c30a41b8c6d.vcf
+    size: 45347831
+  c3d15e5d-e1bf-4f30-8228-7c1267c90d26.txt: &id048
+    type: pass
+    value:
+      function: INPUT
+      parameter: c3d15e5d-e1bf-4f30-8228-7c1267c90d26.txt
+    size: 1003
+  2f252e2e-b4b6-48e0-a76b-7a4bf929db9b.vcf: &id049
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2f252e2e-b4b6-48e0-a76b-7a4bf929db9b.vcf
+    size: 88957777
+  40176dce-a5d6-4a02-8a8f-a0ab42689b64.txt: &id050
+    type: pass
+    value:
+      function: INPUT
+      parameter: 40176dce-a5d6-4a02-8a8f-a0ab42689b64.txt
+    size: 1003
+  1787d47c-9274-463e-884d-57c25a23d531.vcf: &id051
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1787d47c-9274-463e-884d-57c25a23d531.vcf
+    size: 37638394
+  842c8075-9c59-4436-b23a-1d2f8afacee5.vcf: &id052
+    type: pass
+    value:
+      function: INPUT
+      parameter: 842c8075-9c59-4436-b23a-1d2f8afacee5.vcf
+    size: 74961063
+  13a8faaa-2d80-4ab7-8ab6-ede1742983c5ALL: &id053
+    type: pass
+    value:
+      function: INPUT
+      parameter: 13a8faaa-2d80-4ab7-8ab6-ede1742983c5ALL
+    size: 1400
+  52c3499b-fb0d-4a36-9926-ecd1c031301eAFR: &id054
+    type: pass
+    value:
+      function: INPUT
+      parameter: 52c3499b-fb0d-4a36-9926-ecd1c031301eAFR
+    size: 404
+  32620219-de9c-4255-b5ab-4167283894a7AMR: &id055
+    type: pass
+    value:
+      function: INPUT
+      parameter: 32620219-de9c-4255-b5ab-4167283894a7AMR
+    size: 212
+  794fc717-9107-4fc7-a058-826b1f9505c8EAS: &id056
+    type: pass
+    value:
+      function: INPUT
+      parameter: 794fc717-9107-4fc7-a058-826b1f9505c8EAS
+    size: 244
+  5642560f-0070-4d63-b9f0-76414dd8896cEUR: &id057
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5642560f-0070-4d63-b9f0-76414dd8896cEUR
+    size: 265
+  2cbc55ad-1c77-4a73-9518-bcd188560b29GBR: &id058
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2cbc55ad-1c77-4a73-9518-bcd188560b29GBR
+    size: 42
+  c108a6ac-2a67-4258-a9ab-24f17ebcaf03SAS: &id059
+    type: pass
+    value:
+      function: INPUT
+      parameter: c108a6ac-2a67-4258-a9ab-24f17ebcaf03SAS
+    size: 262
+  312db295-5a90-4a46-b8f4-6f6093a1e66bALL: &id060
+    type: pass
+    value:
+      function: INPUT
+      parameter: 312db295-5a90-4a46-b8f4-6f6093a1e66bALL
+    size: 1400
+  32368d6b-2695-4542-8df2-e11237745bfbAFR: &id061
+    type: pass
+    value:
+      function: INPUT
+      parameter: 32368d6b-2695-4542-8df2-e11237745bfbAFR
+    size: 404
+  ea572e78-56a7-4398-a8fd-77813727d552AMR: &id062
+    type: pass
+    value:
+      function: INPUT
+      parameter: ea572e78-56a7-4398-a8fd-77813727d552AMR
+    size: 212
+  33612642-b8b3-4a96-aad1-852310fb417bEAS: &id063
+    type: pass
+    value:
+      function: INPUT
+      parameter: 33612642-b8b3-4a96-aad1-852310fb417bEAS
+    size: 244
+  7be5855a-3f7c-4bcf-8cbe-41835e45880bEUR: &id064
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7be5855a-3f7c-4bcf-8cbe-41835e45880bEUR
+    size: 265
+  168b314f-9dc7-4262-8b52-7a6e61781621GBR: &id065
+    type: pass
+    value:
+      function: INPUT
+      parameter: 168b314f-9dc7-4262-8b52-7a6e61781621GBR
+    size: 42
+  4534c952-4ce3-4fbe-8f9e-6e0fd324d8d6SAS: &id066
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4534c952-4ce3-4fbe-8f9e-6e0fd324d8d6SAS
+    size: 262
+  7eb681ba-a163-4ba0-a5ce-5cc70bfa491f.txt: &id067
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7eb681ba-a163-4ba0-a5ce-5cc70bfa491f.txt
+    size: 1003
+  5e0f8a51-7036-4657-94fd-04f8a1409fed.vcf: &id068
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5e0f8a51-7036-4657-94fd-04f8a1409fed.vcf
+    size: 22750047
+  c084fd42-88aa-4698-a721-7d7c9de74491.txt: &id069
+    type: pass
+    value:
+      function: INPUT
+      parameter: c084fd42-88aa-4698-a721-7d7c9de74491.txt
+    size: 1003
+  52ababd4-17e4-4d01-9ab7-f350991e7bba.vcf: &id070
+    type: pass
+    value:
+      function: INPUT
+      parameter: 52ababd4-17e4-4d01-9ab7-f350991e7bba.vcf
+    size: 84853871
+  e7fc0fb1-ac80-4c42-946c-c6d1125b14ff.txt: &id071
+    type: pass
+    value:
+      function: INPUT
+      parameter: e7fc0fb1-ac80-4c42-946c-c6d1125b14ff.txt
+    size: 1003
+  e6191ebb-7b75-4a9a-be1b-0e4d6602680d.vcf: &id072
+    type: pass
+    value:
+      function: INPUT
+      parameter: e6191ebb-7b75-4a9a-be1b-0e4d6602680d.vcf
+    size: 135615749
+  9bf50cde-c2b7-45f7-ab76-20fb1cefd8f1.txt: &id073
+    type: pass
+    value:
+      function: INPUT
+      parameter: 9bf50cde-c2b7-45f7-ab76-20fb1cefd8f1.txt
+    size: 1003
+  964c9698-a851-44a0-9e2b-68e0c6bfcd45.vcf: &id074
+    type: pass
+    value:
+      function: INPUT
+      parameter: 964c9698-a851-44a0-9e2b-68e0c6bfcd45.vcf
+    size: 12700331
+  0ee10e9e-33ae-4523-a263-6c1ed95f5015.txt: &id075
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0ee10e9e-33ae-4523-a263-6c1ed95f5015.txt
+    size: 1003
+  85ae8b0e-99fe-4503-bc69-81b889eea94e.vcf: &id076
+    type: pass
+    value:
+      function: INPUT
+      parameter: 85ae8b0e-99fe-4503-bc69-81b889eea94e.vcf
+    size: 55740418
+  7f41e442-7dca-4fa6-8e7f-3a503378aa53.txt: &id077
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7f41e442-7dca-4fa6-8e7f-3a503378aa53.txt
+    size: 1003
+  60362c33-bbf8-4c2c-899f-b9a257a7d722.vcf: &id078
+    type: pass
+    value:
+      function: INPUT
+      parameter: 60362c33-bbf8-4c2c-899f-b9a257a7d722.vcf
+    size: 22535533
+  e63e6bd2-9c97-41ad-bd3f-b0330ff0ccb0.txt: &id079
+    type: pass
+    value:
+      function: INPUT
+      parameter: e63e6bd2-9c97-41ad-bd3f-b0330ff0ccb0.txt
+    size: 1003
+  ed5e4388-7652-4de8-90be-9fde9f6181d5.vcf: &id080
+    type: pass
+    value:
+      function: INPUT
+      parameter: ed5e4388-7652-4de8-90be-9fde9f6181d5.vcf
+    size: 97317886
+  53cc4432-4f08-4524-aeb6-666c4f8902ad.txt: &id081
+    type: pass
+    value:
+      function: INPUT
+      parameter: 53cc4432-4f08-4524-aeb6-666c4f8902ad.txt
+    size: 1003
+  bb8ec92d-4865-46b6-815f-065eb227e2a9.vcf: &id082
+    type: pass
+    value:
+      function: INPUT
+      parameter: bb8ec92d-4865-46b6-815f-065eb227e2a9.vcf
+    size: 61529839
+  ffc6b728-2d7e-496f-8cdc-c3712aba7434.txt: &id083
+    type: pass
+    value:
+      function: INPUT
+      parameter: ffc6b728-2d7e-496f-8cdc-c3712aba7434.txt
+    size: 1003
+  529211bb-55cc-40de-966d-0f6ed418c331.vcf: &id084
+    type: pass
+    value:
+      function: INPUT
+      parameter: 529211bb-55cc-40de-966d-0f6ed418c331.vcf
+    size: 115472477
+  7848b0d4-ad6b-4d85-a4be-008d026368f6.vcf: &id085
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7848b0d4-ad6b-4d85-a4be-008d026368f6.vcf
+    size: 91172138
+  1b1af6d2-20e9-4169-ab94-6209a805721aALL: &id086
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1b1af6d2-20e9-4169-ab94-6209a805721aALL
+    size: 1400
+  0daafa8c-84f4-4751-820b-bf151db4f2aeAFR: &id087
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0daafa8c-84f4-4751-820b-bf151db4f2aeAFR
+    size: 404
+  92fec3df-275e-4ea2-8525-66603ef88247AMR: &id088
+    type: pass
+    value:
+      function: INPUT
+      parameter: 92fec3df-275e-4ea2-8525-66603ef88247AMR
+    size: 212
+  f5766e2c-1dc7-4560-aab7-185f40e3dddeEAS: &id089
+    type: pass
+    value:
+      function: INPUT
+      parameter: f5766e2c-1dc7-4560-aab7-185f40e3dddeEAS
+    size: 244
+  b31ffec8-b2a3-4b24-bc2d-4d55d8f2b5c9EUR: &id090
+    type: pass
+    value:
+      function: INPUT
+      parameter: b31ffec8-b2a3-4b24-bc2d-4d55d8f2b5c9EUR
+    size: 265
+  8c2e550d-f2ea-48fd-959a-d30680539534GBR: &id091
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8c2e550d-f2ea-48fd-959a-d30680539534GBR
+    size: 42
+  4d30ca47-bc57-44b2-ba21-9f215758ebacSAS: &id092
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4d30ca47-bc57-44b2-ba21-9f215758ebacSAS
+    size: 262
+  00b55a39-cf2a-4b81-b1c1-ecbc09d92382ALL: &id093
+    type: pass
+    value:
+      function: INPUT
+      parameter: 00b55a39-cf2a-4b81-b1c1-ecbc09d92382ALL
+    size: 1400
+  c8a32028-8fd0-428f-9600-715bb30434e1AFR: &id094
+    type: pass
+    value:
+      function: INPUT
+      parameter: c8a32028-8fd0-428f-9600-715bb30434e1AFR
+    size: 404
+  66f34265-ab7a-41b3-b718-cffe2bf50415AMR: &id095
+    type: pass
+    value:
+      function: INPUT
+      parameter: 66f34265-ab7a-41b3-b718-cffe2bf50415AMR
+    size: 212
+  b270f72e-95d7-461d-8e94-d70967c6d9b7EAS: &id096
+    type: pass
+    value:
+      function: INPUT
+      parameter: b270f72e-95d7-461d-8e94-d70967c6d9b7EAS
+    size: 244
+  fff4f719-4573-4ab6-9756-f3b406299d42EUR: &id097
+    type: pass
+    value:
+      function: INPUT
+      parameter: fff4f719-4573-4ab6-9756-f3b406299d42EUR
+    size: 265
+  2c22debd-aebc-47c1-91ac-d8a0e6578709GBR: &id098
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2c22debd-aebc-47c1-91ac-d8a0e6578709GBR
+    size: 42
+  93de9c77-8582-4569-89c2-97cfaa821b36SAS: &id099
+    type: pass
+    value:
+      function: INPUT
+      parameter: 93de9c77-8582-4569-89c2-97cfaa821b36SAS
+    size: 262
+  cb0889e5-1d7d-4101-9a09-c69e7c218e8f.txt: &id100
+    type: pass
+    value:
+      function: INPUT
+      parameter: cb0889e5-1d7d-4101-9a09-c69e7c218e8f.txt
+    size: 1003
+  ea0e499e-3ac0-42db-851b-203103193e33.vcf: &id101
+    type: pass
+    value:
+      function: INPUT
+      parameter: ea0e499e-3ac0-42db-851b-203103193e33.vcf
+    size: 121884597
+  815d699f-5409-494a-8b66-0248e5a4a442.txt: &id102
+    type: pass
+    value:
+      function: INPUT
+      parameter: 815d699f-5409-494a-8b66-0248e5a4a442.txt
+    size: 1003
+  8d6ea612-13de-49ea-99e3-0f375501f2c4.vcf: &id103
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8d6ea612-13de-49ea-99e3-0f375501f2c4.vcf
+    size: 12700331
+  ed7e4f02-1ad0-4f96-bf6a-7826b9e7b286.txt: &id104
+    type: pass
+    value:
+      function: INPUT
+      parameter: ed7e4f02-1ad0-4f96-bf6a-7826b9e7b286.txt
+    size: 1003
+  c8a88c5d-2b32-45ad-8000-de699b3fd855.vcf: &id105
+    type: pass
+    value:
+      function: INPUT
+      parameter: c8a88c5d-2b32-45ad-8000-de699b3fd855.vcf
+    size: 113419110
+  55289bc5-4f54-4b09-a4b6-4d63b01d8e76.txt: &id106
+    type: pass
+    value:
+      function: INPUT
+      parameter: 55289bc5-4f54-4b09-a4b6-4d63b01d8e76.txt
+    size: 1003
+  75f02b80-6432-47f6-a134-499964e7ea8c.vcf: &id107
+    type: pass
+    value:
+      function: INPUT
+      parameter: 75f02b80-6432-47f6-a134-499964e7ea8c.vcf
+    size: 116491389
+  7a09ea69-5727-4e22-867f-918fe8aecadf.txt: &id108
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7a09ea69-5727-4e22-867f-918fe8aecadf.txt
+    size: 1003
+  1bfc9117-608c-43e0-aaac-5c5150b80d6d.vcf: &id109
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1bfc9117-608c-43e0-aaac-5c5150b80d6d.vcf
+    size: 30108819
+  80e5bfec-926f-418f-bf91-8737f7d1289e.txt: &id110
+    type: pass
+    value:
+      function: INPUT
+      parameter: 80e5bfec-926f-418f-bf91-8737f7d1289e.txt
+    size: 1003
+  61fba87d-9ae5-4e15-bb15-42df25078e01.vcf: &id111
+    type: pass
+    value:
+      function: INPUT
+      parameter: 61fba87d-9ae5-4e15-bb15-42df25078e01.vcf
+    size: 96172353
+  46c6b9b7-9828-432f-b1bb-2cd724ee78bd.txt: &id112
+    type: pass
+    value:
+      function: INPUT
+      parameter: 46c6b9b7-9828-432f-b1bb-2cd724ee78bd.txt
+    size: 1003
+  2c960f2d-5a42-467a-8518-e1d78c6bf430.vcf: &id113
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2c960f2d-5a42-467a-8518-e1d78c6bf430.vcf
+    size: 135852861
+  ce7574bb-1c04-4071-b31c-6d00e3a583ae.txt: &id114
+    type: pass
+    value:
+      function: INPUT
+      parameter: ce7574bb-1c04-4071-b31c-6d00e3a583ae.txt
+    size: 1003
+  ee864a75-0ed2-4c4b-a295-eae239c7633b.vcf: &id115
+    type: pass
+    value:
+      function: INPUT
+      parameter: ee864a75-0ed2-4c4b-a295-eae239c7633b.vcf
+    size: 35241437
+  511f9188-0b94-4a1a-bd9c-d9f42cc7babc.txt: &id116
+    type: pass
+    value:
+      function: INPUT
+      parameter: 511f9188-0b94-4a1a-bd9c-d9f42cc7babc.txt
+    size: 1003
+  1b237790-54b5-4e04-ae88-1adacfc6e845.vcf: &id117
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1b237790-54b5-4e04-ae88-1adacfc6e845.vcf
+    size: 97473000
+  6f22a4e8-be89-450a-a5b6-400107921cae.vcf: &id118
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6f22a4e8-be89-450a-a5b6-400107921cae.vcf
+    size: 53632778
+  7cec4cfa-c431-461e-acd1-66783e6ee357ALL: &id119
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7cec4cfa-c431-461e-acd1-66783e6ee357ALL
+    size: 1400
+  85534db7-5a63-4226-a219-61f932e6246eAFR: &id120
+    type: pass
+    value:
+      function: INPUT
+      parameter: 85534db7-5a63-4226-a219-61f932e6246eAFR
+    size: 404
+  d695ab9c-4912-4363-9d21-cb2e6cb51da4AMR: &id121
+    type: pass
+    value:
+      function: INPUT
+      parameter: d695ab9c-4912-4363-9d21-cb2e6cb51da4AMR
+    size: 212
+  770db754-1362-44f4-bac3-b2d561200a9dEAS: &id122
+    type: pass
+    value:
+      function: INPUT
+      parameter: 770db754-1362-44f4-bac3-b2d561200a9dEAS
+    size: 244
+  e2b4d062-aceb-4ea3-9a2b-bd5ac6483e4aEUR: &id123
+    type: pass
+    value:
+      function: INPUT
+      parameter: e2b4d062-aceb-4ea3-9a2b-bd5ac6483e4aEUR
+    size: 265
+  43227072-14de-4730-9489-5be9983f04efGBR: &id124
+    type: pass
+    value:
+      function: INPUT
+      parameter: 43227072-14de-4730-9489-5be9983f04efGBR
+    size: 42
+  6873eac4-608f-4178-9356-c7aeb9b679e9SAS: &id125
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6873eac4-608f-4178-9356-c7aeb9b679e9SAS
+    size: 262
+  e13a2c35-916f-4a6f-b7ea-41e65d181a6aALL: &id126
+    type: pass
+    value:
+      function: INPUT
+      parameter: e13a2c35-916f-4a6f-b7ea-41e65d181a6aALL
+    size: 1400
+  a959d8b2-6e98-492d-9b89-a516edd09a43AFR: &id127
+    type: pass
+    value:
+      function: INPUT
+      parameter: a959d8b2-6e98-492d-9b89-a516edd09a43AFR
+    size: 404
+  d1a530da-6537-4ca5-93fa-58a555c7324cAMR: &id128
+    type: pass
+    value:
+      function: INPUT
+      parameter: d1a530da-6537-4ca5-93fa-58a555c7324cAMR
+    size: 212
+  504dc884-8464-49e9-81d1-44f4dc85f00dEAS: &id129
+    type: pass
+    value:
+      function: INPUT
+      parameter: 504dc884-8464-49e9-81d1-44f4dc85f00dEAS
+    size: 244
+  034856ce-bd5b-4c0e-ab4b-a9e86944a5a4EUR: &id130
+    type: pass
+    value:
+      function: INPUT
+      parameter: 034856ce-bd5b-4c0e-ab4b-a9e86944a5a4EUR
+    size: 265
+  cc3655ef-4a33-44f8-97e0-6102974dc5eaGBR: &id131
+    type: pass
+    value:
+      function: INPUT
+      parameter: cc3655ef-4a33-44f8-97e0-6102974dc5eaGBR
+    size: 42
+  7a39f496-b2be-449c-82b0-39807c01d94cSAS: &id132
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7a39f496-b2be-449c-82b0-39807c01d94cSAS
+    size: 262
+functions:
+- name: individuals_00000001
+  source: individuals_00000001
+  runtime: 3.238
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ac879cc9-607b-40d3-9e4a-18eedd359528.txt: *id001
+    ab25e3a7-9fd5-405f-a418-2ae03369a67e.vcf: *id002
+  output:
+    6823687f-0c33-48be-8bb9-2152a2258fde.gz:
+      type: normal
+      size: 471369
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_00000002
+  source: individuals_00000002
+  runtime: 9.222
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0bc54669-32ec-4a8a-987c-48dcd84d95a5.txt: *id003
+    83eec7f6-0a3a-46a4-b591-d2e757f8769a.vcf: *id004
+  output:
+    2c25c035-e267-4d2a-9e20-2f13a2a9f34a.gz:
+      type: normal
+      size: 568577
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_00000003
+  source: individuals_00000003
+  runtime: 2.425
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ca93285d-228b-4ea9-a918-c217881a0e64.txt: *id005
+    c213e95b-a631-4182-a11d-bbf6ff348957.vcf: *id006
+  output:
+    8d16372e-6977-4fac-b89b-700916bc0004.gz:
+      type: normal
+      size: 288248
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_00000004
+  source: individuals_00000004
+  runtime: 2.421
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0fb8c728-0f8f-4a2d-9541-cdd8616c9e2b.txt: *id007
+    542d5cea-c838-4093-b33e-041660684155.vcf: *id008
+  output:
+    79c29b71-8554-4247-a79b-9935a1595565.gz:
+      type: normal
+      size: 835485
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_00000005
+  source: individuals_00000005
+  runtime: 4.27
+  scale: 1
+  mem_usage: 0.25
+  input:
+    f4c7c8f2-0e36-4f39-a8e4-62aed456c39f.txt: *id009
+    83d63f30-5d9e-403e-860a-b88235ebc70b.vcf: *id010
+  output:
+    86dc5ddc-3c40-4fe2-a07c-0e5bed09384b.gz:
+      type: normal
+      size: 1155860
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_00000006
+  source: individuals_00000006
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    afe4181c-4665-423d-a251-66ef2551862f.txt: *id011
+    b0d7af0d-1049-4cca-a095-ca02c9bbe8fe.vcf: *id012
+  output:
+    85301574-9c2e-4528-ae36-1316fb600661.gz:
+      type: normal
+      size: 1036118
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_00000007
+  source: individuals_00000007
+  runtime: 5.829
+  scale: 1
+  mem_usage: 0.25
+  input:
+    bd2e6ffc-6ec3-4234-a1d3-98851b5ff0db.txt: *id013
+    e60f1be8-456f-409f-a4e0-c3b482be95bd.vcf: *id014
+  output:
+    f92d66f8-57fb-4d3c-a550-6cc82a0c5eb2.gz:
+      type: normal
+      size: 912751
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_00000008
+  source: individuals_00000008
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    511c727c-ea61-4599-a394-6d447ad07c68.txt: *id015
+    978aa244-21cc-4e6c-aaaa-4eded4990c42.vcf: *id016
+  output:
+    f621a362-a462-4b9f-9e63-01d84be9be84.gz:
+      type: normal
+      size: 845789
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_00000009
+  source: individuals_00000009
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    6e23996c-ea94-4bab-8503-fbd59d7ffa3e.txt: *id017
+    3449a073-2416-408c-bdd1-bbde87bdc51a.vcf: *id018
+  output:
+    4c6626df-bdb2-45cd-a60a-74979481d0a7.gz:
+      type: normal
+      size: 1016966
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000010
+- name: individuals_merge_00000010
+  source: individuals_merge_00000010
+  runtime: 5.283
+  scale: 1
+  mem_usage: 0.25
+  input:
+    6823687f-0c33-48be-8bb9-2152a2258fde.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 6823687f-0c33-48be-8bb9-2152a2258fde.gz
+      size: 471369
+    2c25c035-e267-4d2a-9e20-2f13a2a9f34a.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2c25c035-e267-4d2a-9e20-2f13a2a9f34a.gz
+      size: 568577
+    8d16372e-6977-4fac-b89b-700916bc0004.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8d16372e-6977-4fac-b89b-700916bc0004.gz
+      size: 288248
+    79c29b71-8554-4247-a79b-9935a1595565.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 79c29b71-8554-4247-a79b-9935a1595565.gz
+      size: 835485
+    86dc5ddc-3c40-4fe2-a07c-0e5bed09384b.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 86dc5ddc-3c40-4fe2-a07c-0e5bed09384b.gz
+      size: 1155860
+    85301574-9c2e-4528-ae36-1316fb600661.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 85301574-9c2e-4528-ae36-1316fb600661.gz
+      size: 1036118
+    f92d66f8-57fb-4d3c-a550-6cc82a0c5eb2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f92d66f8-57fb-4d3c-a550-6cc82a0c5eb2.gz
+      size: 912751
+    f621a362-a462-4b9f-9e63-01d84be9be84.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f621a362-a462-4b9f-9e63-01d84be9be84.gz
+      size: 845789
+    4c6626df-bdb2-45cd-a60a-74979481d0a7.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4c6626df-bdb2-45cd-a60a-74979481d0a7.gz
+      size: 1016966
+  output:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: normal
+      size: 658452
+  next:
+    type: pass
+    nodes:
+    - mutation_overlap_00000012
+    - mutation_overlap_00000013
+    - mutation_overlap_00000014
+    - mutation_overlap_00000015
+    - mutation_overlap_00000016
+    - mutation_overlap_00000017
+    - mutation_overlap_00000018
+    - frequency_00000019
+    - frequency_00000020
+    - frequency_00000021
+    - frequency_00000022
+    - frequency_00000023
+    - frequency_00000024
+    - frequency_00000025
+- name: sifting_00000011
+  source: sifting_00000011
+  runtime: 0.113
+  scale: 1
+  mem_usage: 0.25
+  input:
+    879a666e-77f6-435f-8898-cbe449d42acd.vcf: *id019
+  output:
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: normal
+      size: 63204598
+  next:
+    type: pass
+    nodes:
+    - mutation_overlap_00000012
+    - mutation_overlap_00000013
+    - mutation_overlap_00000014
+    - mutation_overlap_00000015
+    - mutation_overlap_00000016
+    - mutation_overlap_00000017
+    - mutation_overlap_00000018
+    - frequency_00000019
+    - frequency_00000020
+    - frequency_00000021
+    - frequency_00000022
+    - frequency_00000023
+    - frequency_00000024
+    - frequency_00000025
+- name: mutation_overlap_00000012
+  source: mutation_overlap_00000012
+  runtime: 2.068
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    ba1af75f-6825-40fb-a1c2-28a330d9d03cALL: *id020
+  output:
+    8fc518a9-c79f-4d93-9857-4ffc98128ad6.gz:
+      type: normal
+      size: 1902783
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000013
+  source: mutation_overlap_00000013
+  runtime: 4.524
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    7f1c0cab-7675-4d97-b2fc-504f5e7dad78AFR: *id021
+  output:
+    63cc447e-318a-41bc-9616-e647ab6eb842.gz:
+      type: normal
+      size: 7404720
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000014
+  source: mutation_overlap_00000014
+  runtime: 2.763
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    9c56825d-8d98-4bc2-9029-8c11a7ef35a0AMR: *id022
+  output:
+    0baa2ec4-30ff-465f-aa1c-21f857a17a08.gz:
+      type: normal
+      size: 6016102
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000015
+  source: mutation_overlap_00000015
+  runtime: 4.225
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    b62d3a32-36f4-4280-9c26-9d244eeac409EAS: *id023
+  output:
+    85a87f74-0eb9-4686-b9d4-f4e3c5b7af92.gz:
+      type: normal
+      size: 7804474
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000016
+  source: mutation_overlap_00000016
+  runtime: 0.461
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    e270e61e-a6fd-416b-9488-4cc19e1ba40bEUR: *id024
+  output:
+    b2477677-29a5-4104-b731-a13ebdfcb5e7.gz:
+      type: normal
+      size: 8622840
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000017
+  source: mutation_overlap_00000017
+  runtime: 1.367
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    7e89e3dc-8fd8-4b5d-ab6f-21884fcae5a8GBR: *id025
+  output:
+    0f76ee4a-6ced-4813-ad5b-4ea7c7028757.gz:
+      type: normal
+      size: 8136633
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000018
+  source: mutation_overlap_00000018
+  runtime: 0.945
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    dff25638-12a0-4a5a-9179-8ae54383a9ebSAS: *id026
+  output:
+    46da3539-dd49-4f50-91d9-4bf659b689d1.gz:
+      type: normal
+      size: 6581650
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000019
+  source: frequency_00000019
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    e08f1224-decc-457d-ad20-b7d42f53d678ALL: *id027
+  output:
+    1f95da12-cc9c-4b13-99cb-8648ec69408b.gz:
+      type: normal
+      size: 7117692
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000020
+  source: frequency_00000020
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    15e21b6e-e10b-4ff5-a831-5934a6867a01AFR: *id028
+  output:
+    4cc4688a-7ad3-43e1-b3e9-d2ccc0c59046.gz:
+      type: normal
+      size: 11384361
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000021
+  source: frequency_00000021
+  runtime: 2.36
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    0c6afced-63f8-4ad9-be94-56cf5ba06e29AMR: *id029
+  output:
+    26e727e3-3df8-40a2-9a76-bee01061d9ac.gz:
+      type: normal
+      size: 5839046
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000022
+  source: frequency_00000022
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    4a90eb79-bb6c-4371-a0ba-8b23301ebeb3EAS: *id030
+  output:
+    a5d7d84e-bf63-4b90-b949-133af7fe58d9.gz:
+      type: normal
+      size: 1492435
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000023
+  source: frequency_00000023
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    1a63e071-a330-444f-a9f9-0931d87deeb9EUR: *id031
+  output:
+    5f26875a-105c-47f7-a42c-492e4967eb83.gz:
+      type: normal
+      size: 5719318
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000024
+  source: frequency_00000024
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    963d7f0f-75ee-4295-b0e1-65622ac0c4efGBR: *id032
+  output:
+    f81000eb-d0d4-477b-bfc7-f7f53b445d88.gz:
+      type: normal
+      size: 1492435
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000025
+  source: frequency_00000025
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8a37d84c-e6f2-4bd0-b120-13c7fe2ff6d5.gz
+      size: 658452
+    0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0d6c26f9-6979-493b-84bb-21c5d7b2ae8d.txt
+      size: 63204598
+    ce30d985-dedf-4b74-89db-301feaa17203SAS: *id033
+  output:
+    5b815897-4ef3-4e0a-961a-e45d3d41b7d5.gz:
+      type: normal
+      size: 1492435
+  next:
+    type: pass
+    nodes: []
+- name: individuals_00000026
+  source: individuals_00000026
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    cbb3bbea-e1b4-4b43-bcb9-26ad0913fe86.txt: *id034
+    45103f00-27e2-42ff-9dd3-defd31a7dc87.vcf: *id035
+  output:
+    ed0d2afc-1bed-4580-a689-da4963de4c47.gz:
+      type: normal
+      size: 210578
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_00000027
+  source: individuals_00000027
+  runtime: 7.265
+  scale: 1
+  mem_usage: 0.25
+  input:
+    77e8d383-67db-4233-a562-2bf2d554e067.txt: *id036
+    87d3e904-3540-4de3-aa87-9429d51a422c.vcf: *id037
+  output:
+    e7138ec6-3f0b-4844-af31-e21bb9f58c54.gz:
+      type: normal
+      size: 146555
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_00000028
+  source: individuals_00000028
+  runtime: 9.385
+  scale: 1
+  mem_usage: 0.25
+  input:
+    94b1b543-39b6-48bd-a5d9-a831ef1cff70.txt: *id038
+    053d5f82-a854-4d86-89f4-0b5cbd493e41.vcf: *id039
+  output:
+    0ab4733f-6b1a-4ae0-8493-e478cd066be0.gz:
+      type: normal
+      size: 146555
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_00000029
+  source: individuals_00000029
+  runtime: 5.334
+  scale: 1
+  mem_usage: 0.25
+  input:
+    aa7f8b37-8710-4e6e-9ba0-aef0d8234352.txt: *id040
+    193188e6-2098-4d6c-9d3b-5a6d502b9cb0.vcf: *id041
+  output:
+    de878b41-c866-4b9c-a7ee-b580128f774c.gz:
+      type: normal
+      size: 146555
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_00000030
+  source: individuals_00000030
+  runtime: 5.151
+  scale: 1
+  mem_usage: 0.25
+  input:
+    a7f0603f-4727-462c-9177-ba0997660845.txt: *id042
+    d39ea8fe-b2ec-4ba3-b4af-f3fc8e627eaf.vcf: *id043
+  output:
+    c504286e-3b61-4a42-bb6d-cb65e95f179f.gz:
+      type: normal
+      size: 828134
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_00000031
+  source: individuals_00000031
+  runtime: 7.21
+  scale: 1
+  mem_usage: 0.25
+  input:
+    165f4453-0742-44db-b61e-06f8176ddf81.txt: *id044
+    76ee2911-031d-4ec2-9f85-b36b1639619c.vcf: *id045
+  output:
+    e391bdaf-b792-42be-8b7b-bdef58585951.gz:
+      type: normal
+      size: 146555
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_00000032
+  source: individuals_00000032
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b148e32f-1b68-40d1-be3a-61df851aa211.txt: *id046
+    1b667045-cb1d-4537-8d9a-8c30a41b8c6d.vcf: *id047
+  output:
+    7361262a-ad1c-4052-a6ed-dd09c33107d7.gz:
+      type: normal
+      size: 528157
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_00000033
+  source: individuals_00000033
+  runtime: 6.944
+  scale: 1
+  mem_usage: 0.25
+  input:
+    c3d15e5d-e1bf-4f30-8228-7c1267c90d26.txt: *id048
+    2f252e2e-b4b6-48e0-a76b-7a4bf929db9b.vcf: *id049
+  output:
+    61a8a115-5d67-4881-bea4-5a4cda91819c.gz:
+      type: normal
+      size: 332524
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_00000034
+  source: individuals_00000034
+  runtime: 7.89
+  scale: 1
+  mem_usage: 0.25
+  input:
+    40176dce-a5d6-4a02-8a8f-a0ab42689b64.txt: *id050
+    1787d47c-9274-463e-884d-57c25a23d531.vcf: *id051
+  output:
+    89efd4f0-b888-4097-85db-83ecebb602e4.gz:
+      type: normal
+      size: 1324291
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000035
+- name: individuals_merge_00000035
+  source: individuals_merge_00000035
+  runtime: 4.836
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ed0d2afc-1bed-4580-a689-da4963de4c47.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ed0d2afc-1bed-4580-a689-da4963de4c47.gz
+      size: 210578
+    e7138ec6-3f0b-4844-af31-e21bb9f58c54.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e7138ec6-3f0b-4844-af31-e21bb9f58c54.gz
+      size: 146555
+    0ab4733f-6b1a-4ae0-8493-e478cd066be0.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ab4733f-6b1a-4ae0-8493-e478cd066be0.gz
+      size: 146555
+    de878b41-c866-4b9c-a7ee-b580128f774c.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: de878b41-c866-4b9c-a7ee-b580128f774c.gz
+      size: 146555
+    c504286e-3b61-4a42-bb6d-cb65e95f179f.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c504286e-3b61-4a42-bb6d-cb65e95f179f.gz
+      size: 828134
+    e391bdaf-b792-42be-8b7b-bdef58585951.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e391bdaf-b792-42be-8b7b-bdef58585951.gz
+      size: 146555
+    7361262a-ad1c-4052-a6ed-dd09c33107d7.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 7361262a-ad1c-4052-a6ed-dd09c33107d7.gz
+      size: 528157
+    61a8a115-5d67-4881-bea4-5a4cda91819c.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 61a8a115-5d67-4881-bea4-5a4cda91819c.gz
+      size: 332524
+    89efd4f0-b888-4097-85db-83ecebb602e4.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 89efd4f0-b888-4097-85db-83ecebb602e4.gz
+      size: 1324291
+  output:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: normal
+      size: 136680
+  next:
+    type: pass
+    nodes:
+    - mutation_overlap_00000037
+    - mutation_overlap_00000038
+    - mutation_overlap_00000039
+    - mutation_overlap_00000040
+    - mutation_overlap_00000041
+    - mutation_overlap_00000042
+    - mutation_overlap_00000043
+    - frequency_00000044
+    - frequency_00000045
+    - frequency_00000046
+    - frequency_00000047
+    - frequency_00000048
+    - frequency_00000049
+    - frequency_00000050
+- name: sifting_00000036
+  source: sifting_00000036
+  runtime: 0.441
+  scale: 1
+  mem_usage: 0.25
+  input:
+    842c8075-9c59-4436-b23a-1d2f8afacee5.vcf: *id052
+  output:
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: normal
+      size: 10633060
+  next:
+    type: pass
+    nodes:
+    - mutation_overlap_00000037
+    - mutation_overlap_00000038
+    - mutation_overlap_00000039
+    - mutation_overlap_00000040
+    - mutation_overlap_00000041
+    - mutation_overlap_00000042
+    - mutation_overlap_00000043
+    - frequency_00000044
+    - frequency_00000045
+    - frequency_00000046
+    - frequency_00000047
+    - frequency_00000048
+    - frequency_00000049
+    - frequency_00000050
+- name: mutation_overlap_00000037
+  source: mutation_overlap_00000037
+  runtime: 0.461
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    13a8faaa-2d80-4ab7-8ab6-ede1742983c5ALL: *id053
+  output:
+    d74135c5-9cd5-4182-b9de-9fbc95286cf3.gz:
+      type: normal
+      size: 9175112
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000038
+  source: mutation_overlap_00000038
+  runtime: 0.993
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    52c3499b-fb0d-4a36-9926-ecd1c031301eAFR: *id054
+  output:
+    003e1623-56bb-4b10-addc-6abe9bbea767.gz:
+      type: normal
+      size: 8907042
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000039
+  source: mutation_overlap_00000039
+  runtime: 0.461
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    32620219-de9c-4255-b5ab-4167283894a7AMR: *id055
+  output:
+    37d19303-41cc-4907-a9d8-db0c1aa9a600.gz:
+      type: normal
+      size: 2667203
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000040
+  source: mutation_overlap_00000040
+  runtime: 2.228
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    794fc717-9107-4fc7-a058-826b1f9505c8EAS: *id056
+  output:
+    44cccf31-cd55-465e-b0d5-38faa407ebea.gz:
+      type: normal
+      size: 7613492
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000041
+  source: mutation_overlap_00000041
+  runtime: 3.985
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    5642560f-0070-4d63-b9f0-76414dd8896cEUR: *id057
+  output:
+    a17ba2b5-13a2-444f-bd7a-85528b030edb.gz:
+      type: normal
+      size: 7271088
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000042
+  source: mutation_overlap_00000042
+  runtime: 0.625
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    2cbc55ad-1c77-4a73-9518-bcd188560b29GBR: *id058
+  output:
+    d6361319-fc4b-4922-850e-53440694c1cf.gz:
+      type: normal
+      size: 6429838
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000043
+  source: mutation_overlap_00000043
+  runtime: 0.461
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    c108a6ac-2a67-4258-a9ab-24f17ebcaf03SAS: *id059
+  output:
+    1d3f9552-c01c-485e-a832-9c3d9a7e703f.gz:
+      type: normal
+      size: 1963987
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000044
+  source: frequency_00000044
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    312db295-5a90-4a46-b8f4-6f6093a1e66bALL: *id060
+  output:
+    7ff740d4-3519-4253-be4a-31c983dbe8ab.gz:
+      type: normal
+      size: 2905693
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000045
+  source: frequency_00000045
+  runtime: 3.124
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    32368d6b-2695-4542-8df2-e11237745bfbAFR: *id061
+  output:
+    9081bc47-b0ee-4e0b-b201-43371fa15791.gz:
+      type: normal
+      size: 7460919
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000046
+  source: frequency_00000046
+  runtime: 7.487
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    ea572e78-56a7-4398-a8fd-77813727d552AMR: *id062
+  output:
+    ebf3f968-e15f-4a48-83af-aa68d5dae941.gz:
+      type: normal
+      size: 5181698
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000047
+  source: frequency_00000047
+  runtime: 2.756
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    33612642-b8b3-4a96-aad1-852310fb417bEAS: *id063
+  output:
+    f826af29-8179-4cbb-bc0f-6f3260ecfc4c.gz:
+      type: normal
+      size: 12455723
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000048
+  source: frequency_00000048
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    7be5855a-3f7c-4bcf-8cbe-41835e45880bEUR: *id064
+  output:
+    c4a9b535-2990-4ceb-8992-2ea3c277116e.gz:
+      type: normal
+      size: 13439764
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000049
+  source: frequency_00000049
+  runtime: 3.559
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    168b314f-9dc7-4262-8b52-7a6e61781621GBR: *id065
+  output:
+    b393037b-3ff9-4b48-a5b0-43ceaa46afb5.gz:
+      type: normal
+      size: 13639758
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000050
+  source: frequency_00000050
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    74e7fae8-359f-49cd-b82b-befa6e1cc267.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74e7fae8-359f-49cd-b82b-befa6e1cc267.gz
+      size: 136680
+    b083d818-761c-487d-9545-5cf4a21313ef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b083d818-761c-487d-9545-5cf4a21313ef.txt
+      size: 10633060
+    4534c952-4ce3-4fbe-8f9e-6e0fd324d8d6SAS: *id066
+  output:
+    bbd20e82-0003-4b49-8814-b433c7bc7f25.gz:
+      type: normal
+      size: 1492435
+  next:
+    type: pass
+    nodes: []
+- name: individuals_00000051
+  source: individuals_00000051
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    7eb681ba-a163-4ba0-a5ce-5cc70bfa491f.txt: *id067
+    5e0f8a51-7036-4657-94fd-04f8a1409fed.vcf: *id068
+  output:
+    e2e775d8-55c9-4996-8e20-78d9af029d91.gz:
+      type: normal
+      size: 1078529
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_00000052
+  source: individuals_00000052
+  runtime: 7.263
+  scale: 1
+  mem_usage: 0.25
+  input:
+    c084fd42-88aa-4698-a721-7d7c9de74491.txt: *id069
+    52ababd4-17e4-4d01-9ab7-f350991e7bba.vcf: *id070
+  output:
+    a05611dd-83d9-4262-b228-c2ca492278b5.gz:
+      type: normal
+      size: 494280
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_00000053
+  source: individuals_00000053
+  runtime: 1.062
+  scale: 1
+  mem_usage: 0.25
+  input:
+    e7fc0fb1-ac80-4c42-946c-c6d1125b14ff.txt: *id071
+    e6191ebb-7b75-4a9a-be1b-0e4d6602680d.vcf: *id072
+  output:
+    98dcc369-9333-404a-97a1-a3ab794259fe.gz:
+      type: normal
+      size: 619748
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_00000054
+  source: individuals_00000054
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    9bf50cde-c2b7-45f7-ab76-20fb1cefd8f1.txt: *id073
+    964c9698-a851-44a0-9e2b-68e0c6bfcd45.vcf: *id074
+  output:
+    83a8ceba-3713-4168-a679-83d45f1c942d.gz:
+      type: normal
+      size: 1074556
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_00000055
+  source: individuals_00000055
+  runtime: 4.159
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ee10e9e-33ae-4523-a263-6c1ed95f5015.txt: *id075
+    85ae8b0e-99fe-4503-bc69-81b889eea94e.vcf: *id076
+  output:
+    4b72a473-d8a6-4f87-ad8e-071e994736b7.gz:
+      type: normal
+      size: 411491
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_00000056
+  source: individuals_00000056
+  runtime: 8.521
+  scale: 1
+  mem_usage: 0.25
+  input:
+    7f41e442-7dca-4fa6-8e7f-3a503378aa53.txt: *id077
+    60362c33-bbf8-4c2c-899f-b9a257a7d722.vcf: *id078
+  output:
+    446359c3-460c-4042-a105-27f768651b53.gz:
+      type: normal
+      size: 904470
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_00000057
+  source: individuals_00000057
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    e63e6bd2-9c97-41ad-bd3f-b0330ff0ccb0.txt: *id079
+    ed5e4388-7652-4de8-90be-9fde9f6181d5.vcf: *id080
+  output:
+    495fcd1a-0069-4cfb-bf34-7be0d7c3120f.gz:
+      type: normal
+      size: 1227820
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_00000058
+  source: individuals_00000058
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    53cc4432-4f08-4524-aeb6-666c4f8902ad.txt: *id081
+    bb8ec92d-4865-46b6-815f-065eb227e2a9.vcf: *id082
+  output:
+    bf0ac2a1-83bd-4774-bc2b-d440ac00a12d.gz:
+      type: normal
+      size: 1180082
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_00000059
+  source: individuals_00000059
+  runtime: 6.774
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ffc6b728-2d7e-496f-8cdc-c3712aba7434.txt: *id083
+    529211bb-55cc-40de-966d-0f6ed418c331.vcf: *id084
+  output:
+    084806a3-aaf3-4bbb-82e8-b8f058836ca9.gz:
+      type: normal
+      size: 146555
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000060
+- name: individuals_merge_00000060
+  source: individuals_merge_00000060
+  runtime: 6.692
+  scale: 1
+  mem_usage: 0.25
+  input:
+    e2e775d8-55c9-4996-8e20-78d9af029d91.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e2e775d8-55c9-4996-8e20-78d9af029d91.gz
+      size: 1078529
+    a05611dd-83d9-4262-b228-c2ca492278b5.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a05611dd-83d9-4262-b228-c2ca492278b5.gz
+      size: 494280
+    98dcc369-9333-404a-97a1-a3ab794259fe.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 98dcc369-9333-404a-97a1-a3ab794259fe.gz
+      size: 619748
+    83a8ceba-3713-4168-a679-83d45f1c942d.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 83a8ceba-3713-4168-a679-83d45f1c942d.gz
+      size: 1074556
+    4b72a473-d8a6-4f87-ad8e-071e994736b7.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4b72a473-d8a6-4f87-ad8e-071e994736b7.gz
+      size: 411491
+    446359c3-460c-4042-a105-27f768651b53.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 446359c3-460c-4042-a105-27f768651b53.gz
+      size: 904470
+    495fcd1a-0069-4cfb-bf34-7be0d7c3120f.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 495fcd1a-0069-4cfb-bf34-7be0d7c3120f.gz
+      size: 1227820
+    bf0ac2a1-83bd-4774-bc2b-d440ac00a12d.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: bf0ac2a1-83bd-4774-bc2b-d440ac00a12d.gz
+      size: 1180082
+    084806a3-aaf3-4bbb-82e8-b8f058836ca9.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 084806a3-aaf3-4bbb-82e8-b8f058836ca9.gz
+      size: 146555
+  output:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: normal
+      size: 148020
+  next:
+    type: pass
+    nodes:
+    - mutation_overlap_00000062
+    - mutation_overlap_00000063
+    - mutation_overlap_00000064
+    - mutation_overlap_00000065
+    - mutation_overlap_00000066
+    - mutation_overlap_00000067
+    - mutation_overlap_00000068
+    - frequency_00000069
+    - frequency_00000070
+    - frequency_00000071
+    - frequency_00000072
+    - frequency_00000073
+    - frequency_00000074
+    - frequency_00000075
+- name: sifting_00000061
+  source: sifting_00000061
+  runtime: 0.66
+  scale: 1
+  mem_usage: 0.25
+  input:
+    7848b0d4-ad6b-4d85-a4be-008d026368f6.vcf: *id085
+  output:
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: normal
+      size: 42027516
+  next:
+    type: pass
+    nodes:
+    - mutation_overlap_00000062
+    - mutation_overlap_00000063
+    - mutation_overlap_00000064
+    - mutation_overlap_00000065
+    - mutation_overlap_00000066
+    - mutation_overlap_00000067
+    - mutation_overlap_00000068
+    - frequency_00000069
+    - frequency_00000070
+    - frequency_00000071
+    - frequency_00000072
+    - frequency_00000073
+    - frequency_00000074
+    - frequency_00000075
+- name: mutation_overlap_00000062
+  source: mutation_overlap_00000062
+  runtime: 3.635
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    1b1af6d2-20e9-4169-ab94-6209a805721aALL: *id086
+  output:
+    383a158c-9e0e-4ee1-96e6-f3a8fbb2eab5.gz:
+      type: normal
+      size: 5773512
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000063
+  source: mutation_overlap_00000063
+  runtime: 0.461
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    0daafa8c-84f4-4751-820b-bf151db4f2aeAFR: *id087
+  output:
+    2437c2dc-f531-4d00-9563-9ec6c29f6bbd.gz:
+      type: normal
+      size: 4990654
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000064
+  source: mutation_overlap_00000064
+  runtime: 3.886
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    92fec3df-275e-4ea2-8525-66603ef88247AMR: *id088
+  output:
+    d35f6ff4-7d1a-4aa9-8f8f-dd5d6a9e9a7a.gz:
+      type: normal
+      size: 9272942
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000065
+  source: mutation_overlap_00000065
+  runtime: 0.461
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    f5766e2c-1dc7-4560-aab7-185f40e3dddeEAS: *id089
+  output:
+    e0be0d9b-da49-454c-b54f-7cc3befcf8fa.gz:
+      type: normal
+      size: 8640865
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000066
+  source: mutation_overlap_00000066
+  runtime: 2.494
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    b31ffec8-b2a3-4b24-bc2d-4d55d8f2b5c9EUR: *id090
+  output:
+    3c4da817-ad85-4bf7-8e47-8f55d8970d11.gz:
+      type: normal
+      size: 5839315
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000067
+  source: mutation_overlap_00000067
+  runtime: 4.321
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    8c2e550d-f2ea-48fd-959a-d30680539534GBR: *id091
+  output:
+    26d6231c-2a2f-4fe4-b367-c1d747092569.gz:
+      type: normal
+      size: 8214183
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000068
+  source: mutation_overlap_00000068
+  runtime: 3.578
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    4d30ca47-bc57-44b2-ba21-9f215758ebacSAS: *id092
+  output:
+    9a20d70b-5678-444b-9124-3d686311b220.gz:
+      type: normal
+      size: 1300137
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000069
+  source: frequency_00000069
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    00b55a39-cf2a-4b81-b1c1-ecbc09d92382ALL: *id093
+  output:
+    3a0661e9-9a9c-4178-8734-48118e9eb45f.gz:
+      type: normal
+      size: 10544221
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000070
+  source: frequency_00000070
+  runtime: 4.717
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    c8a32028-8fd0-428f-9600-715bb30434e1AFR: *id094
+  output:
+    e56de410-3653-4043-895a-8edd50bed274.gz:
+      type: normal
+      size: 5925435
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000071
+  source: frequency_00000071
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    66f34265-ab7a-41b3-b718-cffe2bf50415AMR: *id095
+  output:
+    b62a711c-e5de-472f-b917-90a206e4b762.gz:
+      type: normal
+      size: 1492435
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000072
+  source: frequency_00000072
+  runtime: 6.378
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    b270f72e-95d7-461d-8e94-d70967c6d9b7EAS: *id096
+  output:
+    4dac1c47-c7be-4263-96e7-8308bedae1aa.gz:
+      type: normal
+      size: 10309714
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000073
+  source: frequency_00000073
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    fff4f719-4573-4ab6-9756-f3b406299d42EUR: *id097
+  output:
+    bb509da4-15f5-4c7f-95cf-1e558ee2905b.gz:
+      type: normal
+      size: 4203971
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000074
+  source: frequency_00000074
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    2c22debd-aebc-47c1-91ac-d8a0e6578709GBR: *id098
+  output:
+    e5143ef2-a4ce-4ff0-a311-91b0bb16228c.gz:
+      type: normal
+      size: 3743915
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000075
+  source: frequency_00000075
+  runtime: 2.194
+  scale: 1
+  mem_usage: 0.25
+  input:
+    420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 420a1bc1-4ff3-416d-8720-a7828e5a35f2.gz
+      size: 148020
+    abb5d082-0999-4542-b994-2995d25306a4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb5d082-0999-4542-b994-2995d25306a4.txt
+      size: 42027516
+    93de9c77-8582-4569-89c2-97cfaa821b36SAS: *id099
+  output:
+    7aff0bc1-784c-4cd3-8af6-bdf0f453394c.gz:
+      type: normal
+      size: 1549019
+  next:
+    type: pass
+    nodes: []
+- name: individuals_00000076
+  source: individuals_00000076
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    cb0889e5-1d7d-4101-9a09-c69e7c218e8f.txt: *id100
+    ea0e499e-3ac0-42db-851b-203103193e33.vcf: *id101
+  output:
+    abb6de9f-3210-4fb3-8f3b-4a0b5c30f99d.gz:
+      type: normal
+      size: 434370
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_00000077
+  source: individuals_00000077
+  runtime: 1.582
+  scale: 1
+  mem_usage: 0.25
+  input:
+    815d699f-5409-494a-8b66-0248e5a4a442.txt: *id102
+    8d6ea612-13de-49ea-99e3-0f375501f2c4.vcf: *id103
+  output:
+    dcf54772-9770-4e4a-8003-eee3dd29a12e.gz:
+      type: normal
+      size: 1097428
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_00000078
+  source: individuals_00000078
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ed7e4f02-1ad0-4f96-bf6a-7826b9e7b286.txt: *id104
+    c8a88c5d-2b32-45ad-8000-de699b3fd855.vcf: *id105
+  output:
+    84b458f9-c5b5-46c7-835b-8b10e55807f2.gz:
+      type: normal
+      size: 923171
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_00000079
+  source: individuals_00000079
+  runtime: 6.403
+  scale: 1
+  mem_usage: 0.25
+  input:
+    55289bc5-4f54-4b09-a4b6-4d63b01d8e76.txt: *id106
+    75f02b80-6432-47f6-a134-499964e7ea8c.vcf: *id107
+  output:
+    53dcaff2-39ec-48e6-a5fb-cf1c60107651.gz:
+      type: normal
+      size: 1301163
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_00000080
+  source: individuals_00000080
+  runtime: 6.931
+  scale: 1
+  mem_usage: 0.25
+  input:
+    7a09ea69-5727-4e22-867f-918fe8aecadf.txt: *id108
+    1bfc9117-608c-43e0-aaac-5c5150b80d6d.vcf: *id109
+  output:
+    4e587ae0-c140-43a7-9372-8bfff494ca58.gz:
+      type: normal
+      size: 452184
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_00000081
+  source: individuals_00000081
+  runtime: 0.961
+  scale: 1
+  mem_usage: 0.25
+  input:
+    80e5bfec-926f-418f-bf91-8737f7d1289e.txt: *id110
+    61fba87d-9ae5-4e15-bb15-42df25078e01.vcf: *id111
+  output:
+    e36fc2b4-3026-423b-a4d0-5ece8d8b70c9.gz:
+      type: normal
+      size: 1106998
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_00000082
+  source: individuals_00000082
+  runtime: 5.794
+  scale: 1
+  mem_usage: 0.25
+  input:
+    46c6b9b7-9828-432f-b1bb-2cd724ee78bd.txt: *id112
+    2c960f2d-5a42-467a-8518-e1d78c6bf430.vcf: *id113
+  output:
+    2ca39209-a877-4571-a9ac-e472d32c1753.gz:
+      type: normal
+      size: 146555
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_00000083
+  source: individuals_00000083
+  runtime: 6.898
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ce7574bb-1c04-4071-b31c-6d00e3a583ae.txt: *id114
+    ee864a75-0ed2-4c4b-a295-eae239c7633b.vcf: *id115
+  output:
+    2e2c2b92-9ecc-4319-9e17-6342889248c6.gz:
+      type: normal
+      size: 680152
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_00000084
+  source: individuals_00000084
+  runtime: 8.873
+  scale: 1
+  mem_usage: 0.25
+  input:
+    511f9188-0b94-4a1a-bd9c-d9f42cc7babc.txt: *id116
+    1b237790-54b5-4e04-ae88-1adacfc6e845.vcf: *id117
+  output:
+    17725181-d6cb-46c5-bc41-077d8d92af9d.gz:
+      type: normal
+      size: 146555
+  next:
+    type: pass
+    nodes:
+    - individuals_merge_00000085
+- name: individuals_merge_00000085
+  source: individuals_merge_00000085
+  runtime: 10.548
+  scale: 1
+  mem_usage: 0.25
+  input:
+    abb6de9f-3210-4fb3-8f3b-4a0b5c30f99d.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb6de9f-3210-4fb3-8f3b-4a0b5c30f99d.gz
+      size: 434370
+    dcf54772-9770-4e4a-8003-eee3dd29a12e.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: dcf54772-9770-4e4a-8003-eee3dd29a12e.gz
+      size: 1097428
+    84b458f9-c5b5-46c7-835b-8b10e55807f2.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 84b458f9-c5b5-46c7-835b-8b10e55807f2.gz
+      size: 923171
+    53dcaff2-39ec-48e6-a5fb-cf1c60107651.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 53dcaff2-39ec-48e6-a5fb-cf1c60107651.gz
+      size: 1301163
+    4e587ae0-c140-43a7-9372-8bfff494ca58.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4e587ae0-c140-43a7-9372-8bfff494ca58.gz
+      size: 452184
+    e36fc2b4-3026-423b-a4d0-5ece8d8b70c9.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e36fc2b4-3026-423b-a4d0-5ece8d8b70c9.gz
+      size: 1106998
+    2ca39209-a877-4571-a9ac-e472d32c1753.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2ca39209-a877-4571-a9ac-e472d32c1753.gz
+      size: 146555
+    2e2c2b92-9ecc-4319-9e17-6342889248c6.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2e2c2b92-9ecc-4319-9e17-6342889248c6.gz
+      size: 680152
+    17725181-d6cb-46c5-bc41-077d8d92af9d.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 17725181-d6cb-46c5-bc41-077d8d92af9d.gz
+      size: 146555
+  output:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: normal
+      size: 136680
+  next:
+    type: pass
+    nodes:
+    - mutation_overlap_00000087
+    - mutation_overlap_00000088
+    - mutation_overlap_00000089
+    - mutation_overlap_00000090
+    - mutation_overlap_00000091
+    - mutation_overlap_00000092
+    - mutation_overlap_00000093
+    - frequency_00000094
+    - frequency_00000095
+    - frequency_00000096
+    - frequency_00000097
+    - frequency_00000098
+    - frequency_00000099
+    - frequency_00000100
+- name: sifting_00000086
+  source: sifting_00000086
+  runtime: 0.211
+  scale: 1
+  mem_usage: 0.25
+  input:
+    6f22a4e8-be89-450a-a5b6-400107921cae.vcf: *id118
+  output:
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: normal
+      size: 10633060
+  next:
+    type: pass
+    nodes:
+    - mutation_overlap_00000087
+    - mutation_overlap_00000088
+    - mutation_overlap_00000089
+    - mutation_overlap_00000090
+    - mutation_overlap_00000091
+    - mutation_overlap_00000092
+    - mutation_overlap_00000093
+    - frequency_00000094
+    - frequency_00000095
+    - frequency_00000096
+    - frequency_00000097
+    - frequency_00000098
+    - frequency_00000099
+    - frequency_00000100
+- name: mutation_overlap_00000087
+  source: mutation_overlap_00000087
+  runtime: 3.944
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    7cec4cfa-c431-461e-acd1-66783e6ee357ALL: *id119
+  output:
+    04b7f44a-5ae8-47b5-99eb-813569bcba41.gz:
+      type: normal
+      size: 8230040
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000088
+  source: mutation_overlap_00000088
+  runtime: 3.788
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    85534db7-5a63-4226-a219-61f932e6246eAFR: *id120
+  output:
+    25258fa8-00aa-416a-9af7-86a072cdb47e.gz:
+      type: normal
+      size: 8729445
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000089
+  source: mutation_overlap_00000089
+  runtime: 4.309
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    d695ab9c-4912-4363-9d21-cb2e6cb51da4AMR: *id121
+  output:
+    8ad6f2a5-2bd3-4bfa-bdb1-2894d39b18f4.gz:
+      type: normal
+      size: 863025
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000090
+  source: mutation_overlap_00000090
+  runtime: 0.784
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    770db754-1362-44f4-bac3-b2d561200a9dEAS: *id122
+  output:
+    ecb1366c-4dd0-424c-9334-7d32b44a1bcd.gz:
+      type: normal
+      size: 9168073
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000091
+  source: mutation_overlap_00000091
+  runtime: 3.483
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    e2b4d062-aceb-4ea3-9a2b-bd5ac6483e4aEUR: *id123
+  output:
+    904b4ec3-7bc6-4eb6-a3a2-0f827ac1afe2.gz:
+      type: normal
+      size: 4031206
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000092
+  source: mutation_overlap_00000092
+  runtime: 2.016
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    43227072-14de-4730-9489-5be9983f04efGBR: *id124
+  output:
+    4a52891f-797b-434f-b305-4631abe409eb.gz:
+      type: normal
+      size: 5781148
+  next:
+    type: pass
+    nodes: []
+- name: mutation_overlap_00000093
+  source: mutation_overlap_00000093
+  runtime: 0.461
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    6873eac4-608f-4178-9356-c7aeb9b679e9SAS: *id125
+  output:
+    914a300b-d65c-4e1f-8228-e9ca99babb06.gz:
+      type: normal
+      size: 5538108
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000094
+  source: frequency_00000094
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    e13a2c35-916f-4a6f-b7ea-41e65d181a6aALL: *id126
+  output:
+    00e47bed-23d7-47c3-8433-5da3107d294a.gz:
+      type: normal
+      size: 6435213
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000095
+  source: frequency_00000095
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    a959d8b2-6e98-492d-9b89-a516edd09a43AFR: *id127
+  output:
+    3f079cc9-9b20-4612-8b52-1c4472bf14e7.gz:
+      type: normal
+      size: 1492435
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000096
+  source: frequency_00000096
+  runtime: 3.843
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    d1a530da-6537-4ca5-93fa-58a555c7324cAMR: *id128
+  output:
+    d1424c47-c71c-44bc-a450-d2113af6b171.gz:
+      type: normal
+      size: 14400430
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000097
+  source: frequency_00000097
+  runtime: 3.546
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    504dc884-8464-49e9-81d1-44f4dc85f00dEAS: *id129
+  output:
+    dc1e326c-931d-4258-b13b-f98f822b212b.gz:
+      type: normal
+      size: 1492435
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000098
+  source: frequency_00000098
+  runtime: 1.191
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    034856ce-bd5b-4c0e-ab4b-a9e86944a5a4EUR: *id130
+  output:
+    2ac66ab5-ed3d-4cb9-89e6-7046c63dc7f4.gz:
+      type: normal
+      size: 10338160
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000099
+  source: frequency_00000099
+  runtime: 4.818
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    cc3655ef-4a33-44f8-97e0-6102974dc5eaGBR: *id131
+  output:
+    fe50d22a-268f-4edb-ba2c-1c3cdb358397.gz:
+      type: normal
+      size: 8793008
+  next:
+    type: pass
+    nodes: []
+- name: frequency_00000100
+  source: frequency_00000100
+  runtime: 2.864
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b11aac42-35c8-4b1b-87eb-4f533c6a5110.gz
+      size: 136680
+    fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fca5321f-ec3a-44f1-bcd1-ca2fb27e14f3.txt
+      size: 10633060
+    7a39f496-b2be-449c-82b0-39807c01d94cSAS: *id132
+  output:
+    14296499-b09e-4904-99e6-37173d30c921.gz:
+      type: normal
+      size: 12501235
+  next:
+    type: pass
+    nodes: []

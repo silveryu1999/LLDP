@@ -1,0 +1,3036 @@
+{
+    "name": "BLAST-synthetic-trace",
+    "description": "Trace generated with WorkflowHub - https://workflowhub.org",
+    "createdAt": "2023-10-13T01:32:07.186055",
+    "schemaVersion": "1.0",
+    "author": {
+        "name": "yujiazhao",
+        "email": "support@workflowhub.org"
+    },
+    "wms": {
+        "name": "WorkflowHub",
+        "version": "0.4",
+        "url": "https://workflowhub.readthedocs.io/en/v0.4/"
+    },
+    "workflow": {
+        "executedAt": "20231013T093207+0800",
+        "makespan": null,
+        "jobs": [
+            {
+                "name": "split_fasta_00000001",
+                "type": "compute",
+                "runtime": 0.0,
+                "parents": [],
+                "children": [
+                    "blastall_00000002",
+                    "blastall_00000003",
+                    "blastall_00000004",
+                    "blastall_00000005",
+                    "blastall_00000006",
+                    "blastall_00000007",
+                    "blastall_00000008",
+                    "blastall_00000009",
+                    "blastall_00000010",
+                    "blastall_00000011",
+                    "blastall_00000012",
+                    "blastall_00000013",
+                    "blastall_00000014",
+                    "blastall_00000015",
+                    "blastall_00000016",
+                    "blastall_00000017",
+                    "blastall_00000018",
+                    "blastall_00000019",
+                    "blastall_00000020",
+                    "blastall_00000021",
+                    "blastall_00000022",
+                    "blastall_00000023",
+                    "blastall_00000024",
+                    "blastall_00000025",
+                    "blastall_00000026",
+                    "blastall_00000027",
+                    "blastall_00000028",
+                    "blastall_00000029",
+                    "blastall_00000030",
+                    "blastall_00000031",
+                    "blastall_00000032",
+                    "blastall_00000033",
+                    "blastall_00000034",
+                    "blastall_00000035",
+                    "blastall_00000036",
+                    "blastall_00000037",
+                    "blastall_00000038",
+                    "blastall_00000039",
+                    "blastall_00000040",
+                    "blastall_00000041",
+                    "blastall_00000042",
+                    "blastall_00000043",
+                    "blastall_00000044",
+                    "blastall_00000045",
+                    "blastall_00000046",
+                    "blastall_00000047",
+                    "blastall_00000048"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "01a865bc-b69d-4db7-908c-e8ea8a0b0341.fasta",
+                        "size": 171732
+                    },
+                    {
+                        "link": "input",
+                        "name": "77612a7e-c531-41b5-ade3-69200ff6b14bsplit_fasta",
+                        "size": 1
+                    },
+                    {
+                        "link": "output",
+                        "name": "cf8721dc-32da-4761-8aed-e53d3b5daa80.fasta",
+                        "size": 130776
+                    },
+                    {
+                        "link": "output",
+                        "name": "55030619-9cca-4c13-a7f6-4a53d96efbe9.fasta",
+                        "size": 126015
+                    },
+                    {
+                        "link": "output",
+                        "name": "c5396ec7-5862-4fd4-8e7e-eee719f9bf57.fasta",
+                        "size": 209848
+                    },
+                    {
+                        "link": "output",
+                        "name": "5dc2a1c9-2bc2-4e0c-ae7d-d207e5d4a26f.fasta",
+                        "size": 158274
+                    },
+                    {
+                        "link": "output",
+                        "name": "79cafbdf-0c15-4b51-91fa-38f8ea3b1edc.fasta",
+                        "size": 111572
+                    },
+                    {
+                        "link": "output",
+                        "name": "ce8bf697-fa68-4dc1-9487-d650c8806a14.fasta",
+                        "size": 184513
+                    },
+                    {
+                        "link": "output",
+                        "name": "13984f47-ac63-45fe-86f3-e635d313717b.fasta",
+                        "size": 200840
+                    },
+                    {
+                        "link": "output",
+                        "name": "49a1aa1d-255d-4e47-af6a-80271968050c.fasta",
+                        "size": 151923
+                    },
+                    {
+                        "link": "output",
+                        "name": "7b47d68a-5045-49b9-8f46-dde0ef9d202d.fasta",
+                        "size": 220562
+                    },
+                    {
+                        "link": "output",
+                        "name": "4b333f60-e19d-4825-b526-901228362a08.fasta",
+                        "size": 191859
+                    },
+                    {
+                        "link": "output",
+                        "name": "5cf89621-2d28-4e8d-8456-ac35bd21e0f0.fasta",
+                        "size": 184365
+                    },
+                    {
+                        "link": "output",
+                        "name": "96608bd8-049b-4a3a-8b4a-cd9cc7c15d87.fasta",
+                        "size": 196072
+                    },
+                    {
+                        "link": "output",
+                        "name": "99586d06-7df0-4996-b493-57e7241c3244.fasta",
+                        "size": 135115
+                    },
+                    {
+                        "link": "output",
+                        "name": "14bd739c-b296-42a6-b518-03ef3f72530e.fasta",
+                        "size": 58454
+                    },
+                    {
+                        "link": "output",
+                        "name": "b6012fcf-ca00-4e03-80db-90c1fb559be9.fasta",
+                        "size": 138892
+                    },
+                    {
+                        "link": "output",
+                        "name": "99edf85e-4778-4f04-bc8d-036e7723d8d9.fasta",
+                        "size": 126378
+                    },
+                    {
+                        "link": "output",
+                        "name": "b9527287-0e8e-4f50-a909-1ea84b00806c.fasta",
+                        "size": 28478
+                    },
+                    {
+                        "link": "output",
+                        "name": "44f3cde7-26d2-42af-afb8-6628b33e3ede.fasta",
+                        "size": 182254
+                    },
+                    {
+                        "link": "output",
+                        "name": "88b11ace-5c72-40ab-bff9-f88ddec9d533.fasta",
+                        "size": 55885
+                    },
+                    {
+                        "link": "output",
+                        "name": "dd94daf8-1490-4627-8607-9856f2268333.fasta",
+                        "size": 178840
+                    },
+                    {
+                        "link": "output",
+                        "name": "bb075456-6611-4f64-b218-b9c9cb1d4114.fasta",
+                        "size": 106184
+                    },
+                    {
+                        "link": "output",
+                        "name": "f33d9261-40e4-4f56-a1cd-82f71fdb4dae.fasta",
+                        "size": 116671
+                    },
+                    {
+                        "link": "output",
+                        "name": "84e19f72-8102-4d3d-8f25-f10a28ecc1aa.fasta",
+                        "size": 131239
+                    },
+                    {
+                        "link": "output",
+                        "name": "f18dd0f9-13d9-4a22-ba77-60c1b20ea903.fasta",
+                        "size": 187884
+                    },
+                    {
+                        "link": "output",
+                        "name": "d96f96a9-543e-48d0-a34e-001ec92e46cd.fasta",
+                        "size": 185649
+                    },
+                    {
+                        "link": "output",
+                        "name": "01bb2c9f-4791-4ee7-b9d5-63e3ec6f0870.fasta",
+                        "size": 189806
+                    },
+                    {
+                        "link": "output",
+                        "name": "089dc474-a674-4bdf-a4aa-378c0dff9bfd.fasta",
+                        "size": 190900
+                    },
+                    {
+                        "link": "output",
+                        "name": "8131fbc4-be46-4402-bd9a-9dd2c00b3ab1.fasta",
+                        "size": 131143
+                    },
+                    {
+                        "link": "output",
+                        "name": "19622fb4-bf6c-41d2-956e-9308cebb646a.fasta",
+                        "size": 51645
+                    },
+                    {
+                        "link": "output",
+                        "name": "6312b2a8-9d6a-459a-baee-f0404c88384a.fasta",
+                        "size": 208883
+                    },
+                    {
+                        "link": "output",
+                        "name": "353c5e88-7135-40fe-bf35-d28d9897326f.fasta",
+                        "size": 146882
+                    },
+                    {
+                        "link": "output",
+                        "name": "75e0e191-3012-445d-8c6f-cd719aad1d06.fasta",
+                        "size": 32344
+                    },
+                    {
+                        "link": "output",
+                        "name": "01385395-a68c-4172-b080-3e2f97239c2b.fasta",
+                        "size": 126245
+                    },
+                    {
+                        "link": "output",
+                        "name": "c0a8d32b-cba2-4481-b514-f3a020bfd688.fasta",
+                        "size": 202851
+                    },
+                    {
+                        "link": "output",
+                        "name": "be4de70f-a69a-48d5-a41b-04551ea786b3.fasta",
+                        "size": 201521
+                    },
+                    {
+                        "link": "output",
+                        "name": "26057c49-263e-4f17-93ee-8f05d5320c5b.fasta",
+                        "size": 195557
+                    },
+                    {
+                        "link": "output",
+                        "name": "fbd62e2a-b39a-4fd0-bd2b-a103f422a101.fasta",
+                        "size": 175190
+                    },
+                    {
+                        "link": "output",
+                        "name": "bdde0577-7aa5-4534-93b0-44aabad3d33a.fasta",
+                        "size": 117870
+                    },
+                    {
+                        "link": "output",
+                        "name": "d7091a2d-4623-41e3-b863-5b7becdcc387.fasta",
+                        "size": 20150
+                    },
+                    {
+                        "link": "output",
+                        "name": "9096fca4-86a6-43ee-bd53-a29c6e70728c.fasta",
+                        "size": 32798
+                    },
+                    {
+                        "link": "output",
+                        "name": "f261d81e-1e7f-44a9-a754-1a359e6cb71d.fasta",
+                        "size": 208857
+                    },
+                    {
+                        "link": "output",
+                        "name": "4a7432a8-d653-4cfe-a194-522d9f8850c6.fasta",
+                        "size": 185864
+                    },
+                    {
+                        "link": "output",
+                        "name": "8a2ae062-f479-4593-958f-7d568d29456e.fasta",
+                        "size": 154584
+                    },
+                    {
+                        "link": "output",
+                        "name": "0ebd45d3-2c0e-473a-b0d5-7abafda1863e.fasta",
+                        "size": 123750
+                    },
+                    {
+                        "link": "output",
+                        "name": "0a945c1b-981d-4eb3-b7af-ad0b4f189c89.fasta",
+                        "size": 42624
+                    },
+                    {
+                        "link": "output",
+                        "name": "515b359e-e8e7-4ed6-becb-f5607ab8d823.fasta",
+                        "size": 174554
+                    },
+                    {
+                        "link": "output",
+                        "name": "322d29f9-2b68-4226-9ba4-219c1918e612.fasta",
+                        "size": 172375
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000002",
+                "type": "compute",
+                "runtime": 0.662,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "cf8721dc-32da-4761-8aed-e53d3b5daa80.fasta",
+                        "size": 130776
+                    },
+                    {
+                        "link": "input",
+                        "name": "cf78b171-3413-4db8-adc0-292e4d7c44b6blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "c33c05e0-8b87-47dd-8c67-eeb1bd25192ant",
+                        "size": 5114910602
+                    },
+                    {
+                        "link": "output",
+                        "name": "11f89d15-f79a-41c6-9fc8-6b8f92d6af50.out",
+                        "size": 573686
+                    },
+                    {
+                        "link": "output",
+                        "name": "5ab7ae25-decc-44aa-8a80-f362317b94ec.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000003",
+                "type": "compute",
+                "runtime": 1.387,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "55030619-9cca-4c13-a7f6-4a53d96efbe9.fasta",
+                        "size": 126015
+                    },
+                    {
+                        "link": "input",
+                        "name": "68aa1106-7fcc-451c-a245-616668eee3c9blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "35d72683-4a0f-4915-adc7-80985635e12ant",
+                        "size": 4511481615
+                    },
+                    {
+                        "link": "output",
+                        "name": "0dc4db7d-802a-4fed-a5a8-d743f68a1ac5.out",
+                        "size": 1199317
+                    },
+                    {
+                        "link": "output",
+                        "name": "fb670f31-55a4-4e3d-9ecb-a47a49d49ebe.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000004",
+                "type": "compute",
+                "runtime": 1.859,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c5396ec7-5862-4fd4-8e7e-eee719f9bf57.fasta",
+                        "size": 209848
+                    },
+                    {
+                        "link": "input",
+                        "name": "cbb4a5ac-ed73-4c90-b020-fd1a6186270cblastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "60d285d7-a63e-41c7-91f0-0a8533db15bcnt",
+                        "size": 3713361901
+                    },
+                    {
+                        "link": "output",
+                        "name": "56a72b6f-1ebb-4b40-9e00-94916321cdba.out",
+                        "size": 1412059
+                    },
+                    {
+                        "link": "output",
+                        "name": "c5cab899-8564-4268-948a-c83396711f60.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000005",
+                "type": "compute",
+                "runtime": 1.563,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5dc2a1c9-2bc2-4e0c-ae7d-d207e5d4a26f.fasta",
+                        "size": 158274
+                    },
+                    {
+                        "link": "input",
+                        "name": "9e53139c-cc72-4142-b970-8f912aa0bb14blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "eae1fd6c-def3-4aff-9dbc-b730d724633bnt",
+                        "size": 511770449
+                    },
+                    {
+                        "link": "output",
+                        "name": "518bd14f-371e-419c-aa05-9f22aaa1e3fc.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "5021e6d9-89eb-4632-85de-e1b1cf3b38f1.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000006",
+                "type": "compute",
+                "runtime": 0.708,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "79cafbdf-0c15-4b51-91fa-38f8ea3b1edc.fasta",
+                        "size": 111572
+                    },
+                    {
+                        "link": "input",
+                        "name": "4a29c2d7-2506-4679-8a21-fd570283ddd6blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "c5715ce9-7f7a-40ba-8cd0-4e51a8c9b7c8nt",
+                        "size": 5179633805
+                    },
+                    {
+                        "link": "output",
+                        "name": "7bc6b745-275d-4492-a32f-17e9ab6a8484.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "bfa5d68c-2dc6-4dc4-82b6-468a6c629886.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000007",
+                "type": "compute",
+                "runtime": 1.853,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "ce8bf697-fa68-4dc1-9487-d650c8806a14.fasta",
+                        "size": 184513
+                    },
+                    {
+                        "link": "input",
+                        "name": "17bf5220-e226-4b85-ba5e-9e64a2c1ce88blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "bcc4758f-c17e-490c-b607-2d0b2e44a846nt",
+                        "size": 5219379245
+                    },
+                    {
+                        "link": "output",
+                        "name": "cc64c1dc-46a0-41e1-9014-a123024ab949.out",
+                        "size": 271362
+                    },
+                    {
+                        "link": "output",
+                        "name": "f4d4876f-6f3c-4cf1-ae6b-9a4f071fa675.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000008",
+                "type": "compute",
+                "runtime": 1.954,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "13984f47-ac63-45fe-86f3-e635d313717b.fasta",
+                        "size": 200840
+                    },
+                    {
+                        "link": "input",
+                        "name": "666a5361-791b-4fee-ba6e-313e84612279blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "f1de51cf-94d6-4c71-a2b3-33a9507410dcnt",
+                        "size": 4705840383
+                    },
+                    {
+                        "link": "output",
+                        "name": "5dd0807c-6cf8-4d53-8fed-325339e64ed2.out",
+                        "size": 1049719
+                    },
+                    {
+                        "link": "output",
+                        "name": "430ed59c-abab-4a04-b85f-9246863b9534.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000009",
+                "type": "compute",
+                "runtime": 1.682,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "49a1aa1d-255d-4e47-af6a-80271968050c.fasta",
+                        "size": 151923
+                    },
+                    {
+                        "link": "input",
+                        "name": "f8b71b6b-c724-42ba-a43d-bcc53376d8a6blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "59850e9f-1aaf-4b0f-a0d2-6d331873c150nt",
+                        "size": 4915225393
+                    },
+                    {
+                        "link": "output",
+                        "name": "448a402a-ba3d-4af2-91b0-4fc345071a0a.out",
+                        "size": 1072818
+                    },
+                    {
+                        "link": "output",
+                        "name": "540ac3c4-9767-4711-aa62-9eb9eb7cec4d.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000010",
+                "type": "compute",
+                "runtime": 0.842,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "7b47d68a-5045-49b9-8f46-dde0ef9d202d.fasta",
+                        "size": 220562
+                    },
+                    {
+                        "link": "input",
+                        "name": "82283c01-e959-4fec-bc9a-c1d657be0171blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "047ee392-c939-4222-822a-d93ea5d8ee7fnt",
+                        "size": 5365388212
+                    },
+                    {
+                        "link": "output",
+                        "name": "61c5c19a-6c73-4b94-8a1a-cb5e71114889.out",
+                        "size": 1397363
+                    },
+                    {
+                        "link": "output",
+                        "name": "a019ff90-7b99-400f-b5d4-b8ecdc33711d.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000011",
+                "type": "compute",
+                "runtime": 0.976,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "4b333f60-e19d-4825-b526-901228362a08.fasta",
+                        "size": 191859
+                    },
+                    {
+                        "link": "input",
+                        "name": "91c898d4-ec8c-47f2-8c00-fba945f16828blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "630d5a07-7b1e-44a0-a94d-0e83d97f606cnt",
+                        "size": 5244034324
+                    },
+                    {
+                        "link": "output",
+                        "name": "22da5057-5630-4089-a7e7-842d9273c7de.out",
+                        "size": 221440
+                    },
+                    {
+                        "link": "output",
+                        "name": "bf85bc83-0f75-4d08-8873-03e34bb831c3.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000012",
+                "type": "compute",
+                "runtime": 0.829,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5cf89621-2d28-4e8d-8456-ac35bd21e0f0.fasta",
+                        "size": 184365
+                    },
+                    {
+                        "link": "input",
+                        "name": "0656a094-6361-45d0-8fb4-5fe7d179ef83blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "0b6a767f-12d2-42df-a8db-4ca14d7e098fnt",
+                        "size": 5589059515
+                    },
+                    {
+                        "link": "output",
+                        "name": "30bf8b3d-c701-4733-a4c7-ae68e9fdcdb4.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "9a301be7-69d3-4f41-964e-27e880447c02.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000013",
+                "type": "compute",
+                "runtime": 1.3,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "96608bd8-049b-4a3a-8b4a-cd9cc7c15d87.fasta",
+                        "size": 196072
+                    },
+                    {
+                        "link": "input",
+                        "name": "84dcb3bf-5453-4620-bfa7-fb53c23f64d4blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "7d713992-0a0e-469b-b433-aa4b9b1f5629nt",
+                        "size": 4786426562
+                    },
+                    {
+                        "link": "output",
+                        "name": "6df7fe81-ad6d-4660-8b15-6f6e20be8c24.out",
+                        "size": 1069255
+                    },
+                    {
+                        "link": "output",
+                        "name": "3689b56f-9706-4e0e-a567-61debcb58a32.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000014",
+                "type": "compute",
+                "runtime": 1.232,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "99586d06-7df0-4996-b493-57e7241c3244.fasta",
+                        "size": 135115
+                    },
+                    {
+                        "link": "input",
+                        "name": "379460dd-bc2f-4e86-912f-b6e39bf36168blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "7ff718d5-3793-4ab3-92fa-8b064384a059nt",
+                        "size": 4056637727
+                    },
+                    {
+                        "link": "output",
+                        "name": "80ae9a3f-2fb7-4a80-8886-d52f1f03f24f.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "a520a37e-2a70-4884-b09a-6b4bcf053341.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000015",
+                "type": "compute",
+                "runtime": 1.34,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "14bd739c-b296-42a6-b518-03ef3f72530e.fasta",
+                        "size": 58454
+                    },
+                    {
+                        "link": "input",
+                        "name": "1685ecf5-129e-4f37-9388-34866601e591blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "6408e18e-33a0-4c3a-9934-455b1b1b4b35nt",
+                        "size": 4347691013
+                    },
+                    {
+                        "link": "output",
+                        "name": "eb9d8028-8a88-4af3-a363-4a16873ce5db.out",
+                        "size": 1154934
+                    },
+                    {
+                        "link": "output",
+                        "name": "c3c42b49-ca84-4b56-8d14-9f374c406ec5.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000016",
+                "type": "compute",
+                "runtime": 1.384,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b6012fcf-ca00-4e03-80db-90c1fb559be9.fasta",
+                        "size": 138892
+                    },
+                    {
+                        "link": "input",
+                        "name": "272d48be-031d-4b20-a689-b640fcd74d03blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "efd023e7-ef05-4935-b144-0d8b46d639e5nt",
+                        "size": 4405135900
+                    },
+                    {
+                        "link": "output",
+                        "name": "d4b016d8-01c0-45cb-bb91-8757aae6e63d.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "2a7fe034-8d10-40fa-8443-10538e537bfd.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000017",
+                "type": "compute",
+                "runtime": 1.547,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "99edf85e-4778-4f04-bc8d-036e7723d8d9.fasta",
+                        "size": 126378
+                    },
+                    {
+                        "link": "input",
+                        "name": "9ac8e4d9-72a5-4d19-beeb-20e6426b60ecblastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "580421d6-9192-45d4-8cb1-83c66920d53fnt",
+                        "size": 4514541109
+                    },
+                    {
+                        "link": "output",
+                        "name": "4e19a744-e701-4d8d-9895-cfdbc896a92c.out",
+                        "size": 1627496
+                    },
+                    {
+                        "link": "output",
+                        "name": "0995f8b2-5fae-4f0c-ae9f-2051de1e0246.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000018",
+                "type": "compute",
+                "runtime": 0.355,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b9527287-0e8e-4f50-a909-1ea84b00806c.fasta",
+                        "size": 28478
+                    },
+                    {
+                        "link": "input",
+                        "name": "8112f02c-5a6e-4fb2-9216-677b4ec717c4blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "de5407fe-144c-4ad9-b8b9-10b2c670feafnt",
+                        "size": 3424135878
+                    },
+                    {
+                        "link": "output",
+                        "name": "bbf59437-814c-485c-afa3-0ca679add2dd.out",
+                        "size": 1613780
+                    },
+                    {
+                        "link": "output",
+                        "name": "28250666-9dfc-400e-bd6e-2c82e3a04033.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000019",
+                "type": "compute",
+                "runtime": 0.763,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "44f3cde7-26d2-42af-afb8-6628b33e3ede.fasta",
+                        "size": 182254
+                    },
+                    {
+                        "link": "input",
+                        "name": "e4ed4a9f-00c2-469e-891e-8a39b40733c5blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "8e207e73-e9e6-4e3e-b275-9731fe14085dnt",
+                        "size": 5414772612
+                    },
+                    {
+                        "link": "output",
+                        "name": "124b56d6-7792-432a-a759-781bb11f6533.out",
+                        "size": 878835
+                    },
+                    {
+                        "link": "output",
+                        "name": "e27b8a6e-cd69-4fa8-8129-905b5d6b46a3.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000020",
+                "type": "compute",
+                "runtime": 1.066,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "88b11ace-5c72-40ab-bff9-f88ddec9d533.fasta",
+                        "size": 55885
+                    },
+                    {
+                        "link": "input",
+                        "name": "2eecea9f-812c-4fd2-b08b-85a54e7dc4ddblastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "4caa9dcf-cd2f-4c1d-9902-7a6bd86e0587nt",
+                        "size": 511770449
+                    },
+                    {
+                        "link": "output",
+                        "name": "c018e312-cfa5-4b84-b4df-07f4ea9328e0.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "687da0cf-2943-403a-8f49-d02457e3d94d.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000021",
+                "type": "compute",
+                "runtime": 1.061,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "dd94daf8-1490-4627-8607-9856f2268333.fasta",
+                        "size": 178840
+                    },
+                    {
+                        "link": "input",
+                        "name": "52f50481-91f2-4038-a739-0e16f1678378blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "617dcf55-e8ba-4d3b-9374-68bc822c4e7ant",
+                        "size": 511770449
+                    },
+                    {
+                        "link": "output",
+                        "name": "481d9cc7-a717-4b00-b407-39edd4d61da8.out",
+                        "size": 678660
+                    },
+                    {
+                        "link": "output",
+                        "name": "bf80c921-ce04-46ef-a197-d02beaf66721.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000022",
+                "type": "compute",
+                "runtime": 1.28,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bb075456-6611-4f64-b218-b9c9cb1d4114.fasta",
+                        "size": 106184
+                    },
+                    {
+                        "link": "input",
+                        "name": "26315a98-a490-4985-bac3-6415ed50d098blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "0a8dbf49-acba-4b5a-a566-7796d8eeaa7fnt",
+                        "size": 1842218939
+                    },
+                    {
+                        "link": "output",
+                        "name": "1e642660-d6db-44ee-8161-c063ccb86440.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "0095c808-a47a-420c-8a47-df96db3a701e.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000023",
+                "type": "compute",
+                "runtime": 0.579,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f33d9261-40e4-4f56-a1cd-82f71fdb4dae.fasta",
+                        "size": 116671
+                    },
+                    {
+                        "link": "input",
+                        "name": "77a1b514-d2ef-46e6-abab-93eb1fbce92eblastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "79467201-1ba3-4f46-ad24-caca8d726eb5nt",
+                        "size": 1872156097
+                    },
+                    {
+                        "link": "output",
+                        "name": "799a4fa7-5f04-4625-983d-d3b46ba6fad1.out",
+                        "size": 321087
+                    },
+                    {
+                        "link": "output",
+                        "name": "d8c6f052-16b6-4891-a2ec-a80a36f53bc3.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000024",
+                "type": "compute",
+                "runtime": 0.511,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "84e19f72-8102-4d3d-8f25-f10a28ecc1aa.fasta",
+                        "size": 131239
+                    },
+                    {
+                        "link": "input",
+                        "name": "10707ef1-d6ee-4e77-b648-1f5c5d83393bblastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "a9b1a67f-2b0b-47d7-b6b1-1c5d3bbfe395nt",
+                        "size": 2004508467
+                    },
+                    {
+                        "link": "output",
+                        "name": "dee7bcc0-b76f-481f-8eb2-14880f46ef2a.out",
+                        "size": 1003487
+                    },
+                    {
+                        "link": "output",
+                        "name": "a817fcfc-efa1-49f2-9d9a-1ea0b10d9ec8.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000025",
+                "type": "compute",
+                "runtime": 1.529,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f18dd0f9-13d9-4a22-ba77-60c1b20ea903.fasta",
+                        "size": 187884
+                    },
+                    {
+                        "link": "input",
+                        "name": "f165744f-6768-4404-8d90-15f09ed4d9d9blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "ebcee402-91db-4e8c-8bb6-c4757847ca6fnt",
+                        "size": 2999425991
+                    },
+                    {
+                        "link": "output",
+                        "name": "69815eea-7327-4161-9f8e-218fd28f6600.out",
+                        "size": 193542
+                    },
+                    {
+                        "link": "output",
+                        "name": "7180b0ce-a07d-4a88-8ccf-fdae8e9d81ce.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000026",
+                "type": "compute",
+                "runtime": 1.467,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "d96f96a9-543e-48d0-a34e-001ec92e46cd.fasta",
+                        "size": 185649
+                    },
+                    {
+                        "link": "input",
+                        "name": "e43c7da1-9af1-41bb-8abd-84f8926b56a7blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "56b0855c-d825-4642-bd55-519b78b0dc1ent",
+                        "size": 4232702337
+                    },
+                    {
+                        "link": "output",
+                        "name": "87eccf2d-fad1-4e5a-a6df-daeae66c7760.out",
+                        "size": 622596
+                    },
+                    {
+                        "link": "output",
+                        "name": "5d02e8f7-4362-4cb6-9cd4-cadc929efcc0.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000027",
+                "type": "compute",
+                "runtime": 1.604,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "01bb2c9f-4791-4ee7-b9d5-63e3ec6f0870.fasta",
+                        "size": 189806
+                    },
+                    {
+                        "link": "input",
+                        "name": "045c9492-e032-4440-86ce-a819da1190c7blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "8e0b7cba-80da-4408-9bb4-282233c07c74nt",
+                        "size": 5497115861
+                    },
+                    {
+                        "link": "output",
+                        "name": "805760bb-30a3-4f06-9d5a-24b5ec895fa5.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "332dce76-baed-49c1-9b26-23ff3290001c.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000028",
+                "type": "compute",
+                "runtime": 0.935,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "089dc474-a674-4bdf-a4aa-378c0dff9bfd.fasta",
+                        "size": 190900
+                    },
+                    {
+                        "link": "input",
+                        "name": "b13acf46-e821-459a-b4e0-d9216cc7e290blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "522796e7-f137-405f-99f1-e339276c322ant",
+                        "size": 4648881168
+                    },
+                    {
+                        "link": "output",
+                        "name": "1dd459ae-9828-4a6a-ae6e-03c83468d590.out",
+                        "size": 227086
+                    },
+                    {
+                        "link": "output",
+                        "name": "f72ee1b7-b758-4b1d-92b6-48d407df1777.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000029",
+                "type": "compute",
+                "runtime": 1.903,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8131fbc4-be46-4402-bd9a-9dd2c00b3ab1.fasta",
+                        "size": 131143
+                    },
+                    {
+                        "link": "input",
+                        "name": "fd55c7e2-4354-43e5-90b8-dfdb04ebd814blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "57ecec59-2aba-4917-b4f4-ff0f5eab5798nt",
+                        "size": 2319360387
+                    },
+                    {
+                        "link": "output",
+                        "name": "04e5b1e7-9f91-4e5a-8608-c1376259c827.out",
+                        "size": 1244196
+                    },
+                    {
+                        "link": "output",
+                        "name": "853746fd-3bab-4174-8a77-6e265173a7e3.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000030",
+                "type": "compute",
+                "runtime": 0.768,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "19622fb4-bf6c-41d2-956e-9308cebb646a.fasta",
+                        "size": 51645
+                    },
+                    {
+                        "link": "input",
+                        "name": "1ecfb2c5-7743-47fb-8193-42bfa88df74bblastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "49c007ce-f6b8-480a-83db-a7513e5a6cdcnt",
+                        "size": 4958126512
+                    },
+                    {
+                        "link": "output",
+                        "name": "e28e8056-3746-4f7b-9e2e-12d1aac9e975.out",
+                        "size": 859618
+                    },
+                    {
+                        "link": "output",
+                        "name": "a3d51001-7d22-40d5-8b08-4cdba97781f1.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000031",
+                "type": "compute",
+                "runtime": 1.455,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6312b2a8-9d6a-459a-baee-f0404c88384a.fasta",
+                        "size": 208883
+                    },
+                    {
+                        "link": "input",
+                        "name": "838c4804-82e5-48d9-a15d-eda3c735c2f2blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "ae6b772f-5ac9-49d4-89ea-a579c1a82ea4nt",
+                        "size": 3275594653
+                    },
+                    {
+                        "link": "output",
+                        "name": "ad77a3c9-8cec-4508-90f8-c292963716b7.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "11409056-1d3b-4370-b994-544bfa71c903.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000032",
+                "type": "compute",
+                "runtime": 1.268,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "353c5e88-7135-40fe-bf35-d28d9897326f.fasta",
+                        "size": 146882
+                    },
+                    {
+                        "link": "input",
+                        "name": "f91c689a-4aaf-410f-a9eb-f06a1d7536b2blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "7b3c5aaa-dfa1-43f5-8ff0-d321cf66c986nt",
+                        "size": 2879058029
+                    },
+                    {
+                        "link": "output",
+                        "name": "bc967d42-094b-4b7c-9a03-1951f337fa63.out",
+                        "size": 1527836
+                    },
+                    {
+                        "link": "output",
+                        "name": "ead1a7d1-de1c-40ba-81cf-88c68e0b8058.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000033",
+                "type": "compute",
+                "runtime": 1.107,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "75e0e191-3012-445d-8c6f-cd719aad1d06.fasta",
+                        "size": 32344
+                    },
+                    {
+                        "link": "input",
+                        "name": "8a4de80c-e017-4868-b198-1677dd33fec9blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "e2af738f-5836-4077-bb84-eb96e49c87e1nt",
+                        "size": 5173057502
+                    },
+                    {
+                        "link": "output",
+                        "name": "4785801a-fc02-4ece-b492-83d298450301.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "318306a5-df63-4743-b311-5e894767c516.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000034",
+                "type": "compute",
+                "runtime": 0.308,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "01385395-a68c-4172-b080-3e2f97239c2b.fasta",
+                        "size": 126245
+                    },
+                    {
+                        "link": "input",
+                        "name": "bff226bf-81eb-471d-834f-5c81c0ec8120blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "e7ae522e-0d89-4918-89e5-aec9f758ed4cnt",
+                        "size": 2502954230
+                    },
+                    {
+                        "link": "output",
+                        "name": "71cf0576-115e-49b8-98e1-245401555306.out",
+                        "size": 426508
+                    },
+                    {
+                        "link": "output",
+                        "name": "cd79f118-bc6b-403d-8288-f5e75962ce4e.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000035",
+                "type": "compute",
+                "runtime": 0.878,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c0a8d32b-cba2-4481-b514-f3a020bfd688.fasta",
+                        "size": 202851
+                    },
+                    {
+                        "link": "input",
+                        "name": "23d55905-cbc4-4469-9968-dafcd07421b4blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "847d4ae9-0815-46c4-afe9-2d59a9eabf34nt",
+                        "size": 3590060936
+                    },
+                    {
+                        "link": "output",
+                        "name": "f8681650-107b-4e6f-86e0-10b57d6c808f.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "f460b235-bb2e-415a-adcf-fe9a0f98a4a8.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000036",
+                "type": "compute",
+                "runtime": 1.936,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "be4de70f-a69a-48d5-a41b-04551ea786b3.fasta",
+                        "size": 201521
+                    },
+                    {
+                        "link": "input",
+                        "name": "96114e6e-ecd4-4fe5-8edc-a5782454d2e6blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "46f37502-e645-40b8-b464-1c037289ece2nt",
+                        "size": 2932217283
+                    },
+                    {
+                        "link": "output",
+                        "name": "da08fea4-cc37-4983-afa8-3d1dfe550ef2.out",
+                        "size": 879577
+                    },
+                    {
+                        "link": "output",
+                        "name": "cd96998f-1bee-4dca-af98-b9f3a5d4e4b4.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000037",
+                "type": "compute",
+                "runtime": 1.749,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "26057c49-263e-4f17-93ee-8f05d5320c5b.fasta",
+                        "size": 195557
+                    },
+                    {
+                        "link": "input",
+                        "name": "8c535d40-452e-4986-a442-e967c5b7e8b8blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "f7086936-b13f-430e-add3-e33bb990cc31nt",
+                        "size": 2660674268
+                    },
+                    {
+                        "link": "output",
+                        "name": "d55ea328-c03a-409c-80f8-52188135d9c1.out",
+                        "size": 228720
+                    },
+                    {
+                        "link": "output",
+                        "name": "691ea58f-52bc-4a31-88af-978d5a190780.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000038",
+                "type": "compute",
+                "runtime": 0.491,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "fbd62e2a-b39a-4fd0-bd2b-a103f422a101.fasta",
+                        "size": 175190
+                    },
+                    {
+                        "link": "input",
+                        "name": "df618e1c-28ac-42c2-bd2d-be84fd7825c4blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "f00a3fed-84c3-4ae3-a54a-9c6641e1c64bnt",
+                        "size": 4421142289
+                    },
+                    {
+                        "link": "output",
+                        "name": "97855f1c-f04e-4ef0-bcc8-756ed481af6b.out",
+                        "size": 1138108
+                    },
+                    {
+                        "link": "output",
+                        "name": "98ebe689-2587-47eb-8992-d77742778160.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000039",
+                "type": "compute",
+                "runtime": 1.172,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bdde0577-7aa5-4534-93b0-44aabad3d33a.fasta",
+                        "size": 117870
+                    },
+                    {
+                        "link": "input",
+                        "name": "1595a27f-5bee-43dc-b775-01e2fcce4962blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "768a905d-777a-4f89-9bbc-e00f91473d6bnt",
+                        "size": 2473496069
+                    },
+                    {
+                        "link": "output",
+                        "name": "775b18c6-3883-46d7-8343-761a3769142a.out",
+                        "size": 1318869
+                    },
+                    {
+                        "link": "output",
+                        "name": "03172da7-0c90-4c6a-a90e-e03cc2ae1996.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000040",
+                "type": "compute",
+                "runtime": 0.924,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "d7091a2d-4623-41e3-b863-5b7becdcc387.fasta",
+                        "size": 20150
+                    },
+                    {
+                        "link": "input",
+                        "name": "41681784-c18b-4796-b326-ef9a0bdb4da2blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "ff7ef8d6-5146-43ce-9cf3-b5c97d48676ant",
+                        "size": 4323264804
+                    },
+                    {
+                        "link": "output",
+                        "name": "1265b07b-048c-43b6-ad27-4a950f9ba7f2.out",
+                        "size": 1331744
+                    },
+                    {
+                        "link": "output",
+                        "name": "cf2ea3c4-905a-4d34-98be-1889dc743926.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000041",
+                "type": "compute",
+                "runtime": 1.862,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "9096fca4-86a6-43ee-bd53-a29c6e70728c.fasta",
+                        "size": 32798
+                    },
+                    {
+                        "link": "input",
+                        "name": "7cb007be-a402-48c6-b65a-e4a88debe1f3blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "c022d603-3c64-403b-8e31-0a2b6f8d3becnt",
+                        "size": 5099834812
+                    },
+                    {
+                        "link": "output",
+                        "name": "c0bd3307-080c-4580-9a7a-484a18769115.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "93ebf7aa-6a76-4cf7-b709-c9442bd8114e.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000042",
+                "type": "compute",
+                "runtime": 0.432,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f261d81e-1e7f-44a9-a754-1a359e6cb71d.fasta",
+                        "size": 208857
+                    },
+                    {
+                        "link": "input",
+                        "name": "cbbf218b-de17-4511-9b00-05099af3208bblastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "8e056318-6c7e-4f09-86b0-dda5c2b47d9ant",
+                        "size": 4288415014
+                    },
+                    {
+                        "link": "output",
+                        "name": "9f3ac7bb-7193-48ed-900d-c4f2af0b927f.out",
+                        "size": 817438
+                    },
+                    {
+                        "link": "output",
+                        "name": "e52afc00-a031-4c35-bb30-022d5cb9a67b.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000043",
+                "type": "compute",
+                "runtime": 1.16,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "4a7432a8-d653-4cfe-a194-522d9f8850c6.fasta",
+                        "size": 185864
+                    },
+                    {
+                        "link": "input",
+                        "name": "a5ade296-8192-4329-a8dd-c442512d26ffblastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "d2d5ef74-3866-48d1-a502-cc20a80741b7nt",
+                        "size": 3357154304
+                    },
+                    {
+                        "link": "output",
+                        "name": "e703f3c8-14b2-4c17-a989-5e50c8662eb3.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "cc64ef0a-509b-4646-9c46-ab647525e2e5.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000044",
+                "type": "compute",
+                "runtime": 1.938,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8a2ae062-f479-4593-958f-7d568d29456e.fasta",
+                        "size": 154584
+                    },
+                    {
+                        "link": "input",
+                        "name": "1bf41c64-62a7-4c0d-91ce-125bdb988de2blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "ea2d1eb4-f22a-4d57-b702-3cd7768e6ad6nt",
+                        "size": 3204041519
+                    },
+                    {
+                        "link": "output",
+                        "name": "ba07a52e-7b73-4da9-9dd1-e54423fc902c.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "output",
+                        "name": "b3e07b50-9987-4a6e-97c2-f0c99c1b3b2e.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000045",
+                "type": "compute",
+                "runtime": 0.451,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0ebd45d3-2c0e-473a-b0d5-7abafda1863e.fasta",
+                        "size": 123750
+                    },
+                    {
+                        "link": "input",
+                        "name": "e5852100-c69f-4c97-bcfb-5cade1412f54blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "9b579826-7f98-403a-9f65-56ecff0fcfb0nt",
+                        "size": 2392877483
+                    },
+                    {
+                        "link": "output",
+                        "name": "7f865765-a23f-4e8b-9b57-3a8333237d7c.out",
+                        "size": 396837
+                    },
+                    {
+                        "link": "output",
+                        "name": "08125af0-942c-45a6-8dbe-93db6ea2966a.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000046",
+                "type": "compute",
+                "runtime": 1.289,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0a945c1b-981d-4eb3-b7af-ad0b4f189c89.fasta",
+                        "size": 42624
+                    },
+                    {
+                        "link": "input",
+                        "name": "43869f46-b076-4fa1-ad8a-c262e49edc28blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "c80c8252-5c65-447d-927c-b79d0c801f0fnt",
+                        "size": 2400457430
+                    },
+                    {
+                        "link": "output",
+                        "name": "1836b9ec-ac36-458a-8e5c-6bb17cc81347.out",
+                        "size": 522248
+                    },
+                    {
+                        "link": "output",
+                        "name": "7cc654f9-f7b1-4514-802a-ec91f083e4cb.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000047",
+                "type": "compute",
+                "runtime": 0.626,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "515b359e-e8e7-4ed6-becb-f5607ab8d823.fasta",
+                        "size": 174554
+                    },
+                    {
+                        "link": "input",
+                        "name": "62755430-3654-45a0-959a-02f2fc354db9blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "8deea364-ec70-4f8a-9eab-ac7f96dd31dcnt",
+                        "size": 4879047417
+                    },
+                    {
+                        "link": "output",
+                        "name": "4c20068a-ef96-44ec-8d68-32bf370f37c0.out",
+                        "size": 1639677
+                    },
+                    {
+                        "link": "output",
+                        "name": "f418306a-7a3f-42dc-ab6a-964d7ca96d65.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "blastall_00000048",
+                "type": "compute",
+                "runtime": 1.818,
+                "parents": [
+                    "split_fasta_00000001"
+                ],
+                "children": [
+                    "cat_blast_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "322d29f9-2b68-4226-9ba4-219c1918e612.fasta",
+                        "size": 172375
+                    },
+                    {
+                        "link": "input",
+                        "name": "dbf0084f-bfb1-45bc-b283-b438c24b6230blastall",
+                        "size": 7688
+                    },
+                    {
+                        "link": "input",
+                        "name": "67acc98c-bb46-496f-b017-09f62e77256dnt",
+                        "size": 3768235254
+                    },
+                    {
+                        "link": "output",
+                        "name": "e872e52f-6554-4672-a45b-c70cf260d861.out",
+                        "size": 193240
+                    },
+                    {
+                        "link": "output",
+                        "name": "c4225a34-7a6b-4307-acf5-4615f9a2799e.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cat_blast_00000049",
+                "type": "compute",
+                "runtime": 0.002,
+                "parents": [
+                    "blastall_00000002",
+                    "blastall_00000003",
+                    "blastall_00000004",
+                    "blastall_00000005",
+                    "blastall_00000006",
+                    "blastall_00000007",
+                    "blastall_00000008",
+                    "blastall_00000009",
+                    "blastall_00000010",
+                    "blastall_00000011",
+                    "blastall_00000012",
+                    "blastall_00000013",
+                    "blastall_00000014",
+                    "blastall_00000015",
+                    "blastall_00000016",
+                    "blastall_00000017",
+                    "blastall_00000018",
+                    "blastall_00000019",
+                    "blastall_00000020",
+                    "blastall_00000021",
+                    "blastall_00000022",
+                    "blastall_00000023",
+                    "blastall_00000024",
+                    "blastall_00000025",
+                    "blastall_00000026",
+                    "blastall_00000027",
+                    "blastall_00000028",
+                    "blastall_00000029",
+                    "blastall_00000030",
+                    "blastall_00000031",
+                    "blastall_00000032",
+                    "blastall_00000033",
+                    "blastall_00000034",
+                    "blastall_00000035",
+                    "blastall_00000036",
+                    "blastall_00000037",
+                    "blastall_00000038",
+                    "blastall_00000039",
+                    "blastall_00000040",
+                    "blastall_00000041",
+                    "blastall_00000042",
+                    "blastall_00000043",
+                    "blastall_00000044",
+                    "blastall_00000045",
+                    "blastall_00000046",
+                    "blastall_00000047",
+                    "blastall_00000048"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "11f89d15-f79a-41c6-9fc8-6b8f92d6af50.out",
+                        "size": 573686
+                    },
+                    {
+                        "link": "input",
+                        "name": "0dc4db7d-802a-4fed-a5a8-d743f68a1ac5.out",
+                        "size": 1199317
+                    },
+                    {
+                        "link": "input",
+                        "name": "56a72b6f-1ebb-4b40-9e00-94916321cdba.out",
+                        "size": 1412059
+                    },
+                    {
+                        "link": "input",
+                        "name": "518bd14f-371e-419c-aa05-9f22aaa1e3fc.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "7bc6b745-275d-4492-a32f-17e9ab6a8484.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc64c1dc-46a0-41e1-9014-a123024ab949.out",
+                        "size": 271362
+                    },
+                    {
+                        "link": "input",
+                        "name": "5dd0807c-6cf8-4d53-8fed-325339e64ed2.out",
+                        "size": 1049719
+                    },
+                    {
+                        "link": "input",
+                        "name": "448a402a-ba3d-4af2-91b0-4fc345071a0a.out",
+                        "size": 1072818
+                    },
+                    {
+                        "link": "input",
+                        "name": "61c5c19a-6c73-4b94-8a1a-cb5e71114889.out",
+                        "size": 1397363
+                    },
+                    {
+                        "link": "input",
+                        "name": "22da5057-5630-4089-a7e7-842d9273c7de.out",
+                        "size": 221440
+                    },
+                    {
+                        "link": "input",
+                        "name": "30bf8b3d-c701-4733-a4c7-ae68e9fdcdb4.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "6df7fe81-ad6d-4660-8b15-6f6e20be8c24.out",
+                        "size": 1069255
+                    },
+                    {
+                        "link": "input",
+                        "name": "80ae9a3f-2fb7-4a80-8886-d52f1f03f24f.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "eb9d8028-8a88-4af3-a363-4a16873ce5db.out",
+                        "size": 1154934
+                    },
+                    {
+                        "link": "input",
+                        "name": "d4b016d8-01c0-45cb-bb91-8757aae6e63d.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "4e19a744-e701-4d8d-9895-cfdbc896a92c.out",
+                        "size": 1627496
+                    },
+                    {
+                        "link": "input",
+                        "name": "bbf59437-814c-485c-afa3-0ca679add2dd.out",
+                        "size": 1613780
+                    },
+                    {
+                        "link": "input",
+                        "name": "124b56d6-7792-432a-a759-781bb11f6533.out",
+                        "size": 878835
+                    },
+                    {
+                        "link": "input",
+                        "name": "c018e312-cfa5-4b84-b4df-07f4ea9328e0.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "481d9cc7-a717-4b00-b407-39edd4d61da8.out",
+                        "size": 678660
+                    },
+                    {
+                        "link": "input",
+                        "name": "1e642660-d6db-44ee-8161-c063ccb86440.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "799a4fa7-5f04-4625-983d-d3b46ba6fad1.out",
+                        "size": 321087
+                    },
+                    {
+                        "link": "input",
+                        "name": "dee7bcc0-b76f-481f-8eb2-14880f46ef2a.out",
+                        "size": 1003487
+                    },
+                    {
+                        "link": "input",
+                        "name": "69815eea-7327-4161-9f8e-218fd28f6600.out",
+                        "size": 193542
+                    },
+                    {
+                        "link": "input",
+                        "name": "87eccf2d-fad1-4e5a-a6df-daeae66c7760.out",
+                        "size": 622596
+                    },
+                    {
+                        "link": "input",
+                        "name": "805760bb-30a3-4f06-9d5a-24b5ec895fa5.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "1dd459ae-9828-4a6a-ae6e-03c83468d590.out",
+                        "size": 227086
+                    },
+                    {
+                        "link": "input",
+                        "name": "04e5b1e7-9f91-4e5a-8608-c1376259c827.out",
+                        "size": 1244196
+                    },
+                    {
+                        "link": "input",
+                        "name": "e28e8056-3746-4f7b-9e2e-12d1aac9e975.out",
+                        "size": 859618
+                    },
+                    {
+                        "link": "input",
+                        "name": "ad77a3c9-8cec-4508-90f8-c292963716b7.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "bc967d42-094b-4b7c-9a03-1951f337fa63.out",
+                        "size": 1527836
+                    },
+                    {
+                        "link": "input",
+                        "name": "4785801a-fc02-4ece-b492-83d298450301.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "71cf0576-115e-49b8-98e1-245401555306.out",
+                        "size": 426508
+                    },
+                    {
+                        "link": "input",
+                        "name": "f8681650-107b-4e6f-86e0-10b57d6c808f.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "da08fea4-cc37-4983-afa8-3d1dfe550ef2.out",
+                        "size": 879577
+                    },
+                    {
+                        "link": "input",
+                        "name": "d55ea328-c03a-409c-80f8-52188135d9c1.out",
+                        "size": 228720
+                    },
+                    {
+                        "link": "input",
+                        "name": "97855f1c-f04e-4ef0-bcc8-756ed481af6b.out",
+                        "size": 1138108
+                    },
+                    {
+                        "link": "input",
+                        "name": "775b18c6-3883-46d7-8343-761a3769142a.out",
+                        "size": 1318869
+                    },
+                    {
+                        "link": "input",
+                        "name": "1265b07b-048c-43b6-ad27-4a950f9ba7f2.out",
+                        "size": 1331744
+                    },
+                    {
+                        "link": "input",
+                        "name": "c0bd3307-080c-4580-9a7a-484a18769115.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "9f3ac7bb-7193-48ed-900d-c4f2af0b927f.out",
+                        "size": 817438
+                    },
+                    {
+                        "link": "input",
+                        "name": "e703f3c8-14b2-4c17-a989-5e50c8662eb3.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "ba07a52e-7b73-4da9-9dd1-e54423fc902c.out",
+                        "size": 179520
+                    },
+                    {
+                        "link": "input",
+                        "name": "7f865765-a23f-4e8b-9b57-3a8333237d7c.out",
+                        "size": 396837
+                    },
+                    {
+                        "link": "input",
+                        "name": "1836b9ec-ac36-458a-8e5c-6bb17cc81347.out",
+                        "size": 522248
+                    },
+                    {
+                        "link": "input",
+                        "name": "4c20068a-ef96-44ec-8d68-32bf370f37c0.out",
+                        "size": 1639677
+                    },
+                    {
+                        "link": "input",
+                        "name": "e872e52f-6554-4672-a45b-c70cf260d861.out",
+                        "size": 193240
+                    },
+                    {
+                        "link": "input",
+                        "name": "530135fe-5396-485d-8ed6-939cdb3ddee5cat_blast",
+                        "size": 1
+                    },
+                    {
+                        "link": "output",
+                        "name": "f5202b80-e31c-4ecf-b249-2d12f7d888deNone",
+                        "size": 5659480
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cat_00000050",
+                "type": "compute",
+                "runtime": 0.0,
+                "parents": [
+                    "blastall_00000002",
+                    "blastall_00000003",
+                    "blastall_00000004",
+                    "blastall_00000005",
+                    "blastall_00000006",
+                    "blastall_00000007",
+                    "blastall_00000008",
+                    "blastall_00000009",
+                    "blastall_00000010",
+                    "blastall_00000011",
+                    "blastall_00000012",
+                    "blastall_00000013",
+                    "blastall_00000014",
+                    "blastall_00000015",
+                    "blastall_00000016",
+                    "blastall_00000017",
+                    "blastall_00000018",
+                    "blastall_00000019",
+                    "blastall_00000020",
+                    "blastall_00000021",
+                    "blastall_00000022",
+                    "blastall_00000023",
+                    "blastall_00000024",
+                    "blastall_00000025",
+                    "blastall_00000026",
+                    "blastall_00000027",
+                    "blastall_00000028",
+                    "blastall_00000029",
+                    "blastall_00000030",
+                    "blastall_00000031",
+                    "blastall_00000032",
+                    "blastall_00000033",
+                    "blastall_00000034",
+                    "blastall_00000035",
+                    "blastall_00000036",
+                    "blastall_00000037",
+                    "blastall_00000038",
+                    "blastall_00000039",
+                    "blastall_00000040",
+                    "blastall_00000041",
+                    "blastall_00000042",
+                    "blastall_00000043",
+                    "blastall_00000044",
+                    "blastall_00000045",
+                    "blastall_00000046",
+                    "blastall_00000047",
+                    "blastall_00000048"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5ab7ae25-decc-44aa-8a80-f362317b94ec.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "fb670f31-55a4-4e3d-9ecb-a47a49d49ebe.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "c5cab899-8564-4268-948a-c83396711f60.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "5021e6d9-89eb-4632-85de-e1b1cf3b38f1.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "bfa5d68c-2dc6-4dc4-82b6-468a6c629886.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "f4d4876f-6f3c-4cf1-ae6b-9a4f071fa675.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "430ed59c-abab-4a04-b85f-9246863b9534.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "540ac3c4-9767-4711-aa62-9eb9eb7cec4d.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "a019ff90-7b99-400f-b5d4-b8ecdc33711d.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "bf85bc83-0f75-4d08-8873-03e34bb831c3.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "9a301be7-69d3-4f41-964e-27e880447c02.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "3689b56f-9706-4e0e-a567-61debcb58a32.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "a520a37e-2a70-4884-b09a-6b4bcf053341.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "c3c42b49-ca84-4b56-8d14-9f374c406ec5.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "2a7fe034-8d10-40fa-8443-10538e537bfd.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "0995f8b2-5fae-4f0c-ae9f-2051de1e0246.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "28250666-9dfc-400e-bd6e-2c82e3a04033.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "e27b8a6e-cd69-4fa8-8129-905b5d6b46a3.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "687da0cf-2943-403a-8f49-d02457e3d94d.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "bf80c921-ce04-46ef-a197-d02beaf66721.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "0095c808-a47a-420c-8a47-df96db3a701e.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "d8c6f052-16b6-4891-a2ec-a80a36f53bc3.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "a817fcfc-efa1-49f2-9d9a-1ea0b10d9ec8.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "7180b0ce-a07d-4a88-8ccf-fdae8e9d81ce.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "5d02e8f7-4362-4cb6-9cd4-cadc929efcc0.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "332dce76-baed-49c1-9b26-23ff3290001c.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "f72ee1b7-b758-4b1d-92b6-48d407df1777.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "853746fd-3bab-4174-8a77-6e265173a7e3.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "a3d51001-7d22-40d5-8b08-4cdba97781f1.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "11409056-1d3b-4370-b994-544bfa71c903.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "ead1a7d1-de1c-40ba-81cf-88c68e0b8058.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "318306a5-df63-4743-b311-5e894767c516.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "cd79f118-bc6b-403d-8288-f5e75962ce4e.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "f460b235-bb2e-415a-adcf-fe9a0f98a4a8.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "cd96998f-1bee-4dca-af98-b9f3a5d4e4b4.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "691ea58f-52bc-4a31-88af-978d5a190780.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "98ebe689-2587-47eb-8992-d77742778160.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "03172da7-0c90-4c6a-a90e-e03cc2ae1996.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "cf2ea3c4-905a-4d34-98be-1889dc743926.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "93ebf7aa-6a76-4cf7-b709-c9442bd8114e.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "e52afc00-a031-4c35-bb30-022d5cb9a67b.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc64ef0a-509b-4646-9c46-ab647525e2e5.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "b3e07b50-9987-4a6e-97c2-f0c99c1b3b2e.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "08125af0-942c-45a6-8dbe-93db6ea2966a.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "7cc654f9-f7b1-4514-802a-ec91f083e4cb.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "f418306a-7a3f-42dc-ab6a-964d7ca96d65.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "input",
+                        "name": "c4225a34-7a6b-4307-acf5-4615f9a2799e.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "34381590-08ba-4680-8ea7-e1adea3d80aa.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "b8d913fa-ee6d-4de7-83d1-51fbc3dcb41e.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "280e4de1-bd58-411e-bc23-44a1102e9e0a.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "4e2c36d5-038d-4a6e-af6d-e1b5c66b1b5a.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "ad966e4d-2f54-45ad-87b2-3f8fadddfcd9.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "05be43a3-365a-4d96-a805-790f4d251589.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "94224549-c84a-437c-b8c2-ec2a640ebfcc.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "cfc8055b-7774-418f-985a-481fb56734f5.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "af02524c-7440-49fa-b27c-dac62d6c160a.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "4c3d96c9-2d32-4aff-96c9-2839bfb25264.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "b9c4a22b-369a-450b-964c-e294aa0b04c2.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "ba6cb7e5-2cbf-4d42-a5db-24e14034a297.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "bb4810e8-9b2b-477e-80b6-fd06a831b3ec.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "74815f70-795a-4cd8-afa7-99daa4a2642f.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "35c03dc6-53ef-4c51-860c-286e7c7f9f39.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "62ffd8d0-5760-4ad2-85ad-7d76b6d28b3b.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "fed58d0f-d773-469d-bfe0-41e0fd6af472.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "4e969e3a-fffc-4a90-a047-1d9dfdcd7bb6.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "3a95f383-85f7-44c6-aa12-9d61d940d095.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "0a183022-8740-45b3-a8cf-1fbc7d7d75a0.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "21b86545-f917-4f6e-959d-558f4a4f6bd4.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "9c4af499-0fa1-4dd0-a5db-f5e6e505a5f1.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "726f1a83-0a50-42de-a78f-c555aa6c886d.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "3ba7bc94-ec06-4ca8-8cbe-56a18521be1e.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "9c02b475-b057-4f47-82a1-7750a4bb9c72.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "a0c72c15-4f2b-4d36-9cfe-4323503c2279.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "705ce55e-92e2-4a89-b9c9-7186db9c2bb8.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "c14a9268-af4a-4345-9910-0519071c8b40.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "1678b329-b725-44eb-b1ce-39304758317b.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "5f77104a-77ec-444f-a1bd-fc77d9278738.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "050528f3-5666-4a7f-a754-ea9a6d1961d1.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "d9a43b79-f2da-413b-9146-3fa585dc1838.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "18a3093e-b35b-4cae-b606-887f011b4e7a.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "11f3b195-530b-4069-a8cc-23c601891b05.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "88604c54-cbae-427a-a2a5-60edc17987f8.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "59221a6e-9099-467b-a0f4-f8d9bdb00873.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "3e1af296-8c11-4914-892c-6cf9a9b99bc9.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "c962de5b-3360-420e-ae42-900e43d07c1f.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "2e6a2a63-d120-4f25-896b-8c7d43cbec6d.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "b174a7c3-dcba-4b81-a4d5-6deff420c3bf.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "282f48e5-97fc-412d-9bc2-08c80c487a7a.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "3927b9f2-24b0-416c-86dc-8248ff42381d.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "7f568881-1142-4ae4-b01f-6ab8d61315e7.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "e7e15766-13fd-433e-b1a5-883e246591d6.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "63095f0c-6614-4a7a-a36f-e207bb0c49be.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "c4b6a334-2011-46ef-aea0-82099dc127b8.err",
+                        "size": 0
+                    },
+                    {
+                        "link": "output",
+                        "name": "6ebb5639-d9ba-4641-be7f-1546f00c7582.err",
+                        "size": 0
+                    }
+                ],
+                "cores": 1
+            }
+        ],
+        "machines": []
+    }
+}

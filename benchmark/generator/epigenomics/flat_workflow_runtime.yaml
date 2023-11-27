@@ -1,0 +1,3264 @@
+global_input:
+  ed824441-ad9f-4fef-9edf-1e9e960a3594.sfq: &id001
+    type: pass
+    value:
+      function: INPUT
+      parameter: ed824441-ad9f-4fef-9edf-1e9e960a3594.sfq
+    size: 1325919
+  af6d91f8-89cb-4817-9488-f4c881ff4191maq: &id002
+    type: pass
+    value:
+      function: INPUT
+      parameter: af6d91f8-89cb-4817-9488-f4c881ff4191maq
+    size: 513
+  108a67fd-6bb8-49f0-8a92-e5e5c38e5e08maqindex: &id003
+    type: pass
+    value:
+      function: INPUT
+      parameter: 108a67fd-6bb8-49f0-8a92-e5e5c38e5e08maqindex
+    size: 355
+  315797d7-0be4-45b1-94a3-b837b54d4705maq: &id004
+    type: pass
+    value:
+      function: INPUT
+      parameter: 315797d7-0be4-45b1-94a3-b837b54d4705maq
+    size: 513
+  7458694e-1154-44ba-a88a-4cb8c216a9b8maqindex: &id005
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7458694e-1154-44ba-a88a-4cb8c216a9b8maqindex
+    size: 355
+  c299ef0f-11eb-4475-bbc8-6ca30ba3485dmaq: &id006
+    type: pass
+    value:
+      function: INPUT
+      parameter: c299ef0f-11eb-4475-bbc8-6ca30ba3485dmaq
+    size: 513
+  58302157-7fe1-4437-bc08-5e926da3c5d6maqindex: &id007
+    type: pass
+    value:
+      function: INPUT
+      parameter: 58302157-7fe1-4437-bc08-5e926da3c5d6maqindex
+    size: 355
+  e234a165-7ebe-4783-9b8b-d079f53f4d0b.bfa: &id008
+    type: pass
+    value:
+      function: INPUT
+      parameter: e234a165-7ebe-4783-9b8b-d079f53f4d0b.bfa
+    size: 140833
+  0b03e427-823d-4082-97db-95d84f50a8c0maq: &id009
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0b03e427-823d-4082-97db-95d84f50a8c0maq
+    size: 513
+  bdde68b7-7741-4ba0-a8d8-c3767b720c12maqindex: &id010
+    type: pass
+    value:
+      function: INPUT
+      parameter: bdde68b7-7741-4ba0-a8d8-c3767b720c12maqindex
+    size: 355
+  003a8cce-a7f2-48d9-8a64-72f35cbb0103maq: &id011
+    type: pass
+    value:
+      function: INPUT
+      parameter: 003a8cce-a7f2-48d9-8a64-72f35cbb0103maq
+    size: 513
+  fdf3b082-3ac0-41a8-98bd-553d249ffcbemaqindex: &id012
+    type: pass
+    value:
+      function: INPUT
+      parameter: fdf3b082-3ac0-41a8-98bd-553d249ffcbemaqindex
+    size: 355
+  87f5ae6d-1e24-400d-85e7-e23d1a9722f2maq: &id013
+    type: pass
+    value:
+      function: INPUT
+      parameter: 87f5ae6d-1e24-400d-85e7-e23d1a9722f2maq
+    size: 513
+  28cd6a1f-8033-4763-b4bc-d0d1d6f930e8maqindex: &id014
+    type: pass
+    value:
+      function: INPUT
+      parameter: 28cd6a1f-8033-4763-b4bc-d0d1d6f930e8maqindex
+    size: 355
+  e824bf24-b481-42b3-a750-251f1146ab77.bfa: &id015
+    type: pass
+    value:
+      function: INPUT
+      parameter: e824bf24-b481-42b3-a750-251f1146ab77.bfa
+    size: 140833
+  828e13bf-5984-4a79-b799-10d3aca15cffmaq: &id016
+    type: pass
+    value:
+      function: INPUT
+      parameter: 828e13bf-5984-4a79-b799-10d3aca15cffmaq
+    size: 513
+  4c7212bb-dbe9-47cc-8b3f-e389a955eda4maqindex: &id017
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4c7212bb-dbe9-47cc-8b3f-e389a955eda4maqindex
+    size: 355
+  808371f6-0e46-46df-a81a-861a6b146744maq: &id018
+    type: pass
+    value:
+      function: INPUT
+      parameter: 808371f6-0e46-46df-a81a-861a6b146744maq
+    size: 513
+  0c75d4c4-dbe1-4d23-af46-aee33fa7dc57maqindex: &id019
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0c75d4c4-dbe1-4d23-af46-aee33fa7dc57maqindex
+    size: 355
+  1cf89744-3322-4d76-b574-61e63a1928acmaq: &id020
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1cf89744-3322-4d76-b574-61e63a1928acmaq
+    size: 513
+  541db241-9462-49f8-80e4-3fd335ddeadbmaqindex: &id021
+    type: pass
+    value:
+      function: INPUT
+      parameter: 541db241-9462-49f8-80e4-3fd335ddeadbmaqindex
+    size: 355
+  e405c563-c343-472a-9d9b-a64bef1eded8.bfa: &id022
+    type: pass
+    value:
+      function: INPUT
+      parameter: e405c563-c343-472a-9d9b-a64bef1eded8.bfa
+    size: 140833
+  806b8c97-1d69-4ff9-91cf-ecfea86e2a1cmaq: &id023
+    type: pass
+    value:
+      function: INPUT
+      parameter: 806b8c97-1d69-4ff9-91cf-ecfea86e2a1cmaq
+    size: 513
+  94b5daaa-83dc-4f7b-9225-b910f558db50maqindex: &id024
+    type: pass
+    value:
+      function: INPUT
+      parameter: 94b5daaa-83dc-4f7b-9225-b910f558db50maqindex
+    size: 355
+  c48f65c8-889a-4db5-ac26-103d02fcf751maq: &id025
+    type: pass
+    value:
+      function: INPUT
+      parameter: c48f65c8-889a-4db5-ac26-103d02fcf751maq
+    size: 513
+  de46f9db-837c-45ef-8bf5-fc5c8925f0e4maqindex: &id026
+    type: pass
+    value:
+      function: INPUT
+      parameter: de46f9db-837c-45ef-8bf5-fc5c8925f0e4maqindex
+    size: 355
+  d4fded69-55fb-4a9e-8e98-b3d88395fdb1maq: &id027
+    type: pass
+    value:
+      function: INPUT
+      parameter: d4fded69-55fb-4a9e-8e98-b3d88395fdb1maq
+    size: 513
+  32f733c4-b6fd-4c2b-859e-0081e8213efdmaqindex: &id028
+    type: pass
+    value:
+      function: INPUT
+      parameter: 32f733c4-b6fd-4c2b-859e-0081e8213efdmaqindex
+    size: 355
+  6b005de1-cf1e-4790-ad7c-bdf3f03cf931.bfa: &id029
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6b005de1-cf1e-4790-ad7c-bdf3f03cf931.bfa
+    size: 140833
+  44ca12e1-9aec-40aa-95b3-cc3cd539ba6amaq: &id030
+    type: pass
+    value:
+      function: INPUT
+      parameter: 44ca12e1-9aec-40aa-95b3-cc3cd539ba6amaq
+    size: 513
+  706bec7e-3f3e-4507-8b3b-d04a9efd1adcmaqindex: &id031
+    type: pass
+    value:
+      function: INPUT
+      parameter: 706bec7e-3f3e-4507-8b3b-d04a9efd1adcmaqindex
+    size: 355
+  739d78e6-1bb2-4082-b2d5-d84d7d894020maq: &id032
+    type: pass
+    value:
+      function: INPUT
+      parameter: 739d78e6-1bb2-4082-b2d5-d84d7d894020maq
+    size: 513
+  5cc422a2-ccc8-4cfe-8608-818deb35d733maqindex: &id033
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5cc422a2-ccc8-4cfe-8608-818deb35d733maqindex
+    size: 355
+  e3d8d78a-5a9a-4874-ae01-d4dfa3b6e209maq: &id034
+    type: pass
+    value:
+      function: INPUT
+      parameter: e3d8d78a-5a9a-4874-ae01-d4dfa3b6e209maq
+    size: 513
+  13ec404d-bbed-444b-b0f8-35efa6a641b6maqindex: &id035
+    type: pass
+    value:
+      function: INPUT
+      parameter: 13ec404d-bbed-444b-b0f8-35efa6a641b6maqindex
+    size: 355
+  7cdfe16e-d528-436a-a0e2-e42beccf7a14.bfa: &id036
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7cdfe16e-d528-436a-a0e2-e42beccf7a14.bfa
+    size: 140833
+  0ca37a06-087c-4225-9c01-9eaee8b5eb8emaq: &id037
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0ca37a06-087c-4225-9c01-9eaee8b5eb8emaq
+    size: 513
+  233c86e1-c870-464a-8221-881e4ee61fcfmaqindex: &id038
+    type: pass
+    value:
+      function: INPUT
+      parameter: 233c86e1-c870-464a-8221-881e4ee61fcfmaqindex
+    size: 355
+  81a87f2b-b12d-4ccd-9ed9-af64828ea20dmaq: &id039
+    type: pass
+    value:
+      function: INPUT
+      parameter: 81a87f2b-b12d-4ccd-9ed9-af64828ea20dmaq
+    size: 513
+  14d40fce-b1a9-4cc4-898e-42f1b6301484maqindex: &id040
+    type: pass
+    value:
+      function: INPUT
+      parameter: 14d40fce-b1a9-4cc4-898e-42f1b6301484maqindex
+    size: 355
+  c68e717c-57bd-4559-b3fb-5943a93afab7maq: &id041
+    type: pass
+    value:
+      function: INPUT
+      parameter: c68e717c-57bd-4559-b3fb-5943a93afab7maq
+    size: 513
+  67a29fb0-a9e7-4f58-8a1d-c40445b48ff2maqindex: &id042
+    type: pass
+    value:
+      function: INPUT
+      parameter: 67a29fb0-a9e7-4f58-8a1d-c40445b48ff2maqindex
+    size: 355
+  0f0839d3-4f02-4c40-9985-0f17355d915a.bfa: &id043
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0f0839d3-4f02-4c40-9985-0f17355d915a.bfa
+    size: 140833
+  44cab169-0d98-4333-ac4f-62a72a4beee8maq: &id044
+    type: pass
+    value:
+      function: INPUT
+      parameter: 44cab169-0d98-4333-ac4f-62a72a4beee8maq
+    size: 513
+  2130f095-5660-407d-b133-f30d861651bfmaqindex: &id045
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2130f095-5660-407d-b133-f30d861651bfmaqindex
+    size: 355
+  a74b5163-2866-42b3-a172-39a9948e6024maq: &id046
+    type: pass
+    value:
+      function: INPUT
+      parameter: a74b5163-2866-42b3-a172-39a9948e6024maq
+    size: 513
+  6826326b-cfc9-432e-b6dd-4a22ee3fa88amaqindex: &id047
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6826326b-cfc9-432e-b6dd-4a22ee3fa88amaqindex
+    size: 355
+  19215b43-2640-415d-b7c9-8a100d01180dmaq: &id048
+    type: pass
+    value:
+      function: INPUT
+      parameter: 19215b43-2640-415d-b7c9-8a100d01180dmaq
+    size: 513
+  acf32b74-6a9e-4502-9ddb-0275d7eb4740maqindex: &id049
+    type: pass
+    value:
+      function: INPUT
+      parameter: acf32b74-6a9e-4502-9ddb-0275d7eb4740maqindex
+    size: 355
+  1ec3c998-9138-4b9f-822e-256f8c003a86.bfa: &id050
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1ec3c998-9138-4b9f-822e-256f8c003a86.bfa
+    size: 140833
+  e7e20004-e6cd-4a0d-9ae2-a7f78ec888ffmaq: &id051
+    type: pass
+    value:
+      function: INPUT
+      parameter: e7e20004-e6cd-4a0d-9ae2-a7f78ec888ffmaq
+    size: 513
+  988a5eea-d2cd-40c6-a11c-9105b4a82935maqindex: &id052
+    type: pass
+    value:
+      function: INPUT
+      parameter: 988a5eea-d2cd-40c6-a11c-9105b4a82935maqindex
+    size: 355
+  111c6316-330c-4d75-945a-1a208169e86fmaq: &id053
+    type: pass
+    value:
+      function: INPUT
+      parameter: 111c6316-330c-4d75-945a-1a208169e86fmaq
+    size: 513
+  ca1c7471-2e15-4e6b-969b-ad9f25f06309maqindex: &id054
+    type: pass
+    value:
+      function: INPUT
+      parameter: ca1c7471-2e15-4e6b-969b-ad9f25f06309maqindex
+    size: 355
+  ddb6e409-c91b-4dca-8498-5ee17dad7f21maq: &id055
+    type: pass
+    value:
+      function: INPUT
+      parameter: ddb6e409-c91b-4dca-8498-5ee17dad7f21maq
+    size: 513
+  dd01cdb2-7889-466f-966c-d55eb0187349maqindex: &id056
+    type: pass
+    value:
+      function: INPUT
+      parameter: dd01cdb2-7889-466f-966c-d55eb0187349maqindex
+    size: 355
+  10e3ce2f-d0d5-420a-9e42-4ec6054a7c08.bfa: &id057
+    type: pass
+    value:
+      function: INPUT
+      parameter: 10e3ce2f-d0d5-420a-9e42-4ec6054a7c08.bfa
+    size: 140833
+  3a9f548a-ae40-4c00-91a1-60e8cbd7bbd7maq: &id058
+    type: pass
+    value:
+      function: INPUT
+      parameter: 3a9f548a-ae40-4c00-91a1-60e8cbd7bbd7maq
+    size: 513
+  71648d90-528e-460a-875a-339f7f895317maqindex: &id059
+    type: pass
+    value:
+      function: INPUT
+      parameter: 71648d90-528e-460a-875a-339f7f895317maqindex
+    size: 355
+  2095e8e9-ce1c-4ea9-b561-a0da6848d2f1maq: &id060
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2095e8e9-ce1c-4ea9-b561-a0da6848d2f1maq
+    size: 513
+  f5c0b186-94d3-42a1-8b51-8b03e385631amaqindex: &id061
+    type: pass
+    value:
+      function: INPUT
+      parameter: f5c0b186-94d3-42a1-8b51-8b03e385631amaqindex
+    size: 355
+  4c9410cb-fec0-4c88-8744-a5dc9cc09493maq: &id062
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4c9410cb-fec0-4c88-8744-a5dc9cc09493maq
+    size: 513
+  85ca2c30-3c93-41f4-8be8-137148121e7fmaqindex: &id063
+    type: pass
+    value:
+      function: INPUT
+      parameter: 85ca2c30-3c93-41f4-8be8-137148121e7fmaqindex
+    size: 355
+  dd750228-2884-4484-9c4d-c6d72b25a653.bfa: &id064
+    type: pass
+    value:
+      function: INPUT
+      parameter: dd750228-2884-4484-9c4d-c6d72b25a653.bfa
+    size: 140833
+  db8cdb53-6182-4b2a-87d6-32518bdd3fc1maq: &id065
+    type: pass
+    value:
+      function: INPUT
+      parameter: db8cdb53-6182-4b2a-87d6-32518bdd3fc1maq
+    size: 513
+  82b24057-f038-4bf6-b27a-434ee7d25ce7maqindex: &id066
+    type: pass
+    value:
+      function: INPUT
+      parameter: 82b24057-f038-4bf6-b27a-434ee7d25ce7maqindex
+    size: 355
+  f82b8b09-9354-4358-bd57-6e1907211712maq: &id067
+    type: pass
+    value:
+      function: INPUT
+      parameter: f82b8b09-9354-4358-bd57-6e1907211712maq
+    size: 513
+  06998595-3814-405c-b956-e3b4d9cb21bbmaqindex: &id068
+    type: pass
+    value:
+      function: INPUT
+      parameter: 06998595-3814-405c-b956-e3b4d9cb21bbmaqindex
+    size: 355
+  8244bed8-8646-4ddd-9c62-2769fdaf0a8emaq: &id069
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8244bed8-8646-4ddd-9c62-2769fdaf0a8emaq
+    size: 513
+  09971c49-696f-452d-b693-e575782be2a9maqindex: &id070
+    type: pass
+    value:
+      function: INPUT
+      parameter: 09971c49-696f-452d-b693-e575782be2a9maqindex
+    size: 355
+  6f3460a1-b726-425d-93b4-6911504614e7.bfa: &id071
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6f3460a1-b726-425d-93b4-6911504614e7.bfa
+    size: 140833
+  03374551-12c1-4d11-8838-708acf2749a0maq: &id072
+    type: pass
+    value:
+      function: INPUT
+      parameter: 03374551-12c1-4d11-8838-708acf2749a0maq
+    size: 513
+  d4c177f5-75cf-406c-852c-2452eb10360fmaqindex: &id073
+    type: pass
+    value:
+      function: INPUT
+      parameter: d4c177f5-75cf-406c-852c-2452eb10360fmaqindex
+    size: 355
+  072b3f1e-a7f2-4ac4-a0e3-5ab0f9c4b1b3maq: &id074
+    type: pass
+    value:
+      function: INPUT
+      parameter: 072b3f1e-a7f2-4ac4-a0e3-5ab0f9c4b1b3maq
+    size: 513
+  7683ac51-857f-47dd-9e8d-77e20ac38e5fmaqindex: &id075
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7683ac51-857f-47dd-9e8d-77e20ac38e5fmaqindex
+    size: 355
+  824f34e7-f92f-4245-8bfa-04abaf7384bamaq: &id076
+    type: pass
+    value:
+      function: INPUT
+      parameter: 824f34e7-f92f-4245-8bfa-04abaf7384bamaq
+    size: 513
+  c50b5ca1-b214-4bd5-9985-1dc8bddb42b5maqindex: &id077
+    type: pass
+    value:
+      function: INPUT
+      parameter: c50b5ca1-b214-4bd5-9985-1dc8bddb42b5maqindex
+    size: 355
+  1257f3cf-de63-49ee-b3cd-983a3d2c4fd6.bfa: &id078
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1257f3cf-de63-49ee-b3cd-983a3d2c4fd6.bfa
+    size: 140833
+  cadf0abe-badf-4b17-b869-71bb903d092fmaq: &id079
+    type: pass
+    value:
+      function: INPUT
+      parameter: cadf0abe-badf-4b17-b869-71bb903d092fmaq
+    size: 513
+  beaaa3ef-5aba-470b-a34e-617fd5deef87maqindex: &id080
+    type: pass
+    value:
+      function: INPUT
+      parameter: beaaa3ef-5aba-470b-a34e-617fd5deef87maqindex
+    size: 355
+  16f3d51b-766f-41a0-9c31-86fe57108cc0.sfq: &id081
+    type: pass
+    value:
+      function: INPUT
+      parameter: 16f3d51b-766f-41a0-9c31-86fe57108cc0.sfq
+    size: 171699
+  d642f30d-6547-4f61-bf00-907d73f3834amaq: &id082
+    type: pass
+    value:
+      function: INPUT
+      parameter: d642f30d-6547-4f61-bf00-907d73f3834amaq
+    size: 513
+  dd53962c-2b91-4259-972e-5ce7864f1b08maqindex: &id083
+    type: pass
+    value:
+      function: INPUT
+      parameter: dd53962c-2b91-4259-972e-5ce7864f1b08maqindex
+    size: 355
+  e1fec044-9b1a-44be-b14d-917e525c165dmaq: &id084
+    type: pass
+    value:
+      function: INPUT
+      parameter: e1fec044-9b1a-44be-b14d-917e525c165dmaq
+    size: 513
+  dc9131ee-67e0-44e8-a6c4-78cba7eb08afmaqindex: &id085
+    type: pass
+    value:
+      function: INPUT
+      parameter: dc9131ee-67e0-44e8-a6c4-78cba7eb08afmaqindex
+    size: 355
+  6e677c54-0661-4d85-8098-9820102daa27maq: &id086
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6e677c54-0661-4d85-8098-9820102daa27maq
+    size: 513
+  aabf04af-ee4d-462d-849b-31ba01ec8168maqindex: &id087
+    type: pass
+    value:
+      function: INPUT
+      parameter: aabf04af-ee4d-462d-849b-31ba01ec8168maqindex
+    size: 355
+  e645f3fe-8ddd-46f1-b069-f0ba2f934915.bfa: &id088
+    type: pass
+    value:
+      function: INPUT
+      parameter: e645f3fe-8ddd-46f1-b069-f0ba2f934915.bfa
+    size: 140833
+  53b76d69-4185-4d8e-bc61-6a877594c86bmaq: &id089
+    type: pass
+    value:
+      function: INPUT
+      parameter: 53b76d69-4185-4d8e-bc61-6a877594c86bmaq
+    size: 513
+  a52149d7-e4bd-491b-8861-f382becfb740maqindex: &id090
+    type: pass
+    value:
+      function: INPUT
+      parameter: a52149d7-e4bd-491b-8861-f382becfb740maqindex
+    size: 355
+  ba1bb774-7524-4cfd-9c81-fc2e679c7e3amaq: &id091
+    type: pass
+    value:
+      function: INPUT
+      parameter: ba1bb774-7524-4cfd-9c81-fc2e679c7e3amaq
+    size: 513
+  e4833fba-e60e-4847-9d1f-562b831673d0maqindex: &id092
+    type: pass
+    value:
+      function: INPUT
+      parameter: e4833fba-e60e-4847-9d1f-562b831673d0maqindex
+    size: 355
+  03f62c6d-e555-4b63-a121-ebea24ba153dmaq: &id093
+    type: pass
+    value:
+      function: INPUT
+      parameter: 03f62c6d-e555-4b63-a121-ebea24ba153dmaq
+    size: 513
+  7dba4bf0-2ffb-430c-ab3d-b0e4c7200ceemaqindex: &id094
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7dba4bf0-2ffb-430c-ab3d-b0e4c7200ceemaqindex
+    size: 355
+  b41db6f7-bdf1-4755-9721-90d370f96f16.bfa: &id095
+    type: pass
+    value:
+      function: INPUT
+      parameter: b41db6f7-bdf1-4755-9721-90d370f96f16.bfa
+    size: 140833
+  35f75e90-78f1-4d8d-96d5-2cf44ac22d5dmaq: &id096
+    type: pass
+    value:
+      function: INPUT
+      parameter: 35f75e90-78f1-4d8d-96d5-2cf44ac22d5dmaq
+    size: 513
+  8d1e0f14-7ccb-4162-8904-2aadbe840842maqindex: &id097
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8d1e0f14-7ccb-4162-8904-2aadbe840842maqindex
+    size: 355
+  6d0f69a6-4540-4ab6-bdfe-432e012d27c8maq: &id098
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6d0f69a6-4540-4ab6-bdfe-432e012d27c8maq
+    size: 513
+  9b7241b9-5aa6-4c12-b0d2-0a532e8cee01maqindex: &id099
+    type: pass
+    value:
+      function: INPUT
+      parameter: 9b7241b9-5aa6-4c12-b0d2-0a532e8cee01maqindex
+    size: 355
+  a48a0095-2756-4fda-bba0-4119a4bb4a1amaq: &id100
+    type: pass
+    value:
+      function: INPUT
+      parameter: a48a0095-2756-4fda-bba0-4119a4bb4a1amaq
+    size: 513
+  7fbec198-9b2f-44ba-b154-1bce34624012maqindex: &id101
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7fbec198-9b2f-44ba-b154-1bce34624012maqindex
+    size: 355
+  25a5a8d5-21ff-41bd-a07a-fbd3ce591aa6.bfa: &id102
+    type: pass
+    value:
+      function: INPUT
+      parameter: 25a5a8d5-21ff-41bd-a07a-fbd3ce591aa6.bfa
+    size: 140833
+  6f39091e-a253-4030-b352-a5abaf3b9e2emaq: &id103
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6f39091e-a253-4030-b352-a5abaf3b9e2emaq
+    size: 513
+  41d9f43b-901a-4687-a15e-f1c75abba46emaqindex: &id104
+    type: pass
+    value:
+      function: INPUT
+      parameter: 41d9f43b-901a-4687-a15e-f1c75abba46emaqindex
+    size: 355
+  ab9479ff-c372-424b-a868-086ca63a0587maq: &id105
+    type: pass
+    value:
+      function: INPUT
+      parameter: ab9479ff-c372-424b-a868-086ca63a0587maq
+    size: 513
+  512b1cab-4332-4edf-b177-a51c545ba9e4maqindex: &id106
+    type: pass
+    value:
+      function: INPUT
+      parameter: 512b1cab-4332-4edf-b177-a51c545ba9e4maqindex
+    size: 355
+  c566e332-e486-4937-b165-e7750f517174maq: &id107
+    type: pass
+    value:
+      function: INPUT
+      parameter: c566e332-e486-4937-b165-e7750f517174maq
+    size: 513
+  898148ff-2670-4db5-9225-f8834ce4e5d7maqindex: &id108
+    type: pass
+    value:
+      function: INPUT
+      parameter: 898148ff-2670-4db5-9225-f8834ce4e5d7maqindex
+    size: 355
+  5c2b7d0e-4b0c-44ba-9899-ed569e4d8605.bfa: &id109
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5c2b7d0e-4b0c-44ba-9899-ed569e4d8605.bfa
+    size: 140833
+  79a94d38-8610-49a0-854c-304bf05a7d01maq: &id110
+    type: pass
+    value:
+      function: INPUT
+      parameter: 79a94d38-8610-49a0-854c-304bf05a7d01maq
+    size: 513
+  91d614c0-15c4-4013-8188-bb6abd36e147maqindex: &id111
+    type: pass
+    value:
+      function: INPUT
+      parameter: 91d614c0-15c4-4013-8188-bb6abd36e147maqindex
+    size: 355
+  1949d9b3-8d1b-4c78-8b0a-f0a2c97e31f3maq: &id112
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1949d9b3-8d1b-4c78-8b0a-f0a2c97e31f3maq
+    size: 513
+  dab1edc9-710c-4b00-8d02-6c9dbe673069maqindex: &id113
+    type: pass
+    value:
+      function: INPUT
+      parameter: dab1edc9-710c-4b00-8d02-6c9dbe673069maqindex
+    size: 355
+  d8d7c480-2c46-428f-bfd1-7657ecea8e65maq: &id114
+    type: pass
+    value:
+      function: INPUT
+      parameter: d8d7c480-2c46-428f-bfd1-7657ecea8e65maq
+    size: 513
+  79c6ca4b-d4ab-4e66-8e4f-3aee38be9eedmaqindex: &id115
+    type: pass
+    value:
+      function: INPUT
+      parameter: 79c6ca4b-d4ab-4e66-8e4f-3aee38be9eedmaqindex
+    size: 355
+  eaa88565-2f8e-4f94-968a-c082a4cbcf7a.bfa: &id116
+    type: pass
+    value:
+      function: INPUT
+      parameter: eaa88565-2f8e-4f94-968a-c082a4cbcf7a.bfa
+    size: 140833
+  67629fed-1f79-44b5-8492-538bcb2d0fa6maq: &id117
+    type: pass
+    value:
+      function: INPUT
+      parameter: 67629fed-1f79-44b5-8492-538bcb2d0fa6maq
+    size: 513
+  7974e201-7dc9-44e3-a852-e1dfab69acb5maqindex: &id118
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7974e201-7dc9-44e3-a852-e1dfab69acb5maqindex
+    size: 355
+  6ff69b45-7940-44fe-b962-c6b30668c0e3maq: &id119
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6ff69b45-7940-44fe-b962-c6b30668c0e3maq
+    size: 513
+  2913e921-4b44-4ed5-a190-3c5a3af7c3bemaqindex: &id120
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2913e921-4b44-4ed5-a190-3c5a3af7c3bemaqindex
+    size: 355
+  b2effd23-a7b9-47d4-963f-eec96487e1edmaq: &id121
+    type: pass
+    value:
+      function: INPUT
+      parameter: b2effd23-a7b9-47d4-963f-eec96487e1edmaq
+    size: 513
+  631f8626-4d34-40b8-98e4-fd2b83f6141bmaqindex: &id122
+    type: pass
+    value:
+      function: INPUT
+      parameter: 631f8626-4d34-40b8-98e4-fd2b83f6141bmaqindex
+    size: 355
+  63527a52-0aa1-4ab2-a3a2-2cb316cb3e86.bfa: &id123
+    type: pass
+    value:
+      function: INPUT
+      parameter: 63527a52-0aa1-4ab2-a3a2-2cb316cb3e86.bfa
+    size: 140833
+  3ccbec16-5fbf-46ae-830c-c40d29eb30b1maq: &id124
+    type: pass
+    value:
+      function: INPUT
+      parameter: 3ccbec16-5fbf-46ae-830c-c40d29eb30b1maq
+    size: 513
+  88e77c1c-0539-4d0f-8162-d5cc7aa200b5maqindex: &id125
+    type: pass
+    value:
+      function: INPUT
+      parameter: 88e77c1c-0539-4d0f-8162-d5cc7aa200b5maqindex
+    size: 355
+  b90e35ef-470d-4043-a35e-f9c782652624maq: &id126
+    type: pass
+    value:
+      function: INPUT
+      parameter: b90e35ef-470d-4043-a35e-f9c782652624maq
+    size: 513
+  90ccf4aa-9bfc-450b-a9b3-7cfd506b3090maqindex: &id127
+    type: pass
+    value:
+      function: INPUT
+      parameter: 90ccf4aa-9bfc-450b-a9b3-7cfd506b3090maqindex
+    size: 355
+  82cfc437-0bb9-4e1a-8c9a-358c551f5781maq: &id128
+    type: pass
+    value:
+      function: INPUT
+      parameter: 82cfc437-0bb9-4e1a-8c9a-358c551f5781maq
+    size: 513
+  cc25fba3-4921-4df7-926e-d00676fa9a3bmaqindex: &id129
+    type: pass
+    value:
+      function: INPUT
+      parameter: cc25fba3-4921-4df7-926e-d00676fa9a3bmaqindex
+    size: 355
+  6a7da770-cf0d-478f-8def-1df1f56e789e.bfa: &id130
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6a7da770-cf0d-478f-8def-1df1f56e789e.bfa
+    size: 140833
+  185ca87f-3456-438f-9e1e-ebe25eeb98e1maq: &id131
+    type: pass
+    value:
+      function: INPUT
+      parameter: 185ca87f-3456-438f-9e1e-ebe25eeb98e1maq
+    size: 513
+  e11d35f3-111d-48f6-80a7-e90e1987145amaqindex: &id132
+    type: pass
+    value:
+      function: INPUT
+      parameter: e11d35f3-111d-48f6-80a7-e90e1987145amaqindex
+    size: 355
+  edae6d46-c185-4ace-a2a0-ea2c1b2e1f38maq: &id133
+    type: pass
+    value:
+      function: INPUT
+      parameter: edae6d46-c185-4ace-a2a0-ea2c1b2e1f38maq
+    size: 513
+  8ead5b73-e2d0-4483-8b2e-e04e606a2c16maqindex: &id134
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8ead5b73-e2d0-4483-8b2e-e04e606a2c16maqindex
+    size: 355
+  5c1bc095-466b-4b22-95b1-88b90f8db791maq: &id135
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5c1bc095-466b-4b22-95b1-88b90f8db791maq
+    size: 513
+  971ce5cd-7312-4fcf-acd3-2a065e82c3e5maqindex: &id136
+    type: pass
+    value:
+      function: INPUT
+      parameter: 971ce5cd-7312-4fcf-acd3-2a065e82c3e5maqindex
+    size: 355
+  8f51e10a-0719-4d08-9ec0-463f19d2f849.bfa: &id137
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8f51e10a-0719-4d08-9ec0-463f19d2f849.bfa
+    size: 140833
+  7f1752b9-cca1-46db-aedb-fc262e162bb1maq: &id138
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7f1752b9-cca1-46db-aedb-fc262e162bb1maq
+    size: 513
+  dc41adaa-024d-4a38-ba5c-7082f2f874bamaqindex: &id139
+    type: pass
+    value:
+      function: INPUT
+      parameter: dc41adaa-024d-4a38-ba5c-7082f2f874bamaqindex
+    size: 355
+  23dfee53-b652-4488-9fe1-133bbb8438e7maq: &id140
+    type: pass
+    value:
+      function: INPUT
+      parameter: 23dfee53-b652-4488-9fe1-133bbb8438e7maq
+    size: 513
+  290c4920-ab0d-4e5b-9feb-7f11d4a8e4c2maqindex: &id141
+    type: pass
+    value:
+      function: INPUT
+      parameter: 290c4920-ab0d-4e5b-9feb-7f11d4a8e4c2maqindex
+    size: 355
+  e774e269-fe52-48d3-8620-a3269a469cbamaq: &id142
+    type: pass
+    value:
+      function: INPUT
+      parameter: e774e269-fe52-48d3-8620-a3269a469cbamaq
+    size: 513
+  2ef20890-5736-4400-8b9d-f90c3e9e83b9maqindex: &id143
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2ef20890-5736-4400-8b9d-f90c3e9e83b9maqindex
+    size: 355
+  e1e5541f-fcb9-4399-8efe-91d7703ed705.bfa: &id144
+    type: pass
+    value:
+      function: INPUT
+      parameter: e1e5541f-fcb9-4399-8efe-91d7703ed705.bfa
+    size: 140833
+  15e1a774-da74-4cf2-9da6-6d27db173e1cmaq: &id145
+    type: pass
+    value:
+      function: INPUT
+      parameter: 15e1a774-da74-4cf2-9da6-6d27db173e1cmaq
+    size: 513
+  6a83a1d5-5a42-459c-a00b-894362b7e5f7maqindex: &id146
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6a83a1d5-5a42-459c-a00b-894362b7e5f7maqindex
+    size: 355
+  511adc6a-827a-4f30-be4e-3058e893cf8fmaq: &id147
+    type: pass
+    value:
+      function: INPUT
+      parameter: 511adc6a-827a-4f30-be4e-3058e893cf8fmaq
+    size: 513
+  032c153a-8b39-4e63-9abc-ab11e40e1db5maqindex: &id148
+    type: pass
+    value:
+      function: INPUT
+      parameter: 032c153a-8b39-4e63-9abc-ab11e40e1db5maqindex
+    size: 355
+  8ac1b657-11fe-4a4c-9a9e-21811b942011maq: &id149
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8ac1b657-11fe-4a4c-9a9e-21811b942011maq
+    size: 513
+  e991a865-128f-4c24-b636-527dc7efdbd6maqindex: &id150
+    type: pass
+    value:
+      function: INPUT
+      parameter: e991a865-128f-4c24-b636-527dc7efdbd6maqindex
+    size: 355
+  61db7cbe-d502-4477-817e-cfb59c60b918.bfa: &id151
+    type: pass
+    value:
+      function: INPUT
+      parameter: 61db7cbe-d502-4477-817e-cfb59c60b918.bfa
+    size: 140833
+  66388925-e162-43cd-b51a-d5936125c678maq: &id152
+    type: pass
+    value:
+      function: INPUT
+      parameter: 66388925-e162-43cd-b51a-d5936125c678maq
+    size: 513
+  774c8636-42c4-44a8-87b5-bb60a9afd629maqindex: &id153
+    type: pass
+    value:
+      function: INPUT
+      parameter: 774c8636-42c4-44a8-87b5-bb60a9afd629maqindex
+    size: 355
+  c673a5db-2ee2-411f-aa0b-7d06d06292e2maq: &id154
+    type: pass
+    value:
+      function: INPUT
+      parameter: c673a5db-2ee2-411f-aa0b-7d06d06292e2maq
+    size: 513
+  2f5873a8-7a25-44c5-833e-b87293a3307bmaqindex: &id155
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2f5873a8-7a25-44c5-833e-b87293a3307bmaqindex
+    size: 355
+  cba2db20-8ae9-4889-a71f-c3abf8115f44maq: &id156
+    type: pass
+    value:
+      function: INPUT
+      parameter: cba2db20-8ae9-4889-a71f-c3abf8115f44maq
+    size: 513
+  f048081c-dcf7-48a9-8daa-603cc1cc122bmaqindex: &id157
+    type: pass
+    value:
+      function: INPUT
+      parameter: f048081c-dcf7-48a9-8daa-603cc1cc122bmaqindex
+    size: 355
+  4081ae25-b2f5-4554-8dab-fd3dc2fb53da.bfa: &id158
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4081ae25-b2f5-4554-8dab-fd3dc2fb53da.bfa
+    size: 140833
+  ee6d113f-6098-4a32-a135-e138915b354cmaq: &id159
+    type: pass
+    value:
+      function: INPUT
+      parameter: ee6d113f-6098-4a32-a135-e138915b354cmaq
+    size: 513
+  f5ff32c9-8714-4da5-ae31-de176df71df7maqindex: &id160
+    type: pass
+    value:
+      function: INPUT
+      parameter: f5ff32c9-8714-4da5-ae31-de176df71df7maqindex
+    size: 355
+  819cf8a6-0dde-47ce-af1d-2c84701b8327maq: &id161
+    type: pass
+    value:
+      function: INPUT
+      parameter: 819cf8a6-0dde-47ce-af1d-2c84701b8327maq
+    size: 513
+  119b872d-7112-4914-868b-597b60ac1b47maqindex: &id162
+    type: pass
+    value:
+      function: INPUT
+      parameter: 119b872d-7112-4914-868b-597b60ac1b47maqindex
+    size: 355
+  30279861-5900-4b0f-acfc-a18656f4b654maq: &id163
+    type: pass
+    value:
+      function: INPUT
+      parameter: 30279861-5900-4b0f-acfc-a18656f4b654maq
+    size: 513
+  511b9ce8-986b-4c74-929c-11a878408577maqindex: &id164
+    type: pass
+    value:
+      function: INPUT
+      parameter: 511b9ce8-986b-4c74-929c-11a878408577maqindex
+    size: 355
+  5d4d5553-375d-4ced-abaa-4d8dfd8dd9a0maq: &id165
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5d4d5553-375d-4ced-abaa-4d8dfd8dd9a0maq
+    size: 513
+  1c76cb56-3885-4d3a-b07e-d672b52ad4e5maqindex: &id166
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1c76cb56-3885-4d3a-b07e-d672b52ad4e5maqindex
+    size: 355
+  9735875a-f158-48ca-9c41-766be7553630.bfa: &id167
+    type: pass
+    value:
+      function: INPUT
+      parameter: 9735875a-f158-48ca-9c41-766be7553630.bfa
+    size: 140833
+functions:
+- name: fastqsplit_00000001
+  source: fastqsplit_00000001
+  runtime: 26.354
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ed824441-ad9f-4fef-9edf-1e9e960a3594.sfq: *id001
+  output:
+    9b0cf584-9498-4003-b1b8-14c840bd2215.sfq:
+      type: normal
+      size: 4754840
+    4d2626c7-c5c1-4d45-8517-a9c8d5c6f88b.sfq:
+      type: normal
+      size: 4129818
+    231cc0d7-6fe9-4660-aab9-f5a461a40d25.sfq:
+      type: normal
+      size: 461625
+    7c75bed5-7313-4ae9-9479-796dfe071706.sfq:
+      type: normal
+      size: 3236299
+    a30236f6-5c5a-4bb0-8c37-f1aeec5a5528.sfq:
+      type: normal
+      size: 3949228
+    0c4d0caa-bf33-41ad-8faa-a1b2b141aa14.sfq:
+      type: normal
+      size: 821940
+    8d7dc28b-3470-4bb5-ad71-47829b59e89b.sfq:
+      type: normal
+      size: 5012980
+    246cef4c-00af-4e6c-aafc-224ba28717df.sfq:
+      type: normal
+      size: 4489577
+    4a9eed13-21e6-4e84-b832-e7084ab02ed3.sfq:
+      type: normal
+      size: 1516448
+    5cab1b59-cfb2-482d-bc0c-6f2c98ad3b7e.sfq:
+      type: normal
+      size: 3782552
+    95cd93e4-f29b-48fd-afb9-e1518e04b62e.sfq:
+      type: normal
+      size: 4347162
+  next:
+    type: pass
+    nodes:
+    - filtercontams_00000002
+    - filtercontams_00000006
+    - filtercontams_00000010
+    - filtercontams_00000014
+    - filtercontams_00000018
+    - filtercontams_00000022
+    - filtercontams_00000026
+    - filtercontams_00000030
+    - filtercontams_00000034
+    - filtercontams_00000038
+    - filtercontams_00000042
+- name: filtercontams_00000002
+  source: filtercontams_00000002
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    9b0cf584-9498-4003-b1b8-14c840bd2215.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9b0cf584-9498-4003-b1b8-14c840bd2215.sfq
+      size: 4754840
+  output:
+    fad4ba4b-1439-4828-a1dc-dc897d015921.sfq:
+      type: normal
+      size: 2800980
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000003
+- name: sol2sanger_00000003
+  source: sol2sanger_00000003
+  runtime: 0.393
+  scale: 1
+  mem_usage: 0.25
+  input:
+    fad4ba4b-1439-4828-a1dc-dc897d015921.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fad4ba4b-1439-4828-a1dc-dc897d015921.sfq
+      size: 2800980
+    af6d91f8-89cb-4817-9488-f4c881ff4191maq: *id002
+    108a67fd-6bb8-49f0-8a92-e5e5c38e5e08maqindex: *id003
+  output:
+    dd992a4f-0a72-469d-a056-7844d3fee291.fq:
+      type: normal
+      size: 2118604
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000004
+- name: fast2bfq_00000004
+  source: fast2bfq_00000004
+  runtime: 0.235
+  scale: 1
+  mem_usage: 0.25
+  input:
+    dd992a4f-0a72-469d-a056-7844d3fee291.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: dd992a4f-0a72-469d-a056-7844d3fee291.fq
+      size: 2118604
+    315797d7-0be4-45b1-94a3-b837b54d4705maq: *id004
+    7458694e-1154-44ba-a88a-4cb8c216a9b8maqindex: *id005
+  output:
+    5e92689c-dc75-439e-91cc-892ebca1d291.bfq:
+      type: normal
+      size: 788608
+  next:
+    type: pass
+    nodes:
+    - map_00000005
+- name: map_00000005
+  source: map_00000005
+  runtime: 0.368
+  scale: 1
+  mem_usage: 0.25
+  input:
+    5e92689c-dc75-439e-91cc-892ebca1d291.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5e92689c-dc75-439e-91cc-892ebca1d291.bfq
+      size: 788608
+    c299ef0f-11eb-4475-bbc8-6ca30ba3485dmaq: *id006
+    58302157-7fe1-4437-bc08-5e926da3c5d6maqindex: *id007
+    e234a165-7ebe-4783-9b8b-d079f53f4d0b.bfa: *id008
+  output:
+    40d85249-9b3d-4702-b596-30afc6f963b8.map:
+      type: normal
+      size: 348000
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000006
+  source: filtercontams_00000006
+  runtime: 1.209
+  scale: 1
+  mem_usage: 0.25
+  input:
+    4d2626c7-c5c1-4d45-8517-a9c8d5c6f88b.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4d2626c7-c5c1-4d45-8517-a9c8d5c6f88b.sfq
+      size: 4129818
+  output:
+    79bef562-0a28-4856-9303-551456356e90.sfq:
+      type: normal
+      size: 408176
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000007
+- name: sol2sanger_00000007
+  source: sol2sanger_00000007
+  runtime: 0.589
+  scale: 1
+  mem_usage: 0.25
+  input:
+    79bef562-0a28-4856-9303-551456356e90.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 79bef562-0a28-4856-9303-551456356e90.sfq
+      size: 408176
+    0b03e427-823d-4082-97db-95d84f50a8c0maq: *id009
+    bdde68b7-7741-4ba0-a8d8-c3767b720c12maqindex: *id010
+  output:
+    a6933f54-1176-4c48-b81e-144ccf456ef4.fq:
+      type: normal
+      size: 3014110
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000008
+- name: fast2bfq_00000008
+  source: fast2bfq_00000008
+  runtime: 0.212
+  scale: 1
+  mem_usage: 0.25
+  input:
+    a6933f54-1176-4c48-b81e-144ccf456ef4.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a6933f54-1176-4c48-b81e-144ccf456ef4.fq
+      size: 3014110
+    003a8cce-a7f2-48d9-8a64-72f35cbb0103maq: *id011
+    fdf3b082-3ac0-41a8-98bd-553d249ffcbemaqindex: *id012
+  output:
+    eb163da0-4886-4e00-929f-e5ad4ee40e09.bfq:
+      type: normal
+      size: 209961
+  next:
+    type: pass
+    nodes:
+    - map_00000009
+- name: map_00000009
+  source: map_00000009
+  runtime: 0.368
+  scale: 1
+  mem_usage: 0.25
+  input:
+    eb163da0-4886-4e00-929f-e5ad4ee40e09.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: eb163da0-4886-4e00-929f-e5ad4ee40e09.bfq
+      size: 209961
+    87f5ae6d-1e24-400d-85e7-e23d1a9722f2maq: *id013
+    28cd6a1f-8033-4763-b4bc-d0d1d6f930e8maqindex: *id014
+    e824bf24-b481-42b3-a750-251f1146ab77.bfa: *id015
+  output:
+    a3e5d1be-5e8d-4742-9454-b0fd4a57e386.map:
+      type: normal
+      size: 90629
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000010
+  source: filtercontams_00000010
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    231cc0d7-6fe9-4660-aab9-f5a461a40d25.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 231cc0d7-6fe9-4660-aab9-f5a461a40d25.sfq
+      size: 461625
+  output:
+    d26f1588-18b2-4af7-9801-e5e1598c6770.sfq:
+      type: normal
+      size: 3638384
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000011
+- name: sol2sanger_00000011
+  source: sol2sanger_00000011
+  runtime: 0.086
+  scale: 1
+  mem_usage: 0.25
+  input:
+    d26f1588-18b2-4af7-9801-e5e1598c6770.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d26f1588-18b2-4af7-9801-e5e1598c6770.sfq
+      size: 3638384
+    828e13bf-5984-4a79-b799-10d3aca15cffmaq: *id016
+    4c7212bb-dbe9-47cc-8b3f-e389a955eda4maqindex: *id017
+  output:
+    8d1d9b7c-a1a7-4614-a9c3-5de159fe442e.fq:
+      type: normal
+      size: 1250150
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000012
+- name: fast2bfq_00000012
+  source: fast2bfq_00000012
+  runtime: 0.301
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8d1d9b7c-a1a7-4614-a9c3-5de159fe442e.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8d1d9b7c-a1a7-4614-a9c3-5de159fe442e.fq
+      size: 1250150
+    808371f6-0e46-46df-a81a-861a6b146744maq: *id018
+    0c75d4c4-dbe1-4d23-af46-aee33fa7dc57maqindex: *id019
+  output:
+    f1025b73-7155-4210-ad13-a23465dff402.bfq:
+      type: normal
+      size: 769039
+  next:
+    type: pass
+    nodes:
+    - map_00000013
+- name: map_00000013
+  source: map_00000013
+  runtime: 2.689
+  scale: 1
+  mem_usage: 0.25
+  input:
+    f1025b73-7155-4210-ad13-a23465dff402.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f1025b73-7155-4210-ad13-a23465dff402.bfq
+      size: 769039
+    1cf89744-3322-4d76-b574-61e63a1928acmaq: *id020
+    541db241-9462-49f8-80e4-3fd335ddeadbmaqindex: *id021
+    e405c563-c343-472a-9d9b-a64bef1eded8.bfa: *id022
+  output:
+    cc884f49-d95d-4e0c-8944-da0fa763a274.map:
+      type: normal
+      size: 282463
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000014
+  source: filtercontams_00000014
+  runtime: 0.794
+  scale: 1
+  mem_usage: 0.25
+  input:
+    7c75bed5-7313-4ae9-9479-796dfe071706.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 7c75bed5-7313-4ae9-9479-796dfe071706.sfq
+      size: 3236299
+  output:
+    125521cd-4aec-400e-bd29-4d431078c7c2.sfq:
+      type: normal
+      size: 754422
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000015
+- name: sol2sanger_00000015
+  source: sol2sanger_00000015
+  runtime: 0.661
+  scale: 1
+  mem_usage: 0.25
+  input:
+    125521cd-4aec-400e-bd29-4d431078c7c2.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 125521cd-4aec-400e-bd29-4d431078c7c2.sfq
+      size: 754422
+    806b8c97-1d69-4ff9-91cf-ecfea86e2a1cmaq: *id023
+    94b5daaa-83dc-4f7b-9225-b910f558db50maqindex: *id024
+  output:
+    b23fd12f-4df0-43ae-abf2-d55e9c75cf4c.fq:
+      type: normal
+      size: 2919125
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000016
+- name: fast2bfq_00000016
+  source: fast2bfq_00000016
+  runtime: 0.105
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b23fd12f-4df0-43ae-abf2-d55e9c75cf4c.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b23fd12f-4df0-43ae-abf2-d55e9c75cf4c.fq
+      size: 2919125
+    c48f65c8-889a-4db5-ac26-103d02fcf751maq: *id025
+    de46f9db-837c-45ef-8bf5-fc5c8925f0e4maqindex: *id026
+  output:
+    5c458d49-cc92-4d74-b2fd-cd70ddf943a3.bfq:
+      type: normal
+      size: 494604
+  next:
+    type: pass
+    nodes:
+    - map_00000017
+- name: map_00000017
+  source: map_00000017
+  runtime: 2.166
+  scale: 1
+  mem_usage: 0.25
+  input:
+    5c458d49-cc92-4d74-b2fd-cd70ddf943a3.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5c458d49-cc92-4d74-b2fd-cd70ddf943a3.bfq
+      size: 494604
+    d4fded69-55fb-4a9e-8e98-b3d88395fdb1maq: *id027
+    32f733c4-b6fd-4c2b-859e-0081e8213efdmaqindex: *id028
+    6b005de1-cf1e-4790-ad7c-bdf3f03cf931.bfa: *id029
+  output:
+    c9879c34-c6ce-4904-8225-cbd645346222.map:
+      type: normal
+      size: 295883
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000018
+  source: filtercontams_00000018
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    a30236f6-5c5a-4bb0-8c37-f1aeec5a5528.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a30236f6-5c5a-4bb0-8c37-f1aeec5a5528.sfq
+      size: 3949228
+  output:
+    5aebca96-fe24-4398-8eb7-244068c0e033.sfq:
+      type: normal
+      size: 612044
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000019
+- name: sol2sanger_00000019
+  source: sol2sanger_00000019
+  runtime: 0.427
+  scale: 1
+  mem_usage: 0.25
+  input:
+    5aebca96-fe24-4398-8eb7-244068c0e033.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5aebca96-fe24-4398-8eb7-244068c0e033.sfq
+      size: 612044
+    44ca12e1-9aec-40aa-95b3-cc3cd539ba6amaq: *id030
+    706bec7e-3f3e-4507-8b3b-d04a9efd1adcmaqindex: *id031
+  output:
+    6a76d3c2-77db-45d2-bc67-3cfe3ef5fec2.fq:
+      type: normal
+      size: 2277336
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000020
+- name: fast2bfq_00000020
+  source: fast2bfq_00000020
+  runtime: 0.249
+  scale: 1
+  mem_usage: 0.25
+  input:
+    6a76d3c2-77db-45d2-bc67-3cfe3ef5fec2.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 6a76d3c2-77db-45d2-bc67-3cfe3ef5fec2.fq
+      size: 2277336
+    739d78e6-1bb2-4082-b2d5-d84d7d894020maq: *id032
+    5cc422a2-ccc8-4cfe-8608-818deb35d733maqindex: *id033
+  output:
+    e25aec82-52dd-4f55-ba96-eed4617fea99.bfq:
+      type: normal
+      size: 687444
+  next:
+    type: pass
+    nodes:
+    - map_00000021
+- name: map_00000021
+  source: map_00000021
+  runtime: 0.585
+  scale: 1
+  mem_usage: 0.25
+  input:
+    e25aec82-52dd-4f55-ba96-eed4617fea99.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e25aec82-52dd-4f55-ba96-eed4617fea99.bfq
+      size: 687444
+    e3d8d78a-5a9a-4874-ae01-d4dfa3b6e209maq: *id034
+    13ec404d-bbed-444b-b0f8-35efa6a641b6maqindex: *id035
+    7cdfe16e-d528-436a-a0e2-e42beccf7a14.bfa: *id036
+  output:
+    b9ed600a-a222-4ec8-b8c4-12057c56b029.map:
+      type: normal
+      size: 37671
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000022
+  source: filtercontams_00000022
+  runtime: 0.271
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0c4d0caa-bf33-41ad-8faa-a1b2b141aa14.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0c4d0caa-bf33-41ad-8faa-a1b2b141aa14.sfq
+      size: 821940
+  output:
+    0f033de0-3d1b-41ea-9fe4-fad72ad21907.sfq:
+      type: normal
+      size: 2946636
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000023
+- name: sol2sanger_00000023
+  source: sol2sanger_00000023
+  runtime: 0.086
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0f033de0-3d1b-41ea-9fe4-fad72ad21907.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0f033de0-3d1b-41ea-9fe4-fad72ad21907.sfq
+      size: 2946636
+    0ca37a06-087c-4225-9c01-9eaee8b5eb8emaq: *id037
+    233c86e1-c870-464a-8221-881e4ee61fcfmaqindex: *id038
+  output:
+    113a5f3e-262d-4189-bb10-10f4a96175cb.fq:
+      type: normal
+      size: 835266
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000024
+- name: fast2bfq_00000024
+  source: fast2bfq_00000024
+  runtime: 0.122
+  scale: 1
+  mem_usage: 0.25
+  input:
+    113a5f3e-262d-4189-bb10-10f4a96175cb.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 113a5f3e-262d-4189-bb10-10f4a96175cb.fq
+      size: 835266
+    81a87f2b-b12d-4ccd-9ed9-af64828ea20dmaq: *id039
+    14d40fce-b1a9-4cc4-898e-42f1b6301484maqindex: *id040
+  output:
+    c3272f8c-4db6-4274-9afc-cccd338f7687.bfq:
+      type: normal
+      size: 467196
+  next:
+    type: pass
+    nodes:
+    - map_00000025
+- name: map_00000025
+  source: map_00000025
+  runtime: 1.924
+  scale: 1
+  mem_usage: 0.25
+  input:
+    c3272f8c-4db6-4274-9afc-cccd338f7687.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c3272f8c-4db6-4274-9afc-cccd338f7687.bfq
+      size: 467196
+    c68e717c-57bd-4559-b3fb-5943a93afab7maq: *id041
+    67a29fb0-a9e7-4f58-8a1d-c40445b48ff2maqindex: *id042
+    0f0839d3-4f02-4c40-9985-0f17355d915a.bfa: *id043
+  output:
+    5b43b4ef-01f6-4d37-b830-0095776bc5a5.map:
+      type: normal
+      size: 233442
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000026
+  source: filtercontams_00000026
+  runtime: 0.384
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8d7dc28b-3470-4bb5-ad71-47829b59e89b.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8d7dc28b-3470-4bb5-ad71-47829b59e89b.sfq
+      size: 5012980
+  output:
+    f9405bde-9504-4ef6-9ef2-c8a13ec3a7fb.sfq:
+      type: normal
+      size: 3693455
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000027
+- name: sol2sanger_00000027
+  source: sol2sanger_00000027
+  runtime: 0.086
+  scale: 1
+  mem_usage: 0.25
+  input:
+    f9405bde-9504-4ef6-9ef2-c8a13ec3a7fb.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f9405bde-9504-4ef6-9ef2-c8a13ec3a7fb.sfq
+      size: 3693455
+    44cab169-0d98-4333-ac4f-62a72a4beee8maq: *id044
+    2130f095-5660-407d-b133-f30d861651bfmaqindex: *id045
+  output:
+    3bce9250-c290-4709-8661-728c14c30ff2.fq:
+      type: normal
+      size: 2313477
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000028
+- name: fast2bfq_00000028
+  source: fast2bfq_00000028
+  runtime: 0.053
+  scale: 1
+  mem_usage: 0.25
+  input:
+    3bce9250-c290-4709-8661-728c14c30ff2.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3bce9250-c290-4709-8661-728c14c30ff2.fq
+      size: 2313477
+    a74b5163-2866-42b3-a172-39a9948e6024maq: *id046
+    6826326b-cfc9-432e-b6dd-4a22ee3fa88amaqindex: *id047
+  output:
+    694336f8-659e-4fbb-9a34-b4ded1ba7fc5.bfq:
+      type: normal
+      size: 619195
+  next:
+    type: pass
+    nodes:
+    - map_00000029
+- name: map_00000029
+  source: map_00000029
+  runtime: 1.454
+  scale: 1
+  mem_usage: 0.25
+  input:
+    694336f8-659e-4fbb-9a34-b4ded1ba7fc5.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 694336f8-659e-4fbb-9a34-b4ded1ba7fc5.bfq
+      size: 619195
+    19215b43-2640-415d-b7c9-8a100d01180dmaq: *id048
+    acf32b74-6a9e-4502-9ddb-0275d7eb4740maqindex: *id049
+    1ec3c998-9138-4b9f-822e-256f8c003a86.bfa: *id050
+  output:
+    1e55aa7d-2976-4542-af20-558c12a33c78.map:
+      type: normal
+      size: 372847
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000030
+  source: filtercontams_00000030
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246cef4c-00af-4e6c-aafc-224ba28717df.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246cef4c-00af-4e6c-aafc-224ba28717df.sfq
+      size: 4489577
+  output:
+    db3fe202-8d07-41a1-92f4-8a1453f704d0.sfq:
+      type: normal
+      size: 2455518
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000031
+- name: sol2sanger_00000031
+  source: sol2sanger_00000031
+  runtime: 0.086
+  scale: 1
+  mem_usage: 0.25
+  input:
+    db3fe202-8d07-41a1-92f4-8a1453f704d0.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: db3fe202-8d07-41a1-92f4-8a1453f704d0.sfq
+      size: 2455518
+    e7e20004-e6cd-4a0d-9ae2-a7f78ec888ffmaq: *id051
+    988a5eea-d2cd-40c6-a11c-9105b4a82935maqindex: *id052
+  output:
+    94c5282d-d320-47ad-9971-90f34584773b.fq:
+      type: normal
+      size: 1308875
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000032
+- name: fast2bfq_00000032
+  source: fast2bfq_00000032
+  runtime: 0.105
+  scale: 1
+  mem_usage: 0.25
+  input:
+    94c5282d-d320-47ad-9971-90f34584773b.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 94c5282d-d320-47ad-9971-90f34584773b.fq
+      size: 1308875
+    111c6316-330c-4d75-945a-1a208169e86fmaq: *id053
+    ca1c7471-2e15-4e6b-969b-ad9f25f06309maqindex: *id054
+  output:
+    44254ff7-45b3-4278-8e44-a916ceea32a5.bfq:
+      type: normal
+      size: 566695
+  next:
+    type: pass
+    nodes:
+    - map_00000033
+- name: map_00000033
+  source: map_00000033
+  runtime: 0.943
+  scale: 1
+  mem_usage: 0.25
+  input:
+    44254ff7-45b3-4278-8e44-a916ceea32a5.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 44254ff7-45b3-4278-8e44-a916ceea32a5.bfq
+      size: 566695
+    ddb6e409-c91b-4dca-8498-5ee17dad7f21maq: *id055
+    dd01cdb2-7889-466f-966c-d55eb0187349maqindex: *id056
+    10e3ce2f-d0d5-420a-9e42-4ec6054a7c08.bfa: *id057
+  output:
+    74fb2150-6b8f-449c-81a9-d2992c37cbdc.map:
+      type: normal
+      size: 295605
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000034
+  source: filtercontams_00000034
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    4a9eed13-21e6-4e84-b832-e7084ab02ed3.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4a9eed13-21e6-4e84-b832-e7084ab02ed3.sfq
+      size: 1516448
+  output:
+    ddcdf62e-a1f2-4770-ad5e-bc59b4b0b272.sfq:
+      type: normal
+      size: 3526088
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000035
+- name: sol2sanger_00000035
+  source: sol2sanger_00000035
+  runtime: 0.785
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ddcdf62e-a1f2-4770-ad5e-bc59b4b0b272.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ddcdf62e-a1f2-4770-ad5e-bc59b4b0b272.sfq
+      size: 3526088
+    3a9f548a-ae40-4c00-91a1-60e8cbd7bbd7maq: *id058
+    71648d90-528e-460a-875a-339f7f895317maqindex: *id059
+  output:
+    d141b597-b297-42ca-94ea-98caafcb9663.fq:
+      type: normal
+      size: 2883243
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000036
+- name: fast2bfq_00000036
+  source: fast2bfq_00000036
+  runtime: 0.213
+  scale: 1
+  mem_usage: 0.25
+  input:
+    d141b597-b297-42ca-94ea-98caafcb9663.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d141b597-b297-42ca-94ea-98caafcb9663.fq
+      size: 2883243
+    2095e8e9-ce1c-4ea9-b561-a0da6848d2f1maq: *id060
+    f5c0b186-94d3-42a1-8b51-8b03e385631amaqindex: *id061
+  output:
+    8d98f624-2263-471a-b6b9-217c500bd8a0.bfq:
+      type: normal
+      size: 191155
+  next:
+    type: pass
+    nodes:
+    - map_00000037
+- name: map_00000037
+  source: map_00000037
+  runtime: 0.547
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8d98f624-2263-471a-b6b9-217c500bd8a0.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8d98f624-2263-471a-b6b9-217c500bd8a0.bfq
+      size: 191155
+    4c9410cb-fec0-4c88-8744-a5dc9cc09493maq: *id062
+    85ca2c30-3c93-41f4-8be8-137148121e7fmaqindex: *id063
+    dd750228-2884-4484-9c4d-c6d72b25a653.bfa: *id064
+  output:
+    a011a457-edd0-4517-a069-6dc7d0bc0074.map:
+      type: normal
+      size: 198728
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000038
+  source: filtercontams_00000038
+  runtime: 0.968
+  scale: 1
+  mem_usage: 0.25
+  input:
+    5cab1b59-cfb2-482d-bc0c-6f2c98ad3b7e.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5cab1b59-cfb2-482d-bc0c-6f2c98ad3b7e.sfq
+      size: 3782552
+  output:
+    47baea95-b479-47e1-b925-ef4b52c02b1c.sfq:
+      type: normal
+      size: 408176
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000039
+- name: sol2sanger_00000039
+  source: sol2sanger_00000039
+  runtime: 0.741
+  scale: 1
+  mem_usage: 0.25
+  input:
+    47baea95-b479-47e1-b925-ef4b52c02b1c.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 47baea95-b479-47e1-b925-ef4b52c02b1c.sfq
+      size: 408176
+    db8cdb53-6182-4b2a-87d6-32518bdd3fc1maq: *id065
+    82b24057-f038-4bf6-b27a-434ee7d25ce7maqindex: *id066
+  output:
+    6ee0adf8-6f85-4e75-8e23-c5bfed294c0a.fq:
+      type: normal
+      size: 2419789
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000040
+- name: fast2bfq_00000040
+  source: fast2bfq_00000040
+  runtime: 0.282
+  scale: 1
+  mem_usage: 0.25
+  input:
+    6ee0adf8-6f85-4e75-8e23-c5bfed294c0a.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 6ee0adf8-6f85-4e75-8e23-c5bfed294c0a.fq
+      size: 2419789
+    f82b8b09-9354-4358-bd57-6e1907211712maq: *id067
+    06998595-3814-405c-b956-e3b4d9cb21bbmaqindex: *id068
+  output:
+    deb86b8a-4598-4d46-a3db-206f7fe025dd.bfq:
+      type: normal
+      size: 749878
+  next:
+    type: pass
+    nodes:
+    - map_00000041
+- name: map_00000041
+  source: map_00000041
+  runtime: 0.527
+  scale: 1
+  mem_usage: 0.25
+  input:
+    deb86b8a-4598-4d46-a3db-206f7fe025dd.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: deb86b8a-4598-4d46-a3db-206f7fe025dd.bfq
+      size: 749878
+    8244bed8-8646-4ddd-9c62-2769fdaf0a8emaq: *id069
+    09971c49-696f-452d-b693-e575782be2a9maqindex: *id070
+    6f3460a1-b726-425d-93b4-6911504614e7.bfa: *id071
+  output:
+    aabc95eb-3371-4eb2-a7e3-c3c86486fd7d.map:
+      type: normal
+      size: 242099
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: filtercontams_00000042
+  source: filtercontams_00000042
+  runtime: 0.835
+  scale: 1
+  mem_usage: 0.25
+  input:
+    95cd93e4-f29b-48fd-afb9-e1518e04b62e.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 95cd93e4-f29b-48fd-afb9-e1518e04b62e.sfq
+      size: 4347162
+  output:
+    5843e72a-a0f7-4412-bb95-78a30e494d63.sfq:
+      type: normal
+      size: 2580909
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000043
+- name: sol2sanger_00000043
+  source: sol2sanger_00000043
+  runtime: 0.433
+  scale: 1
+  mem_usage: 0.25
+  input:
+    5843e72a-a0f7-4412-bb95-78a30e494d63.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5843e72a-a0f7-4412-bb95-78a30e494d63.sfq
+      size: 2580909
+    03374551-12c1-4d11-8838-708acf2749a0maq: *id072
+    d4c177f5-75cf-406c-852c-2452eb10360fmaqindex: *id073
+  output:
+    c02bfda1-dbfc-4d05-9c9d-8ce49d71eff5.fq:
+      type: normal
+      size: 1623837
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000044
+- name: fast2bfq_00000044
+  source: fast2bfq_00000044
+  runtime: 0.274
+  scale: 1
+  mem_usage: 0.25
+  input:
+    c02bfda1-dbfc-4d05-9c9d-8ce49d71eff5.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c02bfda1-dbfc-4d05-9c9d-8ce49d71eff5.fq
+      size: 1623837
+    072b3f1e-a7f2-4ac4-a0e3-5ab0f9c4b1b3maq: *id074
+    7683ac51-857f-47dd-9e8d-77e20ac38e5fmaqindex: *id075
+  output:
+    f3dc6200-7aa6-4c88-9f54-cd36c973da21.bfq:
+      type: normal
+      size: 806220
+  next:
+    type: pass
+    nodes:
+    - map_00000045
+- name: map_00000045
+  source: map_00000045
+  runtime: 0.368
+  scale: 1
+  mem_usage: 0.25
+  input:
+    f3dc6200-7aa6-4c88-9f54-cd36c973da21.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f3dc6200-7aa6-4c88-9f54-cd36c973da21.bfq
+      size: 806220
+    824f34e7-f92f-4245-8bfa-04abaf7384bamaq: *id076
+    c50b5ca1-b214-4bd5-9985-1dc8bddb42b5maqindex: *id077
+    1257f3cf-de63-49ee-b3cd-983a3d2c4fd6.bfa: *id078
+  output:
+    af8d5582-dd8d-4aba-8b00-bb984a0bfc13.map:
+      type: normal
+      size: 71154
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000046
+- name: mapmerge_00000046
+  source: mapmerge_00000046
+  runtime: 0.213
+  scale: 1
+  mem_usage: 0.25
+  input:
+    40d85249-9b3d-4702-b596-30afc6f963b8.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 40d85249-9b3d-4702-b596-30afc6f963b8.map
+      size: 348000
+    a3e5d1be-5e8d-4742-9454-b0fd4a57e386.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a3e5d1be-5e8d-4742-9454-b0fd4a57e386.map
+      size: 90629
+    cc884f49-d95d-4e0c-8944-da0fa763a274.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: cc884f49-d95d-4e0c-8944-da0fa763a274.map
+      size: 282463
+    c9879c34-c6ce-4904-8225-cbd645346222.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c9879c34-c6ce-4904-8225-cbd645346222.map
+      size: 295883
+    b9ed600a-a222-4ec8-b8c4-12057c56b029.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b9ed600a-a222-4ec8-b8c4-12057c56b029.map
+      size: 37671
+    5b43b4ef-01f6-4d37-b830-0095776bc5a5.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5b43b4ef-01f6-4d37-b830-0095776bc5a5.map
+      size: 233442
+    1e55aa7d-2976-4542-af20-558c12a33c78.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1e55aa7d-2976-4542-af20-558c12a33c78.map
+      size: 372847
+    74fb2150-6b8f-449c-81a9-d2992c37cbdc.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 74fb2150-6b8f-449c-81a9-d2992c37cbdc.map
+      size: 295605
+    a011a457-edd0-4517-a069-6dc7d0bc0074.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a011a457-edd0-4517-a069-6dc7d0bc0074.map
+      size: 198728
+    aabc95eb-3371-4eb2-a7e3-c3c86486fd7d.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: aabc95eb-3371-4eb2-a7e3-c3c86486fd7d.map
+      size: 242099
+    af8d5582-dd8d-4aba-8b00-bb984a0bfc13.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: af8d5582-dd8d-4aba-8b00-bb984a0bfc13.map
+      size: 71154
+    cadf0abe-badf-4b17-b869-71bb903d092fmaq: *id079
+    beaaa3ef-5aba-470b-a34e-617fd5deef87maqindex: *id080
+  output:
+    8591de01-f47d-4e3e-a0ae-80ddd1d52433.map:
+      type: normal
+      size: 63922093
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000093
+- name: fastqsplit_00000047
+  source: fastqsplit_00000047
+  runtime: 26.354
+  scale: 1
+  mem_usage: 0.25
+  input:
+    16f3d51b-766f-41a0-9c31-86fe57108cc0.sfq: *id081
+  output:
+    e8525423-94a5-4c7d-8584-44c18182f7f5.sfq:
+      type: normal
+      size: 4502351
+    b1552a4d-3b64-4803-9aab-a90b6733d679.sfq:
+      type: normal
+      size: 3528281
+    99627678-1362-458a-ba6a-3411a9e2fafa.sfq:
+      type: normal
+      size: 2787201
+    d495a9b8-a325-4fd2-8f13-15d11101f568.sfq:
+      type: normal
+      size: 4259704
+    0ef7d7e6-c340-410d-af00-33f78ada3f84.sfq:
+      type: normal
+      size: 2831782
+    54c4c730-f470-403c-9b9f-32d9e1d61572.sfq:
+      type: normal
+      size: 4173745
+    2733660d-e9a7-45ee-b1fd-bed4747e9cf1.sfq:
+      type: normal
+      size: 4328656
+    ec8257fa-2c1a-4d24-94a6-261567fa9c95.sfq:
+      type: normal
+      size: 2035375
+    b04310bd-ad44-49a2-80ac-d9aa8a1ec370.sfq:
+      type: normal
+      size: 3548747
+    50785367-b282-4db3-9e7e-90a490211c51.sfq:
+      type: normal
+      size: 3805423
+    c8fe1aa0-bdda-42ae-8754-7cea5745e325.sfq:
+      type: normal
+      size: 3734159
+  next:
+    type: pass
+    nodes:
+    - filtercontams_00000048
+    - filtercontams_00000052
+    - filtercontams_00000056
+    - filtercontams_00000060
+    - filtercontams_00000064
+    - filtercontams_00000068
+    - filtercontams_00000072
+    - filtercontams_00000076
+    - filtercontams_00000080
+    - filtercontams_00000084
+    - filtercontams_00000088
+- name: filtercontams_00000048
+  source: filtercontams_00000048
+  runtime: 1.219
+  scale: 1
+  mem_usage: 0.25
+  input:
+    e8525423-94a5-4c7d-8584-44c18182f7f5.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e8525423-94a5-4c7d-8584-44c18182f7f5.sfq
+      size: 4502351
+  output:
+    2c053c5c-12c3-425a-94ff-05fabeb368ce.sfq:
+      type: normal
+      size: 2936402
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000049
+- name: sol2sanger_00000049
+  source: sol2sanger_00000049
+  runtime: 0.388
+  scale: 1
+  mem_usage: 0.25
+  input:
+    2c053c5c-12c3-425a-94ff-05fabeb368ce.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2c053c5c-12c3-425a-94ff-05fabeb368ce.sfq
+      size: 2936402
+    d642f30d-6547-4f61-bf00-907d73f3834amaq: *id082
+    dd53962c-2b91-4259-972e-5ce7864f1b08maqindex: *id083
+  output:
+    931f640e-7277-4688-a6d1-94b2b5554110.fq:
+      type: normal
+      size: 3165449
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000050
+- name: fast2bfq_00000050
+  source: fast2bfq_00000050
+  runtime: 0.032
+  scale: 1
+  mem_usage: 0.25
+  input:
+    931f640e-7277-4688-a6d1-94b2b5554110.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 931f640e-7277-4688-a6d1-94b2b5554110.fq
+      size: 3165449
+    e1fec044-9b1a-44be-b14d-917e525c165dmaq: *id084
+    dc9131ee-67e0-44e8-a6c4-78cba7eb08afmaqindex: *id085
+  output:
+    15c66346-12ee-492c-a854-105f3f1a6861.bfq:
+      type: normal
+      size: 691611
+  next:
+    type: pass
+    nodes:
+    - map_00000051
+- name: map_00000051
+  source: map_00000051
+  runtime: 0.995
+  scale: 1
+  mem_usage: 0.25
+  input:
+    15c66346-12ee-492c-a854-105f3f1a6861.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 15c66346-12ee-492c-a854-105f3f1a6861.bfq
+      size: 691611
+    6e677c54-0661-4d85-8098-9820102daa27maq: *id086
+    aabf04af-ee4d-462d-849b-31ba01ec8168maqindex: *id087
+    e645f3fe-8ddd-46f1-b069-f0ba2f934915.bfa: *id088
+  output:
+    cb5ffaf7-7acb-4ccc-b00e-010aeffb6262.map:
+      type: normal
+      size: 256513
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000052
+  source: filtercontams_00000052
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b1552a4d-3b64-4803-9aab-a90b6733d679.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b1552a4d-3b64-4803-9aab-a90b6733d679.sfq
+      size: 3528281
+  output:
+    f7b050b4-4497-413c-9333-abe5ae6ddca2.sfq:
+      type: normal
+      size: 1413543
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000053
+- name: sol2sanger_00000053
+  source: sol2sanger_00000053
+  runtime: 0.289
+  scale: 1
+  mem_usage: 0.25
+  input:
+    f7b050b4-4497-413c-9333-abe5ae6ddca2.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f7b050b4-4497-413c-9333-abe5ae6ddca2.sfq
+      size: 1413543
+    53b76d69-4185-4d8e-bc61-6a877594c86bmaq: *id089
+    a52149d7-e4bd-491b-8861-f382becfb740maqindex: *id090
+  output:
+    b51cf6b8-0cbf-4622-8db0-181ae91fca07.fq:
+      type: normal
+      size: 2571633
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000054
+- name: fast2bfq_00000054
+  source: fast2bfq_00000054
+  runtime: 0.032
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b51cf6b8-0cbf-4622-8db0-181ae91fca07.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b51cf6b8-0cbf-4622-8db0-181ae91fca07.fq
+      size: 2571633
+    ba1bb774-7524-4cfd-9c81-fc2e679c7e3amaq: *id091
+    e4833fba-e60e-4847-9d1f-562b831673d0maqindex: *id092
+  output:
+    47a3884c-75d6-4c05-b79e-80141d198fb2.bfq:
+      type: normal
+      size: 526492
+  next:
+    type: pass
+    nodes:
+    - map_00000055
+- name: map_00000055
+  source: map_00000055
+  runtime: 0.565
+  scale: 1
+  mem_usage: 0.25
+  input:
+    47a3884c-75d6-4c05-b79e-80141d198fb2.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 47a3884c-75d6-4c05-b79e-80141d198fb2.bfq
+      size: 526492
+    03f62c6d-e555-4b63-a121-ebea24ba153dmaq: *id093
+    7dba4bf0-2ffb-430c-ab3d-b0e4c7200ceemaqindex: *id094
+    b41db6f7-bdf1-4755-9721-90d370f96f16.bfa: *id095
+  output:
+    abb1f205-1b04-4356-8582-86079acb2ac5.map:
+      type: normal
+      size: 262110
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000056
+  source: filtercontams_00000056
+  runtime: 1.144
+  scale: 1
+  mem_usage: 0.25
+  input:
+    99627678-1362-458a-ba6a-3411a9e2fafa.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 99627678-1362-458a-ba6a-3411a9e2fafa.sfq
+      size: 2787201
+  output:
+    910034b4-225f-489d-8151-4da5dd0e58cb.sfq:
+      type: normal
+      size: 1138480
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000057
+- name: sol2sanger_00000057
+  source: sol2sanger_00000057
+  runtime: 0.115
+  scale: 1
+  mem_usage: 0.25
+  input:
+    910034b4-225f-489d-8151-4da5dd0e58cb.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 910034b4-225f-489d-8151-4da5dd0e58cb.sfq
+      size: 1138480
+    35f75e90-78f1-4d8d-96d5-2cf44ac22d5dmaq: *id096
+    8d1e0f14-7ccb-4162-8904-2aadbe840842maqindex: *id097
+  output:
+    9fd0b8b8-7fde-4163-8d2a-3332eb552574.fq:
+      type: normal
+      size: 2701114
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000058
+- name: fast2bfq_00000058
+  source: fast2bfq_00000058
+  runtime: 0.032
+  scale: 1
+  mem_usage: 0.25
+  input:
+    9fd0b8b8-7fde-4163-8d2a-3332eb552574.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9fd0b8b8-7fde-4163-8d2a-3332eb552574.fq
+      size: 2701114
+    6d0f69a6-4540-4ab6-bdfe-432e012d27c8maq: *id098
+    9b7241b9-5aa6-4c12-b0d2-0a532e8cee01maqindex: *id099
+  output:
+    fb10eb94-3110-4229-9926-39d25747fc60.bfq:
+      type: normal
+      size: 516765
+  next:
+    type: pass
+    nodes:
+    - map_00000059
+- name: map_00000059
+  source: map_00000059
+  runtime: 0.368
+  scale: 1
+  mem_usage: 0.25
+  input:
+    fb10eb94-3110-4229-9926-39d25747fc60.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fb10eb94-3110-4229-9926-39d25747fc60.bfq
+      size: 516765
+    a48a0095-2756-4fda-bba0-4119a4bb4a1amaq: *id100
+    7fbec198-9b2f-44ba-b154-1bce34624012maqindex: *id101
+    25a5a8d5-21ff-41bd-a07a-fbd3ce591aa6.bfa: *id102
+  output:
+    a677cc18-5125-4cf3-99d5-927ae560ac7d.map:
+      type: normal
+      size: 393965
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000060
+  source: filtercontams_00000060
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    d495a9b8-a325-4fd2-8f13-15d11101f568.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d495a9b8-a325-4fd2-8f13-15d11101f568.sfq
+      size: 4259704
+  output:
+    b67eab53-0072-49c9-9b8a-9921e0113189.sfq:
+      type: normal
+      size: 3288113
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000061
+- name: sol2sanger_00000061
+  source: sol2sanger_00000061
+  runtime: 0.487
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b67eab53-0072-49c9-9b8a-9921e0113189.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b67eab53-0072-49c9-9b8a-9921e0113189.sfq
+      size: 3288113
+    6f39091e-a253-4030-b352-a5abaf3b9e2emaq: *id103
+    41d9f43b-901a-4687-a15e-f1c75abba46emaqindex: *id104
+  output:
+    1db3cc59-0b9e-47e3-b204-fd329d5c00b3.fq:
+      type: normal
+      size: 954369
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000062
+- name: fast2bfq_00000062
+  source: fast2bfq_00000062
+  runtime: 0.053
+  scale: 1
+  mem_usage: 0.25
+  input:
+    1db3cc59-0b9e-47e3-b204-fd329d5c00b3.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1db3cc59-0b9e-47e3-b204-fd329d5c00b3.fq
+      size: 954369
+    ab9479ff-c372-424b-a868-086ca63a0587maq: *id105
+    512b1cab-4332-4edf-b177-a51c545ba9e4maqindex: *id106
+  output:
+    ff7d81ee-317b-4d7f-a081-9588d914195d.bfq:
+      type: normal
+      size: 357975
+  next:
+    type: pass
+    nodes:
+    - map_00000063
+- name: map_00000063
+  source: map_00000063
+  runtime: 1.684
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ff7d81ee-317b-4d7f-a081-9588d914195d.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ff7d81ee-317b-4d7f-a081-9588d914195d.bfq
+      size: 357975
+    c566e332-e486-4937-b165-e7750f517174maq: *id107
+    898148ff-2670-4db5-9225-f8834ce4e5d7maqindex: *id108
+    5c2b7d0e-4b0c-44ba-9899-ed569e4d8605.bfa: *id109
+  output:
+    adfe48d2-3012-406e-a9ee-881555e23843.map:
+      type: normal
+      size: 56548
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000064
+  source: filtercontams_00000064
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ef7d7e6-c340-410d-af00-33f78ada3f84.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ef7d7e6-c340-410d-af00-33f78ada3f84.sfq
+      size: 2831782
+  output:
+    8386295a-23c1-4a9f-94a3-47b9c2be1b04.sfq:
+      type: normal
+      size: 2004670
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000065
+- name: sol2sanger_00000065
+  source: sol2sanger_00000065
+  runtime: 0.769
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8386295a-23c1-4a9f-94a3-47b9c2be1b04.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8386295a-23c1-4a9f-94a3-47b9c2be1b04.sfq
+      size: 2004670
+    79a94d38-8610-49a0-854c-304bf05a7d01maq: *id110
+    91d614c0-15c4-4013-8188-bb6abd36e147maqindex: *id111
+  output:
+    2107700b-b1ee-4b9a-9937-3508cce31817.fq:
+      type: normal
+      size: 2845067
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000066
+- name: fast2bfq_00000066
+  source: fast2bfq_00000066
+  runtime: 0.032
+  scale: 1
+  mem_usage: 0.25
+  input:
+    2107700b-b1ee-4b9a-9937-3508cce31817.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2107700b-b1ee-4b9a-9937-3508cce31817.fq
+      size: 2845067
+    1949d9b3-8d1b-4c78-8b0a-f0a2c97e31f3maq: *id112
+    dab1edc9-710c-4b00-8d02-6c9dbe673069maqindex: *id113
+  output:
+    2fd0dc8e-4f9a-4391-9434-11a45d20b318.bfq:
+      type: normal
+      size: 83397
+  next:
+    type: pass
+    nodes:
+    - map_00000067
+- name: map_00000067
+  source: map_00000067
+  runtime: 1.392
+  scale: 1
+  mem_usage: 0.25
+  input:
+    2fd0dc8e-4f9a-4391-9434-11a45d20b318.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2fd0dc8e-4f9a-4391-9434-11a45d20b318.bfq
+      size: 83397
+    d8d7c480-2c46-428f-bfd1-7657ecea8e65maq: *id114
+    79c6ca4b-d4ab-4e66-8e4f-3aee38be9eedmaqindex: *id115
+    eaa88565-2f8e-4f94-968a-c082a4cbcf7a.bfa: *id116
+  output:
+    f00d2d3a-c61c-42f2-b881-52901837716d.map:
+      type: normal
+      size: 113615
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000068
+  source: filtercontams_00000068
+  runtime: 0.385
+  scale: 1
+  mem_usage: 0.25
+  input:
+    54c4c730-f470-403c-9b9f-32d9e1d61572.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 54c4c730-f470-403c-9b9f-32d9e1d61572.sfq
+      size: 4173745
+  output:
+    792cf01e-258a-4348-a9fd-0c39e28b766a.sfq:
+      type: normal
+      size: 1735267
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000069
+- name: sol2sanger_00000069
+  source: sol2sanger_00000069
+  runtime: 0.368
+  scale: 1
+  mem_usage: 0.25
+  input:
+    792cf01e-258a-4348-a9fd-0c39e28b766a.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 792cf01e-258a-4348-a9fd-0c39e28b766a.sfq
+      size: 1735267
+    67629fed-1f79-44b5-8492-538bcb2d0fa6maq: *id117
+    7974e201-7dc9-44e3-a852-e1dfab69acb5maqindex: *id118
+  output:
+    e9902f5e-9d2b-4c26-b903-bf3bdc926298.fq:
+      type: normal
+      size: 1935090
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000070
+- name: fast2bfq_00000070
+  source: fast2bfq_00000070
+  runtime: 0.032
+  scale: 1
+  mem_usage: 0.25
+  input:
+    e9902f5e-9d2b-4c26-b903-bf3bdc926298.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e9902f5e-9d2b-4c26-b903-bf3bdc926298.fq
+      size: 1935090
+    6ff69b45-7940-44fe-b962-c6b30668c0e3maq: *id119
+    2913e921-4b44-4ed5-a190-3c5a3af7c3bemaqindex: *id120
+  output:
+    ca48701f-322f-4c66-9b5f-df446b99df93.bfq:
+      type: normal
+      size: 300458
+  next:
+    type: pass
+    nodes:
+    - map_00000071
+- name: map_00000071
+  source: map_00000071
+  runtime: 1.303
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ca48701f-322f-4c66-9b5f-df446b99df93.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ca48701f-322f-4c66-9b5f-df446b99df93.bfq
+      size: 300458
+    b2effd23-a7b9-47d4-963f-eec96487e1edmaq: *id121
+    631f8626-4d34-40b8-98e4-fd2b83f6141bmaqindex: *id122
+    63527a52-0aa1-4ab2-a3a2-2cb316cb3e86.bfa: *id123
+  output:
+    1614483b-fcdb-48e6-93cd-c6ef0f8e7cca.map:
+      type: normal
+      size: 240625
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000072
+  source: filtercontams_00000072
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    2733660d-e9a7-45ee-b1fd-bed4747e9cf1.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2733660d-e9a7-45ee-b1fd-bed4747e9cf1.sfq
+      size: 4328656
+  output:
+    63078d47-b402-4d37-a99f-8971c7781522.sfq:
+      type: normal
+      size: 2447763
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000073
+- name: sol2sanger_00000073
+  source: sol2sanger_00000073
+  runtime: 0.086
+  scale: 1
+  mem_usage: 0.25
+  input:
+    63078d47-b402-4d37-a99f-8971c7781522.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 63078d47-b402-4d37-a99f-8971c7781522.sfq
+      size: 2447763
+    3ccbec16-5fbf-46ae-830c-c40d29eb30b1maq: *id124
+    88e77c1c-0539-4d0f-8162-d5cc7aa200b5maqindex: *id125
+  output:
+    1e1de769-53b2-439b-814d-27b17d2b357c.fq:
+      type: normal
+      size: 880368
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000074
+- name: fast2bfq_00000074
+  source: fast2bfq_00000074
+  runtime: 0.032
+  scale: 1
+  mem_usage: 0.25
+  input:
+    1e1de769-53b2-439b-814d-27b17d2b357c.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1e1de769-53b2-439b-814d-27b17d2b357c.fq
+      size: 880368
+    b90e35ef-470d-4043-a35e-f9c782652624maq: *id126
+    90ccf4aa-9bfc-450b-a9b3-7cfd506b3090maqindex: *id127
+  output:
+    c10793f1-852e-4917-ac2e-129e4924bc4a.bfq:
+      type: normal
+      size: 626839
+  next:
+    type: pass
+    nodes:
+    - map_00000075
+- name: map_00000075
+  source: map_00000075
+  runtime: 1.094
+  scale: 1
+  mem_usage: 0.25
+  input:
+    c10793f1-852e-4917-ac2e-129e4924bc4a.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c10793f1-852e-4917-ac2e-129e4924bc4a.bfq
+      size: 626839
+    82cfc437-0bb9-4e1a-8c9a-358c551f5781maq: *id128
+    cc25fba3-4921-4df7-926e-d00676fa9a3bmaqindex: *id129
+    6a7da770-cf0d-478f-8def-1df1f56e789e.bfa: *id130
+  output:
+    2fdab0ec-632a-48d9-b1ac-6f32b5cdbbe4.map:
+      type: normal
+      size: 374910
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000076
+  source: filtercontams_00000076
+  runtime: 0.523
+  scale: 1
+  mem_usage: 0.25
+  input:
+    ec8257fa-2c1a-4d24-94a6-261567fa9c95.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ec8257fa-2c1a-4d24-94a6-261567fa9c95.sfq
+      size: 2035375
+  output:
+    0355a98e-12fb-4113-9c86-45a7d33703d7.sfq:
+      type: normal
+      size: 442894
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000077
+- name: sol2sanger_00000077
+  source: sol2sanger_00000077
+  runtime: 0.431
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0355a98e-12fb-4113-9c86-45a7d33703d7.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0355a98e-12fb-4113-9c86-45a7d33703d7.sfq
+      size: 442894
+    185ca87f-3456-438f-9e1e-ebe25eeb98e1maq: *id131
+    e11d35f3-111d-48f6-80a7-e90e1987145amaqindex: *id132
+  output:
+    fa6def0a-e9b3-4c47-8a63-4561b4db7d6d.fq:
+      type: normal
+      size: 2608675
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000078
+- name: fast2bfq_00000078
+  source: fast2bfq_00000078
+  runtime: 0.131
+  scale: 1
+  mem_usage: 0.25
+  input:
+    fa6def0a-e9b3-4c47-8a63-4561b4db7d6d.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: fa6def0a-e9b3-4c47-8a63-4561b4db7d6d.fq
+      size: 2608675
+    edae6d46-c185-4ace-a2a0-ea2c1b2e1f38maq: *id133
+    8ead5b73-e2d0-4483-8b2e-e04e606a2c16maqindex: *id134
+  output:
+    44f2d57c-ec1e-4f90-ac19-1af86984edcd.bfq:
+      type: normal
+      size: 410132
+  next:
+    type: pass
+    nodes:
+    - map_00000079
+- name: map_00000079
+  source: map_00000079
+  runtime: 1.364
+  scale: 1
+  mem_usage: 0.25
+  input:
+    44f2d57c-ec1e-4f90-ac19-1af86984edcd.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 44f2d57c-ec1e-4f90-ac19-1af86984edcd.bfq
+      size: 410132
+    5c1bc095-466b-4b22-95b1-88b90f8db791maq: *id135
+    971ce5cd-7312-4fcf-acd3-2a065e82c3e5maqindex: *id136
+    8f51e10a-0719-4d08-9ec0-463f19d2f849.bfa: *id137
+  output:
+    64344b33-f5ab-4925-8dc4-5bc425066575.map:
+      type: normal
+      size: 199792
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000080
+  source: filtercontams_00000080
+  runtime: 0.696
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b04310bd-ad44-49a2-80ac-d9aa8a1ec370.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b04310bd-ad44-49a2-80ac-d9aa8a1ec370.sfq
+      size: 3548747
+  output:
+    549f22c2-7b66-42bc-a55e-1ea6cff39bb5.sfq:
+      type: normal
+      size: 3365558
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000081
+- name: sol2sanger_00000081
+  source: sol2sanger_00000081
+  runtime: 0.534
+  scale: 1
+  mem_usage: 0.25
+  input:
+    549f22c2-7b66-42bc-a55e-1ea6cff39bb5.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 549f22c2-7b66-42bc-a55e-1ea6cff39bb5.sfq
+      size: 3365558
+    7f1752b9-cca1-46db-aedb-fc262e162bb1maq: *id138
+    dc41adaa-024d-4a38-ba5c-7082f2f874bamaqindex: *id139
+  output:
+    f4d1f697-aeca-47df-9683-0b2eddcffb3c.fq:
+      type: normal
+      size: 1038945
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000082
+- name: fast2bfq_00000082
+  source: fast2bfq_00000082
+  runtime: 0.161
+  scale: 1
+  mem_usage: 0.25
+  input:
+    f4d1f697-aeca-47df-9683-0b2eddcffb3c.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f4d1f697-aeca-47df-9683-0b2eddcffb3c.fq
+      size: 1038945
+    23dfee53-b652-4488-9fe1-133bbb8438e7maq: *id140
+    290c4920-ab0d-4e5b-9feb-7f11d4a8e4c2maqindex: *id141
+  output:
+    1da739d4-8e42-4035-a64c-5570dba36ae7.bfq:
+      type: normal
+      size: 672069
+  next:
+    type: pass
+    nodes:
+    - map_00000083
+- name: map_00000083
+  source: map_00000083
+  runtime: 2.788
+  scale: 1
+  mem_usage: 0.25
+  input:
+    1da739d4-8e42-4035-a64c-5570dba36ae7.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1da739d4-8e42-4035-a64c-5570dba36ae7.bfq
+      size: 672069
+    e774e269-fe52-48d3-8620-a3269a469cbamaq: *id142
+    2ef20890-5736-4400-8b9d-f90c3e9e83b9maqindex: *id143
+    e1e5541f-fcb9-4399-8efe-91d7703ed705.bfa: *id144
+  output:
+    3289e30f-9a75-4a8b-aeff-916e71cb90a0.map:
+      type: normal
+      size: 37671
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000084
+  source: filtercontams_00000084
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    50785367-b282-4db3-9e7e-90a490211c51.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 50785367-b282-4db3-9e7e-90a490211c51.sfq
+      size: 3805423
+  output:
+    d92263a8-66f3-43cb-a387-66003067a91f.sfq:
+      type: normal
+      size: 1502410
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000085
+- name: sol2sanger_00000085
+  source: sol2sanger_00000085
+  runtime: 0.639
+  scale: 1
+  mem_usage: 0.25
+  input:
+    d92263a8-66f3-43cb-a387-66003067a91f.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d92263a8-66f3-43cb-a387-66003067a91f.sfq
+      size: 1502410
+    15e1a774-da74-4cf2-9da6-6d27db173e1cmaq: *id145
+    6a83a1d5-5a42-459c-a00b-894362b7e5f7maqindex: *id146
+  output:
+    28ea0511-09e5-4017-b6ff-7f438e80db76.fq:
+      type: normal
+      size: 1623221
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000086
+- name: fast2bfq_00000086
+  source: fast2bfq_00000086
+  runtime: 0.222
+  scale: 1
+  mem_usage: 0.25
+  input:
+    28ea0511-09e5-4017-b6ff-7f438e80db76.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 28ea0511-09e5-4017-b6ff-7f438e80db76.fq
+      size: 1623221
+    511adc6a-827a-4f30-be4e-3058e893cf8fmaq: *id147
+    032c153a-8b39-4e63-9abc-ab11e40e1db5maqindex: *id148
+  output:
+    3b413df3-9754-4713-9fe1-a702aa6b3e0e.bfq:
+      type: normal
+      size: 239012
+  next:
+    type: pass
+    nodes:
+    - map_00000087
+- name: map_00000087
+  source: map_00000087
+  runtime: 0.93
+  scale: 1
+  mem_usage: 0.25
+  input:
+    3b413df3-9754-4713-9fe1-a702aa6b3e0e.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3b413df3-9754-4713-9fe1-a702aa6b3e0e.bfq
+      size: 239012
+    8ac1b657-11fe-4a4c-9a9e-21811b942011maq: *id149
+    e991a865-128f-4c24-b636-527dc7efdbd6maqindex: *id150
+    61db7cbe-d502-4477-817e-cfb59c60b918.bfa: *id151
+  output:
+    f30090f2-188b-4395-b065-a62f8e7f63e1.map:
+      type: normal
+      size: 251399
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: filtercontams_00000088
+  source: filtercontams_00000088
+  runtime: 0.142
+  scale: 1
+  mem_usage: 0.25
+  input:
+    c8fe1aa0-bdda-42ae-8754-7cea5745e325.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c8fe1aa0-bdda-42ae-8754-7cea5745e325.sfq
+      size: 3734159
+  output:
+    5619b562-e5a9-4a22-b31a-dbfc5ffdf2ab.sfq:
+      type: normal
+      size: 408176
+  next:
+    type: pass
+    nodes:
+    - sol2sanger_00000089
+- name: sol2sanger_00000089
+  source: sol2sanger_00000089
+  runtime: 0.086
+  scale: 1
+  mem_usage: 0.25
+  input:
+    5619b562-e5a9-4a22-b31a-dbfc5ffdf2ab.sfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5619b562-e5a9-4a22-b31a-dbfc5ffdf2ab.sfq
+      size: 408176
+    66388925-e162-43cd-b51a-d5936125c678maq: *id152
+    774c8636-42c4-44a8-87b5-bb60a9afd629maqindex: *id153
+  output:
+    7659d596-4da0-4d75-bb71-1499c419b78d.fq:
+      type: normal
+      size: 3232438
+  next:
+    type: pass
+    nodes:
+    - fast2bfq_00000090
+- name: fast2bfq_00000090
+  source: fast2bfq_00000090
+  runtime: 0.288
+  scale: 1
+  mem_usage: 0.25
+  input:
+    7659d596-4da0-4d75-bb71-1499c419b78d.fq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 7659d596-4da0-4d75-bb71-1499c419b78d.fq
+      size: 3232438
+    c673a5db-2ee2-411f-aa0b-7d06d06292e2maq: *id154
+    2f5873a8-7a25-44c5-833e-b87293a3307bmaqindex: *id155
+  output:
+    22f90307-2f07-4693-9d3f-40d1a88bf73d.bfq:
+      type: normal
+      size: 499990
+  next:
+    type: pass
+    nodes:
+    - map_00000091
+- name: map_00000091
+  source: map_00000091
+  runtime: 1.04
+  scale: 1
+  mem_usage: 0.25
+  input:
+    22f90307-2f07-4693-9d3f-40d1a88bf73d.bfq:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 22f90307-2f07-4693-9d3f-40d1a88bf73d.bfq
+      size: 499990
+    cba2db20-8ae9-4889-a71f-c3abf8115f44maq: *id156
+    f048081c-dcf7-48a9-8daa-603cc1cc122bmaqindex: *id157
+    4081ae25-b2f5-4554-8dab-fd3dc2fb53da.bfa: *id158
+  output:
+    809ee369-fec1-4961-bad7-f2167f2157dd.map:
+      type: normal
+      size: 229555
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000092
+- name: mapmerge_00000092
+  source: mapmerge_00000092
+  runtime: 0.256
+  scale: 1
+  mem_usage: 0.25
+  input:
+    cb5ffaf7-7acb-4ccc-b00e-010aeffb6262.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: cb5ffaf7-7acb-4ccc-b00e-010aeffb6262.map
+      size: 256513
+    abb1f205-1b04-4356-8582-86079acb2ac5.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: abb1f205-1b04-4356-8582-86079acb2ac5.map
+      size: 262110
+    a677cc18-5125-4cf3-99d5-927ae560ac7d.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a677cc18-5125-4cf3-99d5-927ae560ac7d.map
+      size: 393965
+    adfe48d2-3012-406e-a9ee-881555e23843.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: adfe48d2-3012-406e-a9ee-881555e23843.map
+      size: 56548
+    f00d2d3a-c61c-42f2-b881-52901837716d.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f00d2d3a-c61c-42f2-b881-52901837716d.map
+      size: 113615
+    1614483b-fcdb-48e6-93cd-c6ef0f8e7cca.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1614483b-fcdb-48e6-93cd-c6ef0f8e7cca.map
+      size: 240625
+    2fdab0ec-632a-48d9-b1ac-6f32b5cdbbe4.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2fdab0ec-632a-48d9-b1ac-6f32b5cdbbe4.map
+      size: 374910
+    64344b33-f5ab-4925-8dc4-5bc425066575.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 64344b33-f5ab-4925-8dc4-5bc425066575.map
+      size: 199792
+    3289e30f-9a75-4a8b-aeff-916e71cb90a0.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3289e30f-9a75-4a8b-aeff-916e71cb90a0.map
+      size: 37671
+    f30090f2-188b-4395-b065-a62f8e7f63e1.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f30090f2-188b-4395-b065-a62f8e7f63e1.map
+      size: 251399
+    809ee369-fec1-4961-bad7-f2167f2157dd.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 809ee369-fec1-4961-bad7-f2167f2157dd.map
+      size: 229555
+    ee6d113f-6098-4a32-a135-e138915b354cmaq: *id159
+    f5ff32c9-8714-4da5-ae31-de176df71df7maqindex: *id160
+  output:
+    faf59563-57a4-4824-9ad1-92b1bf7fd1df.map:
+      type: normal
+      size: 60541376
+  next:
+    type: pass
+    nodes:
+    - mapmerge_00000093
+- name: mapmerge_00000093
+  source: mapmerge_00000093
+  runtime: 0.892
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8591de01-f47d-4e3e-a0ae-80ddd1d52433.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8591de01-f47d-4e3e-a0ae-80ddd1d52433.map
+      size: 63922093
+    faf59563-57a4-4824-9ad1-92b1bf7fd1df.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: faf59563-57a4-4824-9ad1-92b1bf7fd1df.map
+      size: 60541376
+    819cf8a6-0dde-47ce-af1d-2c84701b8327maq: *id161
+    119b872d-7112-4914-868b-597b60ac1b47maqindex: *id162
+  output:
+    588f4483-ff0a-4064-8c9a-ae971b96d661.map:
+      type: normal
+      size: 63768661
+  next:
+    type: pass
+    nodes:
+    - chr21_00000094
+- name: chr21_00000094
+  source: chr21_00000094
+  runtime: 0.701
+  scale: 1
+  mem_usage: 0.25
+  input:
+    588f4483-ff0a-4064-8c9a-ae971b96d661.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 588f4483-ff0a-4064-8c9a-ae971b96d661.map
+      size: 63768661
+    30279861-5900-4b0f-acfc-a18656f4b654maq: *id163
+    511b9ce8-986b-4c74-929c-11a878408577maqindex: *id164
+  output:
+    13e5a266-38a8-43f4-b0d8-84a7a69f9ec2.map:
+      type: normal
+      size: 19905758
+  next:
+    type: pass
+    nodes:
+    - pileup_00000095
+- name: pileup_00000095
+  source: pileup_00000095
+  runtime: 2.8
+  scale: 1
+  mem_usage: 0.25
+  input:
+    13e5a266-38a8-43f4-b0d8-84a7a69f9ec2.map:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 13e5a266-38a8-43f4-b0d8-84a7a69f9ec2.map
+      size: 19905758
+    5d4d5553-375d-4ced-abaa-4d8dfd8dd9a0maq: *id165
+    1c76cb56-3885-4d3a-b07e-d672b52ad4e5maqindex: *id166
+    9735875a-f158-48ca-9c41-766be7553630.bfa: *id167
+  output:
+    48a7c314-3b5f-4d96-b694-98387b5ab409.pileup:
+      type: normal
+      size: 2640269
+  next:
+    type: pass
+    nodes: []

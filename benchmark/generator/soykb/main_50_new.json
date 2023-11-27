@@ -1,0 +1,3972 @@
+{
+    "name": "SoyKB-synthetic-trace",
+    "description": "Trace generated with WorkflowHub - https://workflowhub.org",
+    "createdAt": "2023-11-09T13:03:56.867327",
+    "schemaVersion": "1.0",
+    "author": {
+        "name": "yujiazhao",
+        "email": "support@workflowhub.org"
+    },
+    "wms": {
+        "name": "WorkflowHub",
+        "version": "0.4",
+        "url": "https://workflowhub.readthedocs.io/en/v0.4/"
+    },
+    "workflow": {
+        "executedAt": "20231109T210356+0800",
+        "makespan": null,
+        "jobs": [
+            {
+                "name": "alignment_to_reference_00000001",
+                "type": "compute",
+                "runtime": 1.918,
+                "parents": [],
+                "children": [
+                    "sort_sam_00000002"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8aeab3eb-1afd-4660-98ab-6ebddeccec9d.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "c6dbc207-90e8-4d03-a581-a9206f2e02f7.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "b1ac6978-2820-4fd4-a75e-7b6d3dc35bbf.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "ddcce9fb-a4ad-4d63-b6a3-06b0187a1eb1.fastq",
+                        "size": 238
+                    },
+                    {
+                        "link": "input",
+                        "name": "0f21e5bc-7772-4953-b0b3-1e9a801bfdb7.fastq",
+                        "size": 238
+                    },
+                    {
+                        "link": "input",
+                        "name": "398c69b7-e84c-46fa-90ab-2ece59b002f4.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "7bfbf6fb-4738-4147-9960-c642c438f850.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "f7efa08c-be04-4899-b34f-08f1677bd9c6.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "327fd7a4-105a-43e6-b376-236b93e86625.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "b0609e1e-9e50-467e-b246-9c0e96d64eb7.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "40f4a067-634f-474a-8c50-bae139bd4297.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "3b91ad79-f0f1-4433-95f5-3036015ae8dc.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "e4eeff6a-4bc7-4734-9ef4-28c13d2c347f.sam",
+                        "size": 5628050
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "sort_sam_00000002",
+                "type": "compute",
+                "runtime": 0.468,
+                "parents": [
+                    "alignment_to_reference_00000001"
+                ],
+                "children": [
+                    "dedup_00000003"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "e4eeff6a-4bc7-4734-9ef4-28c13d2c347f.sam",
+                        "size": 5628050
+                    },
+                    {
+                        "link": "input",
+                        "name": "3b15b7ce-91bc-4608-bff4-37b77cb056ac.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "dd667fad-1488-46a2-94a7-873caf77a35f.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "bb3dac54-ec40-4973-a310-32a5ffd9a758.bam",
+                        "size": 1828800
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "dedup_00000003",
+                "type": "compute",
+                "runtime": 0.884,
+                "parents": [
+                    "sort_sam_00000002"
+                ],
+                "children": [
+                    "add_replace_00000004"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "dd667fad-1488-46a2-94a7-873caf77a35f.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "bb3dac54-ec40-4973-a310-32a5ffd9a758.bam",
+                        "size": 1828800
+                    },
+                    {
+                        "link": "input",
+                        "name": "c0fea66c-da28-46bb-b3cd-fa6d378cae4d.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "448b2ffe-647d-48f8-98ac-963ea95c914e.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "ec67853b-69ae-43a4-84da-99c1ac1ece66.bam",
+                        "size": 1873499
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "add_replace_00000004",
+                "type": "compute",
+                "runtime": 0.14,
+                "parents": [
+                    "dedup_00000003"
+                ],
+                "children": [
+                    "realign_target_creator_00000005"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "448b2ffe-647d-48f8-98ac-963ea95c914e.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "ec67853b-69ae-43a4-84da-99c1ac1ece66.bam",
+                        "size": 1873499
+                    },
+                    {
+                        "link": "input",
+                        "name": "8c8627dc-6b45-4b8b-8c15-c37e28266ff4.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "8270a1f9-2c90-471b-a853-d51491cfe786.bam",
+                        "size": 189780
+                    },
+                    {
+                        "link": "output",
+                        "name": "ce20c6d5-3f8a-421e-a552-e3c5ea52c066.bai",
+                        "size": 6371200
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "realign_target_creator_00000005",
+                "type": "compute",
+                "runtime": 0.475,
+                "parents": [
+                    "add_replace_00000004"
+                ],
+                "children": [
+                    "indel_realign_00000006"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8270a1f9-2c90-471b-a853-d51491cfe786.bam",
+                        "size": 189780
+                    },
+                    {
+                        "link": "input",
+                        "name": "ce20c6d5-3f8a-421e-a552-e3c5ea52c066.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "6f176747-042a-44ca-ac9c-4e9857c7319c.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "08350799-bcdb-4cc8-8a9f-b56c72c07a93.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "21060055-fce5-4db2-8c64-1e67a2dc8300.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "8e671a4b-60ee-4c47-a2b8-8266dc4d970f.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "16534e06-4d9a-4d58-88a4-283ac5f497b4.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "684f7eb4-1547-4762-b924-814c04c64215.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "ae4057da-e11d-40e2-a009-cdeeb132b6bc.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "c8b16968-b6cf-4600-a359-6d9e20586854.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "51b66171-219c-40bf-bd6a-5a4a06f59d33.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "a43e1fcd-2d25-42d0-9692-083bfdf4a618.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "6309021a-43d9-4f7b-9b97-cfefcdd8f494.list",
+                        "size": 2000
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "indel_realign_00000006",
+                "type": "compute",
+                "runtime": 2.268,
+                "parents": [
+                    "realign_target_creator_00000005"
+                ],
+                "children": [
+                    "haplotype_caller_00000007",
+                    "haplotype_caller_00000008",
+                    "haplotype_caller_00000009",
+                    "haplotype_caller_00000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6309021a-43d9-4f7b-9b97-cfefcdd8f494.list",
+                        "size": 2000
+                    },
+                    {
+                        "link": "input",
+                        "name": "6f185993-2e39-4924-aea3-e88a41375971.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "98166b93-d9c0-4f64-89cb-f29b97e48b46.bai",
+                        "size": 1274
+                    },
+                    {
+                        "link": "input",
+                        "name": "d5a54b0f-ef35-4199-b531-c2f4e15847d9.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "be176e5b-fe46-4143-a051-1249f0b4fb18.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "f00760a0-cc9e-4285-946b-ecf19299f28d.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "a0547bb8-e1c6-46c3-9b64-1151baabcb7c.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "b8c16276-863d-404b-94c2-18d443df3d2b.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "4fbe7de7-c85d-486d-a4e3-caf2acc92cf8.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "042b88c0-70fd-4bd6-a862-dce2a09f48bb.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "16bad39e-e9e5-40ae-87f1-d78249639857.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "21129f10-f012-4534-83c9-ade3ffd60371.bam",
+                        "size": 37
+                    },
+                    {
+                        "link": "input",
+                        "name": "8fd76467-3387-49e3-9641-48e9a1997176.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "5d68c55b-04d2-43be-aeae-57354329b477.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "093a1ba2-ce57-4d9d-98e2-f1733499322a.bam",
+                        "size": 821496
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000007",
+                "type": "compute",
+                "runtime": 4.628,
+                "parents": [
+                    "indel_realign_00000006"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000041",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5d68c55b-04d2-43be-aeae-57354329b477.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "093a1ba2-ce57-4d9d-98e2-f1733499322a.bam",
+                        "size": 821496
+                    },
+                    {
+                        "link": "input",
+                        "name": "421e1550-359e-41ad-b325-e9a99b303f7a.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "9c302dc4-078d-4b5c-b893-85ca4639e263.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "572bca17-c523-4b59-80e9-10c35c680263.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "bce858fd-5fb3-40db-b618-82cbe652907d.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "6a0895f6-cbe2-4bb5-a0ce-4698ffa8eb67.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "8330f8d7-7ce7-4ca1-981a-52e8847d7ee2.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "b447f7e6-c85b-4876-9045-558f5b35e372.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "b55e4bc2-03aa-437a-b379-783b83038e6f.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "b37e42ac-2c3a-4bfa-8def-b58c51a986e4.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "11ea64dd-2f55-4ef5-9479-9e4cc405688a.txt",
+                        "size": 81
+                    },
+                    {
+                        "link": "output",
+                        "name": "0bb3b57a-5b7e-49ad-9f4e-32e811fc06a3.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "c5d56d13-4258-4748-9b06-eaad33d8eab5.idx",
+                        "size": 1191679
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000008",
+                "type": "compute",
+                "runtime": 2.114,
+                "parents": [
+                    "indel_realign_00000006"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000042",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5d68c55b-04d2-43be-aeae-57354329b477.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "093a1ba2-ce57-4d9d-98e2-f1733499322a.bam",
+                        "size": 821496
+                    },
+                    {
+                        "link": "input",
+                        "name": "d608b3af-edff-4c18-8987-b0519241cfbc.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "3aa945c9-7bf1-4a60-8cc1-81e87718b09e.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "9a788417-b83f-4b97-a5e9-0c762587b0e7.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "e0576339-e7f6-435f-a74c-ec7a7af2ba43.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "61728b8a-0c05-4ccf-9217-fcab98b91842.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "012fad32-90c5-4f28-ae91-a1778dbe746f.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "cf63a31f-86c9-4f4b-af77-949e6ee8efe4.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "7cc1107f-06c9-4dc6-a9ce-58ba9100ddb0.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "5c6831fd-e90f-422b-b781-0b5045920d7f.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "5a723ef7-1a1f-4688-8f12-9d1b1893a130.txt",
+                        "size": 138
+                    },
+                    {
+                        "link": "output",
+                        "name": "345474a6-33d5-4211-9aa5-26b68d031893.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "output",
+                        "name": "44684869-6a0c-43e9-b070-7bc6d7a3b938.idx",
+                        "size": 1382947
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000009",
+                "type": "compute",
+                "runtime": 1.686,
+                "parents": [
+                    "indel_realign_00000006"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000043",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5d68c55b-04d2-43be-aeae-57354329b477.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "093a1ba2-ce57-4d9d-98e2-f1733499322a.bam",
+                        "size": 821496
+                    },
+                    {
+                        "link": "input",
+                        "name": "473a0c7a-72d0-45be-b6db-cf4ca602a1de.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "c50b8ef4-a0c1-48a7-a01a-82868e8891af.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "f5e6d215-78ab-40d8-b0f4-6b1b050c38b2.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "4b5568a7-5909-42e2-85cd-60cda212710b.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "96815437-a80b-420c-8199-d63b0051ba6b.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "5ae0e7dc-d0c4-456b-8f28-99985e797809.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "b4e629d3-771c-471d-be96-f3436b011d0d.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "2f410a9c-72b6-4c2b-b597-0324d390c657.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "1c951d56-884a-4d69-a529-3e4d29cac024.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "3db8121b-df9e-43b3-93a8-9193c9d49948.txt",
+                        "size": 74
+                    },
+                    {
+                        "link": "output",
+                        "name": "39b1a1c5-fc81-4fbe-8d39-c91d28b3a8d4.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "91bcbc34-1464-42d9-b335-665a87f45e56.idx",
+                        "size": 496811
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000010",
+                "type": "compute",
+                "runtime": 0.71,
+                "parents": [
+                    "indel_realign_00000006"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000044",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5d68c55b-04d2-43be-aeae-57354329b477.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "093a1ba2-ce57-4d9d-98e2-f1733499322a.bam",
+                        "size": 821496
+                    },
+                    {
+                        "link": "input",
+                        "name": "07464ec9-e659-427b-98f4-c3acd9134574.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "61e165cc-98a5-4226-90ad-974a7cf932af.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "e781e046-0a0d-49d5-b61a-d533fc3d169e.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "4744f720-a9b4-4807-a1e3-f755e0ab8610.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "44700080-cb75-4146-8122-96cab6bb1024.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "afe5627b-860b-4751-ad90-c2fe2d94fbd1.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "08a891ec-e6b2-495f-9745-03b82edc4010.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "71ee0152-2fb3-4de1-a8af-dc3102224d40.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "b6344465-a9de-43a8-9b4e-984ef73e58eb.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "b6ff8b78-998f-45ac-ad91-9ca16713cbc7.txt",
+                        "size": 96
+                    },
+                    {
+                        "link": "output",
+                        "name": "a9f2e10c-fd28-4db8-a295-d79fca392032.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "89fcc7c5-c741-4c7b-9233-01fa5c3e4345.idx",
+                        "size": 1062811
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "alignment_to_reference_00000011",
+                "type": "compute",
+                "runtime": 1.351,
+                "parents": [],
+                "children": [
+                    "sort_sam_00000012"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "56cc2e39-c97d-484f-905c-c33f7cee9178.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "7fd53b96-a29c-42d5-973d-d84736bcfa37.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "f59b1113-59c8-403d-a32c-1646d9e7f128.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "22b885ee-8fbf-432b-be3e-194ba8d748c7.fastq",
+                        "size": 238
+                    },
+                    {
+                        "link": "input",
+                        "name": "8702438e-77f1-42da-a887-7c2515a1cf3a.fastq",
+                        "size": 238
+                    },
+                    {
+                        "link": "input",
+                        "name": "0aa1e632-54ed-4d7f-b027-46c78fee7eec.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "f2a95b30-3daf-4afd-b825-77198f4d8e70.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "994420f1-80bb-4506-ba38-559a7d35ae7e.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "b63b9fe2-a4f6-4659-b7ee-dfbd428120c4.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "24023409-1831-450e-b10e-2f3b0f9813f7.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "141497b3-8809-47b3-b22c-2dcb72f7da13.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "436a4e3f-1e2f-45e4-bd04-1ae2328d1ab1.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "6883d0b4-fb9b-4094-99b3-4f8e961e85d3.sam",
+                        "size": 5628050
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "sort_sam_00000012",
+                "type": "compute",
+                "runtime": 0.089,
+                "parents": [
+                    "alignment_to_reference_00000011"
+                ],
+                "children": [
+                    "dedup_00000013"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6883d0b4-fb9b-4094-99b3-4f8e961e85d3.sam",
+                        "size": 5628050
+                    },
+                    {
+                        "link": "input",
+                        "name": "9513c881-a18c-4954-84bf-533327099c01.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "aefbb25d-632e-4921-98b1-087d7cfe35d0.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "03ac70c7-ae36-42ab-980b-b118bfbecd85.bam",
+                        "size": 1828800
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "dedup_00000013",
+                "type": "compute",
+                "runtime": 0.454,
+                "parents": [
+                    "sort_sam_00000012"
+                ],
+                "children": [
+                    "add_replace_00000014"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "aefbb25d-632e-4921-98b1-087d7cfe35d0.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "03ac70c7-ae36-42ab-980b-b118bfbecd85.bam",
+                        "size": 1828800
+                    },
+                    {
+                        "link": "input",
+                        "name": "41e8a628-7978-416f-b09f-b02f11348ad3.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "16ce3da2-f767-4720-aaba-ce3251e65c4a.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "4b309c6f-1091-4213-829f-6c993e5940d7.bam",
+                        "size": 1873499
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "add_replace_00000014",
+                "type": "compute",
+                "runtime": 0.14,
+                "parents": [
+                    "dedup_00000013"
+                ],
+                "children": [
+                    "realign_target_creator_00000015"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "16ce3da2-f767-4720-aaba-ce3251e65c4a.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "4b309c6f-1091-4213-829f-6c993e5940d7.bam",
+                        "size": 1873499
+                    },
+                    {
+                        "link": "input",
+                        "name": "e5d5b41f-1919-4a9d-ae8e-7e26384afc20.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "1f391609-23de-478b-b93a-6b87e8986cb3.bam",
+                        "size": 189780
+                    },
+                    {
+                        "link": "output",
+                        "name": "4f64e858-f40f-4be1-baa6-dfeb6351559b.bai",
+                        "size": 6371200
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "realign_target_creator_00000015",
+                "type": "compute",
+                "runtime": 4.148,
+                "parents": [
+                    "add_replace_00000014"
+                ],
+                "children": [
+                    "indel_realign_00000016"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "1f391609-23de-478b-b93a-6b87e8986cb3.bam",
+                        "size": 189780
+                    },
+                    {
+                        "link": "input",
+                        "name": "4f64e858-f40f-4be1-baa6-dfeb6351559b.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "0c250ee7-8dc9-4e19-ba1c-f8ca3e97f39d.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "9095b224-a66a-4ac0-b990-0a8b2928d00b.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "dae5225d-74d6-4d3f-805b-6bd283b9a10a.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "de5c69e7-1bbf-45f7-8fd4-5d8cf251677e.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "63698c5c-d3a4-4e06-9d33-6cf9b07a114d.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "042a1b6b-185d-4eb8-838e-b6b429cdc783.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "db34395b-e358-4c41-b88b-d72a57614552.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "f9eca804-80c4-40de-99a1-83d9f1476094.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "6461ae06-ca70-42d5-8dac-c566023ad79d.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "bd510d89-56b7-4ec8-b82a-e37cac6401e3.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "54f47cf4-26e6-4e49-a88d-ef8a4345af63.list",
+                        "size": 2000
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "indel_realign_00000016",
+                "type": "compute",
+                "runtime": 1.577,
+                "parents": [
+                    "realign_target_creator_00000015"
+                ],
+                "children": [
+                    "haplotype_caller_00000017",
+                    "haplotype_caller_00000018",
+                    "haplotype_caller_00000019",
+                    "haplotype_caller_00000020"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "54f47cf4-26e6-4e49-a88d-ef8a4345af63.list",
+                        "size": 2000
+                    },
+                    {
+                        "link": "input",
+                        "name": "39a5d5a4-4a08-4238-9b79-e92e9a123aba.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "fbdac33c-3364-4108-b6bb-04e3ca922cec.bai",
+                        "size": 1274
+                    },
+                    {
+                        "link": "input",
+                        "name": "35ec8f84-8df8-4c69-a38a-fbb27779f384.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "4d51d9da-6d3b-4aa0-8b6b-06b5763bf101.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "3ce47cfd-675e-4868-bb7b-7893d23876eb.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "e0166174-d581-45c4-8edc-923f3f442c48.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "3300b0b7-1074-4e52-8fc7-d39d5c0f71f7.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "86fdb201-b63e-47d3-b624-5f806378c85b.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "11da83f0-d6f2-43aa-9443-904faa8a8de5.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "5b1bf6f7-511b-44d6-b148-7767f90e28c9.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "2f6d3732-9b02-4fdc-9efd-61e2eb05aec2.bam",
+                        "size": 37
+                    },
+                    {
+                        "link": "input",
+                        "name": "0eee08c2-39f8-41f7-8027-ee1d16a645e0.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "0e0847cb-8931-4a21-834b-05fc3edc8646.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "9c5c79fb-99be-4d89-afb0-33bf18e64f24.bam",
+                        "size": 2946871
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000017",
+                "type": "compute",
+                "runtime": 2.884,
+                "parents": [
+                    "indel_realign_00000016"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000041",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0e0847cb-8931-4a21-834b-05fc3edc8646.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "9c5c79fb-99be-4d89-afb0-33bf18e64f24.bam",
+                        "size": 2946871
+                    },
+                    {
+                        "link": "input",
+                        "name": "93704ed1-22a6-456e-8657-69de888f882a.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "9e64bca5-8a86-490e-99ca-d9d14e4f65a0.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "13b91a83-3372-4bc1-af92-978a57b7b2c8.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "c9c29993-fed7-4301-8d64-88d4374ad52a.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "182de14c-5107-4795-9a14-501ae7b348b3.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "ea92aa1a-616e-40a4-ad60-1501482b6c7e.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "a8b0edfa-bd84-4aad-a23b-918b5c101144.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "fe4b0018-1f51-43a9-a5d1-696d500cc4d8.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "0b41b656-ee54-4c2b-815d-d2dda8cea884.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "063fd885-f582-47c7-83df-2a6883505e16.txt",
+                        "size": 74
+                    },
+                    {
+                        "link": "output",
+                        "name": "87621fec-b4c8-425f-b75b-84ce89d2bd19.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "eb31b910-ae3b-48d2-8396-3bcab5ec71d6.idx",
+                        "size": 1240535
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000018",
+                "type": "compute",
+                "runtime": 3.58,
+                "parents": [
+                    "indel_realign_00000016"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000042",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0e0847cb-8931-4a21-834b-05fc3edc8646.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "9c5c79fb-99be-4d89-afb0-33bf18e64f24.bam",
+                        "size": 2946871
+                    },
+                    {
+                        "link": "input",
+                        "name": "842f4813-bc08-4332-9e95-9d3c0d1fd376.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "7dc98af7-cb8d-4893-be71-c07c1047dbc6.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d16ec6f-e3ed-496e-ae83-13b3123f97ce.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "add3621a-dfca-43fc-bf3a-9b022e189856.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "12789f8b-0fc3-496d-beb7-8aeb10b1349e.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "37286d41-a036-4091-8e77-97636f2ca016.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "30f48bc5-f4f6-4aa5-beb2-082f35b0d078.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "fe1dd3d2-88df-4ea3-a646-4d1add0245db.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "7a92c1a4-a51b-4602-bfad-a7fa720337f4.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "9339b6a4-9992-49f8-9b73-7ab86eafcd34.txt",
+                        "size": 173
+                    },
+                    {
+                        "link": "output",
+                        "name": "97c0cdd4-f3dc-4609-a6c9-8c1d6100dae3.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "babb9ea3-714f-4b8c-b1c2-a09e038091ee.idx",
+                        "size": 369103
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000019",
+                "type": "compute",
+                "runtime": 0.71,
+                "parents": [
+                    "indel_realign_00000016"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000043",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0e0847cb-8931-4a21-834b-05fc3edc8646.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "9c5c79fb-99be-4d89-afb0-33bf18e64f24.bam",
+                        "size": 2946871
+                    },
+                    {
+                        "link": "input",
+                        "name": "b31b8d2d-0863-4229-b03b-5bd7fc048988.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "b36b27a2-d8a4-47e5-922c-08844f948f13.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "af08638e-73ea-491d-a7e8-1ed8639ed90c.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "4a9cfd7a-d9f5-4ee5-9f8f-0ae64ea3d308.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "f68c3723-efec-4fd7-be06-da2d0d47dff4.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "f9da84d7-8044-479f-85a1-e967c10b9beb.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "6d8d536d-408d-4c02-84b2-9a8710d35bc5.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "1c67e2cc-e860-48fa-aa90-9f51d80b7d77.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "3f923cd5-b258-4adf-b4bb-031599b19503.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "9fc2af7e-5346-49a8-8d8f-a46e452b64df.txt",
+                        "size": 127
+                    },
+                    {
+                        "link": "output",
+                        "name": "1373350d-5fdf-43d1-b2ec-67d6e93e7f1c.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "ff47700d-64f6-4b1f-aa54-df5cee67cf67.idx",
+                        "size": 1142600
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000020",
+                "type": "compute",
+                "runtime": 5.292,
+                "parents": [
+                    "indel_realign_00000016"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000044",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0e0847cb-8931-4a21-834b-05fc3edc8646.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "9c5c79fb-99be-4d89-afb0-33bf18e64f24.bam",
+                        "size": 2946871
+                    },
+                    {
+                        "link": "input",
+                        "name": "861b476f-f99e-406d-9ae5-50da6eba10c9.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "22a2bd9c-a11c-45e5-bb9b-5163ee2809a8.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "cd3d9afc-c280-48ae-abaf-47c82eaaffdc.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "ed34fe00-098c-4ab7-9917-c9e9584d14f4.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "b3667a07-b6ff-4e9b-a5f0-85bced2bda3e.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "f58e71e6-ca0e-4956-bb93-a5c2eac0cc0f.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "92b1bc8d-85e4-4e21-8393-8255ca18ccc2.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "b7d600c6-2c67-490c-aa94-b2fc1cb2a1d8.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "5a8041f1-30cd-4dc8-9723-d27a322f8899.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "4e13afec-6577-4759-b242-c214e40684e2.txt",
+                        "size": 126
+                    },
+                    {
+                        "link": "output",
+                        "name": "6491bb9d-ae9f-46db-bd9c-2fcdd1d2e038.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "d31024c6-c660-48f4-b2fc-a449b76105e2.idx",
+                        "size": 502482
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "alignment_to_reference_00000021",
+                "type": "compute",
+                "runtime": 1.112,
+                "parents": [],
+                "children": [
+                    "sort_sam_00000022"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f1e6c86c-2dc7-4390-8925-8e675c7fe8e4.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "5eb67872-2c75-4248-9f2b-db4c8934d59e.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "1ae79092-ffe3-42bd-b38c-765ac094707d.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "0a29a36e-d2ec-48f0-a53e-28ce31ecc22a.fastq",
+                        "size": 238
+                    },
+                    {
+                        "link": "input",
+                        "name": "c185875b-e0b9-4527-8d45-fe386a5e5cab.fastq",
+                        "size": 238
+                    },
+                    {
+                        "link": "input",
+                        "name": "291abe0d-12ff-4aff-9da7-b61d7a5e9980.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "6a660b86-ca12-41cd-a7e8-296800c99bbc.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "42cc721b-d0bb-4d5b-8bdd-5b95dbf591d6.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "f8023eb1-f53f-431d-9a09-c5d10fc559cc.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "ce2ab9be-e7e0-4b16-9168-e102d885eb28.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "df71a973-3ec0-4c02-a23d-93b83ff6fa9a.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "d9d6e9a3-cde7-405d-9203-50e2acd10369.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "5a5dd176-492e-4cee-85ce-ba19522ed3bf.sam",
+                        "size": 5628050
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "sort_sam_00000022",
+                "type": "compute",
+                "runtime": 0.089,
+                "parents": [
+                    "alignment_to_reference_00000021"
+                ],
+                "children": [
+                    "dedup_00000023"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5a5dd176-492e-4cee-85ce-ba19522ed3bf.sam",
+                        "size": 5628050
+                    },
+                    {
+                        "link": "input",
+                        "name": "926c9128-3145-495e-8e93-3ac7b58dbc73.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "49fcbc2b-554d-4028-a865-3d6bf58ac941.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "61a48056-5b1e-45ec-bb47-343e00167943.bam",
+                        "size": 1828800
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "dedup_00000023",
+                "type": "compute",
+                "runtime": 2.242,
+                "parents": [
+                    "sort_sam_00000022"
+                ],
+                "children": [
+                    "add_replace_00000024"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "49fcbc2b-554d-4028-a865-3d6bf58ac941.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "61a48056-5b1e-45ec-bb47-343e00167943.bam",
+                        "size": 1828800
+                    },
+                    {
+                        "link": "input",
+                        "name": "e9da34e1-a76c-486c-ac00-d49d918950a5.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "bcfa6aee-5bc4-4f63-b8a6-36623044859e.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "3709b962-61f8-4867-9d59-97dae522dda2.bam",
+                        "size": 1873499
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "add_replace_00000024",
+                "type": "compute",
+                "runtime": 1.398,
+                "parents": [
+                    "dedup_00000023"
+                ],
+                "children": [
+                    "realign_target_creator_00000025"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bcfa6aee-5bc4-4f63-b8a6-36623044859e.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "3709b962-61f8-4867-9d59-97dae522dda2.bam",
+                        "size": 1873499
+                    },
+                    {
+                        "link": "input",
+                        "name": "44a4fc45-a8a8-412d-8f7e-927b09917e9b.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "21b05de2-075b-4728-99d0-2fa379762c72.bam",
+                        "size": 189780
+                    },
+                    {
+                        "link": "output",
+                        "name": "cea71002-a223-4c05-bc41-98f9b60e5473.bai",
+                        "size": 6371200
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "realign_target_creator_00000025",
+                "type": "compute",
+                "runtime": 3.891,
+                "parents": [
+                    "add_replace_00000024"
+                ],
+                "children": [
+                    "indel_realign_00000026"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "21b05de2-075b-4728-99d0-2fa379762c72.bam",
+                        "size": 189780
+                    },
+                    {
+                        "link": "input",
+                        "name": "cea71002-a223-4c05-bc41-98f9b60e5473.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "c7c75aac-0e8f-4c7b-a686-51ef690035d2.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "6d524c48-5822-4d11-a239-3ae9199d658f.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "29795950-2458-40c1-824c-899796bed522.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "b3ab834d-36d7-42c5-a2ce-51f6fe6a15c5.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "b2c81e40-35a5-4794-be3b-692c3171a5ba.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "f6d446ec-1ef3-4822-a6d6-8ec49be4ca21.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "f4710bcd-6de7-4eab-be48-b89f4cd0869c.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "fa4ac102-b8e5-40b9-b67f-5fb2f8459c1c.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "003d999f-b494-40d7-beef-ba784663fb6f.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "517e956c-516d-40cf-b1d3-fd4982feb0d4.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "46185b14-bfd4-4145-893f-effdbe368cd9.list",
+                        "size": 2000
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "indel_realign_00000026",
+                "type": "compute",
+                "runtime": 2.182,
+                "parents": [
+                    "realign_target_creator_00000025"
+                ],
+                "children": [
+                    "haplotype_caller_00000027",
+                    "haplotype_caller_00000028",
+                    "haplotype_caller_00000029",
+                    "haplotype_caller_00000030"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "46185b14-bfd4-4145-893f-effdbe368cd9.list",
+                        "size": 2000
+                    },
+                    {
+                        "link": "input",
+                        "name": "79168523-7bcf-4f32-8aa4-5540435cf029.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "b11973b3-d98b-4c40-abda-f1067fa3f333.bai",
+                        "size": 1274
+                    },
+                    {
+                        "link": "input",
+                        "name": "fbf4fe18-5d4e-4212-9e58-25c53276ed1f.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "756aa868-8a1a-4ebc-b299-5bf4aac0b20a.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "b6c5ee0b-4938-489f-8279-f90701b863e1.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "30db18ac-b3f9-4b71-8367-ebe410dc5dcd.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "133069f5-4bbd-4927-8242-2f096057bea8.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "c49d636c-65dc-4480-a773-76b030613586.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "897d4c7c-061d-4412-b056-c1107d67a341.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "e4c36f0e-92f9-41ad-94f5-e5a80bed4ffc.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "bb67d1b0-7eb1-4681-847e-01849367a6a1.bam",
+                        "size": 37
+                    },
+                    {
+                        "link": "input",
+                        "name": "4ccea1f2-916c-475e-878e-5b509850b225.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "c2e49ce8-d64d-46b0-a320-530ca82ce608.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "32eb7c58-87c8-4272-8230-8790ff6be4a3.bam",
+                        "size": 2955498
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000027",
+                "type": "compute",
+                "runtime": 6.203,
+                "parents": [
+                    "indel_realign_00000026"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000041",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c2e49ce8-d64d-46b0-a320-530ca82ce608.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "32eb7c58-87c8-4272-8230-8790ff6be4a3.bam",
+                        "size": 2955498
+                    },
+                    {
+                        "link": "input",
+                        "name": "79ee090b-fe1b-443b-b8b0-80071edbedde.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "72583e45-c6e8-43c3-9c67-ab396337761c.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "1699e8ca-84fc-41c4-9f0e-1350529f483b.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "6a2df4f8-6c46-4028-92bd-51c66f4bef7e.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "487f2ea3-128c-4213-9579-4ba6956759f6.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "ccc7762c-061b-40f1-8f31-af90a89e5d83.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "43bd22e5-0e4e-4ae6-b95b-bdcb92f862e8.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "c3c22534-52ec-464e-b903-16d77af121df.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "64cc5b21-096a-45ca-b515-5142909ae324.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "25bdf4f9-47b1-4a1e-8e92-ed0a0aed6fac.txt",
+                        "size": 65
+                    },
+                    {
+                        "link": "output",
+                        "name": "4586a53d-9f94-4d53-8948-db639c78e49d.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "78eb49fc-52d5-4e9b-afeb-afa7c46e47c8.idx",
+                        "size": 560865
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000028",
+                "type": "compute",
+                "runtime": 0.71,
+                "parents": [
+                    "indel_realign_00000026"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000042",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c2e49ce8-d64d-46b0-a320-530ca82ce608.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "32eb7c58-87c8-4272-8230-8790ff6be4a3.bam",
+                        "size": 2955498
+                    },
+                    {
+                        "link": "input",
+                        "name": "c7b9bfa1-d8ad-4602-8607-1c590e2ee617.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "983bd674-c0e2-4000-bf94-3365b9f0dd69.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "cbdc543a-b4a0-40a1-a942-3974aa664f7b.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "82e9104e-b0ae-4bf1-beb2-9de70d6bff1f.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "b5202ec5-0633-47cc-b8ae-10aff35dec11.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "a36fb94a-af0b-4682-b3a0-be40761b7f8b.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "0a3050d7-7416-45bf-98fe-94b75f46f14b.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "31d95bb4-5e94-4e44-b1ad-94b25ac78b79.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "87379191-858b-4072-ab84-27306ee65b0c.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "b0987db8-a6b1-44cb-9f07-b41ceb468c15.txt",
+                        "size": 108
+                    },
+                    {
+                        "link": "output",
+                        "name": "125fec60-c74e-4783-be9c-f7629c6909f2.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "output",
+                        "name": "a6894642-7ac1-4e90-942d-404c8931daca.idx",
+                        "size": 1088573
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000029",
+                "type": "compute",
+                "runtime": 0.71,
+                "parents": [
+                    "indel_realign_00000026"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000043",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c2e49ce8-d64d-46b0-a320-530ca82ce608.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "32eb7c58-87c8-4272-8230-8790ff6be4a3.bam",
+                        "size": 2955498
+                    },
+                    {
+                        "link": "input",
+                        "name": "696ff472-de26-4e77-a21f-f4a2a32e9600.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "5ea24cb2-79c5-403c-bb6e-879f1e4b79aa.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "d35ced31-b50f-4c58-82e0-2fc9e42642f5.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "8bc60381-7bdc-4a84-94aa-925a455a2820.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "aa519ebe-d8f5-4d4c-8a75-e1fe95556ca1.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "db8ac492-13b0-4b63-b7ac-e4cd22d1ccc2.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "71b5c8b3-5d2d-43a3-b658-72ddbfda6e68.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "6e48ad32-c211-454c-ae81-3f29f70a4bc6.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "bfc6fadf-1f64-4d4e-a1a6-de905e85df0e.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "835a111a-22dc-4035-b91c-95afd897423d.txt",
+                        "size": 153
+                    },
+                    {
+                        "link": "output",
+                        "name": "b8f4286c-e571-463b-b370-7aed04c0f468.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "6fea4a81-853f-4930-8a8b-c9a519b9dc46.idx",
+                        "size": 278027
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000030",
+                "type": "compute",
+                "runtime": 0.71,
+                "parents": [
+                    "indel_realign_00000026"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000044",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c2e49ce8-d64d-46b0-a320-530ca82ce608.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "32eb7c58-87c8-4272-8230-8790ff6be4a3.bam",
+                        "size": 2955498
+                    },
+                    {
+                        "link": "input",
+                        "name": "7fc79223-790c-4103-a101-6c73ea80c933.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "b85298ed-0240-477d-a368-2c2da8578998.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "6ead6a75-9730-48fb-a779-28d3bc12f402.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "5700fcd7-fea8-44b6-9521-0248dd5ee74e.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "da6de5c5-8639-4806-85a7-98688e2767d0.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "b1b993f1-a503-4d47-9ba5-acc5e92e99a1.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "ad7b8d9b-32e8-479e-9a59-51f20446ed71.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "df53e1f0-f444-4c1e-8e84-5370f8638092.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "65ffe9ea-b3d2-456c-9fa6-3051a5c22381.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "4f83d5c9-e4ae-485f-8244-ac4a7ee3695f.txt",
+                        "size": 24
+                    },
+                    {
+                        "link": "output",
+                        "name": "141ddb07-3983-406e-ace0-d8579f32bbab.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "output",
+                        "name": "680ef865-ab13-4c09-9c96-b93d90412122.idx",
+                        "size": 709478
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "alignment_to_reference_00000031",
+                "type": "compute",
+                "runtime": 0.766,
+                "parents": [],
+                "children": [
+                    "sort_sam_00000032"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "415d89f5-1038-4518-a293-c22c8e90afc3.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "fe8af676-48fe-4f8a-ae04-eddb3505d9b1.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "a5e850ac-ec6f-4bed-88b7-598a0db0e0fb.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "416958d2-e83f-48bc-bba2-9d29bb37d98d.fastq",
+                        "size": 238
+                    },
+                    {
+                        "link": "input",
+                        "name": "3f748a31-18ae-4e90-8884-d44c883ddf49.fastq",
+                        "size": 238
+                    },
+                    {
+                        "link": "input",
+                        "name": "d786fc9f-3ae7-4ef6-884c-4d649a5cb4b0.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "6e6aa4fe-1df0-4037-ace1-32c676dc4d61.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "81cd9351-2346-4ea2-ace5-e8d7bc2bee5d.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "6d13c03d-e925-42e6-9d72-3735330fcf5a.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "48da40d4-ccfc-4412-b63c-d61fef9df590.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "59c89e98-e9cf-459e-8af3-05041d4a1272.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "8b264077-e3e4-4abb-9a12-acea6a5cb2b0.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "b685db5f-48fb-4204-b61c-9841c9a700c9.sam",
+                        "size": 5628050
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "sort_sam_00000032",
+                "type": "compute",
+                "runtime": 0.089,
+                "parents": [
+                    "alignment_to_reference_00000031"
+                ],
+                "children": [
+                    "dedup_00000033"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b685db5f-48fb-4204-b61c-9841c9a700c9.sam",
+                        "size": 5628050
+                    },
+                    {
+                        "link": "input",
+                        "name": "27d5ea95-9cc1-400e-a1c3-ea23e4d8d0e2.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "a5615856-733a-4e6c-a033-0a65ca4856d7.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "ec179ae2-c767-47c9-b09f-9c8f8445b957.bam",
+                        "size": 1828800
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "dedup_00000033",
+                "type": "compute",
+                "runtime": 2.235,
+                "parents": [
+                    "sort_sam_00000032"
+                ],
+                "children": [
+                    "add_replace_00000034"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "a5615856-733a-4e6c-a033-0a65ca4856d7.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "ec179ae2-c767-47c9-b09f-9c8f8445b957.bam",
+                        "size": 1828800
+                    },
+                    {
+                        "link": "input",
+                        "name": "9b2f109c-8bee-4531-a0e8-14e5e3f03eb3.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "41148127-d502-4183-b0e5-2a07536c9f28.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "631dd020-7fa7-4a47-ae7e-1e7947dc4686.bam",
+                        "size": 1873499
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "add_replace_00000034",
+                "type": "compute",
+                "runtime": 1.11,
+                "parents": [
+                    "dedup_00000033"
+                ],
+                "children": [
+                    "realign_target_creator_00000035"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "41148127-d502-4183-b0e5-2a07536c9f28.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "631dd020-7fa7-4a47-ae7e-1e7947dc4686.bam",
+                        "size": 1873499
+                    },
+                    {
+                        "link": "input",
+                        "name": "2087eb37-70e9-4e68-922a-70d575b5bc5b.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "output",
+                        "name": "1c12f87f-e289-48b9-b826-85f172420525.bam",
+                        "size": 985344
+                    },
+                    {
+                        "link": "output",
+                        "name": "2ee258bf-1474-491f-89f0-63f9b349170e.bai",
+                        "size": 6371200
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "realign_target_creator_00000035",
+                "type": "compute",
+                "runtime": 3.909,
+                "parents": [
+                    "add_replace_00000034"
+                ],
+                "children": [
+                    "indel_realign_00000036"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "1c12f87f-e289-48b9-b826-85f172420525.bam",
+                        "size": 985344
+                    },
+                    {
+                        "link": "input",
+                        "name": "2ee258bf-1474-491f-89f0-63f9b349170e.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "157642a0-7382-4390-8c10-6a237c7be0c9.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "0b3ba3ad-fd92-4e22-b40d-0c6129ddc028.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "9da31bbb-5bd9-47d7-8f4e-6dd5fe1ea8b9.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "84c443bd-96cd-4326-aadc-57ee53aea36b.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "3c22ece6-3809-4a82-9e75-766d266c002b.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "732cec91-fcb6-4013-84c9-5b5e7f7fc271.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "38c2bbfd-c9ff-48af-bb0a-8abf592e7fa5.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "ced5bfc2-4c2d-4cd2-92f6-cadbccc0e50b.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "ecb78794-7fde-41ce-bbdb-cfd7ece9e690.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "7def792f-53ff-4449-8f07-d15dc33f94df.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "c9644973-dd60-4693-ad1f-6a5519c7394c.list",
+                        "size": 2000
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "indel_realign_00000036",
+                "type": "compute",
+                "runtime": 1.509,
+                "parents": [
+                    "realign_target_creator_00000035"
+                ],
+                "children": [
+                    "haplotype_caller_00000037",
+                    "haplotype_caller_00000038",
+                    "haplotype_caller_00000039",
+                    "haplotype_caller_00000040"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c9644973-dd60-4693-ad1f-6a5519c7394c.list",
+                        "size": 2000
+                    },
+                    {
+                        "link": "input",
+                        "name": "1735beea-b8ae-47b6-8cc8-038b00979c7b.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "604c8212-98dc-4077-822a-54361ed596fa.bai",
+                        "size": 1274
+                    },
+                    {
+                        "link": "input",
+                        "name": "c83fe42a-991b-4392-8521-eb74088bbc29.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "0fcae1b9-790c-493c-833e-d5e4d83393ea.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "9258b1f3-129d-4315-9883-f7f422434202.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "faf23d6b-f661-41df-af45-20ac75aeb122.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "946e8c44-4187-496d-8603-6d3125b9badc.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "2720189b-d466-4165-afbb-240a592ef972.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "8d70f05e-b77c-456f-a33f-1f0485fe37c9.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "ff5b24ea-181a-4937-a99a-5e151b78582f.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "bebdb12a-029c-4de3-97b0-c4078f1d526f.bam",
+                        "size": 379
+                    },
+                    {
+                        "link": "input",
+                        "name": "f93e8a50-b17b-4fbf-991f-2a924d7b5362.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "f436b379-216f-4446-acc4-974414f4e4c1.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "output",
+                        "name": "7274ae40-aa32-4889-a396-927c75b3c854.bam",
+                        "size": 2944260
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000037",
+                "type": "compute",
+                "runtime": 0.71,
+                "parents": [
+                    "indel_realign_00000036"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000041",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f436b379-216f-4446-acc4-974414f4e4c1.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "7274ae40-aa32-4889-a396-927c75b3c854.bam",
+                        "size": 2944260
+                    },
+                    {
+                        "link": "input",
+                        "name": "6afd3312-1dd3-4bb6-b8a8-a44de8b40864.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "9d0190c2-3580-4887-b73c-a21fc52c0a24.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "8ed3a753-2c24-4d2f-a73b-ceb62c45d755.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "c06d5579-b50c-4261-95fc-0b387ae5f0cb.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "abacfaf4-142a-4db7-99dd-7e0ab4a7180c.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "3f5fbcdf-38a2-491b-9f19-8d41c2b57c68.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "c25693de-af06-4b07-9361-594b50407f7a.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "f6b70232-a726-4d5a-98be-18ef155623dc.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "fad775ce-177d-422c-aee0-c57e742e57a5.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "9b79b1d5-1b5c-4e90-9a66-d0bfba488d63.txt",
+                        "size": 30
+                    },
+                    {
+                        "link": "output",
+                        "name": "b9c6f314-f07e-477a-b5a5-9577379372fb.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "4dce63d9-2a24-461c-a1a5-c46ce82d23e1.idx",
+                        "size": 675009
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000038",
+                "type": "compute",
+                "runtime": 0.71,
+                "parents": [
+                    "indel_realign_00000036"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000042",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f436b379-216f-4446-acc4-974414f4e4c1.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "7274ae40-aa32-4889-a396-927c75b3c854.bam",
+                        "size": 2944260
+                    },
+                    {
+                        "link": "input",
+                        "name": "b6a58dc1-5fea-4c46-9b55-322cd02b8256.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "3a87b9ba-4626-46f6-aaa7-f90b0cd2740f.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "5e89f2f7-6d49-478b-befb-213f4426ac57.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "b024eadd-b732-48fa-807a-6828f6eea64c.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "285b986b-e2b6-44e6-8d99-682a7c942b03.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "9e139130-2c92-4792-8181-f1730551d983.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "2404482a-16a2-496a-8d1e-b13be86be227.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "52636edf-bc0d-4d8a-89e1-1f3b7e1cf175.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "c14b9d47-fb61-438e-ab4c-5669df5e78b8.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "78562c2e-7429-474a-85a9-a2e4953592b4.txt",
+                        "size": 96
+                    },
+                    {
+                        "link": "output",
+                        "name": "326d9815-8725-4de9-8f66-a184499b2271.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "4e0f6bec-d2b4-492e-9f3c-7bb4dfd43c32.idx",
+                        "size": 957621
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000039",
+                "type": "compute",
+                "runtime": 0.71,
+                "parents": [
+                    "indel_realign_00000036"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000043",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f436b379-216f-4446-acc4-974414f4e4c1.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "7274ae40-aa32-4889-a396-927c75b3c854.bam",
+                        "size": 2944260
+                    },
+                    {
+                        "link": "input",
+                        "name": "a90c9236-432c-4110-adfa-219180999ef5.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "aff353ea-0742-4696-a406-21363c81945d.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "3a2c17ab-ada8-4e75-a913-60b8b1d7bf1a.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "415fae9d-0634-4c74-95cf-ee2e016a383a.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc86bbbf-823d-425a-b471-4521edc8c081.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "b56f24d7-cc7f-4d99-adb7-a196302d6cb7.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "d6e55ad1-a229-499f-8b16-153ef0e6827b.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "0780a51d-7153-4e0d-b14c-909ded2d9400.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "e93b52ae-6a82-4e7e-bc4d-ea18fe80f0c9.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "79a29c90-259c-48bd-9bf9-10727724dc19.txt",
+                        "size": 133
+                    },
+                    {
+                        "link": "output",
+                        "name": "950a651b-77b4-4eb8-8ebb-3f5ecd662d82.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "5a9405c1-2478-434d-834e-b5adb112462f.idx",
+                        "size": 1108895
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "haplotype_caller_00000040",
+                "type": "compute",
+                "runtime": 3.126,
+                "parents": [
+                    "indel_realign_00000036"
+                ],
+                "children": [
+                    "genotype_gvcfs_00000044",
+                    "merge_gcvf_00000045"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f436b379-216f-4446-acc4-974414f4e4c1.bai",
+                        "size": 6371200
+                    },
+                    {
+                        "link": "input",
+                        "name": "7274ae40-aa32-4889-a396-927c75b3c854.bam",
+                        "size": 2944260
+                    },
+                    {
+                        "link": "input",
+                        "name": "abbf9e29-81d7-4b9a-a778-df4682deedfb.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "50264818-8efa-4c55-9aed-58e837102c5a.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "77b2e5f9-c22a-4fb9-bdfa-b218fc390a63.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "dfd94613-dbc8-49c0-9b3c-36248e163dd0.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "3332cf23-cebd-4f29-a861-92193b555531.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "f9375761-b7bd-47a9-acd0-2884be204d01.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "dfb13229-467c-4707-a859-281461e291c2.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "5ae43bc3-7617-46f4-ac52-336a6b04098d.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "c48c2542-1163-4cc4-a677-a352bc7144fa.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc7a553d-1725-4f8c-81b3-dcec24763db8.txt",
+                        "size": 99
+                    },
+                    {
+                        "link": "output",
+                        "name": "c689a93e-d878-42d7-85c4-5e092d18f68a.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "output",
+                        "name": "6ff127a4-d72a-4f60-8d80-963d7dda08bf.idx",
+                        "size": 1556796
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "genotype_gvcfs_00000041",
+                "type": "compute",
+                "runtime": 0.899,
+                "parents": [
+                    "haplotype_caller_00000007",
+                    "haplotype_caller_00000017",
+                    "haplotype_caller_00000027",
+                    "haplotype_caller_00000037"
+                ],
+                "children": [
+                    "combine_variants_00000046"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0bb3b57a-5b7e-49ad-9f4e-32e811fc06a3.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "c5d56d13-4258-4748-9b06-eaad33d8eab5.idx",
+                        "size": 1191679
+                    },
+                    {
+                        "link": "input",
+                        "name": "87621fec-b4c8-425f-b75b-84ce89d2bd19.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "eb31b910-ae3b-48d2-8396-3bcab5ec71d6.idx",
+                        "size": 1240535
+                    },
+                    {
+                        "link": "input",
+                        "name": "4586a53d-9f94-4d53-8948-db639c78e49d.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "78eb49fc-52d5-4e9b-afeb-afa7c46e47c8.idx",
+                        "size": 560865
+                    },
+                    {
+                        "link": "input",
+                        "name": "b9c6f314-f07e-477a-b5a5-9577379372fb.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "4dce63d9-2a24-461c-a1a5-c46ce82d23e1.idx",
+                        "size": 675009
+                    },
+                    {
+                        "link": "input",
+                        "name": "628f59a6-7b5b-4cef-9ffb-92fe76a16e9f.txt",
+                        "size": 66
+                    },
+                    {
+                        "link": "input",
+                        "name": "5e6ff446-9675-4e53-9cde-60e789a2d40c.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "aa8019e5-2de7-45e1-b90a-7e1ab4421697.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "610192fe-bb97-4333-87d4-af69e57c9f77.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "f48f1d90-eeeb-414b-8021-e9126f2c1751.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "122529d6-74aa-43b4-8e61-b11fbf08bd80.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "29f7c40b-4531-4e42-a3a5-229a295a64ce.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "014800cf-86ec-44d7-8371-5c961b784f80.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "598171dd-48fa-4a9c-a2c9-876409072b0a.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "13c2d4c1-f7e8-4826-a211-b8b7509a99c8.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "output",
+                        "name": "9acbe2fa-7905-4cb1-b556-163e979e102b.vcf",
+                        "size": 4157449
+                    },
+                    {
+                        "link": "output",
+                        "name": "df8eaeda-ddc4-4e2e-b94d-97c3fba57984.idx",
+                        "size": 1429199
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "genotype_gvcfs_00000042",
+                "type": "compute",
+                "runtime": 8.068,
+                "parents": [
+                    "haplotype_caller_00000008",
+                    "haplotype_caller_00000018",
+                    "haplotype_caller_00000028",
+                    "haplotype_caller_00000038"
+                ],
+                "children": [
+                    "combine_variants_00000046"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "345474a6-33d5-4211-9aa5-26b68d031893.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "input",
+                        "name": "44684869-6a0c-43e9-b070-7bc6d7a3b938.idx",
+                        "size": 1382947
+                    },
+                    {
+                        "link": "input",
+                        "name": "97c0cdd4-f3dc-4609-a6c9-8c1d6100dae3.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "babb9ea3-714f-4b8c-b1c2-a09e038091ee.idx",
+                        "size": 369103
+                    },
+                    {
+                        "link": "input",
+                        "name": "125fec60-c74e-4783-be9c-f7629c6909f2.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "input",
+                        "name": "a6894642-7ac1-4e90-942d-404c8931daca.idx",
+                        "size": 1088573
+                    },
+                    {
+                        "link": "input",
+                        "name": "326d9815-8725-4de9-8f66-a184499b2271.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "4e0f6bec-d2b4-492e-9f3c-7bb4dfd43c32.idx",
+                        "size": 957621
+                    },
+                    {
+                        "link": "input",
+                        "name": "eba74e83-1c2e-43ac-b5b8-76edbf50196c.txt",
+                        "size": 154
+                    },
+                    {
+                        "link": "input",
+                        "name": "b43b6556-8fa4-4911-90b2-80b1782ba874.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "9a37917f-43ab-45d3-9929-0db1b2cc427b.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "0ce12dc6-2a98-4b11-aa73-257745a29fda.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "97241977-d6be-457f-a619-ab57e882b732.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "80a0e0af-4d39-412a-9a98-5063f7cef7e6.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "bd8f3eb6-4a76-4411-b93b-24e84336a12d.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "5956d224-1c75-45e8-9a82-67b076c9a675.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "80d2459f-7e55-4301-a6ad-35865490360d.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "19e9364b-7971-41f6-85ef-c4eae8c772dd.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "output",
+                        "name": "989f54d6-7922-4291-b239-bf10f4d14237.vcf",
+                        "size": 4157449
+                    },
+                    {
+                        "link": "output",
+                        "name": "1bb2de98-9d39-44f5-b790-51b40e7479a7.idx",
+                        "size": 1429199
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "genotype_gvcfs_00000043",
+                "type": "compute",
+                "runtime": 7.712,
+                "parents": [
+                    "haplotype_caller_00000009",
+                    "haplotype_caller_00000019",
+                    "haplotype_caller_00000029",
+                    "haplotype_caller_00000039"
+                ],
+                "children": [
+                    "combine_variants_00000046"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "39b1a1c5-fc81-4fbe-8d39-c91d28b3a8d4.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "91bcbc34-1464-42d9-b335-665a87f45e56.idx",
+                        "size": 496811
+                    },
+                    {
+                        "link": "input",
+                        "name": "1373350d-5fdf-43d1-b2ec-67d6e93e7f1c.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "ff47700d-64f6-4b1f-aa54-df5cee67cf67.idx",
+                        "size": 1142600
+                    },
+                    {
+                        "link": "input",
+                        "name": "b8f4286c-e571-463b-b370-7aed04c0f468.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "6fea4a81-853f-4930-8a8b-c9a519b9dc46.idx",
+                        "size": 278027
+                    },
+                    {
+                        "link": "input",
+                        "name": "950a651b-77b4-4eb8-8ebb-3f5ecd662d82.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "5a9405c1-2478-434d-834e-b5adb112462f.idx",
+                        "size": 1108895
+                    },
+                    {
+                        "link": "input",
+                        "name": "8f8e2b42-ffec-47b0-ad6d-caf1d6149f58.txt",
+                        "size": 73
+                    },
+                    {
+                        "link": "input",
+                        "name": "419df8b0-0b1b-4f30-a130-8b650bfb991b.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "08865e1f-5eeb-441b-9b90-adb3f5a8fc61.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "7b0e91b0-eeac-418e-a6a3-14648fd6f63d.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "e15120b7-6aa2-4dfc-81d4-becca68e335d.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "9fea5d0c-a059-4fde-bafc-ef5900b30a3b.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "4ba4e334-def5-4d7f-a0e4-9f1962cb00f3.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "a263dddb-8f9b-40c9-ab06-c3565ddde0c4.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "6044ff21-54f2-46da-9d5d-97c160f4c03e.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "6675f5d2-f879-4898-9d6e-3c7549b0cad4.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "output",
+                        "name": "16ef6905-2c62-4adb-866a-2d95230be794.vcf",
+                        "size": 4157449
+                    },
+                    {
+                        "link": "output",
+                        "name": "77c2d3da-33de-4ffe-b87c-5317ad8f261f.idx",
+                        "size": 1429199
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "genotype_gvcfs_00000044",
+                "type": "compute",
+                "runtime": 4.551,
+                "parents": [
+                    "haplotype_caller_00000010",
+                    "haplotype_caller_00000020",
+                    "haplotype_caller_00000030",
+                    "haplotype_caller_00000040"
+                ],
+                "children": [
+                    "combine_variants_00000046"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "a9f2e10c-fd28-4db8-a295-d79fca392032.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "89fcc7c5-c741-4c7b-9233-01fa5c3e4345.idx",
+                        "size": 1062811
+                    },
+                    {
+                        "link": "input",
+                        "name": "6491bb9d-ae9f-46db-bd9c-2fcdd1d2e038.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "d31024c6-c660-48f4-b2fc-a449b76105e2.idx",
+                        "size": 502482
+                    },
+                    {
+                        "link": "input",
+                        "name": "141ddb07-3983-406e-ace0-d8579f32bbab.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "input",
+                        "name": "680ef865-ab13-4c09-9c96-b93d90412122.idx",
+                        "size": 709478
+                    },
+                    {
+                        "link": "input",
+                        "name": "c689a93e-d878-42d7-85c4-5e092d18f68a.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "6ff127a4-d72a-4f60-8d80-963d7dda08bf.idx",
+                        "size": 1556796
+                    },
+                    {
+                        "link": "input",
+                        "name": "818d6fb6-dbef-4f2f-8445-50c408b5a4f3.txt",
+                        "size": 79
+                    },
+                    {
+                        "link": "input",
+                        "name": "a2fdc640-9d6a-4099-af0e-7754d664a1d6.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "1eda7c94-0b58-4664-b459-1efd5326cd2d.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "b5c582e4-4a49-4718-9a77-f59e5db724f9.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "014b3c66-5984-4b5b-8b3b-dc01f2d71778.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "70dac86f-87f7-4646-b2e4-9d152e8e74e2.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "816009fb-821b-4e1d-a92e-3832dc166792.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "bf608619-8e42-4870-98df-3cafb745f94c.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "1470f78b-dad4-4be6-8c47-620d086a4830.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "572b4321-b546-4cbe-83f5-564e35a84a0a.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "output",
+                        "name": "99665eee-b5c3-495e-a1cc-ce3e8af5ecb6.vcf",
+                        "size": 4157449
+                    },
+                    {
+                        "link": "output",
+                        "name": "5cc184bf-4a34-4225-8968-ce7c9d722261.idx",
+                        "size": 1429199
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "merge_gcvf_00000045",
+                "type": "compute",
+                "runtime": 10.93,
+                "parents": [
+                    "haplotype_caller_00000007",
+                    "haplotype_caller_00000008",
+                    "haplotype_caller_00000009",
+                    "haplotype_caller_00000010",
+                    "haplotype_caller_00000017",
+                    "haplotype_caller_00000018",
+                    "haplotype_caller_00000019",
+                    "haplotype_caller_00000020",
+                    "haplotype_caller_00000027",
+                    "haplotype_caller_00000028",
+                    "haplotype_caller_00000029",
+                    "haplotype_caller_00000030",
+                    "haplotype_caller_00000037",
+                    "haplotype_caller_00000038",
+                    "haplotype_caller_00000039",
+                    "haplotype_caller_00000040"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0bb3b57a-5b7e-49ad-9f4e-32e811fc06a3.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "c5d56d13-4258-4748-9b06-eaad33d8eab5.idx",
+                        "size": 1191679
+                    },
+                    {
+                        "link": "input",
+                        "name": "87621fec-b4c8-425f-b75b-84ce89d2bd19.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "eb31b910-ae3b-48d2-8396-3bcab5ec71d6.idx",
+                        "size": 1240535
+                    },
+                    {
+                        "link": "input",
+                        "name": "4586a53d-9f94-4d53-8948-db639c78e49d.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "78eb49fc-52d5-4e9b-afeb-afa7c46e47c8.idx",
+                        "size": 560865
+                    },
+                    {
+                        "link": "input",
+                        "name": "b9c6f314-f07e-477a-b5a5-9577379372fb.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "4dce63d9-2a24-461c-a1a5-c46ce82d23e1.idx",
+                        "size": 675009
+                    },
+                    {
+                        "link": "input",
+                        "name": "345474a6-33d5-4211-9aa5-26b68d031893.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "input",
+                        "name": "44684869-6a0c-43e9-b070-7bc6d7a3b938.idx",
+                        "size": 1382947
+                    },
+                    {
+                        "link": "input",
+                        "name": "97c0cdd4-f3dc-4609-a6c9-8c1d6100dae3.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "babb9ea3-714f-4b8c-b1c2-a09e038091ee.idx",
+                        "size": 369103
+                    },
+                    {
+                        "link": "input",
+                        "name": "125fec60-c74e-4783-be9c-f7629c6909f2.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "input",
+                        "name": "a6894642-7ac1-4e90-942d-404c8931daca.idx",
+                        "size": 1088573
+                    },
+                    {
+                        "link": "input",
+                        "name": "326d9815-8725-4de9-8f66-a184499b2271.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "4e0f6bec-d2b4-492e-9f3c-7bb4dfd43c32.idx",
+                        "size": 957621
+                    },
+                    {
+                        "link": "input",
+                        "name": "39b1a1c5-fc81-4fbe-8d39-c91d28b3a8d4.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "91bcbc34-1464-42d9-b335-665a87f45e56.idx",
+                        "size": 496811
+                    },
+                    {
+                        "link": "input",
+                        "name": "1373350d-5fdf-43d1-b2ec-67d6e93e7f1c.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "ff47700d-64f6-4b1f-aa54-df5cee67cf67.idx",
+                        "size": 1142600
+                    },
+                    {
+                        "link": "input",
+                        "name": "b8f4286c-e571-463b-b370-7aed04c0f468.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "6fea4a81-853f-4930-8a8b-c9a519b9dc46.idx",
+                        "size": 278027
+                    },
+                    {
+                        "link": "input",
+                        "name": "950a651b-77b4-4eb8-8ebb-3f5ecd662d82.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "5a9405c1-2478-434d-834e-b5adb112462f.idx",
+                        "size": 1108895
+                    },
+                    {
+                        "link": "input",
+                        "name": "a9f2e10c-fd28-4db8-a295-d79fca392032.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "89fcc7c5-c741-4c7b-9233-01fa5c3e4345.idx",
+                        "size": 1062811
+                    },
+                    {
+                        "link": "input",
+                        "name": "6491bb9d-ae9f-46db-bd9c-2fcdd1d2e038.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "d31024c6-c660-48f4-b2fc-a449b76105e2.idx",
+                        "size": 502482
+                    },
+                    {
+                        "link": "input",
+                        "name": "141ddb07-3983-406e-ace0-d8579f32bbab.vcf",
+                        "size": 3786400
+                    },
+                    {
+                        "link": "input",
+                        "name": "680ef865-ab13-4c09-9c96-b93d90412122.idx",
+                        "size": 709478
+                    },
+                    {
+                        "link": "input",
+                        "name": "c689a93e-d878-42d7-85c4-5e092d18f68a.vcf",
+                        "size": 3786399
+                    },
+                    {
+                        "link": "input",
+                        "name": "6ff127a4-d72a-4f60-8d80-963d7dda08bf.idx",
+                        "size": 1556796
+                    },
+                    {
+                        "link": "input",
+                        "name": "10ed0bd4-5763-4d53-bd24-d13070ac2e76.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "925dc4b6-4548-4dfd-8b00-718587192686.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "3b25b2b1-7a9d-4cfe-a266-3656d42544ec.txt",
+                        "size": 224
+                    },
+                    {
+                        "link": "input",
+                        "name": "c567ccc1-0631-4c88-9595-5eccd9224da5.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "1b2ce30a-2716-41aa-a61f-a7acddfaafd2.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "d581f19d-33bb-485b-bcc3-0b3905fc769e.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "ea2340e0-9e56-4d77-adbf-846086f513b9.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "ae968ff1-58ea-46b6-95d2-6a62b205b7cc.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "7cdf1c62-4c22-4a53-be00-2318cce5c815.list",
+                        "size": 139
+                    },
+                    {
+                        "link": "input",
+                        "name": "f61fbe12-9bf4-4bcd-87af-bc4c1c9eb582.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "2631b119-a3b0-4973-aa0d-7c0592ecf0ef.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "output",
+                        "name": "8f2b2bb8-3f17-43cd-b8a4-85659bcfd23d.idx",
+                        "size": 1401745
+                    },
+                    {
+                        "link": "output",
+                        "name": "a9990ef6-ccda-4966-968a-2e4a2bf44182.vcf",
+                        "size": 12514999
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "combine_variants_00000046",
+                "type": "compute",
+                "runtime": 1.482,
+                "parents": [
+                    "genotype_gvcfs_00000041",
+                    "genotype_gvcfs_00000042",
+                    "genotype_gvcfs_00000043",
+                    "genotype_gvcfs_00000044"
+                ],
+                "children": [
+                    "select_variants_indel_00000047",
+                    "select_variants_snp_00000048"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "9acbe2fa-7905-4cb1-b556-163e979e102b.vcf",
+                        "size": 4157449
+                    },
+                    {
+                        "link": "input",
+                        "name": "df8eaeda-ddc4-4e2e-b94d-97c3fba57984.idx",
+                        "size": 1429199
+                    },
+                    {
+                        "link": "input",
+                        "name": "989f54d6-7922-4291-b239-bf10f4d14237.vcf",
+                        "size": 4157449
+                    },
+                    {
+                        "link": "input",
+                        "name": "1bb2de98-9d39-44f5-b790-51b40e7479a7.idx",
+                        "size": 1429199
+                    },
+                    {
+                        "link": "input",
+                        "name": "16ef6905-2c62-4adb-866a-2d95230be794.vcf",
+                        "size": 4157449
+                    },
+                    {
+                        "link": "input",
+                        "name": "77c2d3da-33de-4ffe-b87c-5317ad8f261f.idx",
+                        "size": 1429199
+                    },
+                    {
+                        "link": "input",
+                        "name": "99665eee-b5c3-495e-a1cc-ce3e8af5ecb6.vcf",
+                        "size": 4157449
+                    },
+                    {
+                        "link": "input",
+                        "name": "5cc184bf-4a34-4225-8968-ce7c9d722261.idx",
+                        "size": 1429199
+                    },
+                    {
+                        "link": "input",
+                        "name": "868458bb-37ba-4804-9f36-cb78cc593307.txt",
+                        "size": 352
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d73a43e-9482-411a-b78c-d95e7f45c4ce.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "374f9881-428e-4db9-98d8-f48307234b6a.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "2ad99fb6-eedd-4c49-b02b-656be4389c76.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "bd781a9f-8ba1-44be-885a-8036b52e1dae.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "d602445e-b1c5-4fa4-beca-cd1da96ca660.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "fe757759-63f0-486e-ad89-ff8801e833db.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "c34a7d77-3b57-42e5-b4a2-1fa83687f6fa.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "ee16e57b-120f-4ce2-a690-378413f0ea77.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "7bcf9665-962c-4159-945a-be97cdedf911.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "output",
+                        "name": "da1fad0d-299b-4fcb-bac6-60c0970085b8.vcf",
+                        "size": 6244051
+                    },
+                    {
+                        "link": "output",
+                        "name": "2a5e2cce-6065-4ba6-8ca1-817cdbae37c4.idx",
+                        "size": 473393
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "select_variants_indel_00000047",
+                "type": "compute",
+                "runtime": 2.071,
+                "parents": [
+                    "combine_variants_00000046"
+                ],
+                "children": [
+                    "filtering_indel_00000049"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "da1fad0d-299b-4fcb-bac6-60c0970085b8.vcf",
+                        "size": 6244051
+                    },
+                    {
+                        "link": "input",
+                        "name": "2a5e2cce-6065-4ba6-8ca1-817cdbae37c4.idx",
+                        "size": 473393
+                    },
+                    {
+                        "link": "input",
+                        "name": "c64b5b0b-93cc-4be5-a537-659c5a35c7d9.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "7cb71808-3ff2-4a67-9dfc-47d3455c09c5.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "2929e024-b067-4cec-a143-7978e48d465d.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "ae137633-0e20-4e16-b7e6-17d94373618d.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "a0a57bac-10d4-4f5f-aada-c9ddc6e13606.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "7d305805-410d-4d2a-9183-39a3f339888d.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "e2810ab9-0773-4362-bfc8-d3e110431a1f.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "3f3b1d27-d3b9-4bca-9896-9359032d79b2.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "bc6b23cb-a0e5-46de-b931-3179cb4d34e5.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "fedd87a4-4ea4-4c41-8754-345817db48f3.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "264f11f2-fd0c-472b-b22b-9c933d36cc59.vcf",
+                        "size": 3203055
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "select_variants_snp_00000048",
+                "type": "compute",
+                "runtime": 2.206,
+                "parents": [
+                    "combine_variants_00000046"
+                ],
+                "children": [
+                    "filtering_snp_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "da1fad0d-299b-4fcb-bac6-60c0970085b8.vcf",
+                        "size": 6244051
+                    },
+                    {
+                        "link": "input",
+                        "name": "2a5e2cce-6065-4ba6-8ca1-817cdbae37c4.idx",
+                        "size": 473393
+                    },
+                    {
+                        "link": "input",
+                        "name": "21330189-fe31-4e3e-b6ed-dd05d9acb4b5.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "77776e85-fd66-4305-a3c4-c539c2ef6f14.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "7a1837f6-f4e5-4b26-a4cc-875848d590fc.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "4b73d2a2-f97f-41f9-bbfa-69096722560b.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "6b87d337-b13f-492d-92ed-9ab576b5ded5.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "2aec18af-6c61-4c43-bfab-2c21231de179.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "7e7f3961-33e7-44a3-a8fd-0e27a30091c2.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "4fa4d357-aa21-4430-8e52-00e118b02461.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "0f835aa1-c72f-48a8-ad31-58459c6cc857.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "a2990526-ec56-4567-972f-0b2dac6dbe64.txt",
+                        "size": 159
+                    },
+                    {
+                        "link": "output",
+                        "name": "c194f216-d778-4560-a856-3e8c3fd48c13.vcf",
+                        "size": 5726226
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "filtering_indel_00000049",
+                "type": "compute",
+                "runtime": 4.13,
+                "parents": [
+                    "select_variants_indel_00000047"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "264f11f2-fd0c-472b-b22b-9c933d36cc59.vcf",
+                        "size": 3203055
+                    },
+                    {
+                        "link": "input",
+                        "name": "bb4fc716-db1e-4b54-8f25-cb80700d56ed.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "6adc7eff-8607-4336-8910-7cf47a852faf.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "5916c2ff-6199-442e-a9d9-71ccc0f06277.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "d4032e9e-d4ae-46b1-9f7e-802603875323.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "1b862f35-d0f7-42ab-98bd-0f2693786aa2.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "5e234a9d-524b-489c-a59e-bf8eb1da8ec1.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "ac8f9e17-7286-43c1-93e1-bc2a2e36dbcd.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "aac8c86c-7d31-4f03-ba22-b1c245d5c6fa.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "a2daa2be-7e09-4194-b1ce-89e419570cc1.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "2aeb60fb-3a5b-4d58-be5d-00b176806f58.txt",
+                        "size": 160
+                    },
+                    {
+                        "link": "output",
+                        "name": "385bc8c3-0dbd-493f-a77e-3712890eddea.vcf",
+                        "size": 3776265
+                    },
+                    {
+                        "link": "output",
+                        "name": "d1e1d527-acc2-4e49-86a6-8699fc5e580b.idx",
+                        "size": 1143751
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "filtering_snp_00000050",
+                "type": "compute",
+                "runtime": 0.675,
+                "parents": [
+                    "select_variants_snp_00000048"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c194f216-d778-4560-a856-3e8c3fd48c13.vcf",
+                        "size": 5726226
+                    },
+                    {
+                        "link": "input",
+                        "name": "0f4dee0a-bc53-45e9-a9a4-808cb62ea68c.dict",
+                        "size": 1425
+                    },
+                    {
+                        "link": "input",
+                        "name": "ce69798d-b1c3-42bc-be9a-062a68d1537d.pac",
+                        "size": 2446238
+                    },
+                    {
+                        "link": "input",
+                        "name": "88639865-60b9-4ca7-ae0c-3395a7fdfd3f.fai",
+                        "size": 413
+                    },
+                    {
+                        "link": "input",
+                        "name": "f2be5fd1-4349-46c4-8015-cd4741bf2250.sa",
+                        "size": 4892476
+                    },
+                    {
+                        "link": "input",
+                        "name": "41341e65-71b3-4b1d-a549-ecb637ce9668.gz",
+                        "size": 1089885
+                    },
+                    {
+                        "link": "input",
+                        "name": "883ebe38-915f-4d00-9628-1df5604adb2c.amb",
+                        "size": 2591
+                    },
+                    {
+                        "link": "input",
+                        "name": "38f2676c-bd85-468f-9966-7e5858422688.fa",
+                        "size": 9907442
+                    },
+                    {
+                        "link": "input",
+                        "name": "55d571a8-5c0a-4928-88f1-9f1dd9599f04.ann",
+                        "size": 474
+                    },
+                    {
+                        "link": "input",
+                        "name": "e4df776f-230d-46d7-b953-9709774003ca.bwt",
+                        "size": 9784953
+                    },
+                    {
+                        "link": "input",
+                        "name": "90c15665-08b5-4dd6-bf59-a90e2fad60e8.txt",
+                        "size": 160
+                    },
+                    {
+                        "link": "output",
+                        "name": "851d2de0-c01f-49c9-b293-516729025a9c.vcf",
+                        "size": 4358939
+                    },
+                    {
+                        "link": "output",
+                        "name": "e4a45954-9976-40ee-a929-4dd9cba35194.idx",
+                        "size": 1427291
+                    }
+                ],
+                "cores": 1
+            }
+        ],
+        "machines": []
+    }
+}

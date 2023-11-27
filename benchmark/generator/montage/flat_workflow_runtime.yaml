@@ -1,0 +1,6808 @@
+global_input:
+  28485352-e9b0-46c7-bef0-7f3071d19923.fits: &id001
+    type: pass
+    value:
+      function: INPUT
+      parameter: 28485352-e9b0-46c7-bef0-7f3071d19923.fits
+    size: 965539
+  c94a3092-5ab1-4fc3-948c-2c802424f098.hdr: &id002
+    type: pass
+    value:
+      function: INPUT
+      parameter: c94a3092-5ab1-4fc3-948c-2c802424f098.hdr
+    size: 177
+  cbfd4131-f8ae-436e-bbce-99ed123b5513.fits: &id003
+    type: pass
+    value:
+      function: INPUT
+      parameter: cbfd4131-f8ae-436e-bbce-99ed123b5513.fits
+    size: 4207001
+  97bfcb08-ed22-47b1-a317-9e09953a2c34.hdr: &id004
+    type: pass
+    value:
+      function: INPUT
+      parameter: 97bfcb08-ed22-47b1-a317-9e09953a2c34.hdr
+    size: 220
+  90dc08ed-6ba4-4750-833d-725186a3746d.fits: &id005
+    type: pass
+    value:
+      function: INPUT
+      parameter: 90dc08ed-6ba4-4750-833d-725186a3746d.fits
+    size: 4684271
+  e5de8b8a-ef09-4a2a-942d-68e0f75f57b7.hdr: &id006
+    type: pass
+    value:
+      function: INPUT
+      parameter: e5de8b8a-ef09-4a2a-942d-68e0f75f57b7.hdr
+    size: 219
+  8a9fe004-7e9e-4d34-ab08-f4ee9bff838f.fits: &id007
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8a9fe004-7e9e-4d34-ab08-f4ee9bff838f.fits
+    size: 965539
+  4d0f1601-bfb8-4cb0-92c2-12ffdc0a107d.hdr: &id008
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4d0f1601-bfb8-4cb0-92c2-12ffdc0a107d.hdr
+    size: 121
+  d1f16374-60da-4122-8e54-7f10eb6df5fe.hdr: &id009
+    type: pass
+    value:
+      function: INPUT
+      parameter: d1f16374-60da-4122-8e54-7f10eb6df5fe.hdr
+    size: 73
+  7f9a01f1-b236-4bf6-be28-e34d1123801a.hdr: &id010
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7f9a01f1-b236-4bf6-be28-e34d1123801a.hdr
+    size: 201
+  0eddbdf8-ad0b-460d-94b9-2a635c86a538.hdr: &id011
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0eddbdf8-ad0b-460d-94b9-2a635c86a538.hdr
+    size: 90
+  6d50e7a2-bc20-45e0-a605-3e9b2323c4de.hdr: &id012
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6d50e7a2-bc20-45e0-a605-3e9b2323c4de.hdr
+    size: 227
+  39b33025-704d-4ed6-b706-0d9793aa903f.hdr: &id013
+    type: pass
+    value:
+      function: INPUT
+      parameter: 39b33025-704d-4ed6-b706-0d9793aa903f.hdr
+    size: 255
+  ff59af8b-482e-4315-bfb5-e13c924c94a3.hdr: &id014
+    type: pass
+    value:
+      function: INPUT
+      parameter: ff59af8b-482e-4315-bfb5-e13c924c94a3.hdr
+    size: 288
+  f452a286-f6d9-4d66-8f4c-3de5b33b4bb5.hdr: &id015
+    type: pass
+    value:
+      function: INPUT
+      parameter: f452a286-f6d9-4d66-8f4c-3de5b33b4bb5.hdr
+    size: 27
+  622dcf19-574a-4fd2-bd6c-2c1613d3041f.hdr: &id016
+    type: pass
+    value:
+      function: INPUT
+      parameter: 622dcf19-574a-4fd2-bd6c-2c1613d3041f.hdr
+    size: 27
+  fb5b372d-21b3-4691-af2a-d99d60a1e3b1.hdr: &id017
+    type: pass
+    value:
+      function: INPUT
+      parameter: fb5b372d-21b3-4691-af2a-d99d60a1e3b1.hdr
+    size: 250
+  399b83c6-82ce-4c14-81de-35b6d97551be.hdr: &id018
+    type: pass
+    value:
+      function: INPUT
+      parameter: 399b83c6-82ce-4c14-81de-35b6d97551be.hdr
+    size: 298
+  09eef124-9294-4190-8793-6a7a6b4d5be4.hdr: &id019
+    type: pass
+    value:
+      function: INPUT
+      parameter: 09eef124-9294-4190-8793-6a7a6b4d5be4.hdr
+    size: 180
+  7bf7bbca-5d21-43df-8038-ea38876ca6bd.hdr: &id020
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7bf7bbca-5d21-43df-8038-ea38876ca6bd.hdr
+    size: 278
+  9c112487-5b7d-4049-a3a6-484b1c7e864a.hdr: &id021
+    type: pass
+    value:
+      function: INPUT
+      parameter: 9c112487-5b7d-4049-a3a6-484b1c7e864a.hdr
+    size: 139
+  9c019099-2c83-4e21-9461-9d17a4439aa5.hdr: &id022
+    type: pass
+    value:
+      function: INPUT
+      parameter: 9c019099-2c83-4e21-9461-9d17a4439aa5.hdr
+    size: 138
+  a853cf11-2a3e-40db-ba87-7287c38c65ac.hdr: &id023
+    type: pass
+    value:
+      function: INPUT
+      parameter: a853cf11-2a3e-40db-ba87-7287c38c65ac.hdr
+    size: 140
+  a7053e24-7aa7-4428-85ef-963ffeff4d26.hdr: &id024
+    type: pass
+    value:
+      function: INPUT
+      parameter: a7053e24-7aa7-4428-85ef-963ffeff4d26.hdr
+    size: 278
+  0c6d6aee-e6f4-4941-adc2-621cd94112c3.hdr: &id025
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0c6d6aee-e6f4-4941-adc2-621cd94112c3.hdr
+    size: 73
+  9cb98f29-8f3d-4da7-99fd-8a011d06622f.hdr: &id026
+    type: pass
+    value:
+      function: INPUT
+      parameter: 9cb98f29-8f3d-4da7-99fd-8a011d06622f.hdr
+    size: 174
+  8a55bb95-2519-4e6e-9dec-d1d8bc7670b9.hdr: &id027
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8a55bb95-2519-4e6e-9dec-d1d8bc7670b9.hdr
+    size: 215
+  486b78a1-bcb7-47b2-a7c3-e6e84df6765b.hdr: &id028
+    type: pass
+    value:
+      function: INPUT
+      parameter: 486b78a1-bcb7-47b2-a7c3-e6e84df6765b.hdr
+    size: 277
+  c448e29a-2115-4c71-b441-d7cb55d807d0.hdr: &id029
+    type: pass
+    value:
+      function: INPUT
+      parameter: c448e29a-2115-4c71-b441-d7cb55d807d0.hdr
+    size: 192
+  c04de5b9-a617-434e-a700-2adaa3b8a2ee.hdr: &id030
+    type: pass
+    value:
+      function: INPUT
+      parameter: c04de5b9-a617-434e-a700-2adaa3b8a2ee.hdr
+    size: 300
+  0e9f7a9f-7001-48b9-b968-cbeef10a7787.hdr: &id031
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0e9f7a9f-7001-48b9-b968-cbeef10a7787.hdr
+    size: 298
+  ed5d58ba-03e7-4fb8-95bf-624f99428d42.hdr: &id032
+    type: pass
+    value:
+      function: INPUT
+      parameter: ed5d58ba-03e7-4fb8-95bf-624f99428d42.hdr
+    size: 100
+  b5fe603f-60e0-4091-992b-2ce857a392e7.hdr: &id033
+    type: pass
+    value:
+      function: INPUT
+      parameter: b5fe603f-60e0-4091-992b-2ce857a392e7.hdr
+    size: 263
+  04afdf7a-c410-492a-bd75-30006da5a990.hdr: &id034
+    type: pass
+    value:
+      function: INPUT
+      parameter: 04afdf7a-c410-492a-bd75-30006da5a990.hdr
+    size: 285
+  66471f8c-821c-4b74-9efc-4896fbfce445.hdr: &id035
+    type: pass
+    value:
+      function: INPUT
+      parameter: 66471f8c-821c-4b74-9efc-4896fbfce445.hdr
+    size: 37
+  047100a9-962c-4500-981f-db39c5541abf.hdr: &id036
+    type: pass
+    value:
+      function: INPUT
+      parameter: 047100a9-962c-4500-981f-db39c5541abf.hdr
+    size: 149
+  154d30ec-4f0a-46b4-be3f-2182b6d61ec0.hdr: &id037
+    type: pass
+    value:
+      function: INPUT
+      parameter: 154d30ec-4f0a-46b4-be3f-2182b6d61ec0.hdr
+    size: 295
+  4c2ecf5b-9ff4-4938-97d3-08422025f56d.hdr: &id038
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4c2ecf5b-9ff4-4938-97d3-08422025f56d.hdr
+    size: 213
+  b12794c4-065a-48f3-98ad-353277bef4d9.hdr: &id039
+    type: pass
+    value:
+      function: INPUT
+      parameter: b12794c4-065a-48f3-98ad-353277bef4d9.hdr
+    size: 222
+  251ee4ac-e160-49ae-aa7b-fbc0feb8af7d.hdr: &id040
+    type: pass
+    value:
+      function: INPUT
+      parameter: 251ee4ac-e160-49ae-aa7b-fbc0feb8af7d.hdr
+    size: 159
+  5545f5ce-5841-43f6-a033-c2dcc7c640d5.hdr: &id041
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5545f5ce-5841-43f6-a033-c2dcc7c640d5.hdr
+    size: 169
+  371110bf-4550-436a-845c-1cd475ca3560.hdr: &id042
+    type: pass
+    value:
+      function: INPUT
+      parameter: 371110bf-4550-436a-845c-1cd475ca3560.hdr
+    size: 154
+  d0f308b0-8495-49f6-9f23-f24280aa2bb3.hdr: &id043
+    type: pass
+    value:
+      function: INPUT
+      parameter: d0f308b0-8495-49f6-9f23-f24280aa2bb3.hdr
+    size: 291
+  82223e78-ae38-4a95-819e-b46abc70383d.hdr: &id044
+    type: pass
+    value:
+      function: INPUT
+      parameter: 82223e78-ae38-4a95-819e-b46abc70383d.hdr
+    size: 244
+  7f54a121-fedb-4bff-87d0-c2ed3ec459cb.hdr: &id045
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7f54a121-fedb-4bff-87d0-c2ed3ec459cb.hdr
+    size: 79
+  670fa2a3-a546-4b43-98fe-d8abbcd2c68c.hdr: &id046
+    type: pass
+    value:
+      function: INPUT
+      parameter: 670fa2a3-a546-4b43-98fe-d8abbcd2c68c.hdr
+    size: 269
+  7e41c887-eb0c-4596-ab84-3903975dfd22.hdr: &id047
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7e41c887-eb0c-4596-ab84-3903975dfd22.hdr
+    size: 287
+  5d2a6dd0-661f-4888-b1c5-8133941a94e2.hdr: &id048
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5d2a6dd0-661f-4888-b1c5-8133941a94e2.hdr
+    size: 204
+  31e82c99-c429-4fe8-a900-2b0d58374048.hdr: &id049
+    type: pass
+    value:
+      function: INPUT
+      parameter: 31e82c99-c429-4fe8-a900-2b0d58374048.hdr
+    size: 303
+  dbafe0ac-102f-4c51-ac65-9190a8c1dd23.hdr: &id050
+    type: pass
+    value:
+      function: INPUT
+      parameter: dbafe0ac-102f-4c51-ac65-9190a8c1dd23.hdr
+    size: 65
+  382eb4b5-9ffb-492f-9811-52e2e4962dc3.hdr: &id051
+    type: pass
+    value:
+      function: INPUT
+      parameter: 382eb4b5-9ffb-492f-9811-52e2e4962dc3.hdr
+    size: 229
+  089b4fce-c692-4399-ad19-24d603f5e9d8.hdr: &id052
+    type: pass
+    value:
+      function: INPUT
+      parameter: 089b4fce-c692-4399-ad19-24d603f5e9d8.hdr
+    size: 298
+  15c3f2cd-b239-49c5-887c-eaff8e8ec868.hdr: &id053
+    type: pass
+    value:
+      function: INPUT
+      parameter: 15c3f2cd-b239-49c5-887c-eaff8e8ec868.hdr
+    size: 136
+  0a50502a-d895-438f-8484-60bbda0a85c4.hdr: &id054
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0a50502a-d895-438f-8484-60bbda0a85c4.hdr
+    size: 262
+  03f1e99d-3642-4e04-9e3f-a29995b028b8.hdr: &id055
+    type: pass
+    value:
+      function: INPUT
+      parameter: 03f1e99d-3642-4e04-9e3f-a29995b028b8.hdr
+    size: 303
+  7cc3e1b3-46d1-410b-86d8-eb41f6ad2bd5.hdr: &id056
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7cc3e1b3-46d1-410b-86d8-eb41f6ad2bd5.hdr
+    size: 231
+  14b2caf2-5824-4dbb-bd39-34038f9a7163.hdr: &id057
+    type: pass
+    value:
+      function: INPUT
+      parameter: 14b2caf2-5824-4dbb-bd39-34038f9a7163.hdr
+    size: 40
+  9474e771-9019-4bb2-9a23-d420cf26c4ee.hdr: &id058
+    type: pass
+    value:
+      function: INPUT
+      parameter: 9474e771-9019-4bb2-9a23-d420cf26c4ee.hdr
+    size: 297
+  e616f8f9-becb-4bf5-aba5-ed52fadf8cb0.hdr: &id059
+    type: pass
+    value:
+      function: INPUT
+      parameter: e616f8f9-becb-4bf5-aba5-ed52fadf8cb0.hdr
+    size: 284
+  f2b93983-f5a5-4cb6-8c3c-f25cf85381cb.hdr: &id060
+    type: pass
+    value:
+      function: INPUT
+      parameter: f2b93983-f5a5-4cb6-8c3c-f25cf85381cb.hdr
+    size: 241
+  e0d0add5-f77e-48c1-95bc-1c64468d0b64.hdr: &id061
+    type: pass
+    value:
+      function: INPUT
+      parameter: e0d0add5-f77e-48c1-95bc-1c64468d0b64.hdr
+    size: 255
+  2c1ff8ce-caea-4034-aa85-b2b58d600e3f.hdr: &id062
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2c1ff8ce-caea-4034-aa85-b2b58d600e3f.hdr
+    size: 291
+  5ff7a621-0ba4-4ccf-80f4-9d0136286782.hdr: &id063
+    type: pass
+    value:
+      function: INPUT
+      parameter: 5ff7a621-0ba4-4ccf-80f4-9d0136286782.hdr
+    size: 166
+  d0da9f79-2a7f-4a89-a907-02e8af9b6276.hdr: &id064
+    type: pass
+    value:
+      function: INPUT
+      parameter: d0da9f79-2a7f-4a89-a907-02e8af9b6276.hdr
+    size: 238
+  b95c83fb-82a2-44dc-8fe1-ca73f68d418b.hdr: &id065
+    type: pass
+    value:
+      function: INPUT
+      parameter: b95c83fb-82a2-44dc-8fe1-ca73f68d418b.hdr
+    size: 240
+  7317d9ce-b689-4389-bcf5-4132826ed52c.hdr: &id066
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7317d9ce-b689-4389-bcf5-4132826ed52c.hdr
+    size: 36
+  2067b4d3-9c7e-4ec0-9a7c-8c31cb8c14a8.hdr: &id067
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2067b4d3-9c7e-4ec0-9a7c-8c31cb8c14a8.hdr
+    size: 42
+  e3123bbb-9a62-4267-9164-90323d4cfa4c.hdr: &id068
+    type: pass
+    value:
+      function: INPUT
+      parameter: e3123bbb-9a62-4267-9164-90323d4cfa4c.hdr
+    size: 102
+  6e34e9b2-b0f9-454c-a929-6f2fcef98ef2.hdr: &id069
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6e34e9b2-b0f9-454c-a929-6f2fcef98ef2.hdr
+    size: 148
+  f4c4d9ec-52b1-4b9e-bfcf-4a6690c27795.hdr: &id070
+    type: pass
+    value:
+      function: INPUT
+      parameter: f4c4d9ec-52b1-4b9e-bfcf-4a6690c27795.hdr
+    size: 282
+  c59acc97-f55d-4bbb-b85a-db459ec9b837.hdr: &id071
+    type: pass
+    value:
+      function: INPUT
+      parameter: c59acc97-f55d-4bbb-b85a-db459ec9b837.hdr
+    size: 218
+  82e47935-ec8b-4c60-b00e-9b252267d9e9.hdr: &id072
+    type: pass
+    value:
+      function: INPUT
+      parameter: 82e47935-ec8b-4c60-b00e-9b252267d9e9.hdr
+    size: 110
+  95841d29-47bf-4990-b366-b7e22a2748e7.hdr: &id073
+    type: pass
+    value:
+      function: INPUT
+      parameter: 95841d29-47bf-4990-b366-b7e22a2748e7.hdr
+    size: 165
+  616f2001-0d08-49ef-bb88-9555ed924640.hdr: &id074
+    type: pass
+    value:
+      function: INPUT
+      parameter: 616f2001-0d08-49ef-bb88-9555ed924640.hdr
+    size: 129
+  6e2babf4-b26d-4d6c-8e96-2563fe0f199d.hdr: &id075
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6e2babf4-b26d-4d6c-8e96-2563fe0f199d.hdr
+    size: 178
+  dbe640dc-6cd1-4871-aa55-4cc9b344426d.hdr: &id076
+    type: pass
+    value:
+      function: INPUT
+      parameter: dbe640dc-6cd1-4871-aa55-4cc9b344426d.hdr
+    size: 236
+  af249c7f-6673-4276-aa8b-106f4d25eb4c.hdr: &id077
+    type: pass
+    value:
+      function: INPUT
+      parameter: af249c7f-6673-4276-aa8b-106f4d25eb4c.hdr
+    size: 289
+  c9adaf2f-26e8-44c9-aa8e-f11551d8e1a3.hdr: &id078
+    type: pass
+    value:
+      function: INPUT
+      parameter: c9adaf2f-26e8-44c9-aa8e-f11551d8e1a3.hdr
+    size: 257
+  fafd38fd-3dd0-4fc2-8253-3c9e48ebf5e2.hdr: &id079
+    type: pass
+    value:
+      function: INPUT
+      parameter: fafd38fd-3dd0-4fc2-8253-3c9e48ebf5e2.hdr
+    size: 261
+  243b20a3-11e1-443e-9fcb-2c5db857edf3.hdr: &id080
+    type: pass
+    value:
+      function: INPUT
+      parameter: 243b20a3-11e1-443e-9fcb-2c5db857edf3.hdr
+    size: 291
+  17151550-6ea6-42ec-a94b-fd9bc9ba1641.hdr: &id081
+    type: pass
+    value:
+      function: INPUT
+      parameter: 17151550-6ea6-42ec-a94b-fd9bc9ba1641.hdr
+    size: 300
+  7c9bb404-d729-4cfe-b4a5-2e52f0baca88.hdr: &id082
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7c9bb404-d729-4cfe-b4a5-2e52f0baca88.hdr
+    size: 192
+  49112b49-810e-4183-a2b2-26dfc0db285f.hdr: &id083
+    type: pass
+    value:
+      function: INPUT
+      parameter: 49112b49-810e-4183-a2b2-26dfc0db285f.hdr
+    size: 275
+  d86c2da0-6676-4485-bdc4-6e34525e3a80.hdr: &id084
+    type: pass
+    value:
+      function: INPUT
+      parameter: d86c2da0-6676-4485-bdc4-6e34525e3a80.hdr
+    size: 274
+  2aa89133-58bb-4165-9927-7b01a7e1f71b.hdr: &id085
+    type: pass
+    value:
+      function: INPUT
+      parameter: 2aa89133-58bb-4165-9927-7b01a7e1f71b.hdr
+    size: 120
+  d54217c2-cbd0-4a06-ab8d-46aa3c96864f.hdr: &id086
+    type: pass
+    value:
+      function: INPUT
+      parameter: d54217c2-cbd0-4a06-ab8d-46aa3c96864f.hdr
+    size: 97
+  3aac052d-de5b-4915-a02c-d1f6346ba1ea.hdr: &id087
+    type: pass
+    value:
+      function: INPUT
+      parameter: 3aac052d-de5b-4915-a02c-d1f6346ba1ea.hdr
+    size: 281
+  59df5131-f26c-4c6f-bdb4-cc8016fc5993.hdr: &id088
+    type: pass
+    value:
+      function: INPUT
+      parameter: 59df5131-f26c-4c6f-bdb4-cc8016fc5993.hdr
+    size: 113
+  a67dcc90-98c9-4632-abed-b94089eeeaae.hdr: &id089
+    type: pass
+    value:
+      function: INPUT
+      parameter: a67dcc90-98c9-4632-abed-b94089eeeaae.hdr
+    size: 57
+  3acae775-16d6-48aa-973c-aee4215f7f1d.hdr: &id090
+    type: pass
+    value:
+      function: INPUT
+      parameter: 3acae775-16d6-48aa-973c-aee4215f7f1d.hdr
+    size: 152
+  f7d54af6-bfb2-4ac0-b5da-9c0b483e3a57.hdr: &id091
+    type: pass
+    value:
+      function: INPUT
+      parameter: f7d54af6-bfb2-4ac0-b5da-9c0b483e3a57.hdr
+    size: 213
+  071306d9-78a1-4ac5-8eb7-02a4e1cb9ae1.hdr: &id092
+    type: pass
+    value:
+      function: INPUT
+      parameter: 071306d9-78a1-4ac5-8eb7-02a4e1cb9ae1.hdr
+    size: 42
+  8250901d-83e7-4da9-a411-da1b5a2a0b49.hdr: &id093
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8250901d-83e7-4da9-a411-da1b5a2a0b49.hdr
+    size: 256
+  8dd6d2ea-02cd-454b-9671-5f6f20e891e5.hdr: &id094
+    type: pass
+    value:
+      function: INPUT
+      parameter: 8dd6d2ea-02cd-454b-9671-5f6f20e891e5.hdr
+    size: 216
+  094c99d8-d225-4077-a02d-4e08e2353bfb.hdr: &id095
+    type: pass
+    value:
+      function: INPUT
+      parameter: 094c99d8-d225-4077-a02d-4e08e2353bfb.hdr
+    size: 93
+  37450e4f-d433-466a-8bd2-f83e53761709.hdr: &id096
+    type: pass
+    value:
+      function: INPUT
+      parameter: 37450e4f-d433-466a-8bd2-f83e53761709.hdr
+    size: 79
+  247c1a99-6d50-4858-94af-67d8be3320c0.hdr: &id097
+    type: pass
+    value:
+      function: INPUT
+      parameter: 247c1a99-6d50-4858-94af-67d8be3320c0.hdr
+    size: 27
+  15065dfd-108e-4654-85c5-cd1342e53f5e.hdr: &id098
+    type: pass
+    value:
+      function: INPUT
+      parameter: 15065dfd-108e-4654-85c5-cd1342e53f5e.hdr
+    size: 269
+  4ec9e694-f56f-454c-8eb7-4acaa800da0e.hdr: &id099
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4ec9e694-f56f-454c-8eb7-4acaa800da0e.hdr
+    size: 173
+  d7db739e-446a-405e-b1b8-0c763f40cd73.hdr: &id100
+    type: pass
+    value:
+      function: INPUT
+      parameter: d7db739e-446a-405e-b1b8-0c763f40cd73.hdr
+    size: 27
+  3aabacf9-7e96-409a-a254-3b297f657877.hdr: &id101
+    type: pass
+    value:
+      function: INPUT
+      parameter: 3aabacf9-7e96-409a-a254-3b297f657877.hdr
+    size: 107
+  6efbaa95-53a0-459e-bab3-f299150e070a.hdr: &id102
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6efbaa95-53a0-459e-bab3-f299150e070a.hdr
+    size: 27
+  ec89f72e-8c99-477d-bff7-cf22c3b5ca32.hdr: &id103
+    type: pass
+    value:
+      function: INPUT
+      parameter: ec89f72e-8c99-477d-bff7-cf22c3b5ca32.hdr
+    size: 138
+  c8a9b9e0-7fac-4737-a4b7-80451fecd097.hdr: &id104
+    type: pass
+    value:
+      function: INPUT
+      parameter: c8a9b9e0-7fac-4737-a4b7-80451fecd097.hdr
+    size: 206
+  1383e078-50fa-44e9-8a40-013251ab0311.hdr: &id105
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1383e078-50fa-44e9-8a40-013251ab0311.hdr
+    size: 231
+  94b517da-ad37-42be-a2bb-f1f2e4bd2ee4.hdr: &id106
+    type: pass
+    value:
+      function: INPUT
+      parameter: 94b517da-ad37-42be-a2bb-f1f2e4bd2ee4.hdr
+    size: 27
+  fe88279c-7dc8-466f-aa5d-6f03ce6c6196.hdr: &id107
+    type: pass
+    value:
+      function: INPUT
+      parameter: fe88279c-7dc8-466f-aa5d-6f03ce6c6196.hdr
+    size: 53
+  ac08ee56-c8dc-4eca-a8c7-4a94cc35f989.hdr: &id108
+    type: pass
+    value:
+      function: INPUT
+      parameter: ac08ee56-c8dc-4eca-a8c7-4a94cc35f989.hdr
+    size: 247
+  4aae8f18-5eb4-4f17-8f39-ecdbd213f3ed.hdr: &id109
+    type: pass
+    value:
+      function: INPUT
+      parameter: 4aae8f18-5eb4-4f17-8f39-ecdbd213f3ed.hdr
+    size: 199
+  be759014-44f9-42f5-9d3e-d2aa0a1bce2f.hdr: &id110
+    type: pass
+    value:
+      function: INPUT
+      parameter: be759014-44f9-42f5-9d3e-d2aa0a1bce2f.hdr
+    size: 210
+  b073eb28-7193-4573-a9d9-ca9afa9acdf9.hdr: &id111
+    type: pass
+    value:
+      function: INPUT
+      parameter: b073eb28-7193-4573-a9d9-ca9afa9acdf9.hdr
+    size: 112
+  1e6f457e-96fb-41cd-a137-f8db48942070.hdr: &id112
+    type: pass
+    value:
+      function: INPUT
+      parameter: 1e6f457e-96fb-41cd-a137-f8db48942070.hdr
+    size: 264
+  43e221f1-40d0-42cd-a25a-080d2b5b464c.hdr: &id113
+    type: pass
+    value:
+      function: INPUT
+      parameter: 43e221f1-40d0-42cd-a25a-080d2b5b464c.hdr
+    size: 116
+  e978dbf4-808b-40dd-828a-989f2889a18b.hdr: &id114
+    type: pass
+    value:
+      function: INPUT
+      parameter: e978dbf4-808b-40dd-828a-989f2889a18b.hdr
+    size: 224
+  a5c3053b-45d3-4ec4-9fa0-3fe1f00aed3c.hdr: &id115
+    type: pass
+    value:
+      function: INPUT
+      parameter: a5c3053b-45d3-4ec4-9fa0-3fe1f00aed3c.hdr
+    size: 254
+  0e509663-f58c-48c9-87ad-26980e93f93f.hdr: &id116
+    type: pass
+    value:
+      function: INPUT
+      parameter: 0e509663-f58c-48c9-87ad-26980e93f93f.hdr
+    size: 27
+  6d98cb40-47ef-4bb0-808f-28fdeb8cc0e6.hdr: &id117
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6d98cb40-47ef-4bb0-808f-28fdeb8cc0e6.hdr
+    size: 252
+  a048151d-ad78-4d73-85f5-8f5b54360ec4.hdr: &id118
+    type: pass
+    value:
+      function: INPUT
+      parameter: a048151d-ad78-4d73-85f5-8f5b54360ec4.hdr
+    size: 201
+  039f742b-e34b-47d9-a209-d89778dc4661.hdr: &id119
+    type: pass
+    value:
+      function: INPUT
+      parameter: 039f742b-e34b-47d9-a209-d89778dc4661.hdr
+    size: 286
+  e8d829c9-4a96-46e5-8b21-4f86d712f6bf.hdr: &id120
+    type: pass
+    value:
+      function: INPUT
+      parameter: e8d829c9-4a96-46e5-8b21-4f86d712f6bf.hdr
+    size: 175
+  792160e7-b0d0-47fc-b455-a556bd50e340.hdr: &id121
+    type: pass
+    value:
+      function: INPUT
+      parameter: 792160e7-b0d0-47fc-b455-a556bd50e340.hdr
+    size: 165
+  b70d496d-fcf1-48ef-92a7-00078181515f.hdr: &id122
+    type: pass
+    value:
+      function: INPUT
+      parameter: b70d496d-fcf1-48ef-92a7-00078181515f.hdr
+    size: 114
+  6f62e4ed-d7a1-4aa0-a970-37f8fc83e3b6.hdr: &id123
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6f62e4ed-d7a1-4aa0-a970-37f8fc83e3b6.hdr
+    size: 253
+  ce662bb9-28e5-4e1e-8d45-a270fcff605d.hdr: &id124
+    type: pass
+    value:
+      function: INPUT
+      parameter: ce662bb9-28e5-4e1e-8d45-a270fcff605d.hdr
+    size: 177
+  7ceee927-7aca-45cb-b754-8145d23d05de.hdr: &id125
+    type: pass
+    value:
+      function: INPUT
+      parameter: 7ceee927-7aca-45cb-b754-8145d23d05de.hdr
+    size: 55
+  c291c8d5-14f2-47c5-b69a-1c083e6e8a4f.hdr: &id126
+    type: pass
+    value:
+      function: INPUT
+      parameter: c291c8d5-14f2-47c5-b69a-1c083e6e8a4f.hdr
+    size: 124
+  d0cd7eb8-203e-4c03-beb4-b95b00124650.hdr: &id127
+    type: pass
+    value:
+      function: INPUT
+      parameter: d0cd7eb8-203e-4c03-beb4-b95b00124650.hdr
+    size: 293
+  f598803b-170f-4dcd-9dec-2f222d7f2050.hdr: &id128
+    type: pass
+    value:
+      function: INPUT
+      parameter: f598803b-170f-4dcd-9dec-2f222d7f2050.hdr
+    size: 238
+  6132d9d0-8bab-4d79-a092-4a5d0e063439.tbl: &id129
+    type: pass
+    value:
+      function: INPUT
+      parameter: 6132d9d0-8bab-4d79-a092-4a5d0e063439.tbl
+    size: 224474
+  b6acead7-d826-4226-91df-33d174ef294d.tbl: &id130
+    type: pass
+    value:
+      function: INPUT
+      parameter: b6acead7-d826-4226-91df-33d174ef294d.tbl
+    size: 1019
+  da70e9ac-4a25-4a93-bd10-dac635253031.hdr: &id131
+    type: pass
+    value:
+      function: INPUT
+      parameter: da70e9ac-4a25-4a93-bd10-dac635253031.hdr
+    size: 68
+functions:
+- name: mproject_00000001
+  source: mproject_00000001
+  runtime: 25.475
+  scale: 1
+  mem_usage: 0.25
+  input:
+    28485352-e9b0-46c7-bef0-7f3071d19923.fits: *id001
+    c94a3092-5ab1-4fc3-948c-2c802424f098.hdr: *id002
+  output:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: normal
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: normal
+      size: 791179
+  next:
+    type: pass
+    nodes:
+    - mdifffit_00000005
+    - mdifffit_00000008
+    - mdifffit_00000009
+    - mdifffit_00000011
+    - mdifffit_00000015
+    - mdifffit_00000019
+    - mdifffit_00000021
+    - mdifffit_00000023
+    - mdifffit_00000026
+    - mdifffit_00000028
+    - mdifffit_00000029
+    - mdifffit_00000031
+    - mdifffit_00000033
+    - mdifffit_00000035
+    - mdifffit_00000036
+    - mdifffit_00000037
+    - mdifffit_00000038
+    - mdifffit_00000039
+    - mdifffit_00000040
+    - mdifffit_00000041
+    - mdifffit_00000043
+    - mdifffit_00000044
+    - mdifffit_00000045
+    - mdifffit_00000046
+    - mdifffit_00000047
+    - mdifffit_00000048
+    - mdifffit_00000049
+    - mdifffit_00000050
+    - mdifffit_00000051
+    - mdifffit_00000052
+    - mdifffit_00000054
+    - mdifffit_00000055
+    - mdifffit_00000057
+    - mdifffit_00000058
+    - mdifffit_00000060
+    - mdifffit_00000061
+    - mdifffit_00000062
+    - mdifffit_00000063
+    - mdifffit_00000064
+    - mdifffit_00000065
+    - mdifffit_00000066
+    - mdifffit_00000067
+    - mdifffit_00000069
+    - mdifffit_00000071
+    - mdifffit_00000072
+    - mdifffit_00000078
+    - mdifffit_00000081
+    - mdifffit_00000085
+    - mdifffit_00000086
+    - mdifffit_00000090
+    - mdifffit_00000091
+    - mdifffit_00000092
+    - mdifffit_00000094
+    - mdifffit_00000095
+    - mdifffit_00000097
+    - mdifffit_00000098
+    - mdifffit_00000100
+    - mdifffit_00000101
+    - mdifffit_00000102
+    - mdifffit_00000103
+    - mdifffit_00000105
+    - mdifffit_00000106
+    - mdifffit_00000112
+    - mdifffit_00000113
+    - mdifffit_00000114
+    - mdifffit_00000115
+    - mdifffit_00000123
+- name: mproject_00000002
+  source: mproject_00000002
+  runtime: 30.532
+  scale: 1
+  mem_usage: 0.25
+  input:
+    cbfd4131-f8ae-436e-bbce-99ed123b5513.fits: *id003
+    97bfcb08-ed22-47b1-a317-9e09953a2c34.hdr: *id004
+  output:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: normal
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: normal
+      size: 1047045
+  next:
+    type: pass
+    nodes:
+    - mdifffit_00000005
+    - mdifffit_00000006
+    - mdifffit_00000011
+    - mdifffit_00000014
+    - mdifffit_00000015
+    - mdifffit_00000022
+    - mdifffit_00000024
+    - mdifffit_00000025
+    - mdifffit_00000028
+    - mdifffit_00000029
+    - mdifffit_00000030
+    - mdifffit_00000032
+    - mdifffit_00000033
+    - mdifffit_00000035
+    - mdifffit_00000043
+    - mdifffit_00000046
+    - mdifffit_00000048
+    - mdifffit_00000052
+    - mdifffit_00000053
+    - mdifffit_00000054
+    - mdifffit_00000056
+    - mdifffit_00000057
+    - mdifffit_00000060
+    - mdifffit_00000061
+    - mdifffit_00000068
+    - mdifffit_00000070
+    - mdifffit_00000073
+    - mdifffit_00000074
+    - mdifffit_00000075
+    - mdifffit_00000076
+    - mdifffit_00000077
+    - mdifffit_00000079
+    - mdifffit_00000080
+    - mdifffit_00000081
+    - mdifffit_00000082
+    - mdifffit_00000083
+    - mdifffit_00000085
+    - mdifffit_00000089
+    - mdifffit_00000093
+    - mdifffit_00000094
+    - mdifffit_00000096
+    - mdifffit_00000098
+    - mdifffit_00000099
+    - mdifffit_00000100
+    - mdifffit_00000103
+    - mdifffit_00000104
+    - mdifffit_00000109
+    - mdifffit_00000110
+    - mdifffit_00000111
+    - mdifffit_00000112
+    - mdifffit_00000116
+    - mdifffit_00000117
+    - mdifffit_00000119
+    - mdifffit_00000120
+    - mdifffit_00000121
+    - mdifffit_00000122
+    - mdifffit_00000124
+- name: mproject_00000003
+  source: mproject_00000003
+  runtime: 22.708
+  scale: 1
+  mem_usage: 0.25
+  input:
+    90dc08ed-6ba4-4750-833d-725186a3746d.fits: *id005
+    e5de8b8a-ef09-4a2a-942d-68e0f75f57b7.hdr: *id006
+  output:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: normal
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: normal
+      size: 1947787
+  next:
+    type: pass
+    nodes:
+    - mdifffit_00000006
+    - mdifffit_00000007
+    - mdifffit_00000008
+    - mdifffit_00000010
+    - mdifffit_00000012
+    - mdifffit_00000013
+    - mdifffit_00000016
+    - mdifffit_00000017
+    - mdifffit_00000018
+    - mdifffit_00000019
+    - mdifffit_00000020
+    - mdifffit_00000021
+    - mdifffit_00000023
+    - mdifffit_00000024
+    - mdifffit_00000026
+    - mdifffit_00000027
+    - mdifffit_00000030
+    - mdifffit_00000034
+    - mdifffit_00000036
+    - mdifffit_00000038
+    - mdifffit_00000039
+    - mdifffit_00000041
+    - mdifffit_00000042
+    - mdifffit_00000049
+    - mdifffit_00000053
+    - mdifffit_00000058
+    - mdifffit_00000059
+    - mdifffit_00000064
+    - mdifffit_00000065
+    - mdifffit_00000072
+    - mdifffit_00000073
+    - mdifffit_00000075
+    - mdifffit_00000077
+    - mdifffit_00000078
+    - mdifffit_00000084
+    - mdifffit_00000087
+    - mdifffit_00000088
+    - mdifffit_00000089
+    - mdifffit_00000092
+    - mdifffit_00000093
+    - mdifffit_00000095
+    - mdifffit_00000096
+    - mdifffit_00000097
+    - mdifffit_00000105
+    - mdifffit_00000107
+    - mdifffit_00000108
+    - mdifffit_00000111
+    - mdifffit_00000116
+    - mdifffit_00000117
+    - mdifffit_00000118
+    - mdifffit_00000119
+    - mdifffit_00000121
+    - mdifffit_00000123
+    - mdifffit_00000124
+- name: mproject_00000004
+  source: mproject_00000004
+  runtime: 12.457
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8a9fe004-7e9e-4d34-ab08-f4ee9bff838f.fits: *id007
+    4d0f1601-bfb8-4cb0-92c2-12ffdc0a107d.hdr: *id008
+  output:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: normal
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: normal
+      size: 220008
+  next:
+    type: pass
+    nodes:
+    - mdifffit_00000007
+    - mdifffit_00000009
+    - mdifffit_00000010
+    - mdifffit_00000012
+    - mdifffit_00000013
+    - mdifffit_00000014
+    - mdifffit_00000016
+    - mdifffit_00000017
+    - mdifffit_00000018
+    - mdifffit_00000020
+    - mdifffit_00000022
+    - mdifffit_00000025
+    - mdifffit_00000027
+    - mdifffit_00000031
+    - mdifffit_00000032
+    - mdifffit_00000034
+    - mdifffit_00000037
+    - mdifffit_00000040
+    - mdifffit_00000042
+    - mdifffit_00000044
+    - mdifffit_00000045
+    - mdifffit_00000047
+    - mdifffit_00000050
+    - mdifffit_00000051
+    - mdifffit_00000055
+    - mdifffit_00000056
+    - mdifffit_00000059
+    - mdifffit_00000062
+    - mdifffit_00000063
+    - mdifffit_00000066
+    - mdifffit_00000067
+    - mdifffit_00000068
+    - mdifffit_00000069
+    - mdifffit_00000070
+    - mdifffit_00000071
+    - mdifffit_00000074
+    - mdifffit_00000076
+    - mdifffit_00000079
+    - mdifffit_00000080
+    - mdifffit_00000082
+    - mdifffit_00000083
+    - mdifffit_00000084
+    - mdifffit_00000086
+    - mdifffit_00000087
+    - mdifffit_00000088
+    - mdifffit_00000090
+    - mdifffit_00000091
+    - mdifffit_00000099
+    - mdifffit_00000101
+    - mdifffit_00000102
+    - mdifffit_00000104
+    - mdifffit_00000106
+    - mdifffit_00000107
+    - mdifffit_00000108
+    - mdifffit_00000109
+    - mdifffit_00000110
+    - mdifffit_00000113
+    - mdifffit_00000114
+    - mdifffit_00000115
+    - mdifffit_00000118
+    - mdifffit_00000120
+    - mdifffit_00000122
+- name: mdifffit_00000005
+  source: mdifffit_00000005
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    d1f16374-60da-4122-8e54-7f10eb6df5fe.hdr: *id009
+  output:
+    9360eca1-250d-48f2-9d83-cdf60fe151fb.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000006
+  source: mdifffit_00000006
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    7f9a01f1-b236-4bf6-be28-e34d1123801a.hdr: *id010
+  output:
+    7976f0ce-14ac-4957-a29d-442654e4de03.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000007
+  source: mdifffit_00000007
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    0eddbdf8-ad0b-460d-94b9-2a635c86a538.hdr: *id011
+  output:
+    3fecc155-abe9-4ab3-9ad7-cfeb78eb9463.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000008
+  source: mdifffit_00000008
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    6d50e7a2-bc20-45e0-a605-3e9b2323c4de.hdr: *id012
+  output:
+    1b3cf5d3-2f8f-478c-aedd-7f00e18e3d13.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000009
+  source: mdifffit_00000009
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    39b33025-704d-4ed6-b706-0d9793aa903f.hdr: *id013
+  output:
+    3660df5a-9120-4060-8d25-b72ae05f4320.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000010
+  source: mdifffit_00000010
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    ff59af8b-482e-4315-bfb5-e13c924c94a3.hdr: *id014
+  output:
+    e1a3b930-b74d-4c77-bab7-425b0606251d.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000011
+  source: mdifffit_00000011
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    f452a286-f6d9-4d66-8f4c-3de5b33b4bb5.hdr: *id015
+  output:
+    3ae61913-2646-4504-a38c-3f8463e4e587.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000012
+  source: mdifffit_00000012
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    622dcf19-574a-4fd2-bd6c-2c1613d3041f.hdr: *id016
+  output:
+    a4e97f92-b066-46fa-9a44-e269ed828176.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000013
+  source: mdifffit_00000013
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    fb5b372d-21b3-4691-af2a-d99d60a1e3b1.hdr: *id017
+  output:
+    f4e6c7b7-c79d-49dc-9de4-654c3d5df7dc.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000014
+  source: mdifffit_00000014
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    399b83c6-82ce-4c14-81de-35b6d97551be.hdr: *id018
+  output:
+    cd687e0c-7588-4de8-8f88-b5b4fa53aa61.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000015
+  source: mdifffit_00000015
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    09eef124-9294-4190-8793-6a7a6b4d5be4.hdr: *id019
+  output:
+    5ac698e1-45b8-484e-9bff-87b1f83cda78.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000016
+  source: mdifffit_00000016
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    7bf7bbca-5d21-43df-8038-ea38876ca6bd.hdr: *id020
+  output:
+    d7d6b7ee-fe5f-4ac0-a9c6-4de393206542.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000017
+  source: mdifffit_00000017
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    9c112487-5b7d-4049-a3a6-484b1c7e864a.hdr: *id021
+  output:
+    7471f22b-1b1c-43f4-9624-978a060ca9bb.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000018
+  source: mdifffit_00000018
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    9c019099-2c83-4e21-9461-9d17a4439aa5.hdr: *id022
+  output:
+    9b7d584b-1aa4-4010-a501-6da5afb8f19b.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000019
+  source: mdifffit_00000019
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    a853cf11-2a3e-40db-ba87-7287c38c65ac.hdr: *id023
+  output:
+    d274dde5-ade7-4ceb-b350-8b7791740857.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000020
+  source: mdifffit_00000020
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    a7053e24-7aa7-4428-85ef-963ffeff4d26.hdr: *id024
+  output:
+    1b284781-d475-441f-905b-3a3fec10d6f4.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000021
+  source: mdifffit_00000021
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0c6d6aee-e6f4-4941-adc2-621cd94112c3.hdr: *id025
+  output:
+    50c8c6ba-2448-40d4-b8cc-9447b56ddcba.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000022
+  source: mdifffit_00000022
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    9cb98f29-8f3d-4da7-99fd-8a011d06622f.hdr: *id026
+  output:
+    46f82851-8a0b-4915-89fe-e92c2c32510c.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000023
+  source: mdifffit_00000023
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    8a55bb95-2519-4e6e-9dec-d1d8bc7670b9.hdr: *id027
+  output:
+    b70939ce-243e-4b85-8e5f-08d5cbd64dd6.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000024
+  source: mdifffit_00000024
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    486b78a1-bcb7-47b2-a7c3-e6e84df6765b.hdr: *id028
+  output:
+    aedcb782-bea2-47d7-b3db-14a907b25d2a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000025
+  source: mdifffit_00000025
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    c448e29a-2115-4c71-b441-d7cb55d807d0.hdr: *id029
+  output:
+    ba6b10b5-689a-444d-9d78-ac203a14a07c.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000026
+  source: mdifffit_00000026
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    c04de5b9-a617-434e-a700-2adaa3b8a2ee.hdr: *id030
+  output:
+    68660cf1-5af9-4d51-9db4-04e027f60a7c.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000027
+  source: mdifffit_00000027
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    0e9f7a9f-7001-48b9-b968-cbeef10a7787.hdr: *id031
+  output:
+    9611678a-e4d6-4400-840d-4a0893b9f38a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000028
+  source: mdifffit_00000028
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    ed5d58ba-03e7-4fb8-95bf-624f99428d42.hdr: *id032
+  output:
+    41566d40-4e7d-4a0d-bcb7-08036d9db40c.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000029
+  source: mdifffit_00000029
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b5fe603f-60e0-4091-992b-2ce857a392e7.hdr: *id033
+  output:
+    45eea47b-54e5-4113-aac7-85c2b51a1306.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000030
+  source: mdifffit_00000030
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    04afdf7a-c410-492a-bd75-30006da5a990.hdr: *id034
+  output:
+    2dd12de7-254a-4a5b-8e35-f26622d0efd0.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000031
+  source: mdifffit_00000031
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    66471f8c-821c-4b74-9efc-4896fbfce445.hdr: *id035
+  output:
+    4125f095-c025-4fd7-a819-8d034f605f64.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000032
+  source: mdifffit_00000032
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    047100a9-962c-4500-981f-db39c5541abf.hdr: *id036
+  output:
+    d70d26e3-b6ba-405b-8d25-ee2d9d5fcda1.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000033
+  source: mdifffit_00000033
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    154d30ec-4f0a-46b4-be3f-2182b6d61ec0.hdr: *id037
+  output:
+    86a13484-a777-4b39-a1c4-ed65441c7902.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000034
+  source: mdifffit_00000034
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    4c2ecf5b-9ff4-4938-97d3-08422025f56d.hdr: *id038
+  output:
+    b01ac79e-1496-424a-b8ca-299fc048ed7e.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000035
+  source: mdifffit_00000035
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b12794c4-065a-48f3-98ad-353277bef4d9.hdr: *id039
+  output:
+    1d267db4-9c89-401d-94c1-c6fd0e9ee2ea.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000036
+  source: mdifffit_00000036
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    251ee4ac-e160-49ae-aa7b-fbc0feb8af7d.hdr: *id040
+  output:
+    af53148f-6587-4144-b3bc-fff42811ff11.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000037
+  source: mdifffit_00000037
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    5545f5ce-5841-43f6-a033-c2dcc7c640d5.hdr: *id041
+  output:
+    d0a4f25e-77f8-4fc1-a9d4-61a620409584.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000038
+  source: mdifffit_00000038
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    371110bf-4550-436a-845c-1cd475ca3560.hdr: *id042
+  output:
+    1447d432-284f-4e97-90b2-aa9a39963564.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000039
+  source: mdifffit_00000039
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    d0f308b0-8495-49f6-9f23-f24280aa2bb3.hdr: *id043
+  output:
+    99c3618c-edd5-4761-aa8a-03bd24205ddf.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000040
+  source: mdifffit_00000040
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    82223e78-ae38-4a95-819e-b46abc70383d.hdr: *id044
+  output:
+    5571731b-237d-4743-afdb-3d14ebb02f87.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000041
+  source: mdifffit_00000041
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    7f54a121-fedb-4bff-87d0-c2ed3ec459cb.hdr: *id045
+  output:
+    11356725-7718-4758-8673-91278f82d31c.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000042
+  source: mdifffit_00000042
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    670fa2a3-a546-4b43-98fe-d8abbcd2c68c.hdr: *id046
+  output:
+    64c0545c-3364-4ac9-af30-0839c19a5b49.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000043
+  source: mdifffit_00000043
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    7e41c887-eb0c-4596-ab84-3903975dfd22.hdr: *id047
+  output:
+    590335dc-3c3f-4017-ab8c-81b34d0f4712.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000044
+  source: mdifffit_00000044
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    5d2a6dd0-661f-4888-b1c5-8133941a94e2.hdr: *id048
+  output:
+    65a7d53c-76f2-4f4b-a30c-fb0f465c4ba2.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000045
+  source: mdifffit_00000045
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    31e82c99-c429-4fe8-a900-2b0d58374048.hdr: *id049
+  output:
+    3771844c-bbf6-412c-8e70-e83ecfc2ffb6.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000046
+  source: mdifffit_00000046
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    dbafe0ac-102f-4c51-ac65-9190a8c1dd23.hdr: *id050
+  output:
+    1101628e-5d81-4319-888a-3e46474b6f63.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000047
+  source: mdifffit_00000047
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    382eb4b5-9ffb-492f-9811-52e2e4962dc3.hdr: *id051
+  output:
+    63c0ccb8-a75b-4c95-a2d0-fb094fa761f1.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000048
+  source: mdifffit_00000048
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    089b4fce-c692-4399-ad19-24d603f5e9d8.hdr: *id052
+  output:
+    078b9d92-59ae-4524-9d78-3522b67e06cf.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000049
+  source: mdifffit_00000049
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    15c3f2cd-b239-49c5-887c-eaff8e8ec868.hdr: *id053
+  output:
+    1b98e91b-c37d-40ed-9654-2ea4a760a3fd.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000050
+  source: mdifffit_00000050
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    0a50502a-d895-438f-8484-60bbda0a85c4.hdr: *id054
+  output:
+    c56851af-2aa9-4ace-af99-2a5ae1b91fc9.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000051
+  source: mdifffit_00000051
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    03f1e99d-3642-4e04-9e3f-a29995b028b8.hdr: *id055
+  output:
+    23500466-97b1-42a8-bf7e-ab0f43692aa8.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000052
+  source: mdifffit_00000052
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    7cc3e1b3-46d1-410b-86d8-eb41f6ad2bd5.hdr: *id056
+  output:
+    23f75ec4-e565-4cd9-8bb2-ffc78e518881.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000053
+  source: mdifffit_00000053
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    14b2caf2-5824-4dbb-bd39-34038f9a7163.hdr: *id057
+  output:
+    b583b7e4-f3ab-492f-8d42-16322cb9ddfd.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000054
+  source: mdifffit_00000054
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    9474e771-9019-4bb2-9a23-d420cf26c4ee.hdr: *id058
+  output:
+    64a9b375-0011-4fbd-a7a4-df4bcc9ca45e.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000055
+  source: mdifffit_00000055
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    e616f8f9-becb-4bf5-aba5-ed52fadf8cb0.hdr: *id059
+  output:
+    d6c3d34b-86a3-4bc5-8035-1f37762eed09.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000056
+  source: mdifffit_00000056
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    f2b93983-f5a5-4cb6-8c3c-f25cf85381cb.hdr: *id060
+  output:
+    13b83931-c9e7-4ce7-b965-eff61e5e294c.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000057
+  source: mdifffit_00000057
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    e0d0add5-f77e-48c1-95bc-1c64468d0b64.hdr: *id061
+  output:
+    af220bf0-e3c1-4c43-a382-0e4d0ac05a8d.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000058
+  source: mdifffit_00000058
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    2c1ff8ce-caea-4034-aa85-b2b58d600e3f.hdr: *id062
+  output:
+    475469d9-d757-47d6-9675-0ced338565a0.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000059
+  source: mdifffit_00000059
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    5ff7a621-0ba4-4ccf-80f4-9d0136286782.hdr: *id063
+  output:
+    a9195538-a3f9-487d-b6f8-04a891f74054.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000060
+  source: mdifffit_00000060
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    d0da9f79-2a7f-4a89-a907-02e8af9b6276.hdr: *id064
+  output:
+    011f2576-00f0-4d07-8bbc-6f215c3243b0.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000061
+  source: mdifffit_00000061
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    b95c83fb-82a2-44dc-8fe1-ca73f68d418b.hdr: *id065
+  output:
+    30715e58-c444-4fb8-a628-d0317c31f18d.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000062
+  source: mdifffit_00000062
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    7317d9ce-b689-4389-bcf5-4132826ed52c.hdr: *id066
+  output:
+    c1d4e679-008f-4374-a00a-fc3c15b4b3f3.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000063
+  source: mdifffit_00000063
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    2067b4d3-9c7e-4ec0-9a7c-8c31cb8c14a8.hdr: *id067
+  output:
+    146d98eb-f234-4190-a4bf-b5d3da8c8fce.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000064
+  source: mdifffit_00000064
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    e3123bbb-9a62-4267-9164-90323d4cfa4c.hdr: *id068
+  output:
+    cf5ee39b-cb69-437e-babd-aeac250492ce.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000065
+  source: mdifffit_00000065
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    6e34e9b2-b0f9-454c-a929-6f2fcef98ef2.hdr: *id069
+  output:
+    e87a4cba-4b40-4658-b8a5-1803dcd78984.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000066
+  source: mdifffit_00000066
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    f4c4d9ec-52b1-4b9e-bfcf-4a6690c27795.hdr: *id070
+  output:
+    62edf5dc-3462-4df1-8757-1432505aee0a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000067
+  source: mdifffit_00000067
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    c59acc97-f55d-4bbb-b85a-db459ec9b837.hdr: *id071
+  output:
+    3742c7ae-1b3f-4af6-8427-c9d61a673231.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000068
+  source: mdifffit_00000068
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    82e47935-ec8b-4c60-b00e-9b252267d9e9.hdr: *id072
+  output:
+    7060435a-3de8-4c2e-af00-44894a98cc4d.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000069
+  source: mdifffit_00000069
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    95841d29-47bf-4990-b366-b7e22a2748e7.hdr: *id073
+  output:
+    0c5f851a-36a8-4458-af24-d498a7a7ccf4.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000070
+  source: mdifffit_00000070
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    616f2001-0d08-49ef-bb88-9555ed924640.hdr: *id074
+  output:
+    e170c3b2-65c8-4e5b-a17c-bac56a132e84.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000071
+  source: mdifffit_00000071
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    6e2babf4-b26d-4d6c-8e96-2563fe0f199d.hdr: *id075
+  output:
+    6badff74-775b-435b-954c-691230a9123a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000072
+  source: mdifffit_00000072
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    dbe640dc-6cd1-4871-aa55-4cc9b344426d.hdr: *id076
+  output:
+    f5dac106-22f9-42f1-a058-dcdfa7e5157c.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000073
+  source: mdifffit_00000073
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    af249c7f-6673-4276-aa8b-106f4d25eb4c.hdr: *id077
+  output:
+    0e6bec19-7f7c-49ba-b857-201af779f67e.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000074
+  source: mdifffit_00000074
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    c9adaf2f-26e8-44c9-aa8e-f11551d8e1a3.hdr: *id078
+  output:
+    5f17cf4a-040c-417c-840e-ce53b76c956e.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000075
+  source: mdifffit_00000075
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    fafd38fd-3dd0-4fc2-8253-3c9e48ebf5e2.hdr: *id079
+  output:
+    bca9943f-5eea-49fc-9a69-de324906664e.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000076
+  source: mdifffit_00000076
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    243b20a3-11e1-443e-9fcb-2c5db857edf3.hdr: *id080
+  output:
+    81aff705-68eb-4c4a-b303-448302eeefd7.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000077
+  source: mdifffit_00000077
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    17151550-6ea6-42ec-a94b-fd9bc9ba1641.hdr: *id081
+  output:
+    145cae7e-6187-4827-93ae-07b39bf4396c.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000078
+  source: mdifffit_00000078
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    7c9bb404-d729-4cfe-b4a5-2e52f0baca88.hdr: *id082
+  output:
+    c7104002-5716-4bbb-a4c6-94a946828385.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000079
+  source: mdifffit_00000079
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    49112b49-810e-4183-a2b2-26dfc0db285f.hdr: *id083
+  output:
+    da9651fd-e5d2-4fb6-945d-c0a25d39e0b8.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000080
+  source: mdifffit_00000080
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    d86c2da0-6676-4485-bdc4-6e34525e3a80.hdr: *id084
+  output:
+    1fe0c662-33d9-4765-bfde-1838643f7c8d.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000081
+  source: mdifffit_00000081
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    2aa89133-58bb-4165-9927-7b01a7e1f71b.hdr: *id085
+  output:
+    48e0a331-4b6a-4438-a21f-ca78bdcbf808.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000082
+  source: mdifffit_00000082
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    d54217c2-cbd0-4a06-ab8d-46aa3c96864f.hdr: *id086
+  output:
+    a4f69c42-1f5f-4092-8b72-417b3456aaef.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000083
+  source: mdifffit_00000083
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    3aac052d-de5b-4915-a02c-d1f6346ba1ea.hdr: *id087
+  output:
+    f566faab-82c6-4be0-bf3f-7172be118e1d.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000084
+  source: mdifffit_00000084
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    59df5131-f26c-4c6f-bdb4-cc8016fc5993.hdr: *id088
+  output:
+    7ab9d76b-134d-4837-a168-5c4dd12252e8.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000085
+  source: mdifffit_00000085
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    a67dcc90-98c9-4632-abed-b94089eeeaae.hdr: *id089
+  output:
+    46647a3b-9d97-4ba1-9e6c-698d889a29bb.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000086
+  source: mdifffit_00000086
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    3acae775-16d6-48aa-973c-aee4215f7f1d.hdr: *id090
+  output:
+    0245a79c-8a72-4c6b-99ff-b1b9f4398623.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000087
+  source: mdifffit_00000087
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    f7d54af6-bfb2-4ac0-b5da-9c0b483e3a57.hdr: *id091
+  output:
+    958e05bd-901c-49e4-abc6-0fcc16ad0209.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000088
+  source: mdifffit_00000088
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    071306d9-78a1-4ac5-8eb7-02a4e1cb9ae1.hdr: *id092
+  output:
+    d9349817-3933-4b7d-98c6-a4ff5841be9a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000089
+  source: mdifffit_00000089
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8250901d-83e7-4da9-a411-da1b5a2a0b49.hdr: *id093
+  output:
+    734c55e1-e532-43f6-abbc-14f4ca43fb8d.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000090
+  source: mdifffit_00000090
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd6d2ea-02cd-454b-9671-5f6f20e891e5.hdr: *id094
+  output:
+    82d4c2f5-1702-4f4c-b902-7aeb46ab213b.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000091
+  source: mdifffit_00000091
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    094c99d8-d225-4077-a02d-4e08e2353bfb.hdr: *id095
+  output:
+    58bc83ec-01b4-4dc9-8e90-c765341353a7.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000092
+  source: mdifffit_00000092
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    37450e4f-d433-466a-8bd2-f83e53761709.hdr: *id096
+  output:
+    5801dc4c-d00a-4155-aeb6-f937545d452e.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000093
+  source: mdifffit_00000093
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    247c1a99-6d50-4858-94af-67d8be3320c0.hdr: *id097
+  output:
+    37fcaade-f771-4e86-807f-7f73e745c41b.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000094
+  source: mdifffit_00000094
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    15065dfd-108e-4654-85c5-cd1342e53f5e.hdr: *id098
+  output:
+    9ba7da14-131b-4281-8e2c-d0f93491a05e.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000095
+  source: mdifffit_00000095
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    4ec9e694-f56f-454c-8eb7-4acaa800da0e.hdr: *id099
+  output:
+    ceeacc5f-18ca-4c0f-a740-7906788faac1.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000096
+  source: mdifffit_00000096
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    d7db739e-446a-405e-b1b8-0c763f40cd73.hdr: *id100
+  output:
+    4e2854ba-9071-4c6a-8e77-c84445e70ebf.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000097
+  source: mdifffit_00000097
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    3aabacf9-7e96-409a-a254-3b297f657877.hdr: *id101
+  output:
+    a825bf2a-9308-4e33-9932-c4fc31d3065e.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000098
+  source: mdifffit_00000098
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    6efbaa95-53a0-459e-bab3-f299150e070a.hdr: *id102
+  output:
+    ea732563-eb62-4a07-aa7b-59c1bd83e399.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000099
+  source: mdifffit_00000099
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    ec89f72e-8c99-477d-bff7-cf22c3b5ca32.hdr: *id103
+  output:
+    24fcb93d-1cb1-41f3-8770-0c91d5ebbcd7.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000100
+  source: mdifffit_00000100
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    c8a9b9e0-7fac-4737-a4b7-80451fecd097.hdr: *id104
+  output:
+    04ced0e9-c58e-45ae-b696-462130d08321.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000101
+  source: mdifffit_00000101
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    1383e078-50fa-44e9-8a40-013251ab0311.hdr: *id105
+  output:
+    a256a969-a251-4dda-b2b0-13e186d0c965.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000102
+  source: mdifffit_00000102
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    94b517da-ad37-42be-a2bb-f1f2e4bd2ee4.hdr: *id106
+  output:
+    1b1009d8-b1ec-4eeb-9e2b-f6d10a2c5516.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000103
+  source: mdifffit_00000103
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    fe88279c-7dc8-466f-aa5d-6f03ce6c6196.hdr: *id107
+  output:
+    5b92e0aa-f45b-4381-abf9-bc8af2bc5934.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000104
+  source: mdifffit_00000104
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    ac08ee56-c8dc-4eca-a8c7-4a94cc35f989.hdr: *id108
+  output:
+    ae848447-763a-4dd5-ad55-dbf74dd19708.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000105
+  source: mdifffit_00000105
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    4aae8f18-5eb4-4f17-8f39-ecdbd213f3ed.hdr: *id109
+  output:
+    484baa62-a296-4a85-9a77-20d657b2569a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000106
+  source: mdifffit_00000106
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    be759014-44f9-42f5-9d3e-d2aa0a1bce2f.hdr: *id110
+  output:
+    80a85fd5-c1a1-40c0-a071-eef3ca4fcbff.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000107
+  source: mdifffit_00000107
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b073eb28-7193-4573-a9d9-ca9afa9acdf9.hdr: *id111
+  output:
+    bd1279f1-2ed6-492b-8d60-b0bf809f3b0a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000108
+  source: mdifffit_00000108
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    1e6f457e-96fb-41cd-a137-f8db48942070.hdr: *id112
+  output:
+    50968494-ed4f-41b3-b8c9-5f6a49efd7c5.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000109
+  source: mdifffit_00000109
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    43e221f1-40d0-42cd-a25a-080d2b5b464c.hdr: *id113
+  output:
+    51e3786a-5521-41db-8997-39177dbb1224.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000110
+  source: mdifffit_00000110
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    e978dbf4-808b-40dd-828a-989f2889a18b.hdr: *id114
+  output:
+    e477f344-a783-4bb7-af3d-8a8248ac317f.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000111
+  source: mdifffit_00000111
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    a5c3053b-45d3-4ec4-9fa0-3fe1f00aed3c.hdr: *id115
+  output:
+    e32c5898-fc4c-47e3-9285-176f7d748994.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000112
+  source: mdifffit_00000112
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    0e509663-f58c-48c9-87ad-26980e93f93f.hdr: *id116
+  output:
+    0dfc0b32-e432-4411-9049-cee238d09936.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000113
+  source: mdifffit_00000113
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    6d98cb40-47ef-4bb0-808f-28fdeb8cc0e6.hdr: *id117
+  output:
+    c5ad3265-7e08-428b-92b5-5df57ec467f0.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000114
+  source: mdifffit_00000114
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    a048151d-ad78-4d73-85f5-8f5b54360ec4.hdr: *id118
+  output:
+    f55a578a-6d44-4f59-b2e3-26995e19b480.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000115
+  source: mdifffit_00000115
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    039f742b-e34b-47d9-a209-d89778dc4661.hdr: *id119
+  output:
+    07fbc1ef-e056-4b69-9fc6-f7ad86c238a6.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000116
+  source: mdifffit_00000116
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    e8d829c9-4a96-46e5-8b21-4f86d712f6bf.hdr: *id120
+  output:
+    aeafb521-3100-47bc-8507-0b8af99a5dd9.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000117
+  source: mdifffit_00000117
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    792160e7-b0d0-47fc-b455-a556bd50e340.hdr: *id121
+  output:
+    be04d81d-8156-46cf-a012-68a508a419e7.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000118
+  source: mdifffit_00000118
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b70d496d-fcf1-48ef-92a7-00078181515f.hdr: *id122
+  output:
+    1232ef70-2074-4197-9bca-2ee16ddde2ae.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000119
+  source: mdifffit_00000119
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    6f62e4ed-d7a1-4aa0-a970-37f8fc83e3b6.hdr: *id123
+  output:
+    a02e4caa-5533-4463-85d9-b1178711787a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000120
+  source: mdifffit_00000120
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    ce662bb9-28e5-4e1e-8d45-a270fcff605d.hdr: *id124
+  output:
+    1ff89aff-4844-4778-ad64-580bfa2b2fcc.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000121
+  source: mdifffit_00000121
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    7ceee927-7aca-45cb-b754-8145d23d05de.hdr: *id125
+  output:
+    a616eb72-c98e-4dfa-af44-4acd7ae3c8bc.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000122
+  source: mdifffit_00000122
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    c291c8d5-14f2-47c5-b69a-1c083e6e8a4f.hdr: *id126
+  output:
+    d41e1408-85ff-4928-985f-bb1e87a7e634.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000123
+  source: mdifffit_00000123
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    d0cd7eb8-203e-4c03-beb4-b95b00124650.hdr: *id127
+  output:
+    c84e8ee9-bf51-4eb7-91d2-001b83a18965.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mdifffit_00000124
+  source: mdifffit_00000124
+  runtime: 1.359
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    f598803b-170f-4dcd-9dec-2f222d7f2050.hdr: *id128
+  output:
+    5b1a9505-5241-4734-b03c-cd51d1af3f6a.txt:
+      type: normal
+      size: 12
+  next:
+    type: pass
+    nodes:
+    - mconcatfit_00000125
+- name: mconcatfit_00000125
+  source: mconcatfit_00000125
+  runtime: 0.008
+  scale: 1
+  mem_usage: 0.25
+  input:
+    9360eca1-250d-48f2-9d83-cdf60fe151fb.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9360eca1-250d-48f2-9d83-cdf60fe151fb.txt
+      size: 12
+    7976f0ce-14ac-4957-a29d-442654e4de03.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 7976f0ce-14ac-4957-a29d-442654e4de03.txt
+      size: 12
+    3fecc155-abe9-4ab3-9ad7-cfeb78eb9463.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3fecc155-abe9-4ab3-9ad7-cfeb78eb9463.txt
+      size: 12
+    1b3cf5d3-2f8f-478c-aedd-7f00e18e3d13.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1b3cf5d3-2f8f-478c-aedd-7f00e18e3d13.txt
+      size: 12
+    3660df5a-9120-4060-8d25-b72ae05f4320.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3660df5a-9120-4060-8d25-b72ae05f4320.txt
+      size: 12
+    e1a3b930-b74d-4c77-bab7-425b0606251d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e1a3b930-b74d-4c77-bab7-425b0606251d.txt
+      size: 12
+    3ae61913-2646-4504-a38c-3f8463e4e587.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3ae61913-2646-4504-a38c-3f8463e4e587.txt
+      size: 12
+    a4e97f92-b066-46fa-9a44-e269ed828176.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a4e97f92-b066-46fa-9a44-e269ed828176.txt
+      size: 12
+    f4e6c7b7-c79d-49dc-9de4-654c3d5df7dc.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f4e6c7b7-c79d-49dc-9de4-654c3d5df7dc.txt
+      size: 12
+    cd687e0c-7588-4de8-8f88-b5b4fa53aa61.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: cd687e0c-7588-4de8-8f88-b5b4fa53aa61.txt
+      size: 12
+    5ac698e1-45b8-484e-9bff-87b1f83cda78.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5ac698e1-45b8-484e-9bff-87b1f83cda78.txt
+      size: 12
+    d7d6b7ee-fe5f-4ac0-a9c6-4de393206542.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d7d6b7ee-fe5f-4ac0-a9c6-4de393206542.txt
+      size: 12
+    7471f22b-1b1c-43f4-9624-978a060ca9bb.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 7471f22b-1b1c-43f4-9624-978a060ca9bb.txt
+      size: 12
+    9b7d584b-1aa4-4010-a501-6da5afb8f19b.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9b7d584b-1aa4-4010-a501-6da5afb8f19b.txt
+      size: 12
+    d274dde5-ade7-4ceb-b350-8b7791740857.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d274dde5-ade7-4ceb-b350-8b7791740857.txt
+      size: 12
+    1b284781-d475-441f-905b-3a3fec10d6f4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1b284781-d475-441f-905b-3a3fec10d6f4.txt
+      size: 12
+    50c8c6ba-2448-40d4-b8cc-9447b56ddcba.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 50c8c6ba-2448-40d4-b8cc-9447b56ddcba.txt
+      size: 12
+    46f82851-8a0b-4915-89fe-e92c2c32510c.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 46f82851-8a0b-4915-89fe-e92c2c32510c.txt
+      size: 12
+    b70939ce-243e-4b85-8e5f-08d5cbd64dd6.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b70939ce-243e-4b85-8e5f-08d5cbd64dd6.txt
+      size: 12
+    aedcb782-bea2-47d7-b3db-14a907b25d2a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: aedcb782-bea2-47d7-b3db-14a907b25d2a.txt
+      size: 12
+    ba6b10b5-689a-444d-9d78-ac203a14a07c.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ba6b10b5-689a-444d-9d78-ac203a14a07c.txt
+      size: 12
+    68660cf1-5af9-4d51-9db4-04e027f60a7c.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 68660cf1-5af9-4d51-9db4-04e027f60a7c.txt
+      size: 12
+    9611678a-e4d6-4400-840d-4a0893b9f38a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9611678a-e4d6-4400-840d-4a0893b9f38a.txt
+      size: 12
+    41566d40-4e7d-4a0d-bcb7-08036d9db40c.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 41566d40-4e7d-4a0d-bcb7-08036d9db40c.txt
+      size: 12
+    45eea47b-54e5-4113-aac7-85c2b51a1306.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 45eea47b-54e5-4113-aac7-85c2b51a1306.txt
+      size: 12
+    2dd12de7-254a-4a5b-8e35-f26622d0efd0.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 2dd12de7-254a-4a5b-8e35-f26622d0efd0.txt
+      size: 12
+    4125f095-c025-4fd7-a819-8d034f605f64.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4125f095-c025-4fd7-a819-8d034f605f64.txt
+      size: 12
+    d70d26e3-b6ba-405b-8d25-ee2d9d5fcda1.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d70d26e3-b6ba-405b-8d25-ee2d9d5fcda1.txt
+      size: 12
+    86a13484-a777-4b39-a1c4-ed65441c7902.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 86a13484-a777-4b39-a1c4-ed65441c7902.txt
+      size: 12
+    b01ac79e-1496-424a-b8ca-299fc048ed7e.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b01ac79e-1496-424a-b8ca-299fc048ed7e.txt
+      size: 12
+    1d267db4-9c89-401d-94c1-c6fd0e9ee2ea.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1d267db4-9c89-401d-94c1-c6fd0e9ee2ea.txt
+      size: 12
+    af53148f-6587-4144-b3bc-fff42811ff11.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: af53148f-6587-4144-b3bc-fff42811ff11.txt
+      size: 12
+    d0a4f25e-77f8-4fc1-a9d4-61a620409584.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d0a4f25e-77f8-4fc1-a9d4-61a620409584.txt
+      size: 12
+    1447d432-284f-4e97-90b2-aa9a39963564.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1447d432-284f-4e97-90b2-aa9a39963564.txt
+      size: 12
+    99c3618c-edd5-4761-aa8a-03bd24205ddf.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 99c3618c-edd5-4761-aa8a-03bd24205ddf.txt
+      size: 12
+    5571731b-237d-4743-afdb-3d14ebb02f87.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5571731b-237d-4743-afdb-3d14ebb02f87.txt
+      size: 12
+    11356725-7718-4758-8673-91278f82d31c.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 11356725-7718-4758-8673-91278f82d31c.txt
+      size: 12
+    64c0545c-3364-4ac9-af30-0839c19a5b49.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 64c0545c-3364-4ac9-af30-0839c19a5b49.txt
+      size: 12
+    590335dc-3c3f-4017-ab8c-81b34d0f4712.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 590335dc-3c3f-4017-ab8c-81b34d0f4712.txt
+      size: 12
+    65a7d53c-76f2-4f4b-a30c-fb0f465c4ba2.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 65a7d53c-76f2-4f4b-a30c-fb0f465c4ba2.txt
+      size: 12
+    3771844c-bbf6-412c-8e70-e83ecfc2ffb6.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3771844c-bbf6-412c-8e70-e83ecfc2ffb6.txt
+      size: 12
+    1101628e-5d81-4319-888a-3e46474b6f63.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1101628e-5d81-4319-888a-3e46474b6f63.txt
+      size: 12
+    63c0ccb8-a75b-4c95-a2d0-fb094fa761f1.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 63c0ccb8-a75b-4c95-a2d0-fb094fa761f1.txt
+      size: 12
+    078b9d92-59ae-4524-9d78-3522b67e06cf.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 078b9d92-59ae-4524-9d78-3522b67e06cf.txt
+      size: 12
+    1b98e91b-c37d-40ed-9654-2ea4a760a3fd.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1b98e91b-c37d-40ed-9654-2ea4a760a3fd.txt
+      size: 12
+    c56851af-2aa9-4ace-af99-2a5ae1b91fc9.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c56851af-2aa9-4ace-af99-2a5ae1b91fc9.txt
+      size: 12
+    23500466-97b1-42a8-bf7e-ab0f43692aa8.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 23500466-97b1-42a8-bf7e-ab0f43692aa8.txt
+      size: 12
+    23f75ec4-e565-4cd9-8bb2-ffc78e518881.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 23f75ec4-e565-4cd9-8bb2-ffc78e518881.txt
+      size: 12
+    b583b7e4-f3ab-492f-8d42-16322cb9ddfd.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b583b7e4-f3ab-492f-8d42-16322cb9ddfd.txt
+      size: 12
+    64a9b375-0011-4fbd-a7a4-df4bcc9ca45e.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 64a9b375-0011-4fbd-a7a4-df4bcc9ca45e.txt
+      size: 12
+    d6c3d34b-86a3-4bc5-8035-1f37762eed09.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d6c3d34b-86a3-4bc5-8035-1f37762eed09.txt
+      size: 12
+    13b83931-c9e7-4ce7-b965-eff61e5e294c.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 13b83931-c9e7-4ce7-b965-eff61e5e294c.txt
+      size: 12
+    af220bf0-e3c1-4c43-a382-0e4d0ac05a8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: af220bf0-e3c1-4c43-a382-0e4d0ac05a8d.txt
+      size: 12
+    475469d9-d757-47d6-9675-0ced338565a0.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 475469d9-d757-47d6-9675-0ced338565a0.txt
+      size: 12
+    a9195538-a3f9-487d-b6f8-04a891f74054.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a9195538-a3f9-487d-b6f8-04a891f74054.txt
+      size: 12
+    011f2576-00f0-4d07-8bbc-6f215c3243b0.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 011f2576-00f0-4d07-8bbc-6f215c3243b0.txt
+      size: 12
+    30715e58-c444-4fb8-a628-d0317c31f18d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 30715e58-c444-4fb8-a628-d0317c31f18d.txt
+      size: 12
+    c1d4e679-008f-4374-a00a-fc3c15b4b3f3.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c1d4e679-008f-4374-a00a-fc3c15b4b3f3.txt
+      size: 12
+    146d98eb-f234-4190-a4bf-b5d3da8c8fce.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 146d98eb-f234-4190-a4bf-b5d3da8c8fce.txt
+      size: 12
+    cf5ee39b-cb69-437e-babd-aeac250492ce.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: cf5ee39b-cb69-437e-babd-aeac250492ce.txt
+      size: 12
+    e87a4cba-4b40-4658-b8a5-1803dcd78984.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e87a4cba-4b40-4658-b8a5-1803dcd78984.txt
+      size: 12
+    62edf5dc-3462-4df1-8757-1432505aee0a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 62edf5dc-3462-4df1-8757-1432505aee0a.txt
+      size: 12
+    3742c7ae-1b3f-4af6-8427-c9d61a673231.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 3742c7ae-1b3f-4af6-8427-c9d61a673231.txt
+      size: 12
+    7060435a-3de8-4c2e-af00-44894a98cc4d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 7060435a-3de8-4c2e-af00-44894a98cc4d.txt
+      size: 12
+    0c5f851a-36a8-4458-af24-d498a7a7ccf4.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0c5f851a-36a8-4458-af24-d498a7a7ccf4.txt
+      size: 12
+    e170c3b2-65c8-4e5b-a17c-bac56a132e84.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e170c3b2-65c8-4e5b-a17c-bac56a132e84.txt
+      size: 12
+    6badff74-775b-435b-954c-691230a9123a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 6badff74-775b-435b-954c-691230a9123a.txt
+      size: 12
+    f5dac106-22f9-42f1-a058-dcdfa7e5157c.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f5dac106-22f9-42f1-a058-dcdfa7e5157c.txt
+      size: 12
+    0e6bec19-7f7c-49ba-b857-201af779f67e.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0e6bec19-7f7c-49ba-b857-201af779f67e.txt
+      size: 12
+    5f17cf4a-040c-417c-840e-ce53b76c956e.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5f17cf4a-040c-417c-840e-ce53b76c956e.txt
+      size: 12
+    bca9943f-5eea-49fc-9a69-de324906664e.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: bca9943f-5eea-49fc-9a69-de324906664e.txt
+      size: 12
+    81aff705-68eb-4c4a-b303-448302eeefd7.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 81aff705-68eb-4c4a-b303-448302eeefd7.txt
+      size: 12
+    145cae7e-6187-4827-93ae-07b39bf4396c.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 145cae7e-6187-4827-93ae-07b39bf4396c.txt
+      size: 12
+    c7104002-5716-4bbb-a4c6-94a946828385.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c7104002-5716-4bbb-a4c6-94a946828385.txt
+      size: 12
+    da9651fd-e5d2-4fb6-945d-c0a25d39e0b8.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: da9651fd-e5d2-4fb6-945d-c0a25d39e0b8.txt
+      size: 12
+    1fe0c662-33d9-4765-bfde-1838643f7c8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1fe0c662-33d9-4765-bfde-1838643f7c8d.txt
+      size: 12
+    48e0a331-4b6a-4438-a21f-ca78bdcbf808.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 48e0a331-4b6a-4438-a21f-ca78bdcbf808.txt
+      size: 12
+    a4f69c42-1f5f-4092-8b72-417b3456aaef.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a4f69c42-1f5f-4092-8b72-417b3456aaef.txt
+      size: 12
+    f566faab-82c6-4be0-bf3f-7172be118e1d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f566faab-82c6-4be0-bf3f-7172be118e1d.txt
+      size: 12
+    7ab9d76b-134d-4837-a168-5c4dd12252e8.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 7ab9d76b-134d-4837-a168-5c4dd12252e8.txt
+      size: 12
+    46647a3b-9d97-4ba1-9e6c-698d889a29bb.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 46647a3b-9d97-4ba1-9e6c-698d889a29bb.txt
+      size: 12
+    0245a79c-8a72-4c6b-99ff-b1b9f4398623.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0245a79c-8a72-4c6b-99ff-b1b9f4398623.txt
+      size: 12
+    958e05bd-901c-49e4-abc6-0fcc16ad0209.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 958e05bd-901c-49e4-abc6-0fcc16ad0209.txt
+      size: 12
+    d9349817-3933-4b7d-98c6-a4ff5841be9a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d9349817-3933-4b7d-98c6-a4ff5841be9a.txt
+      size: 12
+    734c55e1-e532-43f6-abbc-14f4ca43fb8d.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 734c55e1-e532-43f6-abbc-14f4ca43fb8d.txt
+      size: 12
+    82d4c2f5-1702-4f4c-b902-7aeb46ab213b.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 82d4c2f5-1702-4f4c-b902-7aeb46ab213b.txt
+      size: 12
+    58bc83ec-01b4-4dc9-8e90-c765341353a7.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 58bc83ec-01b4-4dc9-8e90-c765341353a7.txt
+      size: 12
+    5801dc4c-d00a-4155-aeb6-f937545d452e.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5801dc4c-d00a-4155-aeb6-f937545d452e.txt
+      size: 12
+    37fcaade-f771-4e86-807f-7f73e745c41b.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 37fcaade-f771-4e86-807f-7f73e745c41b.txt
+      size: 12
+    9ba7da14-131b-4281-8e2c-d0f93491a05e.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9ba7da14-131b-4281-8e2c-d0f93491a05e.txt
+      size: 12
+    ceeacc5f-18ca-4c0f-a740-7906788faac1.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ceeacc5f-18ca-4c0f-a740-7906788faac1.txt
+      size: 12
+    4e2854ba-9071-4c6a-8e77-c84445e70ebf.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 4e2854ba-9071-4c6a-8e77-c84445e70ebf.txt
+      size: 12
+    a825bf2a-9308-4e33-9932-c4fc31d3065e.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a825bf2a-9308-4e33-9932-c4fc31d3065e.txt
+      size: 12
+    ea732563-eb62-4a07-aa7b-59c1bd83e399.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ea732563-eb62-4a07-aa7b-59c1bd83e399.txt
+      size: 12
+    24fcb93d-1cb1-41f3-8770-0c91d5ebbcd7.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 24fcb93d-1cb1-41f3-8770-0c91d5ebbcd7.txt
+      size: 12
+    04ced0e9-c58e-45ae-b696-462130d08321.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 04ced0e9-c58e-45ae-b696-462130d08321.txt
+      size: 12
+    a256a969-a251-4dda-b2b0-13e186d0c965.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a256a969-a251-4dda-b2b0-13e186d0c965.txt
+      size: 12
+    1b1009d8-b1ec-4eeb-9e2b-f6d10a2c5516.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1b1009d8-b1ec-4eeb-9e2b-f6d10a2c5516.txt
+      size: 12
+    5b92e0aa-f45b-4381-abf9-bc8af2bc5934.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5b92e0aa-f45b-4381-abf9-bc8af2bc5934.txt
+      size: 12
+    ae848447-763a-4dd5-ad55-dbf74dd19708.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: ae848447-763a-4dd5-ad55-dbf74dd19708.txt
+      size: 12
+    484baa62-a296-4a85-9a77-20d657b2569a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 484baa62-a296-4a85-9a77-20d657b2569a.txt
+      size: 12
+    80a85fd5-c1a1-40c0-a071-eef3ca4fcbff.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 80a85fd5-c1a1-40c0-a071-eef3ca4fcbff.txt
+      size: 12
+    bd1279f1-2ed6-492b-8d60-b0bf809f3b0a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: bd1279f1-2ed6-492b-8d60-b0bf809f3b0a.txt
+      size: 12
+    50968494-ed4f-41b3-b8c9-5f6a49efd7c5.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 50968494-ed4f-41b3-b8c9-5f6a49efd7c5.txt
+      size: 12
+    51e3786a-5521-41db-8997-39177dbb1224.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 51e3786a-5521-41db-8997-39177dbb1224.txt
+      size: 12
+    e477f344-a783-4bb7-af3d-8a8248ac317f.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e477f344-a783-4bb7-af3d-8a8248ac317f.txt
+      size: 12
+    e32c5898-fc4c-47e3-9285-176f7d748994.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: e32c5898-fc4c-47e3-9285-176f7d748994.txt
+      size: 12
+    0dfc0b32-e432-4411-9049-cee238d09936.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0dfc0b32-e432-4411-9049-cee238d09936.txt
+      size: 12
+    c5ad3265-7e08-428b-92b5-5df57ec467f0.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c5ad3265-7e08-428b-92b5-5df57ec467f0.txt
+      size: 12
+    f55a578a-6d44-4f59-b2e3-26995e19b480.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f55a578a-6d44-4f59-b2e3-26995e19b480.txt
+      size: 12
+    07fbc1ef-e056-4b69-9fc6-f7ad86c238a6.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 07fbc1ef-e056-4b69-9fc6-f7ad86c238a6.txt
+      size: 12
+    aeafb521-3100-47bc-8507-0b8af99a5dd9.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: aeafb521-3100-47bc-8507-0b8af99a5dd9.txt
+      size: 12
+    be04d81d-8156-46cf-a012-68a508a419e7.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: be04d81d-8156-46cf-a012-68a508a419e7.txt
+      size: 12
+    1232ef70-2074-4197-9bca-2ee16ddde2ae.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1232ef70-2074-4197-9bca-2ee16ddde2ae.txt
+      size: 12
+    a02e4caa-5533-4463-85d9-b1178711787a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a02e4caa-5533-4463-85d9-b1178711787a.txt
+      size: 12
+    1ff89aff-4844-4778-ad64-580bfa2b2fcc.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1ff89aff-4844-4778-ad64-580bfa2b2fcc.txt
+      size: 12
+    a616eb72-c98e-4dfa-af44-4acd7ae3c8bc.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: a616eb72-c98e-4dfa-af44-4acd7ae3c8bc.txt
+      size: 12
+    d41e1408-85ff-4928-985f-bb1e87a7e634.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d41e1408-85ff-4928-985f-bb1e87a7e634.txt
+      size: 12
+    c84e8ee9-bf51-4eb7-91d2-001b83a18965.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c84e8ee9-bf51-4eb7-91d2-001b83a18965.txt
+      size: 12
+    5b1a9505-5241-4734-b03c-cd51d1af3f6a.txt:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5b1a9505-5241-4734-b03c-cd51d1af3f6a.txt
+      size: 12
+    6132d9d0-8bab-4d79-a092-4a5d0e063439.tbl: *id129
+  output:
+    d57b49b8-d03e-489f-9ec3-18cf1c77dd73.tbl:
+      type: normal
+      size: 905
+  next:
+    type: pass
+    nodes:
+    - mbgmodel_00000126
+- name: mbgmodel_00000126
+  source: mbgmodel_00000126
+  runtime: 0.226
+  scale: 1
+  mem_usage: 0.25
+  input:
+    d57b49b8-d03e-489f-9ec3-18cf1c77dd73.tbl:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d57b49b8-d03e-489f-9ec3-18cf1c77dd73.tbl
+      size: 905
+  output:
+    b0099b96-adfd-4e60-a793-e942c276697a.tbl:
+      type: normal
+      size: 107
+  next:
+    type: pass
+    nodes:
+    - mbackground_00000127
+    - mbackground_00000128
+    - mbackground_00000129
+    - mbackground_00000130
+- name: mbackground_00000127
+  source: mbackground_00000127
+  runtime: 0.456
+  scale: 1
+  mem_usage: 0.25
+  input:
+    8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 8dd18dc3-2e38-4dc0-919d-eabe9be6483d.fits
+      size: 2003820
+    38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 38a4e5f4-848d-4d42-a8e3-8a2679eb8808.fits
+      size: 791179
+    b0099b96-adfd-4e60-a793-e942c276697a.tbl:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b0099b96-adfd-4e60-a793-e942c276697a.tbl
+      size: 107
+  output:
+    004fafa6-550a-4c11-af9c-1073cfd9f1ba.fits:
+      type: normal
+      size: 1536284
+    d4a96e49-1e6e-451c-bf75-98ad63d5fd94.fits:
+      type: normal
+      size: 1043844
+  next:
+    type: pass
+    nodes:
+    - mimgtbl_00000131
+- name: mbackground_00000128
+  source: mbackground_00000128
+  runtime: 2.288
+  scale: 1
+  mem_usage: 0.25
+  input:
+    b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b8dc0c65-9725-4531-81ee-4580e3dbe82e.fits
+      size: 220008
+    5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 5bef1542-2c78-47e1-9fc6-0c4bb7b4cb9d.fits
+      size: 1047045
+    b0099b96-adfd-4e60-a793-e942c276697a.tbl:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b0099b96-adfd-4e60-a793-e942c276697a.tbl
+      size: 107
+  output:
+    d2cf8505-3bca-48d8-9f7c-8f06fd0da0da.fits:
+      type: normal
+      size: 1366694
+    f693ae9a-6c05-4e0d-9835-a9a436b98cf3.fits:
+      type: normal
+      size: 220008
+  next:
+    type: pass
+    nodes:
+    - mimgtbl_00000131
+- name: mbackground_00000129
+  source: mbackground_00000129
+  runtime: 1.809
+  scale: 1
+  mem_usage: 0.25
+  input:
+    246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 246fa80a-9d04-4e24-88d7-14b2ce4daeb0.fits
+      size: 220008
+    9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9d2962e8-d2b6-4a91-af74-7f94d7b50118.fits
+      size: 1947787
+    b0099b96-adfd-4e60-a793-e942c276697a.tbl:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b0099b96-adfd-4e60-a793-e942c276697a.tbl
+      size: 107
+  output:
+    c9dc4f98-78a7-4f51-a3d6-72376e7f5625.fits:
+      type: normal
+      size: 342371
+    72d394d3-bfb0-48c0-91ae-c68e9e3474f2.fits:
+      type: normal
+      size: 1261887
+  next:
+    type: pass
+    nodes:
+    - mimgtbl_00000131
+- name: mbackground_00000130
+  source: mbackground_00000130
+  runtime: 3.159
+  scale: 1
+  mem_usage: 0.25
+  input:
+    0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 0ca3a185-d233-436a-a0d6-c02b9a6d0729.fits
+      size: 410375
+    9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 9be8f341-5b08-4e07-bc0c-a244e8e6eb23.fits
+      size: 220008
+    b0099b96-adfd-4e60-a793-e942c276697a.tbl:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b0099b96-adfd-4e60-a793-e942c276697a.tbl
+      size: 107
+  output:
+    b0226be0-5872-4477-8017-4c455445419e.fits:
+      type: normal
+      size: 220008
+    dc7f5a50-b6e0-417a-8fc4-3a6a7ef1ed1a.fits:
+      type: normal
+      size: 1071199
+  next:
+    type: pass
+    nodes:
+    - mimgtbl_00000131
+- name: mimgtbl_00000131
+  source: mimgtbl_00000131
+  runtime: 0.002
+  scale: 1
+  mem_usage: 0.25
+  input:
+    004fafa6-550a-4c11-af9c-1073cfd9f1ba.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 004fafa6-550a-4c11-af9c-1073cfd9f1ba.fits
+      size: 1536284
+    d2cf8505-3bca-48d8-9f7c-8f06fd0da0da.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d2cf8505-3bca-48d8-9f7c-8f06fd0da0da.fits
+      size: 1366694
+    c9dc4f98-78a7-4f51-a3d6-72376e7f5625.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c9dc4f98-78a7-4f51-a3d6-72376e7f5625.fits
+      size: 342371
+    b0226be0-5872-4477-8017-4c455445419e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b0226be0-5872-4477-8017-4c455445419e.fits
+      size: 220008
+    b6acead7-d826-4226-91df-33d174ef294d.tbl: *id130
+  output:
+    6969a182-7f62-434c-9b3b-cd00295031b2.tbl:
+      type: normal
+      size: 113
+  next:
+    type: pass
+    nodes:
+    - madd_00000132
+- name: madd_00000132
+  source: madd_00000132
+  runtime: 0.093
+  scale: 1
+  mem_usage: 0.25
+  input:
+    004fafa6-550a-4c11-af9c-1073cfd9f1ba.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 004fafa6-550a-4c11-af9c-1073cfd9f1ba.fits
+      size: 1536284
+    d4a96e49-1e6e-451c-bf75-98ad63d5fd94.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d4a96e49-1e6e-451c-bf75-98ad63d5fd94.fits
+      size: 1043844
+    d2cf8505-3bca-48d8-9f7c-8f06fd0da0da.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: d2cf8505-3bca-48d8-9f7c-8f06fd0da0da.fits
+      size: 1366694
+    f693ae9a-6c05-4e0d-9835-a9a436b98cf3.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: f693ae9a-6c05-4e0d-9835-a9a436b98cf3.fits
+      size: 220008
+    c9dc4f98-78a7-4f51-a3d6-72376e7f5625.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: c9dc4f98-78a7-4f51-a3d6-72376e7f5625.fits
+      size: 342371
+    72d394d3-bfb0-48c0-91ae-c68e9e3474f2.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 72d394d3-bfb0-48c0-91ae-c68e9e3474f2.fits
+      size: 1261887
+    b0226be0-5872-4477-8017-4c455445419e.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: b0226be0-5872-4477-8017-4c455445419e.fits
+      size: 220008
+    dc7f5a50-b6e0-417a-8fc4-3a6a7ef1ed1a.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: dc7f5a50-b6e0-417a-8fc4-3a6a7ef1ed1a.fits
+      size: 1071199
+    6969a182-7f62-434c-9b3b-cd00295031b2.tbl:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 6969a182-7f62-434c-9b3b-cd00295031b2.tbl
+      size: 113
+    da70e9ac-4a25-4a93-bd10-dac635253031.hdr: *id131
+  output:
+    b4d85451-6fa7-441f-a2db-f498905c534f.fits:
+      type: normal
+      size: 12262458
+    1011d120-0580-49ea-9957-0c770997c9a3.fits:
+      type: normal
+      size: 15656329
+  next:
+    type: pass
+    nodes:
+    - mviewer_00000133
+- name: mviewer_00000133
+  source: mviewer_00000133
+  runtime: 2.629
+  scale: 1
+  mem_usage: 0.25
+  input:
+    1011d120-0580-49ea-9957-0c770997c9a3.fits:
+      type: pass
+      value:
+        function: INPUT
+        parameter: 1011d120-0580-49ea-9957-0c770997c9a3.fits
+      size: 15656329
+  output:
+    f4ceb5ee-6812-4262-b72c-80c6d8567dbe.jpg:
+      type: normal
+      size: 3680511
+  next:
+    type: pass
+    nodes: []

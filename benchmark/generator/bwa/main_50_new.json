@@ -1,0 +1,3806 @@
+{
+    "name": "BWA-synthetic-trace",
+    "description": "Trace generated with WorkflowHub - https://workflowhub.org",
+    "createdAt": "2023-10-13T01:40:57.378283",
+    "schemaVersion": "1.0",
+    "author": {
+        "name": "yujiazhao",
+        "email": "support@workflowhub.org"
+    },
+    "wms": {
+        "name": "WorkflowHub",
+        "version": "0.4",
+        "url": "https://workflowhub.readthedocs.io/en/v0.4/"
+    },
+    "workflow": {
+        "executedAt": "20231013T094057+0800",
+        "makespan": null,
+        "jobs": [
+            {
+                "name": "fastq_reduce_00000001",
+                "type": "compute",
+                "runtime": 0.072,
+                "parents": [],
+                "children": [
+                    "bwa_00000003",
+                    "bwa_00000004",
+                    "bwa_00000005",
+                    "bwa_00000006",
+                    "bwa_00000007",
+                    "bwa_00000008",
+                    "bwa_00000009",
+                    "bwa_00000010",
+                    "bwa_00000011",
+                    "bwa_00000012",
+                    "bwa_00000013",
+                    "bwa_00000014",
+                    "bwa_00000015",
+                    "bwa_00000016",
+                    "bwa_00000017",
+                    "bwa_00000018",
+                    "bwa_00000019",
+                    "bwa_00000020",
+                    "bwa_00000021",
+                    "bwa_00000022",
+                    "bwa_00000023",
+                    "bwa_00000024",
+                    "bwa_00000025",
+                    "bwa_00000026",
+                    "bwa_00000027",
+                    "bwa_00000028",
+                    "bwa_00000029",
+                    "bwa_00000030",
+                    "bwa_00000031",
+                    "bwa_00000032",
+                    "bwa_00000033",
+                    "bwa_00000034",
+                    "bwa_00000035",
+                    "bwa_00000036",
+                    "bwa_00000037",
+                    "bwa_00000038",
+                    "bwa_00000039",
+                    "bwa_00000040",
+                    "bwa_00000041",
+                    "bwa_00000042",
+                    "bwa_00000043",
+                    "bwa_00000044",
+                    "bwa_00000045",
+                    "bwa_00000046",
+                    "bwa_00000047",
+                    "bwa_00000048"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b89ac807-6ee2-4092-8fd6-31fe35c6144efastq_reduce",
+                        "size": 2
+                    },
+                    {
+                        "link": "input",
+                        "name": "d7f5cf67-a0c4-46cc-9da3-83d2ce9d1ecb.fastq",
+                        "size": 219552
+                    },
+                    {
+                        "link": "output",
+                        "name": "ef96fa8d-e81a-4744-9564-062d7b7d6831.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "b443fbbd-662b-4dc8-b476-89f0141a92cc.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "e70dd19e-a0a5-4fd4-b543-fad345d545a7.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "c25d6653-a320-4619-994c-b711c2f7f94e.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "de00f044-3ae2-487c-8b5e-68f310848e33.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "d05aaf5e-bd82-4b89-9d87-b8595bac5418.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "00d1087e-619b-4963-9c57-f0134ffd2a60.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "dd38fd55-4c4c-4cb4-9250-51d8b895cfae.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "d6baf345-1e7a-4f45-9945-d25c521331ba.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "5c348663-776b-4d81-9456-3884988aee9c.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "39ddc267-d26b-4fc4-a4b8-f4d12135558b.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "b4550042-6c8c-4909-b21c-5c54a6fede21.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "0e5ff1ea-931d-4bd7-acce-c9a8318a6ec3.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "6bbdd3e4-761e-4247-b25d-7ae6aad421f3.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "ddbb76b3-50d2-4d5b-a80b-c706a04a4dda.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "f07bd181-16c3-4596-97c9-6bdfa124dfa4.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "1345faa6-2dad-4984-80cd-954ac9a7d038.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "29710cdb-45b2-4569-ad92-fb66a017a822.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "0083979c-3cef-414e-9e2f-bfec59e4d5fc.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "4d368637-b275-476c-9644-6ac742789a56.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "1c579f30-3150-4907-b4bb-196abd28725b.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "dfa6b853-4aff-4557-a81c-f641231159c9.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "4403f810-15c8-41c6-9e71-e37ff09304d5.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "6e758d0d-2151-4133-a697-9ded365838ee.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "2e1f3df4-df96-4d8f-8f2e-4075a741a630.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "bdc6bca1-3306-4cd4-954e-9fb10a3260c7.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "da17ef02-be9e-4ab1-91ca-5c5168fc8e23.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "d97b60be-9450-46ab-b40c-92c47077078f.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "89a770f2-fe9b-4817-8445-efd05a1e8a37.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "f5f7ef6e-8662-4e4a-b372-9a1b03e16136.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "6af69ad5-648c-4093-8745-7a17ebdf4575.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "1fc39911-5bf2-4188-a068-586d31dd69af.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "9aaf56ee-6906-4118-b7cc-e82edf9fbe6d.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "7cdb1b26-7636-4a69-aac6-2d36cf6a2f63.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "dfe773be-0e1a-4cf5-9f86-bfe6961c7ca7.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "90ee284a-35e7-48c8-9dff-cf3762c5a932.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "d0898978-ab1f-4f05-98fd-3f3e446da0ac.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "6b00f5ed-962e-43cb-b13a-157b929e83c0.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "1382838d-de3d-46c7-ac4e-836ea2f05add.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "af50493d-3297-4350-9ff3-78e6d752c01d.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "be4270c8-d3c1-43d5-b18c-1f2f84c29858.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "bad13f82-84fd-4afa-b63c-76eb2e85872d.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "7d42d9b9-ea17-4876-91cd-37fca4829b9e.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "8b0fd650-8e71-4cea-8408-db78dd580fbe.fastq",
+                        "size": 4980
+                    },
+                    {
+                        "link": "output",
+                        "name": "f0edaa1d-4a7d-4930-8a81-7bfa220bed64.fastq",
+                        "size": 4979
+                    },
+                    {
+                        "link": "output",
+                        "name": "44f0fd41-4c84-4bb5-8293-9f6487b898ae.fastq",
+                        "size": 4979
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_index_00000002",
+                "type": "compute",
+                "runtime": 10.28,
+                "parents": [],
+                "children": [
+                    "bwa_00000003",
+                    "bwa_00000004",
+                    "bwa_00000005",
+                    "bwa_00000006",
+                    "bwa_00000007",
+                    "bwa_00000008",
+                    "bwa_00000009",
+                    "bwa_00000010",
+                    "bwa_00000011",
+                    "bwa_00000012",
+                    "bwa_00000013",
+                    "bwa_00000014",
+                    "bwa_00000015",
+                    "bwa_00000016",
+                    "bwa_00000017",
+                    "bwa_00000018",
+                    "bwa_00000019",
+                    "bwa_00000020",
+                    "bwa_00000021",
+                    "bwa_00000022",
+                    "bwa_00000023",
+                    "bwa_00000024",
+                    "bwa_00000025",
+                    "bwa_00000026",
+                    "bwa_00000027",
+                    "bwa_00000028",
+                    "bwa_00000029",
+                    "bwa_00000030",
+                    "bwa_00000031",
+                    "bwa_00000032",
+                    "bwa_00000033",
+                    "bwa_00000034",
+                    "bwa_00000035",
+                    "bwa_00000036",
+                    "bwa_00000037",
+                    "bwa_00000038",
+                    "bwa_00000039",
+                    "bwa_00000040",
+                    "bwa_00000041",
+                    "bwa_00000042",
+                    "bwa_00000043",
+                    "bwa_00000044",
+                    "bwa_00000045",
+                    "bwa_00000046",
+                    "bwa_00000047",
+                    "bwa_00000048"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "80475803-fbfa-4084-85e3-2941c02d53efbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "5da178a0-93b7-4112-823d-010cf6cf4b80.fastq",
+                        "size": 659172
+                    },
+                    {
+                        "link": "output",
+                        "name": "20e7e3ef-861f-4240-89ea-084efb2b4277.bwt",
+                        "size": 6271486
+                    },
+                    {
+                        "link": "output",
+                        "name": "eb1d4892-97a5-4266-9220-82465de14029.pac",
+                        "size": 500002
+                    },
+                    {
+                        "link": "output",
+                        "name": "d85ea635-ccf3-4b99-a258-f57e9948b835.amb",
+                        "size": 20
+                    },
+                    {
+                        "link": "output",
+                        "name": "2a3e4ffe-a3cb-4dc5-932f-1083b42a7c80.ann",
+                        "size": 1041338
+                    },
+                    {
+                        "link": "output",
+                        "name": "76c809f4-e41c-479c-9d6c-5b222e327db3.sa",
+                        "size": 3637226
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000003",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8f089dd3-c838-42b4-a8b8-edb08942fb31bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "1c14bd35-e218-44ca-aef9-441eb0e98de9.fastq",
+                        "size": 940423
+                    },
+                    {
+                        "link": "input",
+                        "name": "7600302a-6db7-4dc8-b71b-1731927d9551.bwt",
+                        "size": 705964
+                    },
+                    {
+                        "link": "input",
+                        "name": "b375472a-f883-4ba2-bc26-85315456dc4a.pac",
+                        "size": 77544
+                    },
+                    {
+                        "link": "input",
+                        "name": "adf0e747-5760-4f17-b06f-5168c4966352.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "de78bc45-68bb-49e8-b865-6c178630c16e.ann",
+                        "size": 61667
+                    },
+                    {
+                        "link": "input",
+                        "name": "816aa5a3-5b80-4694-a9b5-f89a9405f269.sa",
+                        "size": 310519
+                    },
+                    {
+                        "link": "output",
+                        "name": "fc3b6ca8-f9d3-4e34-ab1a-407560152ddf.sam",
+                        "size": 599878
+                    },
+                    {
+                        "link": "output",
+                        "name": "6cac1e23-36f0-4f1b-847d-176084e57a24.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000004",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "c4559e58-1b05-4f22-b178-75959c2a1b23bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "e375ac55-c4b4-49a4-b3fc-7a916768b0b3.fastq",
+                        "size": 275219
+                    },
+                    {
+                        "link": "input",
+                        "name": "6acfaa8e-7970-4768-88e0-c92af84cb623.bwt",
+                        "size": 936369
+                    },
+                    {
+                        "link": "input",
+                        "name": "e323306d-efc9-4c72-aa20-a397e3b8ce27.pac",
+                        "size": 110353
+                    },
+                    {
+                        "link": "input",
+                        "name": "7e7f9acc-14d6-43a4-9438-f2a1e09b8acc.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "6ce1deb3-c2e6-4496-b9d7-f4b6b2e19432.ann",
+                        "size": 61667
+                    },
+                    {
+                        "link": "input",
+                        "name": "ae614567-07b2-49eb-a6b5-09cedb847d86.sa",
+                        "size": 465029
+                    },
+                    {
+                        "link": "output",
+                        "name": "7ee21748-b6c9-4045-b649-ac31258eb221.sam",
+                        "size": 600831
+                    },
+                    {
+                        "link": "output",
+                        "name": "65097cb7-ad35-4922-8c6e-62e7a8d961ab.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000005",
+                "type": "compute",
+                "runtime": 1.392,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "61335b93-1ffa-4f46-9565-d021bbad2e5ebwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "68397d87-4770-43c2-90c5-c4359ba4a46e.fastq",
+                        "size": 1490005
+                    },
+                    {
+                        "link": "input",
+                        "name": "8839dd1a-1f5c-4dd9-bb98-856e118d35ed.bwt",
+                        "size": 310719
+                    },
+                    {
+                        "link": "input",
+                        "name": "6be6ddab-1a10-40f1-9234-c6052d39dd50.pac",
+                        "size": 142812
+                    },
+                    {
+                        "link": "input",
+                        "name": "12e22eb4-5b0c-41fa-8c71-d489474ea563.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "81257430-db1d-4e73-9eeb-9a081953e173.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "d561a3f7-8317-4aff-941d-4975e0f9aa6b.sa",
+                        "size": 314454
+                    },
+                    {
+                        "link": "output",
+                        "name": "c84f2e6a-71de-4ae7-a674-ce013e24d884.sam",
+                        "size": 904240
+                    },
+                    {
+                        "link": "output",
+                        "name": "360ad629-28e2-4c90-9b54-730284c3d8a3.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000006",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "a451f94a-8791-40fc-b549-d9f2732ac462bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "4a524b3e-48cf-4f92-896d-784dbc3a5258.fastq",
+                        "size": 2042061
+                    },
+                    {
+                        "link": "input",
+                        "name": "a51d5b4f-f109-47de-8ac4-5be5fa0043d5.bwt",
+                        "size": 513711
+                    },
+                    {
+                        "link": "input",
+                        "name": "c08c9bea-c5ad-467c-abe2-420d58035748.pac",
+                        "size": 158644
+                    },
+                    {
+                        "link": "input",
+                        "name": "648f5f0f-f63a-4510-b9b8-cb5df8e028a4.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "45a37716-df97-49d9-87c2-7753a2eb3b7f.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "f4618488-d323-4b25-ab78-a2a968cda9c1.sa",
+                        "size": 530621
+                    },
+                    {
+                        "link": "output",
+                        "name": "5cfaf418-ef79-4575-baef-48ba31eb51f4.sam",
+                        "size": 960621
+                    },
+                    {
+                        "link": "output",
+                        "name": "2e817748-79b8-4867-9235-3e048d05313e.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000007",
+                "type": "compute",
+                "runtime": 1.058,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "35037c4d-5091-4170-b838-a592fd555657bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "2ebdfbc7-8d2c-4bec-a87b-29fd8bbb042e.fastq",
+                        "size": 1851927
+                    },
+                    {
+                        "link": "input",
+                        "name": "90beaca8-d9bd-494e-96d5-612639e060bf.bwt",
+                        "size": 1052060
+                    },
+                    {
+                        "link": "input",
+                        "name": "c53c671b-4b05-4716-8f67-58586b0602b8.pac",
+                        "size": 124922
+                    },
+                    {
+                        "link": "input",
+                        "name": "8f6f2aa0-c586-40d1-a725-2e753e96c729.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "ab1607c0-6574-4ff3-b9d2-2d0384eee1b1.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "09d95918-1f4e-451f-9d5d-89e50796a650.sa",
+                        "size": 159400
+                    },
+                    {
+                        "link": "output",
+                        "name": "54c61e96-0102-4638-b994-14ae929eb175.sam",
+                        "size": 381791
+                    },
+                    {
+                        "link": "output",
+                        "name": "6624b592-1ec0-4562-8a18-7dde6caa4fef.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000008",
+                "type": "compute",
+                "runtime": 1.309,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "a90ffc54-bccb-42ea-be92-2e263793dca0bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "b497288c-b21b-4917-a874-2015d6e15a89.fastq",
+                        "size": 1648441
+                    },
+                    {
+                        "link": "input",
+                        "name": "6659fdb7-910d-4e16-b383-87f62d2ae521.bwt",
+                        "size": 156550
+                    },
+                    {
+                        "link": "input",
+                        "name": "bc1a6e4b-cbb9-496e-a8e1-8b5a1b2a8bcc.pac",
+                        "size": 49470
+                    },
+                    {
+                        "link": "input",
+                        "name": "90398f0f-2a95-4dff-a3bc-6c24909a4c84.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "06cad34b-f894-4f49-ab15-a0172d7c414e.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "8cdf8c8a-9703-4b1e-9fe4-fc21ad146f5e.sa",
+                        "size": 327347
+                    },
+                    {
+                        "link": "output",
+                        "name": "7933decf-518d-45dc-868e-15b9ceaca147.sam",
+                        "size": 1135358
+                    },
+                    {
+                        "link": "output",
+                        "name": "06259a2e-add2-404b-bd2d-49fc05c76eed.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000009",
+                "type": "compute",
+                "runtime": 1.187,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6400d2b4-14ba-4f3d-b772-c29db9fac989bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "07e3adde-64e5-445e-8560-ab4bef7b37de.fastq",
+                        "size": 1825566
+                    },
+                    {
+                        "link": "input",
+                        "name": "8ab8e149-6a09-4ac2-89d8-abc29335eb1e.bwt",
+                        "size": 144747
+                    },
+                    {
+                        "link": "input",
+                        "name": "e31e304c-303b-41c9-8a84-c5b37651d909.pac",
+                        "size": 186618
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc676e26-60d9-454a-ad22-1ea6d0192d12.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "9bedd6d2-af66-4441-8b6f-19be5ca1e697.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "762d4836-88b3-4259-bbdb-f1f283e2d36e.sa",
+                        "size": 222025
+                    },
+                    {
+                        "link": "output",
+                        "name": "17d98feb-c94b-4af2-a4b0-a875df995d08.sam",
+                        "size": 802896
+                    },
+                    {
+                        "link": "output",
+                        "name": "5dfae8a0-dbf7-4c3a-82ed-528759336f4c.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000010",
+                "type": "compute",
+                "runtime": 1.69,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "deaed019-0615-4dd9-8da0-ddf6f5a63407bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "717e658c-902b-4640-8ab5-a6ee9bf9761e.fastq",
+                        "size": 808132
+                    },
+                    {
+                        "link": "input",
+                        "name": "90e3031e-2728-4236-9edf-c1f72e5be6d9.bwt",
+                        "size": 500411
+                    },
+                    {
+                        "link": "input",
+                        "name": "c401f92e-b0be-4747-a227-1aec967cdbaf.pac",
+                        "size": 25000
+                    },
+                    {
+                        "link": "input",
+                        "name": "7b92edf3-0a53-49a5-9553-b4022eaf3392.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "b2f90818-60dd-41e2-ab1d-8ba1ba6aacb1.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "238098ff-746f-4ae1-b4c2-10ea09b9ad0a.sa",
+                        "size": 509816
+                    },
+                    {
+                        "link": "output",
+                        "name": "a7f0abc6-420e-4180-9a0c-bc1a219a09d9.sam",
+                        "size": 1044599
+                    },
+                    {
+                        "link": "output",
+                        "name": "1958a88c-4c15-42b4-9073-c3fdddf7afca.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000011",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "8bb15038-917b-40f8-8c6d-b9ab3d1ead26bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "faef3257-e9c0-402c-9b3e-b47c8c80d0a2.fastq",
+                        "size": 1673127
+                    },
+                    {
+                        "link": "input",
+                        "name": "b7e10ab4-4371-4576-954c-8094a4427592.bwt",
+                        "size": 595707
+                    },
+                    {
+                        "link": "input",
+                        "name": "470a8b13-f5af-412f-9b8a-9bdb95d2db6f.pac",
+                        "size": 138647
+                    },
+                    {
+                        "link": "input",
+                        "name": "371f2da7-06fb-4ed6-8dda-5f2d3e7bab83.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "580fc90e-3831-4ef6-9b0f-bf7d8a82b860.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "bc98aaf2-38ba-4346-9e6b-cfeee4b7524d.sa",
+                        "size": 530910
+                    },
+                    {
+                        "link": "output",
+                        "name": "9526dfb8-b7f6-4029-8eac-5adcde1368ca.sam",
+                        "size": 701821
+                    },
+                    {
+                        "link": "output",
+                        "name": "6880a50c-95fd-4d1b-89d2-8340075dfe84.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000012",
+                "type": "compute",
+                "runtime": 0.4,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "107c4570-5e18-440a-9ef1-b860ad859477bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "07392c88-4320-4c51-9f67-d44f29fed4ec.fastq",
+                        "size": 1572226
+                    },
+                    {
+                        "link": "input",
+                        "name": "8ef15d82-de71-492f-b69d-7755b81a57ef.bwt",
+                        "size": 859368
+                    },
+                    {
+                        "link": "input",
+                        "name": "8ec8c098-28dd-4e82-b006-b84266cdbc36.pac",
+                        "size": 249409
+                    },
+                    {
+                        "link": "input",
+                        "name": "ed868f38-9122-4b97-827b-1312bcd08626.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "782e61c9-3c68-45e0-9e50-f07fe10f0ba3.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "a102d357-69bc-4414-83e1-c8dbb293e618.sa",
+                        "size": 398419
+                    },
+                    {
+                        "link": "output",
+                        "name": "11720278-a046-4fbe-8c9a-2abed9db79bf.sam",
+                        "size": 1025210
+                    },
+                    {
+                        "link": "output",
+                        "name": "9a41c044-c5f0-4c3a-b3d1-82fb2aa589a7.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000013",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "228bbd87-48c7-41e6-9a67-5dbfbbf06be6bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "0ce2bef6-32d7-4737-ad4a-2cb675b4d95f.fastq",
+                        "size": 1112585
+                    },
+                    {
+                        "link": "input",
+                        "name": "f4e8d0d1-be3f-41cb-947e-f155ae9f0327.bwt",
+                        "size": 778818
+                    },
+                    {
+                        "link": "input",
+                        "name": "6d564a73-124b-49e2-8d58-cc6706c41224.pac",
+                        "size": 212027
+                    },
+                    {
+                        "link": "input",
+                        "name": "86c5965e-4697-4275-a950-3f480380c295.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "d0c4bd95-09a1-4e53-8f56-6d9077c54de2.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "f0ef3e33-39f9-4e30-88c6-2f525a3fd547.sa",
+                        "size": 505910
+                    },
+                    {
+                        "link": "output",
+                        "name": "be94d9fa-5855-4576-bc98-dfce37e3690d.sam",
+                        "size": 104176
+                    },
+                    {
+                        "link": "output",
+                        "name": "f5c8f5a5-fceb-4061-99df-9a8719b10d11.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000014",
+                "type": "compute",
+                "runtime": 0.712,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6cd5b551-7234-45fa-8ba0-1f279e7fae86bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "373b31f7-f79f-4ed2-87aa-4a7528e343cf.fastq",
+                        "size": 1465080
+                    },
+                    {
+                        "link": "input",
+                        "name": "61415123-9ef3-4c2c-87fc-639330a089a8.bwt",
+                        "size": 661418
+                    },
+                    {
+                        "link": "input",
+                        "name": "70b13cf6-5e44-4709-b867-d011e223b598.pac",
+                        "size": 209658
+                    },
+                    {
+                        "link": "input",
+                        "name": "7b888fdf-baac-4826-ae6a-76db6d552f56.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "07d6d67a-18f7-403e-aef3-09fe82715101.ann",
+                        "size": 61667
+                    },
+                    {
+                        "link": "input",
+                        "name": "597aa7cd-8470-42ca-baa1-3018e4fffda9.sa",
+                        "size": 138551
+                    },
+                    {
+                        "link": "output",
+                        "name": "0bca1ac9-802d-4191-8de3-da3bcf12f44a.sam",
+                        "size": 894732
+                    },
+                    {
+                        "link": "output",
+                        "name": "9d1e1d0f-1375-452f-8661-fe2414f2a5f3.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000015",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "d66baccd-2a68-4c4b-b5c3-89f94a8b4b79bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "34b8f089-a76e-4c17-9dcb-b83bd40fe9c3.fastq",
+                        "size": 2016256
+                    },
+                    {
+                        "link": "input",
+                        "name": "efb88a87-1741-4633-85b5-d81e7ae96ff3.bwt",
+                        "size": 744932
+                    },
+                    {
+                        "link": "input",
+                        "name": "0279b281-36c9-4ba9-adf2-1bb952d9600e.pac",
+                        "size": 140232
+                    },
+                    {
+                        "link": "input",
+                        "name": "4e3fb1ca-3b2f-48ac-831c-4239f1356fca.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "cd1c4690-b16d-4470-9f94-60a939b5114f.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "29be98d5-a032-4633-bf36-255fd366fd1b.sa",
+                        "size": 277391
+                    },
+                    {
+                        "link": "output",
+                        "name": "7d185a6b-d472-4839-b1a1-194c5ea80f98.sam",
+                        "size": 999870
+                    },
+                    {
+                        "link": "output",
+                        "name": "f819c529-299c-4501-b7ff-af53888a6647.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000016",
+                "type": "compute",
+                "runtime": 0.565,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "543e7085-a4c1-4e09-8949-eefb16584702bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "ac4b0dcb-338a-47f2-9d4d-0cccdd6b347c.fastq",
+                        "size": 1380233
+                    },
+                    {
+                        "link": "input",
+                        "name": "a6bf7973-8f94-42d7-8c2c-14d154a7c139.bwt",
+                        "size": 100000
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d3eeac7-db3d-4e9c-bd92-36bdb443a80e.pac",
+                        "size": 229373
+                    },
+                    {
+                        "link": "input",
+                        "name": "8a76a194-376d-48ef-8b5a-5a99162e8ad9.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "109fe6f1-e0a2-41ad-bf41-0e7dd1b02574.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "4131f687-9dc4-4361-9db6-7233f5a16857.sa",
+                        "size": 544759
+                    },
+                    {
+                        "link": "output",
+                        "name": "7b728288-107b-4cc8-a142-55f50abc0739.sam",
+                        "size": 679475
+                    },
+                    {
+                        "link": "output",
+                        "name": "34c89bb7-0eba-43c7-8a4c-1e8a75ce1044.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000017",
+                "type": "compute",
+                "runtime": 1.274,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "2a245636-8e15-4854-85e2-ea5d160fed5bbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "1f8e7005-2c03-4caf-aabf-dd92704dc447.fastq",
+                        "size": 2213297
+                    },
+                    {
+                        "link": "input",
+                        "name": "70ff6feb-4bdc-4e22-9daa-0abba2ed9b9b.bwt",
+                        "size": 723479
+                    },
+                    {
+                        "link": "input",
+                        "name": "c3ca72ea-7209-4dc8-96db-61971dc6649f.pac",
+                        "size": 124828
+                    },
+                    {
+                        "link": "input",
+                        "name": "bc167a2b-b979-41ae-9e81-04392f330c8e.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "3cccb09f-6367-404b-ad6d-6a16cbcc79f4.ann",
+                        "size": 61667
+                    },
+                    {
+                        "link": "input",
+                        "name": "6a29b9ae-0bcb-4550-8008-c3ef8467572c.sa",
+                        "size": 249624
+                    },
+                    {
+                        "link": "output",
+                        "name": "ff1c01d6-c9ea-42d6-9079-23924204fd73.sam",
+                        "size": 104176
+                    },
+                    {
+                        "link": "output",
+                        "name": "a626fd6c-7172-49e1-be46-ef0ff1329412.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000018",
+                "type": "compute",
+                "runtime": 0.869,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "35d8819b-705f-4a96-ad4c-7dc96279a74bbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "b52b40e3-9229-4263-9fc5-22c8452f08c6.fastq",
+                        "size": 1303294
+                    },
+                    {
+                        "link": "input",
+                        "name": "f7dd97d6-7395-427a-88bf-e1a7e6c40293.bwt",
+                        "size": 481112
+                    },
+                    {
+                        "link": "input",
+                        "name": "27130e36-33a6-4c31-bce1-c272d9333833.pac",
+                        "size": 168306
+                    },
+                    {
+                        "link": "input",
+                        "name": "3e4aab55-b31a-482d-a260-8ccf657f45e0.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "bf388f94-8a5b-42a4-853a-3d356aadbece.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "c1e62c17-a16e-4622-8c21-75a93fd672bc.sa",
+                        "size": 334141
+                    },
+                    {
+                        "link": "output",
+                        "name": "b2d06127-0417-4c5c-9036-2ee3a0fdcb45.sam",
+                        "size": 861613
+                    },
+                    {
+                        "link": "output",
+                        "name": "8caee1e6-29fc-43bd-ba97-47c7ce694bf9.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000019",
+                "type": "compute",
+                "runtime": 1.164,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "b44aaed3-5dcc-4ef3-a67e-d9d543a4edbabwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "48916708-a482-4734-b5aa-2990ceb5c5d1.fastq",
+                        "size": 2153134
+                    },
+                    {
+                        "link": "input",
+                        "name": "eae7e01b-36cc-479d-8c9d-e280a28e07e9.bwt",
+                        "size": 456807
+                    },
+                    {
+                        "link": "input",
+                        "name": "338b75a3-1af5-421d-9393-608480171bd3.pac",
+                        "size": 142762
+                    },
+                    {
+                        "link": "input",
+                        "name": "53c86edb-3d3a-4ee1-835a-4da060f62944.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "74deeaf5-fcb8-4d6e-9d0f-a8e5c9b10897.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "c762706e-fb3f-4836-992f-df5f73f06b9a.sa",
+                        "size": 509908
+                    },
+                    {
+                        "link": "output",
+                        "name": "202876f8-f2c7-4ead-85d8-804a2ffd479c.sam",
+                        "size": 336715
+                    },
+                    {
+                        "link": "output",
+                        "name": "d61f44e8-5288-4e1b-9c8a-f949283cbdad.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000020",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "fe1bbe12-0cc5-4b9f-8ef1-10c4169789c4bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "1fbd28b0-0582-4dc4-8b1b-4faaed8a18ee.fastq",
+                        "size": 2199629
+                    },
+                    {
+                        "link": "input",
+                        "name": "a05a7bfc-865d-4379-8a98-dc5c0ef226f9.bwt",
+                        "size": 915748
+                    },
+                    {
+                        "link": "input",
+                        "name": "3a31a790-f11e-44ae-bbc5-6f2e43980cc3.pac",
+                        "size": 47456
+                    },
+                    {
+                        "link": "input",
+                        "name": "c1e3d64d-2a70-4278-906b-3e69147a7de1.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "507ab031-ccd2-47b3-956a-3d0de2ec074c.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "14612deb-2eae-4159-969a-d332857d09d1.sa",
+                        "size": 515581
+                    },
+                    {
+                        "link": "output",
+                        "name": "a72e40ad-8101-4198-b8c2-f1571c6314f2.sam",
+                        "size": 975075
+                    },
+                    {
+                        "link": "output",
+                        "name": "66751957-2a2e-4218-8258-eaaf41bbf9eb.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000021",
+                "type": "compute",
+                "runtime": 1.067,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "423c5e5f-1959-4599-a066-1b8842b3d728bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "827dbb96-5bf1-4e7a-9416-ff9cabcd5a48.fastq",
+                        "size": 1713606
+                    },
+                    {
+                        "link": "input",
+                        "name": "e3cff94d-4fd8-471c-8687-f8059b327ec3.bwt",
+                        "size": 100000
+                    },
+                    {
+                        "link": "input",
+                        "name": "96d67b77-7e4e-42c3-a424-b556ea93afcc.pac",
+                        "size": 238400
+                    },
+                    {
+                        "link": "input",
+                        "name": "93f01d15-8f62-49e9-8f3a-19ffa5796f38.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "14df0e01-5c0d-413b-9080-15291348fb9e.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "8a7d7bdb-44db-455a-bc20-46ff9263fa65.sa",
+                        "size": 50000
+                    },
+                    {
+                        "link": "output",
+                        "name": "795d0d0e-669a-4cd4-b9a9-ba5c0e8c380b.sam",
+                        "size": 798576
+                    },
+                    {
+                        "link": "output",
+                        "name": "9af77581-271f-485c-ab60-fac6b97fcf45.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000022",
+                "type": "compute",
+                "runtime": 0.935,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "954575f4-13fd-4d95-b61a-2c5c5ff50a9dbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "d043862d-7363-4234-aedb-03561aa668b6.fastq",
+                        "size": 917871
+                    },
+                    {
+                        "link": "input",
+                        "name": "338c23e4-9781-4554-8deb-9b70116fc831.bwt",
+                        "size": 986302
+                    },
+                    {
+                        "link": "input",
+                        "name": "253328ab-6091-4494-9c2e-f1f8be7143b5.pac",
+                        "size": 235504
+                    },
+                    {
+                        "link": "input",
+                        "name": "b42234a7-848f-4791-85ec-a3c86a911169.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "7feb91a0-d679-4520-9ae6-1d44060995cd.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "b2ce8584-40c0-45ee-be58-8fbe8fd7b082.sa",
+                        "size": 442065
+                    },
+                    {
+                        "link": "output",
+                        "name": "85bd25d5-fe60-4d2f-8d81-d9aed41fecda.sam",
+                        "size": 389275
+                    },
+                    {
+                        "link": "output",
+                        "name": "e7c166b3-7491-40a4-b620-7615189b849c.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000023",
+                "type": "compute",
+                "runtime": 0.221,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "4a838273-3f2a-4a3b-9427-e5d759c5fa43bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "6846e88d-bf6e-426b-970e-0746655d0b0c.fastq",
+                        "size": 2075321
+                    },
+                    {
+                        "link": "input",
+                        "name": "09c64115-1e83-4759-932e-039206c9e94d.bwt",
+                        "size": 592215
+                    },
+                    {
+                        "link": "input",
+                        "name": "99abfc3c-a26b-47bb-95c9-78f73901811e.pac",
+                        "size": 157426
+                    },
+                    {
+                        "link": "input",
+                        "name": "bb517cac-da17-4a5b-98d0-e9af5bfc7c60.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "55a568e3-3229-42da-af8d-05bc91a18e3d.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "8396123e-a4b3-4347-977a-ec70f1181125.sa",
+                        "size": 416187
+                    },
+                    {
+                        "link": "output",
+                        "name": "2ab464b6-5a6f-467a-ab50-03e537acf9f5.sam",
+                        "size": 1002753
+                    },
+                    {
+                        "link": "output",
+                        "name": "39b9095b-a34c-4f2f-b380-9dfc9381ff0a.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000024",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5e14a1dc-2360-4632-ae86-8a9dbedb9725bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "77047491-f1b8-4db4-81ee-dd623a0008a2.fastq",
+                        "size": 1194153
+                    },
+                    {
+                        "link": "input",
+                        "name": "fb3b93e1-5348-4f14-891d-ebfa2f54c400.bwt",
+                        "size": 247885
+                    },
+                    {
+                        "link": "input",
+                        "name": "bd81092d-a8a3-4fd9-8ee6-1931a2816478.pac",
+                        "size": 77435
+                    },
+                    {
+                        "link": "input",
+                        "name": "8606032f-5ce4-462b-ab5e-08bada1b9682.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "768310cd-5aad-4fd6-ac45-2424e20c17ea.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "8c6625c2-34ca-4d01-beaa-e93d1f867f1b.sa",
+                        "size": 227199
+                    },
+                    {
+                        "link": "output",
+                        "name": "13049319-2501-4faa-8721-26840518237b.sam",
+                        "size": 992587
+                    },
+                    {
+                        "link": "output",
+                        "name": "32cfd83d-f8ca-4089-8ea4-68026af76a97.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000025",
+                "type": "compute",
+                "runtime": 0.445,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "4097f81f-0ffc-4bc3-9e54-0652f0e8e919bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "fe4ee96c-0c1a-4c62-9b63-29b7ad87050b.fastq",
+                        "size": 1035496
+                    },
+                    {
+                        "link": "input",
+                        "name": "0d4cb5d4-717a-48cb-bf58-019e9496eeaa.bwt",
+                        "size": 229771
+                    },
+                    {
+                        "link": "input",
+                        "name": "7eb05dda-2f11-45ae-9dfb-1021b32bcde5.pac",
+                        "size": 60382
+                    },
+                    {
+                        "link": "input",
+                        "name": "fddaebd0-ce7e-4bd9-b050-645cfad1834c.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "da2cb477-8ae6-40f3-9937-8fd06df75ce3.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "bb99eef9-f71b-4f3f-9dd1-a1c5612f70a6.sa",
+                        "size": 435339
+                    },
+                    {
+                        "link": "output",
+                        "name": "f50a8d8f-2439-4c71-b933-6654b785de02.sam",
+                        "size": 1024316
+                    },
+                    {
+                        "link": "output",
+                        "name": "b92fea2b-2d81-42d0-b105-73fc5eb88afe.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000026",
+                "type": "compute",
+                "runtime": 1.637,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bd43401c-2975-46cb-8470-0c5328c8581dbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "602ea65e-9964-4c6a-8aee-bca8c76ee710.fastq",
+                        "size": 2100337
+                    },
+                    {
+                        "link": "input",
+                        "name": "fe8b8a4d-f503-42ef-b421-a46694698460.bwt",
+                        "size": 378169
+                    },
+                    {
+                        "link": "input",
+                        "name": "3c8961e0-12fd-4cd9-890a-93b0c7f7918f.pac",
+                        "size": 211016
+                    },
+                    {
+                        "link": "input",
+                        "name": "3e49d215-1358-4587-8785-f2ba1fd32126.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "849acb0b-016a-45b3-9ea5-b0ff5b85cf15.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "a53fe70a-ff33-4421-8926-1311b917de86.sa",
+                        "size": 338361
+                    },
+                    {
+                        "link": "output",
+                        "name": "23c910e0-904f-475a-8476-47ac57714679.sam",
+                        "size": 104176
+                    },
+                    {
+                        "link": "output",
+                        "name": "55ae4fc9-a704-4cd2-bb15-f4e78dac8e54.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000027",
+                "type": "compute",
+                "runtime": 0.242,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "bbcc7bdb-e486-4ddc-a4ae-90a984e2d2f4bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "d70379a3-91d5-480d-93b2-e45f572dbf92.fastq",
+                        "size": 1763967
+                    },
+                    {
+                        "link": "input",
+                        "name": "935b4507-9905-4073-b6ad-90d3176bb6cf.bwt",
+                        "size": 840887
+                    },
+                    {
+                        "link": "input",
+                        "name": "d98a5386-55df-4743-aa28-08ca60e5f0f6.pac",
+                        "size": 236769
+                    },
+                    {
+                        "link": "input",
+                        "name": "1d6c80d7-4376-485b-941d-22dbd20af80e.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "3f765800-e129-4057-99b1-f729f1043f8c.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "3e2b045f-597f-499d-93fc-fa3887c8a7c0.sa",
+                        "size": 95656
+                    },
+                    {
+                        "link": "output",
+                        "name": "d3103cfc-19ac-4eb8-8cf2-ec94a2783cae.sam",
+                        "size": 716189
+                    },
+                    {
+                        "link": "output",
+                        "name": "ea8295f8-bd6b-4a02-aa5f-8b19be5e7b02.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000028",
+                "type": "compute",
+                "runtime": 1.431,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "0e247e2c-c5d4-4f60-9a75-900f118241febwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "538060b2-8054-4ce9-a9cd-d2c8247b2f44.fastq",
+                        "size": 1708396
+                    },
+                    {
+                        "link": "input",
+                        "name": "28b2ddfe-c327-4246-bac0-e947c75ed14a.bwt",
+                        "size": 785196
+                    },
+                    {
+                        "link": "input",
+                        "name": "51c82657-3d69-4292-bbe1-e68a2942d5bf.pac",
+                        "size": 230973
+                    },
+                    {
+                        "link": "input",
+                        "name": "5327cbe0-efe4-4828-bc08-dc21eda0f8df.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "ea943342-4ca4-4654-9558-52696a33b772.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "6e7f3ea8-ab8c-402b-b170-f6c2d75a7608.sa",
+                        "size": 525013
+                    },
+                    {
+                        "link": "output",
+                        "name": "7ad5d7a2-2a48-474e-98a5-c91b141c622d.sam",
+                        "size": 605792
+                    },
+                    {
+                        "link": "output",
+                        "name": "3601a557-8560-421f-b815-cb8a38689801.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000029",
+                "type": "compute",
+                "runtime": 0.496,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "9692d228-4324-4e34-b2e6-7a3c13aaea01bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "b0190934-47bd-47f9-b042-e7817bac2802.fastq",
+                        "size": 1648184
+                    },
+                    {
+                        "link": "input",
+                        "name": "39e63201-fd04-4a66-91ff-230d16a95198.bwt",
+                        "size": 535977
+                    },
+                    {
+                        "link": "input",
+                        "name": "9497c9aa-585d-4b0f-b0d0-e058f85a39e3.pac",
+                        "size": 189655
+                    },
+                    {
+                        "link": "input",
+                        "name": "ab79f5f8-7dc1-40a7-83ae-83595ffbf631.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "a4ba4898-6feb-472d-9d7b-0a0017b52dc2.ann",
+                        "size": 61667
+                    },
+                    {
+                        "link": "input",
+                        "name": "b5cc7343-fe4e-4423-9500-94055435bc95.sa",
+                        "size": 521114
+                    },
+                    {
+                        "link": "output",
+                        "name": "a0d1b68f-bb97-4b21-a5cb-75fe444ba11c.sam",
+                        "size": 192218
+                    },
+                    {
+                        "link": "output",
+                        "name": "bde6cca9-502a-494e-9726-f021a4b278b5.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000030",
+                "type": "compute",
+                "runtime": 0.526,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "7790559b-4f2c-4418-b717-aaaa14a957bebwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "09538c63-04f1-4144-86f1-88747e3ad976.fastq",
+                        "size": 1632217
+                    },
+                    {
+                        "link": "input",
+                        "name": "e6ab4419-a7c8-4d1b-a44a-3837e665dd39.bwt",
+                        "size": 982662
+                    },
+                    {
+                        "link": "input",
+                        "name": "38d16f2e-1abc-43c2-8680-90cfad657a33.pac",
+                        "size": 237407
+                    },
+                    {
+                        "link": "input",
+                        "name": "70e61e7a-bb60-45b1-8766-315f47c17cb4.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "f54eb65e-3f50-4a0b-af78-4eabcfd77337.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "bfe9e6c9-7b75-4a8b-8055-c857e8f3ee5d.sa",
+                        "size": 436667
+                    },
+                    {
+                        "link": "output",
+                        "name": "26df95b3-15a4-4ac4-a6d8-386ee707a8c9.sam",
+                        "size": 668072
+                    },
+                    {
+                        "link": "output",
+                        "name": "2d2f6c64-0c75-4caf-8ebd-3bc23272b854.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000031",
+                "type": "compute",
+                "runtime": 1.098,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "d4715876-b6fb-4f35-be98-61680b065158bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "e2f83df5-b85f-4125-aaff-173de527d1ed.fastq",
+                        "size": 636582
+                    },
+                    {
+                        "link": "input",
+                        "name": "84c0c479-0464-4a28-8cc6-65f2b68bba96.bwt",
+                        "size": 1011467
+                    },
+                    {
+                        "link": "input",
+                        "name": "ef4f4a1a-bdeb-4890-894a-d336ca30af5a.pac",
+                        "size": 250781
+                    },
+                    {
+                        "link": "input",
+                        "name": "24fa0588-2815-476c-b708-292dee0b4bff.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "2dce2de8-f063-4d5b-841e-8d55ce595f03.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "973d08e1-d581-4faf-8540-df1c5822ff31.sa",
+                        "size": 268325
+                    },
+                    {
+                        "link": "output",
+                        "name": "f4750dba-9d25-496c-9c20-4955561bcbd8.sam",
+                        "size": 520167
+                    },
+                    {
+                        "link": "output",
+                        "name": "59639831-ad56-466f-9266-246aeeaeef33.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000032",
+                "type": "compute",
+                "runtime": 1.253,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "f64d9ac2-f168-4d9c-9955-9d23e871303abwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "66ab6567-0d1a-4e43-902e-5970330a6444.fastq",
+                        "size": 2068599
+                    },
+                    {
+                        "link": "input",
+                        "name": "81102b31-351a-4fe1-98ae-45e929622e07.bwt",
+                        "size": 860215
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc164e80-a35b-4b5f-99b4-9e63e6b3a027.pac",
+                        "size": 213079
+                    },
+                    {
+                        "link": "input",
+                        "name": "b08dcfff-9afd-482f-9c13-45bd1ecdf932.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "40c4f39b-f780-4961-8524-8ead93278307.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "e42e798d-525b-40a2-adbd-09cd5ce58743.sa",
+                        "size": 50000
+                    },
+                    {
+                        "link": "output",
+                        "name": "880a55ae-7c59-474b-ae86-76755c08cd70.sam",
+                        "size": 481718
+                    },
+                    {
+                        "link": "output",
+                        "name": "97e1a0aa-96a3-4a70-9ecb-d956adf46e6a.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000033",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "140e5c4f-a946-4254-aa33-4feb32ad76b7bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "0f1b4170-fc1c-462f-bbe1-5da688d8843f.fastq",
+                        "size": 625190
+                    },
+                    {
+                        "link": "input",
+                        "name": "568fb355-3ab5-400c-bae0-229c36f25201.bwt",
+                        "size": 1051041
+                    },
+                    {
+                        "link": "input",
+                        "name": "f74f2753-9145-404a-ac5e-75731671c62b.pac",
+                        "size": 114338
+                    },
+                    {
+                        "link": "input",
+                        "name": "d0127e44-9cca-4143-9009-a567e10dd51a.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "ab7d1e2a-06ab-4ce9-af1a-33a680576cfa.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "bbca200d-5041-40fa-8af4-efdd19f5eebd.sa",
+                        "size": 358091
+                    },
+                    {
+                        "link": "output",
+                        "name": "11934a55-0f36-4c7b-a9a0-6b15abae6424.sam",
+                        "size": 897019
+                    },
+                    {
+                        "link": "output",
+                        "name": "1b95cc11-1276-4bc2-b26e-5e86db44f343.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000034",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "7c53bc04-b441-404f-bfaa-83430348cd27bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "74927a52-b357-4b64-9d31-ecf5c96b0672.fastq",
+                        "size": 779063
+                    },
+                    {
+                        "link": "input",
+                        "name": "5bc1b0de-dfbc-40b2-8deb-7498d7e268ce.bwt",
+                        "size": 393641
+                    },
+                    {
+                        "link": "input",
+                        "name": "81affc9a-11ed-41e7-b4f2-039f561088f6.pac",
+                        "size": 123450
+                    },
+                    {
+                        "link": "input",
+                        "name": "26243082-13bf-4e6f-9042-161c30dcf847.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "1c0077fb-c6e4-462c-90d9-ba2d84c43bf6.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "d3d44e70-41cf-4642-b6bb-eb2200c7c200.sa",
+                        "size": 175978
+                    },
+                    {
+                        "link": "output",
+                        "name": "2a529617-02af-43e1-b0fc-43a4c03bfc40.sam",
+                        "size": 405515
+                    },
+                    {
+                        "link": "output",
+                        "name": "152853a5-8843-4b09-bdab-5d1cd685fa94.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000035",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "1c1152b2-073b-4ee0-aa79-7ab3825f151fbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "abced557-e869-4431-807b-6bd24ad145fd.fastq",
+                        "size": 655419
+                    },
+                    {
+                        "link": "input",
+                        "name": "b1486bf1-435a-4181-97e5-e1988fbf6c7c.bwt",
+                        "size": 715541
+                    },
+                    {
+                        "link": "input",
+                        "name": "15ed2f5c-5481-48ee-aec2-a19280110aeb.pac",
+                        "size": 192673
+                    },
+                    {
+                        "link": "input",
+                        "name": "525b6630-7fdb-4f1d-9cc9-a11fcb2308f2.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "ede49585-d0ae-42fb-9f5d-2f98ce1c1b45.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "ef0b638d-2d15-4c30-aa48-971aded3b7c8.sa",
+                        "size": 240947
+                    },
+                    {
+                        "link": "output",
+                        "name": "5bfaa816-bb78-4441-a61e-75ff131196ce.sam",
+                        "size": 414852
+                    },
+                    {
+                        "link": "output",
+                        "name": "09729077-0340-4931-80d4-d7c8a03201f1.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000036",
+                "type": "compute",
+                "runtime": 0.627,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "016f0e04-e5e6-4be6-a37b-c92e03d408f6bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "d99455bf-ff97-4e2d-bcc5-fb02f27a65eb.fastq",
+                        "size": 1653331
+                    },
+                    {
+                        "link": "input",
+                        "name": "5ca52d8e-f3c8-4bdc-af64-67bd05ca9daf.bwt",
+                        "size": 912053
+                    },
+                    {
+                        "link": "input",
+                        "name": "f77c1881-feed-41e0-8116-cc3c96c2ce20.pac",
+                        "size": 223573
+                    },
+                    {
+                        "link": "input",
+                        "name": "615dc549-5a4c-4929-bdfe-3e8a9b362b0a.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "011d64b5-0f9f-4fc6-96a6-65ae6255f345.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "afa17977-d7f6-47f1-9742-6dc7bd0f7565.sa",
+                        "size": 147953
+                    },
+                    {
+                        "link": "output",
+                        "name": "cda0d74c-c808-446c-bee9-1caf1666c18d.sam",
+                        "size": 256789
+                    },
+                    {
+                        "link": "output",
+                        "name": "08656fff-40ae-4166-acee-46a9f4f87749.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000037",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "548e4149-562f-4788-b4d5-0ad8880a93dbbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "053ae4a7-eadc-43cb-87a6-3c7d26d4bc3d.fastq",
+                        "size": 1208279
+                    },
+                    {
+                        "link": "input",
+                        "name": "3606c269-35fa-4a64-97d9-429fc8cd667b.bwt",
+                        "size": 318807
+                    },
+                    {
+                        "link": "input",
+                        "name": "70ca8880-121e-40b5-a634-4b9bbd114e30.pac",
+                        "size": 229317
+                    },
+                    {
+                        "link": "input",
+                        "name": "fc4ca3d7-d9fd-4b82-b7b5-b3451c39e3bf.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "14fa31c2-2bba-4ec7-a464-32ebb75afb95.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "c01e3395-c985-4b3b-99ba-5531cc5b9a6c.sa",
+                        "size": 372227
+                    },
+                    {
+                        "link": "output",
+                        "name": "ecf3fe33-8450-4afe-a7b8-083c46aace65.sam",
+                        "size": 521101
+                    },
+                    {
+                        "link": "output",
+                        "name": "d1d4cad3-e752-4843-b95a-cc0e0061d9a3.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000038",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "69b7083b-8e20-4e69-beb1-a491138decf0bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "d0e806e9-bee2-4be7-931b-08fa1723e53c.fastq",
+                        "size": 1536824
+                    },
+                    {
+                        "link": "input",
+                        "name": "7e80ce9a-9853-4df1-8579-314b99c2d954.bwt",
+                        "size": 901417
+                    },
+                    {
+                        "link": "input",
+                        "name": "fc2aa5a9-f494-4fd5-ac91-3a18787f8673.pac",
+                        "size": 263462
+                    },
+                    {
+                        "link": "input",
+                        "name": "b2250f8a-afca-468f-b751-9459a1f83924.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "74481aaf-f65f-403e-8995-6437c7a6496c.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "337462b7-237d-4c96-bd36-fe1dfacaa265.sa",
+                        "size": 50000
+                    },
+                    {
+                        "link": "output",
+                        "name": "554cf7d6-fb11-4365-a66e-523912f2560c.sam",
+                        "size": 898388
+                    },
+                    {
+                        "link": "output",
+                        "name": "39e6e54b-40bc-4279-8a73-d54a4f3644f9.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000039",
+                "type": "compute",
+                "runtime": 1.576,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "30ecd9c2-5b10-4530-9454-aec3da2500c1bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "2fe60e0d-5343-4a49-93a6-12ffad95d2de.fastq",
+                        "size": 1788757
+                    },
+                    {
+                        "link": "input",
+                        "name": "8f290807-d469-4512-b3c9-ae9c4e6ffbe7.bwt",
+                        "size": 737888
+                    },
+                    {
+                        "link": "input",
+                        "name": "af105134-9ec4-4c1b-9802-4822f7c9c384.pac",
+                        "size": 179644
+                    },
+                    {
+                        "link": "input",
+                        "name": "a67a01bb-682e-4d19-9efa-c534ed8ba30f.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "4c259e04-7dd1-4ecf-a3db-37889fa61b85.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "fc97cf3e-0c7b-4c8d-a503-a9117f2df87b.sa",
+                        "size": 50846
+                    },
+                    {
+                        "link": "output",
+                        "name": "b9ebc77e-93a9-46d1-a5c8-a6757dc5e9e9.sam",
+                        "size": 896037
+                    },
+                    {
+                        "link": "output",
+                        "name": "0ca8899e-3e25-4d22-9257-507f7fd4529e.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000040",
+                "type": "compute",
+                "runtime": 0.534,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "631309e0-bf4e-4f44-ad9e-405f9a5276bfbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "94baa841-b091-49f6-bcae-ac2980254854.fastq",
+                        "size": 2210362
+                    },
+                    {
+                        "link": "input",
+                        "name": "61f41656-4095-44e9-844e-66bfb0c89786.bwt",
+                        "size": 100000
+                    },
+                    {
+                        "link": "input",
+                        "name": "951988c6-ad76-45b3-99fb-c9edc6ba44d5.pac",
+                        "size": 123141
+                    },
+                    {
+                        "link": "input",
+                        "name": "7061afab-5b4d-4a28-9d33-5dc2412484e7.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "da4673c5-884d-4602-9f84-2cf68fc3984c.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "fa14b9a2-3b5f-42e5-ac6d-baba09e964ef.sa",
+                        "size": 443171
+                    },
+                    {
+                        "link": "output",
+                        "name": "deb8e669-b1c3-4419-9e04-d5515d3dd470.sam",
+                        "size": 207100
+                    },
+                    {
+                        "link": "output",
+                        "name": "c57513a9-d2af-45d8-a119-534c98b371ad.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000041",
+                "type": "compute",
+                "runtime": 1.142,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "a5d4722e-d0e8-4943-9cd3-9999bb5cf3afbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "140c92ef-a7bb-4eb5-9818-4101284d90fb.fastq",
+                        "size": 2011837
+                    },
+                    {
+                        "link": "input",
+                        "name": "84c89a97-5741-47bc-8c80-04c6f949b492.bwt",
+                        "size": 789345
+                    },
+                    {
+                        "link": "input",
+                        "name": "bed2b62f-6e45-43dc-ad41-2677af8e4a68.pac",
+                        "size": 64732
+                    },
+                    {
+                        "link": "input",
+                        "name": "2611c502-ed69-4dab-a234-37885cc5c50f.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "e82dbde9-4c56-4c58-b546-87d5cc1bf4e5.ann",
+                        "size": 61667
+                    },
+                    {
+                        "link": "input",
+                        "name": "5792896d-34da-4dce-b8df-2a20561a53dc.sa",
+                        "size": 396337
+                    },
+                    {
+                        "link": "output",
+                        "name": "d3315469-6c1d-4f17-9b72-a821ee4651b4.sam",
+                        "size": 225282
+                    },
+                    {
+                        "link": "output",
+                        "name": "fe7a82bf-011d-4c52-af47-3ad4b5587790.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000042",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6b79e807-68bc-438a-8f46-443d2af32674bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "a41de88f-07e3-47f7-83bb-c71e4c84c3fa.fastq",
+                        "size": 1023926
+                    },
+                    {
+                        "link": "input",
+                        "name": "5cff9c9d-eba2-4895-81b8-9fa3fe6ab663.bwt",
+                        "size": 968844
+                    },
+                    {
+                        "link": "input",
+                        "name": "4f30ccb9-549a-4594-bb47-36a3bbe53aee.pac",
+                        "size": 186542
+                    },
+                    {
+                        "link": "input",
+                        "name": "59e894d8-e0ab-4f8b-b332-72dc1f803f07.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "86146dba-3076-4bd3-a4ea-be7071b3461c.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "fda784d3-9f4b-4aec-893b-254a55c8bf42.sa",
+                        "size": 387603
+                    },
+                    {
+                        "link": "output",
+                        "name": "3306dc67-db0b-4114-a758-85cb9bfa39e1.sam",
+                        "size": 697694
+                    },
+                    {
+                        "link": "output",
+                        "name": "58a8763c-f5de-454e-904e-9a718c594039.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000043",
+                "type": "compute",
+                "runtime": 0.597,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6adf19b0-9ac5-4f9f-aa4f-e81079a454abbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "dc4d8bc2-0823-4d18-a727-2a97bf2d75c1.fastq",
+                        "size": 1780313
+                    },
+                    {
+                        "link": "input",
+                        "name": "35f49fd2-ad55-47f0-a6fd-26fe47e82e97.bwt",
+                        "size": 100000
+                    },
+                    {
+                        "link": "input",
+                        "name": "7f5ec2ad-912f-4c7c-9fdc-44ddc9ff7543.pac",
+                        "size": 71972
+                    },
+                    {
+                        "link": "input",
+                        "name": "3146cbbb-6b0a-4689-ade2-79bf3aa9e13b.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "5731f235-db8d-4c3e-91f5-9907090d353a.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "32cb2e85-31a8-4f6f-beaf-9281f017d64e.sa",
+                        "size": 351793
+                    },
+                    {
+                        "link": "output",
+                        "name": "696bb330-75e8-423c-b844-83a1fe5db7f5.sam",
+                        "size": 875241
+                    },
+                    {
+                        "link": "output",
+                        "name": "5b94756a-ab7e-4e5c-867a-f2a94fe4a08c.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000044",
+                "type": "compute",
+                "runtime": 0.221,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "3fd60ba4-b111-4aec-a4c7-f05162a785c3bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "e1f67ba8-c606-46f7-8883-6735764fe7ed.fastq",
+                        "size": 1291077
+                    },
+                    {
+                        "link": "input",
+                        "name": "662cc82b-c64b-4117-a24d-c1d6e27688ef.bwt",
+                        "size": 912354
+                    },
+                    {
+                        "link": "input",
+                        "name": "ca9b6306-b4eb-4529-9629-261892a96692.pac",
+                        "size": 172444
+                    },
+                    {
+                        "link": "input",
+                        "name": "051549b6-ab0f-4324-a9ba-7b3054eb927e.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "463e6310-cfe1-4148-840e-eb4442288337.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "2e46ef51-1c26-431e-833d-8a51726ef1c4.sa",
+                        "size": 326718
+                    },
+                    {
+                        "link": "output",
+                        "name": "2b8bd47c-a832-4388-8cd3-0c8a117ca4d9.sam",
+                        "size": 594260
+                    },
+                    {
+                        "link": "output",
+                        "name": "c7e165d9-321b-4e40-829f-4bca977585b3.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000045",
+                "type": "compute",
+                "runtime": 0.175,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5376b3fd-92c7-46dc-94c4-d446c970c7fbbwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "aeb8b009-94e9-4ce6-9b23-05ae0bf9a45b.fastq",
+                        "size": 2144021
+                    },
+                    {
+                        "link": "input",
+                        "name": "eeb59749-526e-4027-8fe3-c85a2cef6b5b.bwt",
+                        "size": 561891
+                    },
+                    {
+                        "link": "input",
+                        "name": "4307df9e-6b21-4f23-8a5d-be6a9b4ef9e5.pac",
+                        "size": 233084
+                    },
+                    {
+                        "link": "input",
+                        "name": "fa1c0c85-bd3f-47f9-82a8-2e5979e4e023.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "44aa4a11-31fc-4a95-aed8-edb55b2d46b5.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "cd14fe4d-d422-41fa-be6f-c220d4502401.sa",
+                        "size": 50000
+                    },
+                    {
+                        "link": "output",
+                        "name": "55076750-1b77-42d6-a984-cf268b0c3dc9.sam",
+                        "size": 597808
+                    },
+                    {
+                        "link": "output",
+                        "name": "c7fa6071-bacf-4204-95c3-9d4a8b3f846a.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000046",
+                "type": "compute",
+                "runtime": 1.389,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "aa6910ff-05c1-40ac-9af3-58203c7b1b56bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "01c41b2a-64b2-45c7-ba3c-e244eb1eca5f.fastq",
+                        "size": 1959781
+                    },
+                    {
+                        "link": "input",
+                        "name": "27f3befb-a2c2-455f-a050-11abb8ad0c38.bwt",
+                        "size": 371098
+                    },
+                    {
+                        "link": "input",
+                        "name": "bdde5a63-6152-4217-ae6b-070adcde6b2f.pac",
+                        "size": 59418
+                    },
+                    {
+                        "link": "input",
+                        "name": "2cec0f46-923b-4a7d-851e-2fe213767425.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "ba0512e0-db9a-4a7a-9405-58d2a3ff829f.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "e5884cb0-c0d0-4798-b6bf-735763a69d57.sa",
+                        "size": 480602
+                    },
+                    {
+                        "link": "output",
+                        "name": "9b0f5d47-707f-4ec2-9951-c40dd1364673.sam",
+                        "size": 346445
+                    },
+                    {
+                        "link": "output",
+                        "name": "cc84420a-f122-44f6-bfc4-0b5fff0ce596.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000047",
+                "type": "compute",
+                "runtime": 0.182,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "5b97d3f5-2210-4376-af43-6bc4e6620287bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "aa65eade-17b2-4fd8-8d1c-7073d6d60d3d.fastq",
+                        "size": 1117287
+                    },
+                    {
+                        "link": "input",
+                        "name": "9f8915e7-047c-4214-a2b8-e454b454f2a9.bwt",
+                        "size": 426851
+                    },
+                    {
+                        "link": "input",
+                        "name": "88e47d25-bf86-44dc-92f2-fabb35dbf0d2.pac",
+                        "size": 253002
+                    },
+                    {
+                        "link": "input",
+                        "name": "c28161db-79c2-4a03-81eb-a7369863c423.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "404e1a85-acd3-45cc-a06d-5bf2826dc680.ann",
+                        "size": 61667
+                    },
+                    {
+                        "link": "input",
+                        "name": "8ae45c9f-9e6f-495f-b36f-7a9cfdaf7640.sa",
+                        "size": 470250
+                    },
+                    {
+                        "link": "output",
+                        "name": "a2f72275-3a4d-4c74-9269-1ae7291ca1d4.sam",
+                        "size": 829805
+                    },
+                    {
+                        "link": "output",
+                        "name": "79b24597-a431-4de5-b128-759bbc638463.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "bwa_00000048",
+                "type": "compute",
+                "runtime": 1.267,
+                "parents": [
+                    "fastq_reduce_00000001",
+                    "bwa_index_00000002"
+                ],
+                "children": [
+                    "cat_bwa_00000049",
+                    "cat_00000050"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "3e18d89a-96a6-4c9c-b154-9b1cc6415329bwa",
+                        "size": 1445
+                    },
+                    {
+                        "link": "input",
+                        "name": "b93e03ff-54ea-4840-ab9d-b9407e585097.fastq",
+                        "size": 396418
+                    },
+                    {
+                        "link": "input",
+                        "name": "ba125aa7-b02a-4e92-97cf-2ce004d4949e.bwt",
+                        "size": 576858
+                    },
+                    {
+                        "link": "input",
+                        "name": "05aab92f-356e-4c8b-9871-537f25c35d10.pac",
+                        "size": 130304
+                    },
+                    {
+                        "link": "input",
+                        "name": "d96003fe-19d0-48e0-b7e2-2e392717c29b.amb",
+                        "size": 1
+                    },
+                    {
+                        "link": "input",
+                        "name": "2946e865-35c4-4612-80ee-827b31c2e3ad.ann",
+                        "size": 61666
+                    },
+                    {
+                        "link": "input",
+                        "name": "71a40dc2-904e-4f9a-836b-ca956fe07008.sa",
+                        "size": 165427
+                    },
+                    {
+                        "link": "output",
+                        "name": "cc4ae551-6c12-46ab-8947-97a9773cd469.sam",
+                        "size": 490007
+                    },
+                    {
+                        "link": "output",
+                        "name": "928ebb02-2eb9-4e32-b6df-ac6d49d8333b.err",
+                        "size": 20
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cat_bwa_00000049",
+                "type": "compute",
+                "runtime": 2.597,
+                "parents": [
+                    "bwa_00000003",
+                    "bwa_00000004",
+                    "bwa_00000005",
+                    "bwa_00000006",
+                    "bwa_00000007",
+                    "bwa_00000008",
+                    "bwa_00000009",
+                    "bwa_00000010",
+                    "bwa_00000011",
+                    "bwa_00000012",
+                    "bwa_00000013",
+                    "bwa_00000014",
+                    "bwa_00000015",
+                    "bwa_00000016",
+                    "bwa_00000017",
+                    "bwa_00000018",
+                    "bwa_00000019",
+                    "bwa_00000020",
+                    "bwa_00000021",
+                    "bwa_00000022",
+                    "bwa_00000023",
+                    "bwa_00000024",
+                    "bwa_00000025",
+                    "bwa_00000026",
+                    "bwa_00000027",
+                    "bwa_00000028",
+                    "bwa_00000029",
+                    "bwa_00000030",
+                    "bwa_00000031",
+                    "bwa_00000032",
+                    "bwa_00000033",
+                    "bwa_00000034",
+                    "bwa_00000035",
+                    "bwa_00000036",
+                    "bwa_00000037",
+                    "bwa_00000038",
+                    "bwa_00000039",
+                    "bwa_00000040",
+                    "bwa_00000041",
+                    "bwa_00000042",
+                    "bwa_00000043",
+                    "bwa_00000044",
+                    "bwa_00000045",
+                    "bwa_00000046",
+                    "bwa_00000047",
+                    "bwa_00000048"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "af14d250-7e9b-42db-9af9-c50a69acd15fcat_bwa",
+                        "size": 2
+                    },
+                    {
+                        "link": "input",
+                        "name": "d9fed221-abf0-493a-8504-c682f93e6978.sam",
+                        "size": 20324
+                    },
+                    {
+                        "link": "output",
+                        "name": "bf7273ae-a29d-461b-8278-51be944464af.sam",
+                        "size": 7320644
+                    }
+                ],
+                "cores": 1
+            },
+            {
+                "name": "cat_00000050",
+                "type": "compute",
+                "runtime": 0.001,
+                "parents": [
+                    "bwa_00000003",
+                    "bwa_00000004",
+                    "bwa_00000005",
+                    "bwa_00000006",
+                    "bwa_00000007",
+                    "bwa_00000008",
+                    "bwa_00000009",
+                    "bwa_00000010",
+                    "bwa_00000011",
+                    "bwa_00000012",
+                    "bwa_00000013",
+                    "bwa_00000014",
+                    "bwa_00000015",
+                    "bwa_00000016",
+                    "bwa_00000017",
+                    "bwa_00000018",
+                    "bwa_00000019",
+                    "bwa_00000020",
+                    "bwa_00000021",
+                    "bwa_00000022",
+                    "bwa_00000023",
+                    "bwa_00000024",
+                    "bwa_00000025",
+                    "bwa_00000026",
+                    "bwa_00000027",
+                    "bwa_00000028",
+                    "bwa_00000029",
+                    "bwa_00000030",
+                    "bwa_00000031",
+                    "bwa_00000032",
+                    "bwa_00000033",
+                    "bwa_00000034",
+                    "bwa_00000035",
+                    "bwa_00000036",
+                    "bwa_00000037",
+                    "bwa_00000038",
+                    "bwa_00000039",
+                    "bwa_00000040",
+                    "bwa_00000041",
+                    "bwa_00000042",
+                    "bwa_00000043",
+                    "bwa_00000044",
+                    "bwa_00000045",
+                    "bwa_00000046",
+                    "bwa_00000047",
+                    "bwa_00000048"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "6cac1e23-36f0-4f1b-847d-176084e57a24.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "65097cb7-ad35-4922-8c6e-62e7a8d961ab.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "360ad629-28e2-4c90-9b54-730284c3d8a3.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "2e817748-79b8-4867-9235-3e048d05313e.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "6624b592-1ec0-4562-8a18-7dde6caa4fef.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "06259a2e-add2-404b-bd2d-49fc05c76eed.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "5dfae8a0-dbf7-4c3a-82ed-528759336f4c.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "1958a88c-4c15-42b4-9073-c3fdddf7afca.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "6880a50c-95fd-4d1b-89d2-8340075dfe84.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "9a41c044-c5f0-4c3a-b3d1-82fb2aa589a7.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "f5c8f5a5-fceb-4061-99df-9a8719b10d11.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "9d1e1d0f-1375-452f-8661-fe2414f2a5f3.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "f819c529-299c-4501-b7ff-af53888a6647.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "34c89bb7-0eba-43c7-8a4c-1e8a75ce1044.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "a626fd6c-7172-49e1-be46-ef0ff1329412.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "8caee1e6-29fc-43bd-ba97-47c7ce694bf9.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "d61f44e8-5288-4e1b-9c8a-f949283cbdad.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "66751957-2a2e-4218-8258-eaaf41bbf9eb.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "9af77581-271f-485c-ab60-fac6b97fcf45.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "e7c166b3-7491-40a4-b620-7615189b849c.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "39b9095b-a34c-4f2f-b380-9dfc9381ff0a.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "32cfd83d-f8ca-4089-8ea4-68026af76a97.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "b92fea2b-2d81-42d0-b105-73fc5eb88afe.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "55ae4fc9-a704-4cd2-bb15-f4e78dac8e54.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "ea8295f8-bd6b-4a02-aa5f-8b19be5e7b02.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "3601a557-8560-421f-b815-cb8a38689801.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "bde6cca9-502a-494e-9726-f021a4b278b5.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "2d2f6c64-0c75-4caf-8ebd-3bc23272b854.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "59639831-ad56-466f-9266-246aeeaeef33.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "97e1a0aa-96a3-4a70-9ecb-d956adf46e6a.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "1b95cc11-1276-4bc2-b26e-5e86db44f343.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "152853a5-8843-4b09-bdab-5d1cd685fa94.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "09729077-0340-4931-80d4-d7c8a03201f1.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "08656fff-40ae-4166-acee-46a9f4f87749.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "d1d4cad3-e752-4843-b95a-cc0e0061d9a3.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "39e6e54b-40bc-4279-8a73-d54a4f3644f9.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "0ca8899e-3e25-4d22-9257-507f7fd4529e.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "c57513a9-d2af-45d8-a119-534c98b371ad.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "fe7a82bf-011d-4c52-af47-3ad4b5587790.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "58a8763c-f5de-454e-904e-9a718c594039.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "5b94756a-ab7e-4e5c-867a-f2a94fe4a08c.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "c7e165d9-321b-4e40-829f-4bca977585b3.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "c7fa6071-bacf-4204-95c3-9d4a8b3f846a.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "cc84420a-f122-44f6-bfc4-0b5fff0ce596.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "79b24597-a431-4de5-b128-759bbc638463.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "input",
+                        "name": "928ebb02-2eb9-4e32-b6df-ac6d49d8333b.err",
+                        "size": 20
+                    },
+                    {
+                        "link": "output",
+                        "name": "cbc0bc27-a938-4a81-96c7-ac22ddc58a4a.err",
+                        "size": 2945
+                    },
+                    {
+                        "link": "output",
+                        "name": "36db6b4f-a904-4a37-9398-b92944a59437.err",
+                        "size": 2500
+                    },
+                    {
+                        "link": "output",
+                        "name": "98256995-1476-451b-9aef-c996ec0cc5b4.err",
+                        "size": 1833
+                    },
+                    {
+                        "link": "output",
+                        "name": "d476bd2c-2124-40e3-b927-5009375feb57.err",
+                        "size": 1405
+                    },
+                    {
+                        "link": "output",
+                        "name": "117e00bf-239e-47c7-9473-d5a67b5fbe59.err",
+                        "size": 2439
+                    },
+                    {
+                        "link": "output",
+                        "name": "9a1d9a4f-ab3a-4f68-81c5-2cf730d14a31.err",
+                        "size": 1553
+                    },
+                    {
+                        "link": "output",
+                        "name": "528664fe-9820-4bb8-8c1e-4a00deda0c22.err",
+                        "size": 1368
+                    },
+                    {
+                        "link": "output",
+                        "name": "b0e859ff-591c-41b2-b73f-4501fe9de010.err",
+                        "size": 1701
+                    },
+                    {
+                        "link": "output",
+                        "name": "09a38428-ac75-4daf-a3f9-959b4aa4e8d6.err",
+                        "size": 2852
+                    },
+                    {
+                        "link": "output",
+                        "name": "e76e2edf-bb1f-48e6-b316-0767370cb80f.err",
+                        "size": 2709
+                    },
+                    {
+                        "link": "output",
+                        "name": "325d0c3d-bcbe-47b4-93ed-96a4c932eb48.err",
+                        "size": 2288
+                    },
+                    {
+                        "link": "output",
+                        "name": "61a4ef41-d477-404e-bf21-e4e5d25d080f.err",
+                        "size": 1761
+                    },
+                    {
+                        "link": "output",
+                        "name": "12fdc494-f413-4159-8383-43b467f8e6b9.err",
+                        "size": 2509
+                    },
+                    {
+                        "link": "output",
+                        "name": "bfefa284-c6a5-4784-899c-3d2daf95be8e.err",
+                        "size": 2247
+                    },
+                    {
+                        "link": "output",
+                        "name": "610d0f27-e13d-431c-b245-7f7dd742f21f.err",
+                        "size": 1216
+                    },
+                    {
+                        "link": "output",
+                        "name": "3ad54630-bfc2-4054-b27b-1b4a2aaca5d7.err",
+                        "size": 1882
+                    },
+                    {
+                        "link": "output",
+                        "name": "ba5e8e9f-a776-43fd-8116-ca6e26c3c1d8.err",
+                        "size": 2310
+                    },
+                    {
+                        "link": "output",
+                        "name": "055fd170-905b-4360-9e5f-bfe83764a1c1.err",
+                        "size": 1207
+                    },
+                    {
+                        "link": "output",
+                        "name": "047658ab-e9fb-47db-8afb-acfb74be01e6.err",
+                        "size": 266
+                    },
+                    {
+                        "link": "output",
+                        "name": "d04ba08d-f2ed-4999-84b9-87bdb3292511.err",
+                        "size": 1805
+                    },
+                    {
+                        "link": "output",
+                        "name": "c5b58c34-2df0-46e5-973b-b2ab1c28bac3.err",
+                        "size": 1989
+                    },
+                    {
+                        "link": "output",
+                        "name": "a0c997f2-45de-4227-961f-d5628b17792c.err",
+                        "size": 1136
+                    },
+                    {
+                        "link": "output",
+                        "name": "6ea4aafa-2d7a-4f44-9fea-b4ed7c8dfc35.err",
+                        "size": 266
+                    },
+                    {
+                        "link": "output",
+                        "name": "08b7d110-05ba-46db-8fbc-5dd181c88bab.err",
+                        "size": 266
+                    },
+                    {
+                        "link": "output",
+                        "name": "ad600d21-5d53-45a5-a43b-811c3ba2d59f.err",
+                        "size": 2450
+                    },
+                    {
+                        "link": "output",
+                        "name": "594673c7-e239-4b92-aa02-9b266f3663ba.err",
+                        "size": 1850
+                    },
+                    {
+                        "link": "output",
+                        "name": "1402480d-841d-4c87-81b0-609e194794c5.err",
+                        "size": 266
+                    },
+                    {
+                        "link": "output",
+                        "name": "37ce4503-31e7-4213-9494-7315f4081f97.err",
+                        "size": 1256
+                    },
+                    {
+                        "link": "output",
+                        "name": "11791cb7-5bd2-41fd-b457-064ab62c3705.err",
+                        "size": 364
+                    },
+                    {
+                        "link": "output",
+                        "name": "ca7ae041-8b72-4576-9db1-2684e85631b0.err",
+                        "size": 266
+                    },
+                    {
+                        "link": "output",
+                        "name": "5edee8e6-9a81-43df-8aa6-2dbca1dd7e7c.err",
+                        "size": 727
+                    },
+                    {
+                        "link": "output",
+                        "name": "2ed98c8b-bf75-4dc5-8012-e167e4e4fe75.err",
+                        "size": 1390
+                    },
+                    {
+                        "link": "output",
+                        "name": "4c0d1ece-e612-40db-b72c-48daef914986.err",
+                        "size": 670
+                    },
+                    {
+                        "link": "output",
+                        "name": "e9bad397-edbd-43c1-8a6f-1b3da9e21d0a.err",
+                        "size": 2018
+                    },
+                    {
+                        "link": "output",
+                        "name": "dcfc34e4-987f-4593-a93c-a8604257e474.err",
+                        "size": 2763
+                    },
+                    {
+                        "link": "output",
+                        "name": "5503e7c5-8001-4325-98a0-ba513560cd97.err",
+                        "size": 2210
+                    },
+                    {
+                        "link": "output",
+                        "name": "27e7b95a-b4fe-482f-a53e-c85dda2c1415.err",
+                        "size": 2625
+                    },
+                    {
+                        "link": "output",
+                        "name": "f7ffd0de-f728-4197-bcec-e764896ce318.err",
+                        "size": 1605
+                    },
+                    {
+                        "link": "output",
+                        "name": "1ffd6482-1cb3-4ed1-b532-b8c70db49acc.err",
+                        "size": 2007
+                    },
+                    {
+                        "link": "output",
+                        "name": "411c1585-932e-4edf-9a66-de95e59c1f2a.err",
+                        "size": 2704
+                    },
+                    {
+                        "link": "output",
+                        "name": "b21530fe-9b1c-4656-838a-7a01c1aeab0b.err",
+                        "size": 2773
+                    },
+                    {
+                        "link": "output",
+                        "name": "54105d56-bfb1-494d-9f57-679ac43d4e47.err",
+                        "size": 302
+                    },
+                    {
+                        "link": "output",
+                        "name": "d53622d6-1a50-4d2e-9809-b874b2c9ddf4.err",
+                        "size": 1820
+                    },
+                    {
+                        "link": "output",
+                        "name": "ee9ea89e-f672-4f08-a783-831f13ec6c18.err",
+                        "size": 1707
+                    },
+                    {
+                        "link": "output",
+                        "name": "b21bc0ce-ef69-45a3-a5c1-737f398b58b4.err",
+                        "size": 1481
+                    },
+                    {
+                        "link": "output",
+                        "name": "fb624bb3-3d4b-48a7-b658-d734e9965cf2.err",
+                        "size": 1667
+                    }
+                ],
+                "cores": 1
+            }
+        ],
+        "machines": []
+    }
+}
